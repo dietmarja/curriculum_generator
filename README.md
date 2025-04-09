@@ -3,6 +3,7 @@
 ## Overview
 
 The Digital Sustainability Curriculum Generator (DSCG) is a comprehensive tool designed to create flexible, modular curricula for different digital sustainability roles across various European Qualification Framework (EQF) levels. Developed as part of the Digital4Sustainability EU project in Task 3.2, this tool addresses the need for standardized yet adaptable educational pathways that meet the evolving demands of the Twin Transition (digital + sustainability).
+Once fully developed system,  DSCG be operated both as a Python script and as a Web Application. 
 
 ## Educational Foundation
 
@@ -58,6 +59,10 @@ The generator produces curricula that align with:
 - European e-Competence Framework (e-CF)
 
 ## Key Features
+
+The DSCG implements the descripton of tasks 3.2 (Grant Agreement p. 84f). All requirements spelled out here 
+are translated into use cases which the system is able to deliver on. 
+
 
 - **Multi-EQF Level Support**: Generate curricula across EQF levels 4-8
 - **Role-Specific Customization**: Create curricula tailored to specific digital sustainability roles
