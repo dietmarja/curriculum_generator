@@ -1,4 +1,4 @@
-# Digital Sustainability Curriculum Generator
+# Digital Sustainability Curriculum Generator (DSCG)
 
 ## Overview
 
