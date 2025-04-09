@@ -1,9 +1,11 @@
-# Digital Sustainability Curriculum Generator (DSCG)
+# Curriculum Generator (CG)
 
 ## Overview
 
-The Digital Sustainability Curriculum Generator (DSCG) is a comprehensive tool designed to create flexible, modular curricula for different digital sustainability roles across various European Qualification Framework (EQF) levels. Developed as part of the Digital4Sustainability EU project in Task 3.2, this tool addresses the need for standardized yet adaptable educational pathways that meet the evolving demands of the Twin Transition (digital + sustainability).
+The Curriculum Generator (GC) is a comprehensive tool designed to create flexible, modular curricula for different digital sustainability roles across various European Qualification Framework (EQF) levels. Developed as part of the Digital4Sustainability EU project in Task 3.2, this tool addresses the need for standardized yet adaptable educational pathways that meet the evolving demands of the Twin Transition (digital + sustainability).
 Once fully developed system,  DSCG be operated both as a Python script and as a Web Application. 
+
+Currently CG is fleshed out for the thematic space of sustainabilit. However, CG is thematic-agnostic such that it can be applied to other thematic spaces like, e.g., business or cmputer security as well. 
 
 ## Educational Foundation
 
