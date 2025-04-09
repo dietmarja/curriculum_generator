@@ -1,4 +1,4 @@
-# Digital Sustainability Lead Curriculum (EQF Level 6)
+# Example Output -- Digital Sustainability Lead Curriculum (EQF Level 6)
 
 ## Program Overview
 
