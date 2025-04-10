@@ -1,0 +1,56 @@
+[
+  {
+    "id": "DSL601",
+    "name": "Introduction to Digital Sustainability",
+    "description": "Fundamentals of digital sustainability concepts and principles",
+    "eqf_level": 6,
+    "ects_points": 5,
+    "thematic_area": "sustainability",
+    "prerequisites": [],
+    "delivery_methods": ["classroom", "online"],
+    "module_type": ["theoretical"],
+    "skills": ["sustainability_basics", "critical_thinking"],
+    "role_relevance": {
+      "DSL": 100,
+      "DSM": 90,
+      "DSC": 85
+    },
+    "is_work_based": false
+  },
+  {
+    "id": "DSL602",
+    "name": "Sustainability Frameworks and Standards",
+    "description": "Overview of major sustainability frameworks, regulations, and standards",
+    "eqf_level": 6,
+    "ects_points": 5,
+    "thematic_area": "sustainability",
+    "prerequisites": ["DSL601"],
+    "delivery_methods": ["classroom", "online"],
+    "module_type": ["theoretical"],
+    "skills": ["sustainability_regulations", "esg_reporting"],
+    "role_relevance": {
+      "DSL": 90,
+      "DSM": 95,
+      "DSC": 100
+    },
+    "is_work_based": false
+  },
+  {
+    "id": "DSL603",
+    "name": "Digital Technologies for Sustainability",
+    "description": "Survey of digital technologies that enable sustainability initiatives",
+    "eqf_level": 6,
+    "ects_points": 5,
+    "thematic_area": "sustainability",
+    "prerequisites": ["DSL601"],
+    "delivery_methods": ["classroom", "blended"],
+    "module_type": ["theoretical", "practical"],
+    "skills": ["digital_technology", "sustainable_it"],
+    "role_relevance": {
+      "DSL": 85,
+      "DSM": 80,
+      "DSC": 75
+    },
+    "is_work_based": false
+  }
+]

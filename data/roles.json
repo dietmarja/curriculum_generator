@@ -1,0 +1,36 @@
+[
+  {
+    "id": "DSL",
+    "name": "Digital Sustainability Lead",
+    "description": "Drives digital sustainability initiatives within organizations",
+    "main_area": "Management & Consultancy",
+    "thematic_area": "sustainability",
+    "eqf_levels": [6, 7],
+    "core_skills": [
+      "sustainability_strategy", 
+      "leadership", 
+      "strategic_thinking"
+    ],
+    "default_ects": {
+      "6": 60,
+      "7": 120
+    }
+  },
+  {
+    "id": "DSM",
+    "name": "Digital Sustainability Manager",
+    "description": "Implements and manages digital sustainability initiatives",
+    "main_area": "Management & Consultancy",
+    "thematic_area": "sustainability",
+    "eqf_levels": [6, 7],
+    "core_skills": [
+      "project_management", 
+      "sustainability_regulations", 
+      "team_management"
+    ],
+    "default_ects": {
+      "6": 60,
+      "7": 120
+    }
+  }
+]
