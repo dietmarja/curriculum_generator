@@ -259,7 +259,7 @@ Wanda Saabeel & Paul Aertsen (2024). D2.1 occupational profiles and needs analys
 
 ## Contributing
 
-We welcome contributions to improve and extend the Digital Sustainability Curriculum Generator. Please see CONTRIBUTING.md for details.
+We welcome contributions in particular from colleagues from the digital4sustainability project to improve and extend the curriculum generator. 
 
 ## License
 
