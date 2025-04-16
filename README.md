@@ -2,10 +2,11 @@
 
 ## Overview
 
-The Curriculum Generator (GC) is a comprehensive tool designed to create flexible, modular curricula for different digital sustainability roles across various European Qualification Framework (EQF) levels. Developed as part of the Digital4Sustainability EU project in Task 3.2, this tool addresses the need for standardized yet adaptable educational pathways that meet the evolving demands of the Twin Transition (digital + sustainability).
-Once fully developed system,  DSCG be operated both as a Python script and as a Web Application. 
+The Curriculum Generator (CG) is a Python-based tool designed to create flexible, modular curricula for different digital sustainability roles across various European Qualification Framework (EQF) levels. Developed as part of the Digital4Sustainability EU project (Task 3.2), this tool addresses the need for standardized yet adaptable educational pathways that support the Twin Transition (digital + sustainability).
 
-Currently CG is fleshed out for the thematic space of sustainability. However, CG is thematic-agnostic such that it can be applied to other thematic spaces like, e.g., business or computer security as well. 
+The CG can be operated as a Python script through a command-line interface. It generates curricula based on structured data about modules, roles, and skills defined in JSON format.
+
+While currently focused on digital sustainability roles, the CG is designed to be thematic-agnostic and can be applied to other domains such as business or cybersecurity.
 
 ## Educational Foundation
 
@@ -34,7 +35,7 @@ The system incorporates the 10 key digital sustainability roles identified in th
 9. Software Developer for Sustainability
 10. Sustainability Technical Specialist
 
-Each role is defined with specific competence requirements, EQF level ranges, and core skills needed.
+Each role is defined with specific competence requirements, EQF level ranges, and core skills.
 
 ### Module Building Blocks
 
@@ -62,109 +63,54 @@ The generator produces curricula that align with:
 
 ## Key Features
 
-The DSCG implements the descripton of tasks 3.2 (Grant Agreement p. 84f). All requirements spelled out here 
-are translated into use cases which the system is able to deliver on. 
-
-
 - **Multi-EQF Level Support**: Generate curricula across EQF levels 4-8
 - **Role-Specific Customization**: Create curricula tailored to specific digital sustainability roles
 - **Flexible Delivery Methods**: Support for classroom, online, blended, and workplace learning
 - **Full and Specialized Curricula**: Generate both complete educational programs and targeted upskilling/reskilling paths
 - **Work-Based Learning Integration**: Ensure appropriate balance of theoretical and practical components
-- **Visual Curriculum Mapping**: Generate Sankey diagrams showing relationships between roles, modules, and skills
-- **Prerequisites Visualization**: Create module dependency graphs
+- **Multiple Export Formats**: Export curricula in HTML, JSON, PDF, SCORM, and xAPI formats
+- **Dynamic Semester Assignment**: Automatically organize modules into semesters based on prerequisites
+- **Skill Categorization**: Group skills by thematic areas for better organization
 - **ECTS Mapping**: Assign and track credit points for cross-program comparability
 
 ## System Architecture
 
-The DSCG is composed of four main classes:
-1. `Module`: Represents a learning component
-2. `Role`: Represents a digital sustainability role
-3. `Curriculum`: Represents a generated curriculum
-4. `CurriculumGenerator`: Core engine for curriculum generation
+The CG is composed of four main classes:
+1. `Module`: Represents a learning component with attributes like EQF level, ECTS points, and prerequisites
+2. `Role`: Represents a digital sustainability role with associated skills and competencies
+3. `Curriculum`: Aggregates modules into a structured curriculum with semester assignment
+4. `CurriculumGenerator`: Core engine for curriculum generation based on role and EQF level
 
 ## Installation
 
 ```bash
-git clone https://github.com/digital4sustainability/curriculum-generator.git
-cd curriculum-generator
+git clone https://github.com/dietmarja/curriculum_generator.git
+cd curriculum_generator
 pip install -r requirements.txt
 ```
-
-## Configuration
-
-### Parameters File (config.json)
-
-The system is highly parameterizable through a configuration file (`config.json`). Key parameters include:
-
-```json
-{
-  "output_formats": ["html", "pdf", "json", "scorm"],
-  "instructional_design_model": "ADDIE",
-  "ects_defaults": {
-    "4": 60,
-    "5": 120,
-    "6": 180,
-    "7": 120,
-    "8": 180
-  },
-  "work_based_learning_targets": {
-    "4": 50,
-    "5": 40,
-    "6": 30,
-    "7": 20,
-    "8": 10
-  },
-  "default_delivery_method": "blended",
-  "min_module_relevance": 50,
-  "visualization": {
-    "sankey_width": 1200,
-    "sankey_height": 800,
-    "sankey_node_colors": ["#1f77b4", "#ff7f0e", "#2ca02c", "#d62728"]
-  },
-  "data_paths": {
-    "modules": "data/modules.json",
-    "roles": "data/roles.json",
-    "output_dir": "output/"
-  },
-  "standards_compliance": {
-    "enable_scorm": true,
-    "enable_xapi": true,
-    "enable_competence_based_assessment": true
-  }
-}
-```
-
-### Educational Standards Support
-
-The generator can produce curricula compatible with:
-- **SCORM** (Shareable Content Object Reference Model)
-- **xAPI** (Experience API)
-- **ADDIE** (Analysis, Design, Development, Implementation, Evaluation) instructional design model
-- **Bloom's Taxonomy** for learning outcome classification
 
 ## Usage
 
 ### Command Line Interface
 
 ```bash
-# Generate a full curriculum for Digital Sustainability Lead at EQF level 6
-python generate_curriculum.py --role DSL --eqf 6 --full --ects 60
+# Generate a full curriculum for Digital Sustainability Manager at EQF level 6
+python scripts/generate_curriculum.py --role DSM --eqf 6 --output output/curriculum_dsm.html
 
-# Generate an upskilling curriculum focusing on specific skills
-python generate_curriculum.py --role DSL --eqf 6 --skills "esg_reporting,data_analytics" --ects 20
+# Generate a curriculum focusing on specific skills
+python scripts/generate_curriculum.py --role DSL --eqf 6 --skills "esg_reporting,data_analytics" --output curriculum.json
 
-# Generate a multi-level curriculum for Software Developer for Sustainability
-python generate_curriculum.py --role SDS --eqf 4,5,6 --full
+# List available thematic areas
+python scripts/generate_curriculum.py --list-areas
 
-# Generate comprehensive Sankey diagram for all roles and modules
-python generate_sankey.py --output curriculum_flow.html
+# List roles in a specific area
+python scripts/generate_curriculum.py --area sustainability --list-roles
 ```
 
 ### Python API
 
 ```python
-from dscg import CurriculumGenerator, Module, Role
+from dscg.package.models import Module, Role, Curriculum, CurriculumGenerator
 
 # Initialize the generator
 generator = CurriculumGenerator()
@@ -177,40 +123,42 @@ generator.load_roles_from_json("data/roles.json")
 curriculum = generator.generate_curriculum(
     role_id="DSL",
     eqf_level=6,
-    is_full_curriculum=True,
-    target_ects=60
+    is_full_curriculum=True
 )
 
 # Export in different formats
-curriculum.export_as_pdf("output/dsl_curriculum.pdf")
+curriculum.export_as_json("output/dsl_curriculum.json")
 curriculum.export_as_html("output/dsl_curriculum.html")
-curriculum.export_as_scorm("output/dsl_curriculum_scorm")
-
-# Visualize the curriculum
-curriculum.generate_sankey_diagram("output/dsl_curriculum_sankey.html")
-curriculum.generate_module_prerequisite_graph("output/dsl_prerequisites.png")
 ```
 
-### Web Interface
+## Data Structure
 
-The system can also be deployed as a web application:
+The generator relies on structured JSON files:
 
-```bash
-# Start the web interface
-python app.py
-```
-
-Then navigate to `http://localhost:5000` to access the web interface.
-
-## Examples
-
-### Example Curriculum Output (JSON)
+### modules.json
 
 ```json
-{
-  "name": "Digital Sustainability Lead Curriculum (EQF Level 6)",
-  "description": "Full curriculum for Digital Sustainability Lead at EQF Level 6",
-  "role": {
+[
+  {
+    "id": "MOD001",
+    "name": "Introduction to Digital Sustainability",
+    "description": "Fundamentals of digital sustainability concepts and principles",
+    "eqf_level": 6,
+    "ects_points": 5,
+    "prerequisites": [],
+    "delivery_methods": ["classroom", "online"],
+    "module_type": ["theoretical"],
+    "skills": ["sustainability_basics", "critical_thinking"]
+  },
+  ...
+]
+```
+
+### roles.json
+
+```json
+[
+  {
     "id": "DSL",
     "name": "Digital Sustainability Lead",
     "description": "Drives digital sustainability initiatives within organizations",
@@ -218,48 +166,67 @@ Then navigate to `http://localhost:5000` to access the web interface.
     "eqf_levels": [5, 6, 7],
     "core_skills": ["sustainability_strategy", "leadership", "data_analytics"]
   },
-  "eqf_level": 6,
-  "modules": [
-    {
-      "id": "DSL601",
-      "name": "Introduction to Digital Sustainability",
-      "description": "Fundamentals of digital sustainability concepts and principles",
-      "eqf_level": 6,
-      "ects_points": 5,
-      "prerequisites": [],
-      "delivery_methods": ["classroom", "online"],
-      "module_type": ["theoretical"],
-      "skills": ["sustainability_basics", "critical_thinking"]
-    },
-    // Additional modules...
-  ],
-  "total_ects": 60,
-  "work_based_percentage": 30
-}
+  ...
+]
 ```
 
-### Example Visualization
+## Future Developments
 
-The system produces Sankey diagrams that visualize the flow from roles to modules to skills:
+- **Visualization Tools**: Implementation of Sankey diagrams for visualizing relationships between roles, modules, and skills
+- **Web Interface**: Development of a web-based interface for easier curriculum generation
+- **Enhanced Export Options**: Additional export formats and customization options
+- **Prerequisite Visualization**: Module dependency graphs to visualize curriculum structure
+
+## Project Structure
 
 ```
-Digital Sustainability Lead → Introduction to Digital Sustainability → sustainability_basics
-                                                                    → critical_thinking
-                         → Sustainability Frameworks and Standards → sustainability_regulations
-                                                                  → esg_reporting
-                         → Digital Technologies for Sustainability → digital_technology
-                                                                  → sustainable_it
-                         // Additional modules and skills...
+curriculum_generator/
+├── dscg/
+│   ├── __init__.py
+│   ├── generator.py
+│   ├── package/
+│   │   ├── __init__.py
+│   │   └── models.py
+│   ├── exporters/
+│   │   ├── __init__.py
+│   │   ├── html_exporter.py
+│   │   ├── json_exporter.py
+│   │   ├── pdf_exporter.py
+│   │   ├── scorm_exporter.py
+│   │   └── xapi_exporter.py
+│   ├── utils/
+│   │   ├── __init__.py
+│   │   ├── config.py
+│   │   ├── learning_outcomes.py
+│   │   └── validation.py
+│   └── visualization/
+│       ├── __init__.py
+│       ├── prerequisites.py
+│       └── sankey.py
+├── data/
+│   ├── modules.json
+│   ├── roles.json
+│   └── skills.json
+├── scripts/
+│   ├── generate_curriculum.py
+│   ├── generate_sankey.py
+│   └── setup_data.py
+├── output/
+│   ├── curricula/
+│   ├── packages/
+│   └── visualizations/
+├── tests/
+│   ├── __init__.py
+│   ├── test_generator.py
+│   ├── test_models.py
+│   └── test_exporters.py
+├── requirements.txt
+└── README.md
 ```
-
-## References
-Wanda Saabeel & Paul Aertsen (2024). D2.1 occupational profiles and needs analysis report the roles and skills for digital professionals providing sustainability solutions. Deliverable D2.1, European Union, Brussels, Belgium, October, 11 2024.
-
-
 
 ## Contributing
 
-We welcome contributions in particular from colleagues from the digital4sustainability project to improve and extend the curriculum generator. 
+Contributions to improve and extend the curriculum generator are welcome. Please feel free to submit issues or pull requests.
 
 ## License
 
