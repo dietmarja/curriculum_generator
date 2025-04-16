@@ -1,56 +1,823 @@
 [
   {
-    "id": "DSL601",
+    "id": "M1",
     "name": "Introduction to Digital Sustainability",
     "description": "Fundamentals of digital sustainability concepts and principles",
     "eqf_level": 6,
     "ects_points": 5,
     "thematic_area": "sustainability",
     "prerequisites": [],
-    "delivery_methods": ["classroom", "online"],
-    "module_type": ["theoretical"],
-    "skills": ["sustainability_basics", "critical_thinking"],
+    "delivery_methods": [
+      "classroom",
+      "online"
+    ],
+    "module_type": [
+      "theoretical"
+    ],
+    "skills": [
+      "sustainability_basics",
+      "critical_thinking"
+    ],
     "role_relevance": {
-      "DSL": 100,
-      "DSM": 90,
-      "DSC": 85
+      "DSL": 80,
+      "DSM": 75,
+      "DSC": 70,
+      "SBA": 60,
+      "SDD": 70,
+      "SSD": 60,
+      "DAN": 65,
+      "DSI": 65,
+      "DSE": 60,
+      "STS": 55
     },
-    "is_work_based": false
+    "is_work_based": false,
+    "learning_outcomes": {
+      "knowledge": "Define key concepts and principles of digital sustainability and their relevance to modern organizations",
+      "understanding": "Explain the relationship between digital technologies and environmental, social, and economic sustainability",
+      "skills": "Analyze organizational practices for sustainability improvement opportunities using digital solutions"
+    },
+    "dual_principle_applicable": false
   },
   {
-    "id": "DSL602",
+    "id": "M2",
     "name": "Sustainability Frameworks and Standards",
     "description": "Overview of major sustainability frameworks, regulations, and standards",
     "eqf_level": 6,
     "ects_points": 5,
     "thematic_area": "sustainability",
-    "prerequisites": ["DSL601"],
-    "delivery_methods": ["classroom", "online"],
-    "module_type": ["theoretical"],
-    "skills": ["sustainability_regulations", "esg_reporting"],
+    "prerequisites": [
+      "M1"
+    ],
+    "delivery_methods": [
+      "classroom",
+      "online"
+    ],
+    "module_type": [
+      "theoretical"
+    ],
+    "skills": [
+      "sustainability_regulations",
+      "esg_reporting"
+    ],
     "role_relevance": {
       "DSL": 90,
       "DSM": 95,
-      "DSC": 100
+      "DSC": 100,
+      "SBA": 85
     },
-    "is_work_based": false
+    "is_work_based": false,
+    "learning_outcomes": {
+      "knowledge": "Identify major sustainability frameworks, standards, and regulations relevant to digital industries",
+      "understanding": "Compare different sustainability reporting frameworks and their application contexts",
+      "skills": "Apply appropriate standards to evaluate organizational sustainability performance"
+    },
+    "dual_principle_applicable": false
   },
   {
-    "id": "DSL603",
-    "name": "Digital Technologies for Sustainability",
-    "description": "Survey of digital technologies that enable sustainability initiatives",
+    "id": "M3",
+    "name": "Data Analytics for Sustainability",
+    "description": "Use data tools to derive actionable sustainability insights",
+    "eqf_level": 6,
+    "ects_points": 5,
+    "thematic_area": "data",
+    "prerequisites": [
+      "M1"
+    ],
+    "delivery_methods": [
+      "online",
+      "blended"
+    ],
+    "module_type": [
+      "practical"
+    ],
+    "skills": [
+      "data_analysis",
+      "sustainability_metrics"
+    ],
+    "role_relevance": {
+      "DAN": 100,
+      "DSI": 90,
+      "SBA": 85
+    },
+    "is_work_based": false,
+    "learning_outcomes": {
+      "knowledge": "Describe analytical methods and tools for sustainability data processing",
+      "understanding": "Explain how data analytics can uncover sustainability patterns and trends",
+      "skills": "Use data analysis techniques to extract actionable sustainability insights"
+    },
+    "dual_principle_applicable": false
+  },
+  {
+    "id": "M4",
+    "name": "Machine Learning and Predictive Modeling",
+    "description": "Develop predictive models to assess sustainability scenarios",
+    "eqf_level": 7,
+    "ects_points": 5,
+    "thematic_area": "data",
+    "prerequisites": [
+      "M3"
+    ],
+    "delivery_methods": [
+      "online",
+      "blended"
+    ],
+    "module_type": [
+      "practical"
+    ],
+    "skills": [
+      "machine_learning",
+      "predictive_modeling"
+    ],
+    "role_relevance": {
+      "DSI": 100,
+      "DAN": 80,
+      "DSE": 70
+    },
+    "is_work_based": false,
+    "learning_outcomes": {
+      "knowledge": "Identify machine learning techniques applicable to sustainability challenges",
+      "understanding": "Explain predictive modeling approaches for environmental and social impact forecasting",
+      "skills": "Develop and validate predictive models to support sustainability decision-making"
+    },
+    "dual_principle_applicable": false
+  },
+  {
+    "id": "M5",
+    "name": "Sustainable Software Engineering",
+    "description": "Implement sustainable programming practices and optimize code efficiency",
+    "eqf_level": 6,
+    "ects_points": 5,
+    "thematic_area": "technology",
+    "prerequisites": [
+      "M1"
+    ],
+    "delivery_methods": [
+      "blended"
+    ],
+    "module_type": [
+      "practical"
+    ],
+    "skills": [
+      "green_coding",
+      "sustainable_development"
+    ],
+    "role_relevance": {
+      "SDD": 100,
+      "SSD": 85
+    },
+    "is_work_based": true,
+    "learning_outcomes": {
+      "knowledge": "Identify energy-efficient coding practices and their environmental impact",
+      "understanding": "Explain the relationship between software design choices and resource consumption",
+      "skills": "Implement green coding principles to optimize software energy efficiency"
+    },
+    "dual_principle_applicable": false
+  },
+  {
+    "id": "M6",
+    "name": "Systems Architecture for Sustainability",
+    "description": "Design IT systems aligned with circular economy and low-impact principles",
+    "eqf_level": 6,
+    "ects_points": 5,
+    "thematic_area": "design",
+    "prerequisites": [
+      "M1"
+    ],
+    "delivery_methods": [
+      "classroom",
+      "blended"
+    ],
+    "module_type": [
+      "theoretical",
+      "practical"
+    ],
+    "skills": [
+      "system_design",
+      "eco_design"
+    ],
+    "role_relevance": {
+      "SSD": 100,
+      "DSE": 85
+    },
+    "is_work_based": false,
+    "learning_outcomes": {
+      "knowledge": "Describe system architecture principles that support sustainability goals",
+      "understanding": "Explain how system design decisions affect long-term sustainability performance",
+      "skills": "Design IT system architectures that minimize environmental footprint while maintaining functionality"
+    },
+    "dual_principle_applicable": false
+  },
+  {
+    "id": "M7",
+    "name": "Ethics and Governance in Digital Innovation",
+    "description": "Evaluate ethical implications of digital systems and ensure inclusive governance",
     "eqf_level": 6,
     "ects_points": 5,
     "thematic_area": "sustainability",
-    "prerequisites": ["DSL601"],
-    "delivery_methods": ["classroom", "blended"],
-    "module_type": ["theoretical", "practical"],
-    "skills": ["digital_technology", "sustainable_it"],
+    "prerequisites": [
+      "M1"
+    ],
+    "delivery_methods": [
+      "classroom",
+      "online"
+    ],
+    "module_type": [
+      "theoretical"
+    ],
+    "skills": [
+      "ethics",
+      "governance",
+      "stakeholder_engagement"
+    ],
     "role_relevance": {
-      "DSL": 85,
-      "DSM": 80,
-      "DSC": 75
+      "DSL": 95,
+      "DSM": 90,
+      "DSC": 85,
+      "SBA": 80
     },
-    "is_work_based": false
+    "is_work_based": false,
+    "learning_outcomes": {
+      "knowledge": "Identify ethical considerations in digital innovation for sustainability",
+      "understanding": "Explain governance frameworks that support responsible technology deployment",
+      "skills": "Apply ethical principles to evaluate sustainability technologies and initiatives"
+    },
+    "dual_principle_applicable": false
+  },
+  {
+    "id": "M8",
+    "name": "Work-based Sustainability Project",
+    "description": "Apply sustainability knowledge in real-world workplace settings",
+    "eqf_level": 6,
+    "ects_points": 10,
+    "thematic_area": "sustainability",
+    "prerequisites": [
+      "M1",
+      "M2"
+    ],
+    "delivery_methods": [
+      "workplace",
+      "blended"
+    ],
+    "module_type": [
+      "work-based"
+    ],
+    "skills": [
+      "project_implementation",
+      "collaborative_work"
+    ],
+    "role_relevance": {
+      "DSM": 100,
+      "STS": 95,
+      "DSE": 90,
+      "SDD": 85
+    },
+    "is_work_based": true,
+    "learning_outcomes": {
+      "knowledge": "Recognize organizational contexts for sustainability project implementation",
+      "understanding": "Explain sustainability project management methodologies in workplace settings",
+      "skills": "Execute a sustainability initiative in a real-world professional environment"
+    },
+    "dual_principle_applicable": true
+  },
+  {
+    "id": "M9",
+    "name": "Technical Implementation and Tool Support",
+    "description": "Configure and maintain technical tools supporting sustainability goals",
+    "eqf_level": 5,
+    "ects_points": 5,
+    "thematic_area": "technology",
+    "prerequisites": [
+      "M1"
+    ],
+    "delivery_methods": [
+      "blended"
+    ],
+    "module_type": [
+      "practical"
+    ],
+    "skills": [
+      "tool_support",
+      "platform_configuration"
+    ],
+    "role_relevance": {
+      "STS": 100,
+      "SDD": 85,
+      "DSE": 80
+    },
+    "is_work_based": true,
+    "learning_outcomes": {
+      "knowledge": "Identify appropriate sustainability tools and technical implementation requirements",
+      "understanding": "Explain configuration approaches for sustainability monitoring platforms",
+      "skills": "Configure and maintain technical tools supporting organization-specific sustainability goals"
+    },
+    "dual_principle_applicable": true
+  },
+  {
+    "id": "M10",
+    "name": "Circular Economy and Lifecycle Thinking",
+    "description": "Analyze product lifecycles and propose circular redesign strategies",
+    "eqf_level": 6,
+    "ects_points": 5,
+    "thematic_area": "sustainability",
+    "prerequisites": [
+      "M1"
+    ],
+    "delivery_methods": [
+      "online",
+      "classroom"
+    ],
+    "module_type": [
+      "theoretical",
+      "practical"
+    ],
+    "skills": [
+      "lifecycle_assessment",
+      "circular_design"
+    ],
+    "role_relevance": {
+      "SSD": 95,
+      "SBA": 90,
+      "DSM": 85
+    },
+    "is_work_based": false,
+    "learning_outcomes": {
+      "knowledge": "Define circular economy principles and lifecycle assessment methodologies",
+      "understanding": "Explain how digital technologies can enable circular business practices",
+      "skills": "Conduct product lifecycle analyses and propose circular redesign strategies"
+    },
+    "dual_principle_applicable": false
+  },
+  {
+    "id": "M11",
+    "name": "Big Data for Environmental Intelligence",
+    "description": "Leverage big data technologies to analyze environmental patterns and trends",
+    "eqf_level": 6,
+    "ects_points": 5,
+    "thematic_area": "data",
+    "prerequisites": [
+      "M1"
+    ],
+    "delivery_methods": [
+      "blended",
+      "online"
+    ],
+    "module_type": [
+      "theoretical",
+      "practical"
+    ],
+    "skills": [
+      "big_data_analysis",
+      "environmental_intelligence"
+    ],
+    "role_relevance": {
+      "DSI": 95,
+      "DSE": 90,
+      "SBA": 80
+    },
+    "is_work_based": false,
+    "learning_outcomes": {
+      "knowledge": "Identify big data technologies applicable to environmental monitoring and analysis",
+      "understanding": "Explain how large-scale data processing can enhance environmental intelligence",
+      "skills": "Implement big data solutions to process and analyze environmental datasets"
+    },
+    "dual_principle_applicable": false
+  },
+  {
+    "id": "M12",
+    "name": "Advanced Visualisation for Sustainability Reporting",
+    "description": "Create effective data visualizations to communicate sustainability performance",
+    "eqf_level": 6,
+    "ects_points": 5,
+    "thematic_area": "data",
+    "prerequisites": [
+      "M1"
+    ],
+    "delivery_methods": [
+      "online",
+      "classroom"
+    ],
+    "module_type": [
+      "practical"
+    ],
+    "skills": [
+      "data_visualization",
+      "sustainability_reporting"
+    ],
+    "role_relevance": {
+      "DAN": 90,
+      "DSI": 85,
+      "SBA": 80
+    },
+    "is_work_based": false,
+    "learning_outcomes": {
+      "knowledge": "Identify advanced visualization techniques for sustainability data communication",
+      "understanding": "Explain how visual representations can effectively communicate sustainability metrics",
+      "skills": "Create compelling visual narratives of sustainability performance for diverse stakeholders"
+    },
+    "dual_principle_applicable": false
+  },
+  {
+    "id": "M13",
+    "name": "Low-Carbon Cloud Infrastructure",
+    "description": "Design and implement energy-efficient cloud computing solutions",
+    "eqf_level": 6,
+    "ects_points": 5,
+    "thematic_area": "technology",
+    "prerequisites": [
+      "M1"
+    ],
+    "delivery_methods": [
+      "blended"
+    ],
+    "module_type": [
+      "practical"
+    ],
+    "skills": [
+      "cloud_optimization",
+      "energy_efficiency"
+    ],
+    "role_relevance": {
+      "DSE": 100,
+      "STS": 85,
+      "SSD": 70
+    },
+    "is_work_based": false,
+    "learning_outcomes": {
+      "knowledge": "Identify cloud infrastructure components and their energy consumption patterns",
+      "understanding": "Explain strategies for reducing carbon footprint in cloud computing environments",
+      "skills": "Implement and optimize low-carbon cloud infrastructure solutions"
+    },
+    "dual_principle_applicable": false
+  },
+  {
+    "id": "M14",
+    "name": "Sustainable Digital Transformation Strategy",
+    "description": "Develop holistic strategies for sustainability-focused digital transformation",
+    "eqf_level": 6,
+    "ects_points": 5,
+    "thematic_area": "sustainability",
+    "prerequisites": [
+      "M1"
+    ],
+    "delivery_methods": [
+      "classroom",
+      "online"
+    ],
+    "module_type": [
+      "theoretical"
+    ],
+    "skills": [
+      "strategy_development",
+      "digital_transformation"
+    ],
+    "role_relevance": {
+      "DSL": 100,
+      "DSM": 90,
+      "DSC": 80
+    },
+    "is_work_based": false,
+    "learning_outcomes": {
+      "knowledge": "Identify components of digital transformation strategies aligned with sustainability goals",
+      "understanding": "Explain the integration of sustainability principles into digital business strategies",
+      "skills": "Develop comprehensive digital transformation roadmaps that prioritize sustainability outcomes"
+    },
+    "dual_principle_applicable": false
+  },
+  {
+    "id": "M15",
+    "name": "Applied Ethics in AI for Sustainability",
+    "description": "Address ethical considerations in AI applications for sustainability challenges",
+    "eqf_level": 6,
+    "ects_points": 5,
+    "thematic_area": "sustainability",
+    "prerequisites": [
+      "M1"
+    ],
+    "delivery_methods": [
+      "online"
+    ],
+    "module_type": [
+      "theoretical"
+    ],
+    "skills": [
+      "ethical_analysis",
+      "ai_governance"
+    ],
+    "role_relevance": {
+      "DSI": 90,
+      "DSL": 85,
+      "SBA": 75
+    },
+    "is_work_based": false,
+    "learning_outcomes": {
+      "knowledge": "Identify ethical frameworks applicable to AI systems in sustainability contexts",
+      "understanding": "Explain potential ethical challenges in AI applications for environmental and social good",
+      "skills": "Apply ethical principles to the design and evaluation of AI-driven sustainability solutions"
+    },
+    "dual_principle_applicable": false
+  },
+  {
+    "id": "M16",
+    "name": "DevOps and Sustainable Deployment",
+    "description": "Implement efficient and sustainable software deployment practices",
+    "eqf_level": 6,
+    "ects_points": 5,
+    "thematic_area": "technology",
+    "prerequisites": [
+      "M1"
+    ],
+    "delivery_methods": [
+      "blended"
+    ],
+    "module_type": [
+      "practical"
+    ],
+    "skills": [
+      "devops_practices",
+      "continuous_deployment"
+    ],
+    "role_relevance": {
+      "SDD": 100,
+      "STS": 90,
+      "DSE": 80
+    },
+    "is_work_based": false,
+    "learning_outcomes": {
+      "knowledge": "Identify DevOps practices that support sustainable software deployment",
+      "understanding": "Explain how continuous integration/deployment affects resource efficiency",
+      "skills": "Implement DevOps pipelines optimized for sustainability considerations"
+    },
+    "dual_principle_applicable": false
+  },
+  {
+    "id": "M17",
+    "name": "Digital Circular Business Models",
+    "description": "Design business models that leverage digital technologies for circular economy",
+    "eqf_level": 6,
+    "ects_points": 5,
+    "thematic_area": "sustainability",
+    "prerequisites": [
+      "M1"
+    ],
+    "delivery_methods": [
+      "classroom",
+      "online"
+    ],
+    "module_type": [
+      "theoretical",
+      "practical"
+    ],
+    "skills": [
+      "business_model_innovation",
+      "circular_economy"
+    ],
+    "role_relevance": {
+      "SBA": 95,
+      "DSM": 90,
+      "SSD": 80
+    },
+    "is_work_based": false,
+    "learning_outcomes": {
+      "knowledge": "Identify digital business models that support circular economy principles",
+      "understanding": "Explain how digital technologies enable resource efficiency and circular value chains",
+      "skills": "Design business models that leverage digital technologies for sustainability outcomes"
+    },
+    "dual_principle_applicable": false
+  },
+  {
+    "id": "M18",
+    "name": "AI-Driven Environmental Risk Modelling",
+    "description": "Apply AI and machine learning to model and mitigate environmental risks",
+    "eqf_level": 6,
+    "ects_points": 5,
+    "thematic_area": "data",
+    "prerequisites": [
+      "M1"
+    ],
+    "delivery_methods": [
+      "online"
+    ],
+    "module_type": [
+      "theoretical",
+      "practical"
+    ],
+    "skills": [
+      "risk_modeling",
+      "ai_applications"
+    ],
+    "role_relevance": {
+      "DSI": 100,
+      "DAN": 90,
+      "DSE": 80
+    },
+    "is_work_based": false,
+    "learning_outcomes": {
+      "knowledge": "Identify AI methodologies applicable to environmental risk assessment",
+      "understanding": "Explain how AI can enhance prediction and management of environmental risks",
+      "skills": "Develop AI-driven models to forecast and mitigate environmental impacts"
+    },
+    "dual_principle_applicable": false
+  },
+  {
+    "id": "M19",
+    "name": "Sustainability Assessment and Benchmarking",
+    "description": "Evaluate organizational sustainability performance against relevant benchmarks",
+    "eqf_level": 6,
+    "ects_points": 5,
+    "thematic_area": "sustainability",
+    "prerequisites": [
+      "M1"
+    ],
+    "delivery_methods": [
+      "classroom"
+    ],
+    "module_type": [
+      "theoretical"
+    ],
+    "skills": [
+      "performance_assessment",
+      "benchmarking"
+    ],
+    "role_relevance": {
+      "DSC": 100,
+      "DSL": 85,
+      "DSM": 80
+    },
+    "is_work_based": false,
+    "learning_outcomes": {
+      "knowledge": "Identify sustainability assessment methodologies and benchmarking frameworks",
+      "understanding": "Explain performance evaluation approaches for digital sustainability initiatives",
+      "skills": "Conduct comprehensive sustainability assessments and comparative benchmarking"
+    },
+    "dual_principle_applicable": false
+  },
+  {
+    "id": "M20",
+    "name": "Data Ethics and Governance in Practice",
+    "description": "Implement ethical data governance approaches for sustainability initiatives",
+    "eqf_level": 6,
+    "ects_points": 5,
+    "thematic_area": "data",
+    "prerequisites": [
+      "M1"
+    ],
+    "delivery_methods": [
+      "online",
+      "blended"
+    ],
+    "module_type": [
+      "practical"
+    ],
+    "skills": [
+      "data_governance",
+      "ethical_data_management"
+    ],
+    "role_relevance": {
+      "DAN": 95,
+      "DSI": 85,
+      "DSC": 80
+    },
+    "is_work_based": false,
+    "learning_outcomes": {
+      "knowledge": "Identify data governance frameworks and ethical principles for sustainability data",
+      "understanding": "Explain the practical challenges of implementing data ethics in sustainability contexts",
+      "skills": "Apply data governance practices that ensure ethical use of sustainability information"
+    },
+    "dual_principle_applicable": false
+  },
+  {
+    "id": "M21",
+    "name": "Energy-Efficient Software Architecture",
+    "description": "Design software architectures optimized for energy efficiency",
+    "eqf_level": 6,
+    "ects_points": 5,
+    "thematic_area": "technology",
+    "prerequisites": [
+      "M1"
+    ],
+    "delivery_methods": [
+      "blended"
+    ],
+    "module_type": [
+      "practical"
+    ],
+    "skills": [
+      "software_architecture",
+      "energy_optimization"
+    ],
+    "role_relevance": {
+      "SSD": 100,
+      "SDD": 90,
+      "DSE": 80
+    },
+    "is_work_based": false,
+    "learning_outcomes": {
+      "knowledge": "Identify architectural patterns that promote energy efficiency in software systems",
+      "understanding": "Explain the relationship between architecture decisions and long-term energy consumption",
+      "skills": "Design software architectures optimized for energy efficiency and sustainability"
+    },
+    "dual_principle_applicable": false
+  },
+  {
+    "id": "M22",
+    "name": "Sustainable ICT Procurement and Policy",
+    "description": "Develop policies and practices for sustainable technology procurement",
+    "eqf_level": 6,
+    "ects_points": 5,
+    "thematic_area": "sustainability",
+    "prerequisites": [
+      "M1"
+    ],
+    "delivery_methods": [
+      "classroom",
+      "online"
+    ],
+    "module_type": [
+      "theoretical"
+    ],
+    "skills": [
+      "procurement_strategy",
+      "policy_development"
+    ],
+    "role_relevance": {
+      "DSL": 90,
+      "DSC": 85,
+      "DSM": 80
+    },
+    "is_work_based": false,
+    "learning_outcomes": {
+      "knowledge": "Identify sustainable procurement criteria for ICT equipment and services",
+      "understanding": "Explain policy frameworks that promote sustainable technology acquisition",
+      "skills": "Develop procurement policies that prioritize sustainability in ICT purchasing decisions"
+    },
+    "dual_principle_applicable": false
+  },
+  {
+    "id": "M23",
+    "name": "Digital Twin and Smart Systems for Green Transition",
+    "description": "Apply digital twin technology to model and optimize sustainable systems",
+    "eqf_level": 6,
+    "ects_points": 5,
+    "thematic_area": "technology",
+    "prerequisites": [
+      "M1"
+    ],
+    "delivery_methods": [
+      "blended"
+    ],
+    "module_type": [
+      "practical"
+    ],
+    "skills": [
+      "digital_twin_development",
+      "systems_modeling"
+    ],
+    "role_relevance": {
+      "DSE": 90,
+      "SSD": 85,
+      "STS": 75
+    },
+    "is_work_based": false,
+    "learning_outcomes": {
+      "knowledge": "Identify digital twin technologies and smart systems applicable to sustainability challenges",
+      "understanding": "Explain how digital twins can optimize resource use and support green transition",
+      "skills": "Implement digital twin solutions to monitor and improve environmental performance"
+    },
+    "dual_principle_applicable": false
+  },
+  {
+    "id": "M24",
+    "name": "Collaborative Tools for Green Innovation",
+    "description": "Leverage collaborative platforms to drive sustainable innovation processes",
+    "eqf_level": 6,
+    "ects_points": 5,
+    "thematic_area": "sustainability",
+    "prerequisites": [
+      "M1"
+    ],
+    "delivery_methods": [
+      "classroom",
+      "online"
+    ],
+    "module_type": [
+      "practical",
+      "work-based"
+    ],
+    "skills": [
+      "collaborative_innovation",
+      "digital_facilitation"
+    ],
+    "role_relevance": {
+      "DSM": 95,
+      "STS": 90,
+      "SBA": 85
+    },
+    "is_work_based": false,
+    "learning_outcomes": {
+      "knowledge": "Identify collaborative digital tools that support sustainability innovation",
+      "understanding": "Explain how digital collaboration can accelerate green innovation processes",
+      "skills": "Implement collaborative platforms to facilitate sustainability-focused innovation"
+    },
+    "dual_principle_applicable": true
   }
 ]
