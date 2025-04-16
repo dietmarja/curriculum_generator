@@ -1,0 +1,24 @@
+Python Curriculum Generator (CG)
+The Python Curriculum Generator (CG) is a modular project designed to generate and export curricula. It aligns with task 3.2 of the Digital4Sustainability project and deliverable D2.1.
+
+Key Features:
+
+Export Formats: Supports exporting curricula to HTML, JSON, PDF, SCORM, and xAPI.
+Skill and Role Modeling: Utilizes structured JSON files (e.g., skills.json, roles.json) for modeling skills and professional roles.
+Visualization Tools: Includes Sankey diagrams for visualizing data.
+Validation and Configuration: Provides utilities for validation and configuration.
+
+Core Components:
+Module: Represents a learning unit with attributes such as EQF level, ECTS points, delivery method, skills, outcomes, and prerequisites.
+Role: Defines professional profiles with associated skills, EQF levels, assessment methods, and learning outcomes.
+Curriculum: Aggregates modules into a full curriculum, calculates total ECTS, organizes modules by semester, and categorizes skills.
+
+Functionality:
+CurriculumGenerator: Loads modules and roles from JSON files, generates curricula automatically, and handles missing data gracefully.
+Dynamic Semester Assignment: Assigns modules to semesters based on prerequisites.
+Skill Categorization: Aligns skills with thematic areas like sustainability or cybersecurity.
+HTML Export: Provides built-in HTML export with styled structure and skills visualization.
+Extensible Design: Easily integrates with curriculum planners, LMS, or policy tools.
+
+Project Structure:
+file_structure.txt offers details on the project's file organization.
