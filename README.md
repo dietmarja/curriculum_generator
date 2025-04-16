@@ -98,7 +98,7 @@ pip install -r requirements.txt
 python scripts/generate_curriculum.py --role DSM --eqf 6 --output output/curriculum_dsm.html
 
 # Generate a curriculum focusing on specific skills
-python scripts/generate_curriculum.py --role DSL --eqf 6 --skills "esg_reporting,data_analytics" --output curriculum.json
+python scripts/generate_curriculum.py --role DSL --eqf 6 --skills "esg_reporting,data_analytics" --output output/curriculum_dsl.json
 
 # List available thematic areas
 python scripts/generate_curriculum.py --list-areas
@@ -106,6 +106,8 @@ python scripts/generate_curriculum.py --list-areas
 # List roles in a specific area
 python scripts/generate_curriculum.py --area sustainability --list-roles
 ```
+
+Note: Always specify a full path for the output file (e.g., `output/filename.html` or `./filename.json`) to avoid file path errors.
 
 ### Python API
 
