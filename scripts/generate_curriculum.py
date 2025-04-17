@@ -24,8 +24,8 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 # Now import the modules
 from dscg.package.models import Module, Role, Curriculum, CurriculumGenerator
 # Import the new functions
-from dscg.package.enhancements import integrate_all_improvements
-from dscg.package.models import CurriculumGenerator, Curriculum
+#from dscg.package.enhancements import integrate_all_improvements
+#from dscg.package.models import CurriculumGenerator, Curriculum
 
 
 
