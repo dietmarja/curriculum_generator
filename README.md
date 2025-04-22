@@ -24,16 +24,16 @@ Each learning outcome is mapped to specific skills and competencies identified i
 ### Role Profiles
 
 The system incorporates the 10 key digital sustainability roles identified in the D2.1 report:
-1. Digital Sustainability Lead
-2. Digital Sustainability Manager
-3. Digital Sustainability Consultant
-4. Sustainability Business Analyst
-5. Sustainability Data Scientist
-6. Sustainability Data Analyst
-7. Sustainability Data Engineer
-8. Sustainability Solution Designer
-9. Software Developer for Sustainability
-10. Sustainability Technical Specialist
+1. Digital Sustainability Lead (DSL)
+2. Digital Sustainability Manager (DSM)
+3. Digital Sustainability Consultant (DSC)
+4. Sustainability Business Analyst (SBA)
+5. Sustainability Data Scientist (DSI)
+6. Sustainability Data Analyst (DAN)
+7. Sustainability Data Engineer (DSE)
+8. Sustainable Digital Designer (SDD)
+9. Software Developer for Sustainability (SSD)
+10. Sustainability Technology Specialist (STS)
 
 Each role is defined with specific competence requirements, EQF level ranges, and core skills.
 
@@ -68,7 +68,7 @@ The generator produces curricula that align with:
 - **Flexible Delivery Methods**: Support for classroom, online, blended, and workplace learning
 - **Full and Specialized Curricula**: Generate both complete educational programs and targeted upskilling/reskilling paths
 - **Work-Based Learning Integration**: Ensure appropriate balance of theoretical and practical components
-- **Multiple Export Formats**: Export curricula in HTML, JSON, PDF, SCORM, and xAPI formats
+- **Multiple Export Formats**: Export curricula in HTML and JSON formats (PDF, SCORM, and xAPI coming soon)
 - **Dynamic Semester Assignment**: Automatically organize modules into semesters based on prerequisites
 - **Skill Categorization**: Group skills by thematic areas for better organization
 - **ECTS Mapping**: Assign and track credit points for cross-program comparability
@@ -84,8 +84,8 @@ The CG is composed of four main classes:
 ## Installation
 
 ```bash
-git clone https://github.com/dietmarja/curriculum_generator.git
-cd curriculum_generator
+git clone https://github.com/dietmarja/digital4sustainability.git
+cd digital4sustainability/python/curriculum_generator
 pip install -r requirements.txt
 ```
 
@@ -94,25 +94,36 @@ pip install -r requirements.txt
 ### Command Line Interface
 
 ```bash
-# Generate a full curriculum for Digital Sustainability Manager at EQF level 6
-python scripts/generate_curriculum.py --role DSM --eqf 6 --output output/curriculum_dsm.html
+# Generate a full curriculum for Digital Sustainability Lead at EQF level 7
+python scripts/generate_curriculum.py --role DSL --eqf 7 --output output/curricula/curriculum_dsl_7.html
 
 # Generate a curriculum focusing on specific skills
-python scripts/generate_curriculum.py --role DSL --eqf 6 --skills "esg_reporting,data_analytics" --output output/curriculum_dsl.json
+python scripts/generate_curriculum.py --role SDD --eqf 6 --type upskilling --skills sustainability_basics data_analytics --output output/curricula/curriculum_sdd_6_upskilling.html
 
-# List available thematic areas
-python scripts/generate_curriculum.py --list-areas
-
-# List roles in a specific area
-python scripts/generate_curriculum.py --area sustainability --list-roles
+# Enable debug mode for detailed logging
+python scripts/generate_curriculum.py --role DSC --eqf 7 --output output/curricula/curriculum_dsc_7.html --debug
 ```
 
-Note: Always specify a full path for the output file (e.g., `output/filename.html` or `./filename.json`) to avoid file path errors.
+### Using the Shell Script (Easier Method)
+
+```bash
+# Make the script executable
+chmod +x scripts/run_generator.sh
+
+# Basic usage
+./scripts/run_generator.sh -r DSL -e 7
+
+# Upskilling curriculum with specific skills
+./scripts/run_generator.sh -r SDD -e 6 -t upskilling -s "sustainability_basics data_analytics"
+
+# Custom output directory
+./scripts/run_generator.sh -r DSC -e 7 -o output/custom_curricula
+```
 
 ### Python API
 
 ```python
-from dscg.package.models import Module, Role, Curriculum, CurriculumGenerator
+from models import CurriculumGenerator, Curriculum, Module, Role
 
 # Initialize the generator
 generator = CurriculumGenerator()
@@ -124,13 +135,13 @@ generator.load_roles_from_json("data/roles.json")
 # Generate curriculum
 curriculum = generator.generate_curriculum(
     role_id="DSL",
-    eqf_level=6,
+    eqf_level=7,
     is_full_curriculum=True
 )
 
 # Export in different formats
-curriculum.export_as_json("output/dsl_curriculum.json")
-curriculum.export_as_html("output/dsl_curriculum.html")
+curriculum.export_as_json("output/curricula/dsl_curriculum.json")
+curriculum.export_as_html("output/curricula/dsl_curriculum.html")
 ```
 
 ## Data Structure
@@ -142,15 +153,22 @@ The generator relies on structured JSON files:
 ```json
 [
   {
-    "id": "MOD001",
+    "id": "M1",
     "name": "Introduction to Digital Sustainability",
     "description": "Fundamentals of digital sustainability concepts and principles",
     "eqf_level": 6,
     "ects_points": 5,
+    "thematic_area": "sustainability",
     "prerequisites": [],
     "delivery_methods": ["classroom", "online"],
     "module_type": ["theoretical"],
-    "skills": ["sustainability_basics", "critical_thinking"]
+    "skills": ["sustainability_basics", "critical_thinking"],
+    "is_work_based": false,
+    "learning_outcomes": [
+      "Define key concepts and principles of digital sustainability",
+      "Explain the relationship between digital technologies and sustainability",
+      "Analyze organizational practices for sustainability improvement"
+    ]
   },
   ...
 ]
@@ -165,66 +183,94 @@ The generator relies on structured JSON files:
     "name": "Digital Sustainability Lead",
     "description": "Drives digital sustainability initiatives within organizations",
     "main_area": "Management & Consultancy",
-    "eqf_levels": [5, 6, 7],
-    "core_skills": ["sustainability_strategy", "leadership", "data_analytics"]
+    "thematic_area": "sustainability",
+    "eqf_levels": [6, 7, 8],
+    "core_skills": ["sustainability_strategy", "leadership", "data_analytics"],
+    "program_learning_outcomes": {
+      "6": [
+        "Knowledge: Analyze digital systems for sustainability improvement opportunities",
+        "Understanding: Evaluate sustainability frameworks and their application",
+        "Skills: Implement comprehensive sustainability strategies using digital tools"
+      ],
+      "7": [
+        "Knowledge: Critically evaluate advanced sustainability concepts",
+        "Understanding: Synthesize relationships between technology and sustainability challenges",
+        "Skills: Design and lead digital sustainability initiatives"
+      ]
+    }
   },
   ...
 ]
 ```
 
-## Future Developments
+## Module Duplication Fix
 
-- **Visualization Tools**: Implementation of Sankey diagrams for visualizing relationships between roles, modules, and skills
-- **Web Interface**: Development of a web-based interface for easier curriculum generation
-- **Enhanced Export Options**: Additional export formats and customization options
-- **Prerequisite Visualization**: Module dependency graphs to visualize curriculum structure
+The latest version includes a fix for the module duplication problem that was causing issues in previous versions:
+
+### Previous Issue
+- When a curriculum didn't have enough modules to reach the required ECTS, the system created duplicates of existing modules with slightly modified IDs (e.g., M1_0, M1_1)
+- This led to bloated curricula with repetitive content and poor distribution across semesters
+
+### Current Solution
+1. **Template-Based Generation**: Instead of duplicating existing modules, the system now uses a diverse set of module templates to generate unique new modules
+2. **Unique IDs**: Generated modules have a distinct prefix ("G" for generated) and a unique ID structure (e.g., GDSL701)
+3. **Improved Semester Distribution**: Modules are distributed using topological sorting based on prerequisites, ensuring logical progression
+4. **ECTS Balancing**: The system balances ECTS credits across semesters by intelligently moving modules while respecting prerequisites
+5. **Better Error Handling**: Comprehensive input validation and error logging help identify issues during curriculum generation
 
 ## Project Structure
 
 ```
 curriculum_generator/
-├── dscg/
-│   ├── __init__.py
-│   ├── generator.py
-│   ├── package/
-│   │   ├── __init__.py
-│   │   └── models.py
-│   ├── exporters/
-│   │   ├── __init__.py
-│   │   ├── html_exporter.py
-│   │   ├── json_exporter.py
-│   │   ├── pdf_exporter.py
-│   │   ├── scorm_exporter.py
-│   │   └── xapi_exporter.py
-│   ├── utils/
-│   │   ├── __init__.py
-│   │   ├── config.py
-│   │   ├── learning_outcomes.py
-│   │   └── validation.py
-│   └── visualization/
-│       ├── __init__.py
-│       ├── prerequisites.py
-│       └── sankey.py
 ├── data/
 │   ├── modules.json
-│   ├── roles.json
-│   └── skills.json
+│   └── roles.json
+├── dscg/
+│   └── package/
+│       └── models.py
+├── models.py
 ├── scripts/
 │   ├── generate_curriculum.py
-│   ├── generate_sankey.py
-│   └── setup_data.py
+│   ├── test_module_duplication.py
+│   └── run_generator.sh
 ├── output/
-│   ├── curricula/
-│   ├── packages/
-│   └── visualizations/
-├── tests/
-│   ├── __init__.py
-│   ├── test_generator.py
-│   ├── test_models.py
-│   └── test_exporters.py
-├── requirements.txt
-└── README.md
+│   └── curricula/
+└── requirements.txt
 ```
+
+## Troubleshooting
+
+### Common Issues and Solutions
+
+1. **ModuleNotFoundError: No module named 'src.models'**
+   - Solution: This happens when the script can't find the models file
+   - Make sure to run the script from the curriculum_generator directory
+   - Alternatively, set up the proper Python path or modify import paths
+
+2. **No modules loaded errors**
+   - Solution: Ensure data/modules.json and data/roles.json exist and contain valid JSON
+   - Check file permissions and structure
+   - Enable debug mode for more detailed logging
+
+3. **Module duplication in output**
+   - Solution: The latest version resolves this issue with template-based generation
+   - Run test_module_duplication.py to verify the fix
+   - If you still see duplicates, ensure you're using the latest version of models.py
+
+### Debug Mode
+
+Enable debug logging for more detailed output:
+```bash
+python scripts/generate_curriculum.py --role DSL --eqf 7 --output output/curricula/curriculum.html --debug
+```
+
+## Future Developments
+
+- **Web Interface**: Development of a web-based interface for easier curriculum generation
+- **Enhanced Export Options**: Additional export formats (PDF, SCORM, xAPI)
+- **Visualization Tools**: Implementation of Sankey diagrams for visualizing relationships between roles, modules, and skills
+- **Prerequisite Visualization**: Module dependency graphs to visualize curriculum structure
+- **Microcredential Support**: Generation of microcredential pathways for more granular learning
 
 ## Contributing
 
