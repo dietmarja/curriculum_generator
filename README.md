@@ -224,18 +224,53 @@ The latest version includes a fix for the module duplication problem that was ca
 curriculum_generator/
 ├── data/
 │   ├── modules.json
-│   └── roles.json
+│   ├── roles.json
+│   └── skills.json
 ├── dscg/
-│   └── package/
-│       └── models.py
-├── models.py
+│   ├── __init__.py
+│   ├── package/
+│   │   ├── __init__.py
+│   │   ├── models.py
+│   │   └── enhancements.py
+│   ├── exporters/
+│   │   ├── __init__.py
+│   │   ├── html_exporter.py
+│   │   ├── json_exporter.py
+│   │   ├── pdf_exporter.py
+│   │   ├── scorm_exporter.py
+│   │   └── xapi_exporter.py
+│   ├── utils/
+│   │   ├── __init__.py
+│   │   ├── validation.py
+│   │   ├── config.py
+│   │   └── learning_outcomes.py
+│   └── visualization/
+│       ├── __init__.py
+│       ├── prerequisites.py
+│       └── sankey.py
 ├── scripts/
 │   ├── generate_curriculum.py
-│   ├── test_module_duplication.py
-│   └── run_generator.sh
+│   ├── generate_all_curricula.py
+│   ├── assess_modules.py
+│   ├── validate_microcredentials.py
+│   ├── curriculum_balance.py
+│   ├── generate_sankey.py
+│   └── test_module_duplication.py
 ├── output/
-│   └── curricula/
-└── requirements.txt
+│   ├── curricula/
+│   │   └── curriculum_dsl_7.html
+│   ├── reports/
+│   │   ├── module_assessment.txt
+│   │   └── curriculum_balance.json
+│   └── visualizations/
+│       └── prerequisites_graph.html
+├── tests/
+│   ├── __init__.py
+│   ├── test_exporters.py
+│   ├── test_generator.py
+│   └── test_models.py
+├── requirements.txt
+└── README.md
 ```
 
 ## Troubleshooting
