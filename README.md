@@ -264,6 +264,61 @@ Enable debug logging for more detailed output:
 python scripts/generate_curriculum.py --role DSL --eqf 7 --output output/curricula/curriculum.html --debug
 ```
 
+
+
+Return the following in markdown
+
+## Validation Suite
+The Digital Sustainability Curriculum Generator includes a comprehensive validation suite that ensures high-quality curricula by analyzing the input data and generated outputs. These tools help identify issues such as duplicate module names, poorly formulated learning outcomes, and unbalanced semester distributions before finalizing curricula.
+
+### Core Validation Tools
+The suite includes several specialized validation tools:
+
+#### Analyze module quality and generate a comprehensive report
+
+```bash
+python scripts/assess_modules.py --modules data/modules.json --roles data/roles.json --output reports/module_assessment.txt
+```
+
+#### Get a JSON report for programmatic use
+```
+python scripts/assess_modules.py --format json --output reports/module_assessment.json
+```
+
+
+#### Validate modules for microcredential suitability
+
+```python scripts/validate_microcredentials.py --modules data/modules.json --min-skills 2 --max-ects 10
+```
+
+##### Check curriculum balance and distribution
+```
+python scripts/curriculum_balance.py --curriculum output/curricula/curriculum_dsl_7.json --target-ects 30
+```
+
+
+assess_modules.py: Evaluates module quality using educational standards and Bloom's taxonomy
+
+validate_microcredentials.py: Checks if modules meet microcredential requirements
+curriculum_balance.py: Analyzes ECTS distribution and module type balance across semesters
+
+These validation utilities are integrated into the curriculum generation process but can also be run independently for detailed analysis and reporting.
+Example Usage
+
+
+##### Analyze module quality and generate a comprehensive report
+python scripts/assess_modules.py --modules data/modules.json --roles data/roles.json --output reports/module_assessment.txt
+
+#####  Get a JSON report for programmatic use
+python scripts/assess_modules.py --format json --output reports/module_assessment.json
+
+# Validate modules for microcredential suitability
+python scripts/validate_microcredentials.py --modules data/modules.json --min-skills 2 --max-ects 10
+
+#####  Check curriculum balance and distribution
+python scripts/curriculum_balance.py --curricu
+
+
 ## Future Developments
 
 - **Web Interface**: Development of a web-based interface for easier curriculum generation
