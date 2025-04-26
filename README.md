@@ -263,9 +263,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Acknowledgements
-
-The Digital Sustainability Curriculum Generator is inspired by the work of Pouyioutas et al. on the ReProTool system \[1\], which demonstrated the value of software tools for curriculum re-engineering using Bologna Process concepts.
 
 ## References
 
