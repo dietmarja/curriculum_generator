@@ -1,269 +1,157 @@
 # Digital Sustainability Curriculum Generator (CG)
 
-CG is a suite of Python tools for generating and assessing educational curricula. It is a generic tool, but her the focus is on the thematic area of digital sustainability, aligned with the Bologna Process and European Qualifications Framework (EQF).
+A modular curriculum generation system that aligns with the Digital4Sustainability project. This tool automatically generates digital sustainability curricula at various EQF levels for different professional roles.
 
-## Overview
+## Key Features
 
-The Digital Sustainability Curriculum Generator (CG) is designed to create and export curricula that meet educational standards, with a focus on digital sustainability. It enables the creation of full curricula or specialized learning paths tailored to specific professional roles and European Qualification Framework (EQF) levels.
-
-### Key Features
-
-- **Export Formats**: Supports exporting to HTML, JSON, PDF, SCORM, and xAPI
-- **Skill and Role Modeling**: Utilizes structured JSON files for modeling skills and professional roles
-- **Visualization Tools**: Includes Sankey diagrams for visualizing module relationships and prerequisites
-- **Validation and Quality Assessment**: Built-in tools to validate module quality and curriculum structure
+- **Multiple Export Formats**: HTML, JSON, PDF, SCORM, and xAPI
+- **Skill and Role Modeling**: Structured modeling of skills and professional roles
+- **Modular Design**: Flexible curriculum generation with modular components
+- **EQF Alignment**: Support for European Qualification Framework levels 4-8
+- **Work-based Learning**: Integration of theoretical, practical, and work-based modules
+- **Dynamic Semester Assignment**: Intelligent distribution of modules across semesters
 - **Learning Outcomes Generation**: Automatic generation of Bloom's taxonomy-aligned learning outcomes
-- **Module Duplication Prevention**: Intelligent handling of module naming and semester distribution
 
 ## Project Structure
 
+The project is organized as follows:
+
 ```
-curriculum_generator/
-├── data/
-│   ├── modules.json           # Module definitions
-│   ├── roles.json             # Professional role definitions
-│   └── skills.json            # Skill definitions
-├── dscg/
-│   ├── __init__.py
-│   ├── package/
-│   │   ├── __init__.py
-│   │   ├── models.py          # Core data models
-│   │   └── enhancements.py    # Additional enhancements
-│   ├── exporters/
-│   │   ├── __init__.py
-│   │   ├── html_exporter.py   # HTML export functionality
-│   │   ├── json_exporter.py   # JSON export functionality
-│   │   ├── pdf_exporter.py    # PDF export functionality
-│   │   ├── scorm_exporter.py  # SCORM export functionality
-│   │   └── xapi_exporter.py   # xAPI export functionality
-│   ├── utils/
-│   │   ├── __init__.py
-│   │   ├── validation.py      # Validation utilities
-│   │   ├── config.py          # Configuration settings
-│   │   └── learning_outcomes.py  # Learning outcomes utilities
-│   └── visualization/
-│       ├── __init__.py
-│       ├── prerequisites.py   # Prerequisites visualization
-│       └── sankey.py          # Sankey diagram generation
-├── scripts/
-│   ├── generate_curriculum.py       # Main script for generating a curriculum
-│   ├── generate_all_curricula.py    # Generate multiple curricula
-│   ├── assess_modules.py            # Assess module quality
-│   ├── validate_learning_outcomes.py  # Validate learning outcomes
-│   ├── test_module_duplication.py   # Test for module duplication issues
-│   ├── curriculum_balance.py        # Check curriculum balance
-│   └── generate_sankey.py           # Generate Sankey diagrams
-├── output/
-│   ├── curricula/              # Generated curricula
-│   ├── reports/                # Validation reports
-│   └── visualizations/         # Generated visualizations
-├── tests/
-│   ├── __init__.py
-│   ├── test_exporters.py
-│   ├── test_generator.py
-│   └── test_models.py
-└── requirements.txt
+dscg/
+├── package/
+│   ├── models.py        # Core curriculum generation classes
+│   └── enhancements.py  # Extended functionality
+├── exporters/
+│   ├── html_exporter.py
+│   ├── json_exporter.py
+│   └── ...
+├── utils/
+│   ├── validation.py
+│   └── config.py
+└── visualization/
+    └── sankey.py
+scripts/
+├── generate_curriculum.py     # Main script for curriculum generation
+└── generate_all_curricula.py  # Batch generation script
+data/
+├── modules.json     # Module definitions
+├── roles.json      # Role definitions
+└── skills.json     # Skill definitions
 ```
 
-## Core Components
+## Core Classes and Methods
 
-### Module
+The following table provides an overview of the main classes and their methods:
 
-The `Module` class represents a learning unit with attributes such as:
-- EQF level
-- ECTS points
-- Delivery method
-- Skills
-- Learning outcomes
-- Prerequisites
+| Method | CurriculumGenerator (models.py) | Curriculum (models.py) | Module (models.py) | Role (models.py) |
+|--------|----------------------------------|------------------------|---------------------|------------------|
+| **Constructor** | `__init__()` | `__init__(role, eqf_level, modules, ...)` | `__init__(id, name, ...)` | `__init__(id, name, ...)` |
+| **Data Loading** | `load_modules_from_json(json_file)` <br> `load_roles_from_json(json_file)` | | | |
+| **Curriculum Generation** | `generate_curriculum(role_id, eqf_level, ...)` <br> `generate_additional_modules(base_modules, ...)` <br> `generate_learning_outcomes(module_name, ...)` | | | |
+| **Module Management** | `distribute_modules_to_semesters(modules, ...)` <br> `finalize_curriculum(curriculum)` | `add_module(module)` <br> `remove_module(module_id)` | | |
+| **Export Functions** | | `export_as_html(output_path)` <br> `export_as_json(output_path)` | | |
+| **Accessors/Helpers** | `get_role(role_id)` | `get_modules_by_semester(semester)` <br> `calculate_total_ects()` | | |
 
-### Role
+## Key Enhancement Methods
 
-The `Role` class defines professional profiles with:
-- Required skills
-- EQF levels
-- Learning outcomes for each level
-- Program duration
+The following methods have been implemented or improved to enhance curriculum generation:
 
-### Curriculum
+### CurriculumGenerator Class
 
-The `Curriculum` class aggregates modules into a full curriculum:
-- Calculates total ECTS
-- Organizes modules by semester
-- Ensures prerequisites are respected
-- Balances workload across semesters
-- Categorizes skills based on thematic areas
-- Provides export functionality to various formats
+1. **`finalize_curriculum(curriculum)`**
+   - Performs final validation and cleanup of the curriculum
+   - Detects and resolves duplicate module names using multiple renaming strategies
+   - Ensures all modules have proper learning outcomes
+   - Verifies that all required curriculum attributes are set
 
-### CurriculumGenerator
+2. **`generate_learning_outcomes(module_name, module_type, eqf_level, thematic_area)`**
+   - Generates detailed learning outcomes using Bloom's taxonomy
+   - Adjusts the language and complexity based on the EQF level
+   - Creates specific outcomes reflecting module content and type
+   - Produces a balanced mix of cognitive, practical, and attitudinal outcomes
 
-The `CurriculumGenerator` class is responsible for:
-- Loading modules and roles from JSON files
-- Generating curricula based on specified criteria
-- Creating learning outcomes aligned with Bloom's taxonomy
-- Ensuring proper module distribution across semesters
-- Preventing duplicate modules and resolving naming conflicts
+3. **`generate_additional_modules(base_modules, target_ects, eqf_level, role_id)`**
+   - Creates new modules to reach the target ECTS points
+   - Ensures unique naming using various strategies
+   - Assigns appropriate module IDs aligned with the role
+   - Generates specific learning outcomes for each new module
 
-## Installation
+4. **`distribute_modules_to_semesters(modules, program_duration)`**
+   - Intelligently assigns modules to semesters based on prerequisites
+   - Ensures balanced ECTS load across semesters
+   - Respects module dependencies and sequencing requirements
 
-Clone the repository and install the required packages:
+## Command-Line Usage
+
+The main script for generating curricula is `scripts/generate_curriculum.py`:
 
 ```bash
-git clone https://github.com/yourusername/curriculum-generator.git
-cd curriculum-generator
-pip install -r requirements.txt
-```
-
-## Usage Examples
-
-### Generating a Curriculum
-
-Generate a curriculum for a specific role and EQF level:
-
-```bash
-# Generate curriculum for Digital Sustainability Lead at EQF level 7
 python scripts/generate_curriculum.py --role DSL --eqf 7 --output output/curricula/curriculum_dsl_7.html
-
-# Generate an upskilling curriculum focused on specific skills
-python scripts/generate_curriculum.py --role DSE --eqf 6 --type upskilling --skills data_management energy_efficiency --output output/curricula/upskilling_dse_6.html
-
-# Generate curriculum with custom module and role files
-python scripts/generate_curriculum.py --role DSM --eqf 6 --modules-json custom/modules.json --roles-json custom/roles.json --output output/curricula/custom_dsm_6.html
 ```
 
-### Generating Multiple Curricula
+### Command-Line Arguments
 
-Generate curricula for all roles and specified EQF levels:
+- `--role`: Role ID (e.g., DSL for Digital Sustainability Lead)
+- `--eqf`: EQF level (4-8)
+- `--output`: Output file path (supports .html, .json)
+- `--type`: Curriculum type (full or upskilling)
+- `--skills`: Optional list of target skills for upskilling curriculum
+- `--modules-json`: Path to modules JSON file (default: data/modules.json)
+- `--roles-json`: Path to roles JSON file (default: data/roles.json)
+- `--debug`: Enable debug logging
 
-```bash
-python scripts/generate_all_curricula.py --eqf-levels 6 7 --output-dir output/curricula
-```
+## Troubleshooting
 
-### Assessing Module Quality
+### Common Issues
 
-Evaluate the quality of modules based on educational standards:
+1. **Missing or Incorrect ECTS Points**
+   - Check that modules have valid ECTS points defined
+   - Verify that `calculate_total_ects()` is being called before HTML export
 
-```bash
-# Assess all modules and generate a comprehensive report
-python scripts/assess_modules.py --modules data/modules.json --roles data/roles.json --output reports/module_assessment.txt
+2. **Semester Assignment Problems**
+   - Ensure `distribute_modules_to_semesters()` is being called in the generation process
+   - Check that module prerequisites are correctly defined
 
-# Get a JSON report for programmatic use
-python scripts/assess_modules.py --format json --output reports/module_assessment.json
-```
+3. **Duplicate Module Names**
+   - Verify that `finalize_curriculum()` is being called before curriculum export
+   - Check for duplicates in the source module data
 
-### Validating Learning Outcomes
+4. **Generic Learning Outcomes**
+   - Make sure `generate_learning_outcomes()` is being used for all modules
+   - Verify the method has the proper Bloom's taxonomy verbs for each EQF level
 
-Check if learning outcomes meet Bloom's taxonomy standards:
+## Recommended Fixes for Current Issues
 
-```bash
-# Validate learning outcomes in a single curriculum
-python scripts/validate_learning_outcomes.py --curriculum output/curricula/curriculum_dsl_7.html
+Based on the latest output (`test_dsl_7.html`), the following fixes are recommended:
 
-# Validate learning outcomes across all curricula in a directory
-python scripts/validate_learning_outcomes.py --directory output/curricula --output reports/learning_outcomes_report.txt
-```
+1. **Ensure Role and EQF Data is Loaded Properly**
+   - Verify that roles.json contains the proper program_duration for each EQF level
+   - Check that the expected ECTS for each EQF level is correctly defined
 
-### Testing Module Duplication
+2. **Fix Module Selection**
+   - Ensure modules with proper role-specific IDs are being created
+   - Verify that enough modules are being generated to reach the target ECTS
 
-Check for duplicate or similar module names:
+3. **Fix Semester Assignment**
+   - Verify that the distribute_modules_to_semesters method is being called
+   - Check that module.semester values are being correctly set
 
-```bash
-# Test a single curriculum file for duplicates
-python scripts/test_module_duplication.py --input output/curricula/curriculum_dsl_7.html
+4. **Fix Program Learning Outcomes**
+   - Ensure role objects have program_learning_outcomes for each EQF level
+   - Verify that these are being assigned to the curriculum object
 
-# Test all curricula in a directory
-python scripts/test_module_duplication.py --directory output/curricula --similarity 0.7 --output reports/duplication_report.txt
-```
+5. **Fix Work-based Learning**
+   - Ensure at least some modules have is_work_based=True
+   - Verify that the work-based percentage is calculated correctly
 
-### Checking Curriculum Balance
+6. **Fix Export Functionality**
+   - Check that the Curriculum.export_as_html method is correctly formatting all values
+   - Ensure no attributes are None before they're used in the HTML template
 
-Evaluate if a curriculum is well-balanced:
+## Future Enhancements
 
-```bash
-# Check the balance of a curriculum
-python scripts/curriculum_balance.py --input output/curricula/curriculum_dsl_7.json --target-ects 30
-```
-
-### Generating Visualizations
-
-Create a Sankey diagram of module prerequisites:
-
-```bash
-python scripts/generate_sankey.py --curriculum output/curricula/curriculum_dsl_7.json --output output/visualizations/dsl_7_sankey.html
-```
-
-## Data Format
-
-### modules.json
-
-```json
-[
-  {
-    "id": "DSL101",
-    "name": "Digital Sustainability Fundamentals",
-    "description": "Core concepts and principles of digital sustainability",
-    "eqf_level": 7,
-    "ects_points": 5,
-    "thematic_area": "sustainability",
-    "prerequisites": [],
-    "delivery_methods": ["classroom", "online"],
-    "module_type": ["theoretical"],
-    "skills": ["sustainability_basics", "digital_literacy"],
-    "is_work_based": false,
-    "learning_outcomes": [
-      "Analyze digital sustainability principles and their application in organizational contexts",
-      "Evaluate the environmental impact of digital technology choices",
-      "Design sustainable technology strategies aligned with organizational goals"
-    ]
-  }
-]
-```
-
-### roles.json
-
-```
-[
-  {
-    "id": "DSL",
-    "name": "Digital Sustainability Lead",
-    "description": "Leads digital sustainability initiatives within organizations",
-    "main_area": "Management & Consultancy",
-    "thematic_area": "sustainability",
-    "program_learning_outcomes": {
-      "7": [
-        "Critically evaluate advanced concepts in sustainability",
-        "Synthesize complex relationships between digital technologies and sustainability challenges",
-        "Design and lead comprehensive digital sustainability initiatives"
-      ]
-    },
-    "required_skills": ["sustainability_strategy", "digital_transformation", "leadership"],
-    "program_duration": {
-      "7": 4
-    }
-  }
-]
-```
-
-## Validation Tools
-
-The Curriculum Generator includes several validation tools to ensure the quality of the generated curricula:
-
-- **Module Assessment**: Evaluates modules based on educational standards and best practices
-- **Learning Outcomes Validation**: Checks if learning outcomes follow Bloom's taxonomy and are appropriate for the EQF level
-- **Module Duplication Testing**: Detects duplicate or similar module names to improve curriculum clarity
-- **Curriculum Balance Check**: Ensures even distribution of ECTS across semesters and appropriate mix of module types
-
-These tools provide detailed reports with recommendations for improvement, helping educators refine their curricula to meet the highest standards.
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-
-## References
-
-\[1\] Pouyioutas, P., Gjermundrod, H., & Dionysiou, I. (2012). ReProTool Version 2.0: Re-engineering academic curriculum using learning outcomes, ECTS and Bologna process concepts. Interactive Technology and Smart Education, 9(3), 136-152.
+1. **Web Interface**: Develop a user-friendly web interface for curriculum generation and visualization
+2. **More Export Formats**: Add support for additional export formats (e.g., docx, xlsx)
+3. **Interactive Visualizations**: Enhance data visualization with interactive charts and diagrams
+4. **Curriculum Validation**: Implement more sophisticated validation against educational standards
+5. **AI-driven Module Recommendations**: Add AI capabilities to suggest optimal modules for specific roles
