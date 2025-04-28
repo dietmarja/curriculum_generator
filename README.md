@@ -2,13 +2,13 @@
 A modular curriculum generation system that aligns with the Digital4Sustainability project. This tool automatically generates digital sustainability curricula at various EQF levels for different professional roles.
 
 ## Key Features
-- **Multiple Export Formats:** HTML, JSON, PDF, SCORM, and xAPI
 - **Skill and Role Modeling:** Structured modeling of skills and professional roles
 - **Modular Design:** Flexible curriculum generation with modular components
 - **EQF Alignment:** Support for European Qualification Framework levels 4-8
 - **Work-based Learning:** Integration of theoretical, practical, and work-based modules
 - **Dynamic Semester Assignment:** Intelligent distribution of modules across semesters
-- **Learning Outcomes Generation:** Automatic generation of Bloom's taxonomy-aligned learning outcomes
+- **Learning Outcomes Generation in Case it ia missing:** Automatic generation of Bloom's taxonomy-aligned learning outcomes
+- **Multiple Export Formats:** HTML, JSON, PDF, SCORM, and xAPI
 
 ## Project Structure
 The project is organized as follows:
