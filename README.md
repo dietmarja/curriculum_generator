@@ -38,6 +38,19 @@ data/
 
 
 
+## Input Files
+Essentially, curricula are generated on the basis of two input files
+
+- roles.json and
+- modules.json
+
+The structure for each of them is defined via a JSON schema file that aligns with educational standards, frameworks and bess practices like Tuning approach, 
+EQF-levels and Bloom's taxonomy verbs. Th validity of the schemas and the files build up on these are essential for the quality of the curricula generated. 
+
+
+
+
+
 ## Core Classes and Methods
 
 The following table provides an overview of the main classes and their methods:
