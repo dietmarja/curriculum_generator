@@ -28,6 +28,7 @@ dscg/
 └── visualization/
 └── sankey.py
 scripts/
+├── assess_modules.py          # Script to assess the suitabiliy of  the modules in modules.py for curriculum generation
 ├── generate_curriculum.py     # Main script for curriculum generation
 └── generate_all_curricula.py  # Batch generation script
 data/
