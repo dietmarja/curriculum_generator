@@ -156,41 +156,25 @@ Command-Line Arguments
 --modules-json: Path to modules JSON file (default: data/modules.json)
 --roles-json: Path to roles JSON file (default: data/roles.json)
 --debug: Enable debug logging
+```
 
-Troubleshooting
-Common Issues
-Missing or Incorrect ECTS Points
 
-Check that modules have valid ECTS points defined
-Verify that calculate_total_ects() is being called before HTML export
+Running a batch job for generating all curricula can be done via `scripts/generate_all_curricula.py`:
 
-Semester Assignment Problems
+```bash
+python scripts/generate_all_curricula.py
+```
 
-Ensure distribute_modules_to_semesters() is being called in the generation process
-Check that module prerequisites are correctly defined
+A detailed analysis of the modules in modules.json is initiated with `scripts/assess_modules.py`:
 
-Duplicate Module Names
+```bash
+python scripts/assess_modules.py > assessment_report.txt
+```
 
-Verify that finalize_curriculum() is being called before curriculum export
-Check for duplicates in the source module data
 
-Generic Learning Outcomes
 
-Make sure generate_learning_outcomes() is being used for all modules
-Verify the method has the proper Bloom's taxonomy verbs for each EQF level
 
-Work-based Learning Percentage
-
-Ensure modules with work-based content have the is_work_based flag set to True
-Check that ensure_work_based_properties() is being called in finalize_curriculum()
-Verify that both calculate_total_ects() and calculate_work_based_percentage() are up to date
-
-Redundant Learning Outcomes
-
-Check for redundant phrases like "innovate innovative solutions" in learning outcomes
-Ensure the _select_unique_verb helper method is being used correctly
-
-Future Enhancements
+### Future Enhancements
 
 Web Interface: Develop a user-friendly web interface for curriculum generation and visualization
 More Export Formats: Add support for additional export formats (e.g., docx, xlsx)
