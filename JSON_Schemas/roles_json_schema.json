@@ -1,0 +1,193 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Digital Sustainability Professional Roles",
+  "description": "Schema for digital sustainability professional roles aligned with European Qualifications Framework",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id", "name", "description", "eqf_levels"],
+    "properties": {
+      "id": {
+        "type": "string",
+        "description": "Unique identifier for the role (e.g., DSL, SBA)"
+      },
+      "name": {
+        "type": "string",
+        "description": "Full name/title of the professional role"
+      },
+      "description": {
+        "type": "string",
+        "description": "Brief description of the role and its responsibilities"
+      },
+      "main_area": {
+        "type": "string",
+        "description": "Primary professional area of the role (e.g., Management, Data, Advisory)",
+        "examples": ["Management", "Data", "Advisory", "Analysis", "Software Development", "Design", "Technical Implementation"]
+      },
+      "thematic_area": {
+        "type": "string",
+        "description": "Primary thematic focus of the role",
+        "default": "sustainability"
+      },
+      "eqf_levels": {
+        "type": "array",
+        "items": {
+          "type": "integer",
+          "minimum": 4,
+          "maximum": 8
+        },
+        "description": "European Qualifications Framework levels this role is available at (4-8)"
+      },
+      "core_skills": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "Core competencies and skills associated with this role"
+      },
+      "default_ects": {
+        "type": "object",
+        "description": "Default ECTS credits for curricula by EQF level",
+        "additionalProperties": {
+          "type": "integer",
+          "minimum": 30
+        },
+        "patternProperties": {
+          "^[4-8]$": {
+            "type": "integer",
+            "description": "Default ECTS for this EQF level"
+          }
+        }
+      },
+      "work_based_components": {
+        "type": "object",
+        "description": "Whether work-based learning is required for this role at different EQF levels",
+        "additionalProperties": {
+          "type": "boolean"
+        },
+        "patternProperties": {
+          "^[4-8]$": {
+            "type": "boolean",
+            "description": "Work-based requirement for this EQF level"
+          }
+        }
+      },
+      "module_design": {
+        "type": "object",
+        "description": "Preferences for curriculum design for this role",
+        "properties": {
+          "module_types": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": ["theoretical", "practical", "work-based"]
+            },
+            "description": "Preferred module types in order of priority"
+          },
+          "preferred_delivery": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": ["classroom", "online", "blended", "workplace"]
+            },
+            "description": "Preferred delivery methods in order of priority"
+          }
+        }
+      },
+      "related_modules": {
+        "type": "object",
+        "description": "Module IDs and their relevance scores (0-100) for this role",
+        "additionalProperties": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        }
+      },
+      "dual_principle_applicable": {
+        "type": "boolean",
+        "description": "Whether dual education principles apply to this role",
+        "default": false
+      },
+      "program_learning_outcomes": {
+        "type": "object",
+        "description": "Program-level learning outcomes by EQF level (optionally define these instead of auto-generation)",
+        "additionalProperties": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "patternProperties": {
+          "^[4-8]$": {
+            "type": "array",
+            "description": "Learning outcomes for this EQF level",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "role_competences": {
+        "type": "object",
+        "description": "Detailed competences for this role by category",
+        "properties": {
+          "technical": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Technical competences specific to this role"
+          },
+          "methodological": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Methodological competences specific to this role"
+          },
+          "social": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Social competences specific to this role"
+          },
+          "personal": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Personal competences specific to this role"
+          }
+        }
+      },
+      "career_paths": {
+        "type": "object",
+        "description": "Career progression information",
+        "properties": {
+          "entry_roles": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Roles that commonly lead to this role"
+          },
+          "advancement_roles": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Roles that this role commonly advances to"
+          },
+          "complementary_roles": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Roles that complement or work closely with this role"
+          }
+        }
+      }
+    }
+  }
+}

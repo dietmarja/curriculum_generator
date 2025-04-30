@@ -1,1 +1,117 @@
-
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Digital Sustainability Curriculum Modules",
+  "description": "Schema for digital sustainability curriculum modules with Bologna Process alignment",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id", "name", "eqf_level", "ects_points"],
+    "properties": {
+      "id": {
+        "type": "string",
+        "description": "Unique identifier for the module (e.g., M1, M2)"
+      },
+      "name": {
+        "type": "string",
+        "description": "Full name/title of the module"
+      },
+      "description": {
+        "type": "string",
+        "description": "Brief description of the module content and focus"
+      },
+      "eqf_level": {
+        "type": "integer",
+        "minimum": 4,
+        "maximum": 8,
+        "description": "European Qualifications Framework level (4-8)"
+      },
+      "ects_points": {
+        "type": "integer",
+        "minimum": 1,
+        "description": "European Credit Transfer System points/credits"
+      },
+      "thematic_area": {
+        "type": "string",
+        "description": "Primary thematic area of the module",
+        "default": "sustainability"
+      },
+      "prerequisites": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "List of module IDs that must be completed before this module"
+      },
+      "delivery_methods": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "enum": ["classroom", "online", "blended", "workplace"]
+        },
+        "description": "Methods of delivering the module content"
+      },
+      "module_type": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "enum": ["theoretical", "practical", "work-based"]
+        },
+        "description": "Types/categories of module content"
+      },
+      "skills": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "Skills developed through this module"
+      },
+      "role_relevance": {
+        "type": "object",
+        "description": "Relevance score (0-100) of this module for each role",
+        "additionalProperties": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 100
+        }
+      },
+      "is_work_based": {
+        "type": "boolean",
+        "description": "Whether this is a work-based learning module",
+        "default": false
+      },
+      "learning_outcomes": {
+        "type": "object",
+        "description": "Expected learning outcomes from completing this module",
+        "properties": {
+          "knowledge": {
+            "type": "string",
+            "description": "Knowledge-based learning outcome"
+          },
+          "understanding": {
+            "type": "string", 
+            "description": "Understanding/comprehension-based learning outcome"
+          },
+          "skills": {
+            "type": "string",
+            "description": "Skills-based learning outcome"
+          }
+        }
+      },
+      "dual_principle_applicable": {
+        "type": "boolean",
+        "description": "Whether dual education principles apply to this module",
+        "default": false
+      },
+      "is_optional": {
+        "type": "boolean",
+        "description": "Whether this module is optional/supplementary for filling ECTS requirements",
+        "default": false
+      },
+      "semester": {
+        "type": "integer",
+        "description": "Recommended semester for this module (if fixed)",
+        "minimum": 1
+      }
+    }
+  }
+}
