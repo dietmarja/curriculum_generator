@@ -108,13 +108,6 @@ The following methods have been implemented or improved to enhance curriculum ge
 - Ensures proper calculation of work-based learning percentage
 - Maintains alignment with dual education principles
 
-## Command-Line Usage
-
-The main script for generating curricula is `scripts/generate_curriculum.py`:
-
-```
-python scripts/generate_curriculum.py --role DSL --eqf 7 --output output/curricula/curriculum_dsl_7.html
-```
 
 #### `finalize_curriculum(curriculum)`
 - Performs final validation and cleanup of the curriculum
