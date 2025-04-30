@@ -1,5 +1,6 @@
 # Digital Sustainability Curriculum Generator (CG)
-A modular curriculum generation system that aligns with the Digital4Sustainability project. This tool automatically generates digital sustainability curricula at various EQF levels for different professional roles.
+A suite of Python scripts for modular curriculum generation and assessment that aligns with the Digital4Sustainability project. 
+They automatically generate digital sustainability curricula at various EQF levels for different professional roles and assess their quality. 
 
 ## Key Features
 - **Skill and Role Modeling:** Structured modeling of skills and professional roles
@@ -7,7 +8,7 @@ A modular curriculum generation system that aligns with the Digital4Sustainabili
 - **EQF Alignment:** Support for European Qualification Framework levels 4-8
 - **Work-based Learning:** Integration of theoretical, practical, and work-based modules
 - **Dynamic Semester Assignment:** Intelligent distribution of modules across semesters
-- **Learning Outcomes Generation in Case it ia missing:** Automatic generation of Bloom's taxonomy-aligned learning outcomes
+- **Learning Outcomes Generation in Case it is missing:** Automatic generation of Bloom's taxonomy-aligned learning outcomes
 - **Multiple Export Formats:** HTML, JSON, PDF, SCORM, and xAPI
 
 ## Project Structure
@@ -28,9 +29,9 @@ dscg/
 └── visualization/
 └── sankey.py
 scripts/
-├── assess_modules.py          # Script to assess the suitabiliy of  the modules in modules.py for curriculum generation
+├── assess_modules.py          # Script to assess the suitabiliy of the modules in modules.py for curriculum generation
 ├── generate_curriculum.py     # Main script for curriculum generation
-└── generate_all_curricula.py  # Batch generation script
+└── generate_all_curricula.py  # Batch generation script to create all curricula
 data/
 ├── modules.json     # Module definitions
 ├── roles.json      # Role definitions
@@ -174,14 +175,14 @@ python scripts/assess_modules.py > assessment_report.txt
 
 
 
-### Future Enhancements
+## Future Enhancements
 
-Web Interface: Develop a user-friendly web interface for curriculum generation and visualization
-More Export Formats: Add support for additional export formats (e.g., docx, xlsx)
-Interactive Visualizations: Enhance data visualization with interactive charts and diagrams
-Curriculum Validation: Implement more sophisticated validation against educational standards
-AI-driven Module Recommendations: Add AI capabilities to suggest optimal modules for specific roles
-Improved Learning Outcomes: Further refine the learning outcomes generator to eliminate redundancies
-Customizable Templates: Allow users to create and save custom curriculum templates
-Feedback Integration: Incorporate user feedback to improve module recommendations
+- Web Interface: Develop a user-friendly web interface for curriculum generation and visualization
+- Integration of Literature from Googe Scholar that allows creating curricular which including a list of literature
+- More transparancy on modules of the module repository not used and on modules not found in the module repository
+- Interactive Visualizations: Enhance data visualization with interactive charts and diagrams
+- Curriculum Validation: Implement more sophisticated validation against educational standards
+- AI-driven Module Recommendations: Add AI capabilities to suggest optimal modules for specific roles
+- Customizable Templates: Allow users to create and save custom curriculum templates
+- Feedback Integration: Incorporate user feedback to improve module recommendations
 
