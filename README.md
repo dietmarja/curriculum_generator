@@ -172,6 +172,15 @@ A detailed analysis of the modules in modules.json is initiated with `scripts/as
 python scripts/assess_modules.py > assessment_report.txt
 ```
 
+## Type of Analysis performed by CG
+CG is carrying out a configuration Analysis or dependency analysis. 
+More specifically, CG is performing:
+
+- Module Utilization Analysis - Evaluating which predefined modules are actually being used in the curriculum generation process
+- Dependency Tracking - Identifying missing dependencies (required but unavailable modules)
+- Resource Allocation Analysis - Analyzing how modules are distributed across EQF levels and curricula
+
+In software engineering terms, this is similar to Static Code Analysis for unused code/dependencies, but applied to curriculum configuration rather than code. It could also be considered a form of Configuration Auditing since we're examining which parts of a configuration repository are actively used versus dormant.
 
 
 
