@@ -2,7 +2,7 @@
 
 A suite of Python scripts for modular curriculum generation and assessment aligned with the Digital4Sustainability project. 
 The curriculum generator (CG) automatically generates curricula at various EQF levels for different professional roles and assesses their quality.
-While CG is currently focussed on the Digital Sustainability its architecture is set up in a general way such that other thematic areas are also supported.  
+The focus of CG is currently  on Digital Sustainability. HOwever, its architecture is set up in a general way such that other thematic areas are also supported.  
 
 
 ## Key Features
