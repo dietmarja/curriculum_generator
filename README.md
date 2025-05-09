@@ -1,6 +1,9 @@
-# Digital Sustainability Curriculum Generator (DSCG)
+# Curriculum Generator (CG)
 
-A suite of Python scripts for modular curriculum generation and assessment aligned with the Digital4Sustainability project. The system automatically generates digital sustainability curricula at various EQF levels for different professional roles and assesses their quality.
+A suite of Python scripts for modular curriculum generation and assessment aligned with the Digital4Sustainability project. 
+The curriculum generator (CG) automatically generates curricula at various EQF levels for different professional roles and assesses their quality.
+While CG is currently focussed on the Digital Sustainability its architecture is set up in a general way such that other thematic areas are also supported.  
+
 
 ## Key Features
 
@@ -17,7 +20,7 @@ A suite of Python scripts for modular curriculum generation and assessment align
 
 ## Educational Profiles as Intermediate Data Structure
 
-In the DSCG architecture, educational profiles serve as a critical intermediate data structure:
+In the CG architecture, educational profiles serve as a critical intermediate data structure set between profiles and curricula. 
 
 **Source Data → Educational Profiles**: The system parses the roles defined in `roles.json` to generate comprehensive educational profiles  
 **Educational Profiles → Curricula**: These profiles then drive the curriculum generation process, determining module selection and organization  
@@ -68,7 +71,7 @@ data/
 
 ## Input Files and Data Transformation
 
-DSCG uses a multi-step data transformation process:
+CG uses a multi-step data transformation process:
 
 **Input Files:**
 
@@ -114,7 +117,7 @@ Each generated educational profile contains:
 
 ## Command-Line Usage
 
-### NEW: Export Educational Profiles for Inspection
+### Export Educational Profiles for Inspection
 
 ```bash
 python scripts/export_profiles.py --output output/profiles/
