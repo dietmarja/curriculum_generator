@@ -1,0 +1,88 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Digital Sustainability Educational Profile",
+  "description": "Schema for educational profiles used in digital sustainability curricula",
+  "type": "object",
+  "required": [
+    "role_id",
+    "role_name",
+    "eqf_level",
+    "learning_outcomes",
+    "skills",
+    "competencies",
+    "target_ects"
+  ],
+  "properties": {
+    "role_id": {
+      "type": "string",
+      "description": "Identifier for the role (e.g., DSL, SDA)"
+    },
+    "role_name": {
+      "type": "string",
+      "description": "Full name/title of the professional role"
+    },
+    "eqf_level": {
+      "type": "integer",
+      "minimum": 4,
+      "maximum": 8,
+      "description": "European Qualifications Framework level"
+    },
+    "description": {
+      "type": "string",
+      "description": "Brief description of the role's purpose"
+    },
+    "main_area": {
+      "type": "string",
+      "description": "Primary domain of expertise (e.g., Data, Strategy, Tech)"
+    },
+    "thematic_area": {
+      "type": "string",
+      "description": "Main sustainability theme associated with the role"
+    },
+    "program_duration": {
+      "type": "integer",
+      "description": "Suggested program duration in years",
+      "minimum": 1
+    },
+    "learning_outcomes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "List of high-level learning outcomes for the role"
+    },
+    "skills": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Specific skills associated with the profile"
+    },
+    "competencies": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Role-specific competencies required or developed"
+    },
+    "target_ects": {
+      "type": "integer",
+      "description": "Total ECTS credits for full curriculum",
+      "minimum": 1
+    },
+    "assessment_methods": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Assessment methods used to evaluate learner outcomes"
+    },
+    "career_pathways": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Example job titles or career paths following completion"
+    }
+  }
+}
