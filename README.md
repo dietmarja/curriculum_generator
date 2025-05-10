@@ -76,7 +76,9 @@ CG uses a multi-step data transformation process:
 **Input Files:**
 
 - `roles.json`: Defines professional roles with their skills, EQF levels, and requirements  
-- `modules.json`: Contains module definitions with detailed educational specifications  
+- `modules.json`: Contains module definitions with detailed educational specifications
+   `ects_standards.json`: Contains the definition of the ECTS standard 
+
 
 **Internal Transformation:**
 
@@ -116,6 +118,17 @@ Each generated educational profile contains:
 | `CurriculumGenerator` | `generate_curriculum`, `distribute_modules_to_semesters` | Core engine for curriculum generation based on educational profiles |
 
 ## Command-Line Usage
+
+
+
+### Example of how to create a single curriculum
+
+```bash
+python scripts/generate_curriculum.py --role DSL --eqf 7 --output curriculum.html --validate-ects
+
+```
+
+
 
 ### Export Educational Profiles for Inspection
 
