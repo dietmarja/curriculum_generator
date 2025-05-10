@@ -38,35 +38,28 @@ This two-step approach allows for:
 
 ```
 dscg/
+├── output/
+│   ├── curricula/
+│   ├── profiles/
 ├── package/
 │   ├── __init__.py
-│   ├── module.py
-│   ├── role.py
 │   ├── curriculum.py
-│   ├── generator.py
+│   ├── ects_validator.py             
+│   ├── generator.py            
+│   ├── module.py    
+│   ├── role.py                
 │   └── utils/
-│       ├── __init__.py
-│       ├── analysis.py
-│       ├── exporters.py
-│       └── learning_outcomes.py
-├── exporters/
-│   ├── html_exporter.py
-│   ├── json_exporter.py
-│   └── ...
-├── utils/
-│   ├── validation.py
-│   └── config.py
-└── visualization/
-    └── sankey.py
-scripts/
-├── assess_modules.py
-├── generate_curriculum.py
-├── generate_all_curricula.py
-└── export_profiles.py
-data/
-├── modules.json
-├── roles.json
-└── skills.json
+│       └── validation.py
+├── scripts/
+│   ├── assess_modules.py
+│   ├── export_profiles.py
+│   ├── generate_curriculum.py
+│   ├── generate_all_curricula.py             
+│   └── improved_generate_curriculum.py  
+└── data/
+    ├── ects_standards.json
+    ├── modules.json
+    └── roles.json
 ```
 
 ## Input Files and Data Transformation
@@ -125,7 +118,6 @@ Each generated educational profile contains:
 
 ```bash
 python scripts/generate_curriculum.py --role DSL --eqf 7 --output curriculum.html --validate-ects
-
 ```
 
 
@@ -179,6 +171,32 @@ python scripts/generate_all_curricula.py
 ```bash
 python scripts/assess_modules.py > assessment_report.txt
 ```
+
+
+
+
+### Use the assessment script
+The assessment script assess_modules_with_standards.py carries out compliance testing. 
+
+
+Run the assessment script assess_modules_with_standards.py with default settings, loading modules and roles data, enabling standards compliance checking by default, and outputting the results to the console in text format:
+
+```bash
+python scripts/assess_modules_with_standards.py --modules data/modules.json --roles data/roles.json
+```
+
+Explicitly enable standards compliance checking and specifies the directory containing the standards JSON files. Missing module/role files, so it will use default paths. Results displayed in console:
+```bash
+python scripts/assess_modules_with_standards.py --check-standards --standards-dir data/
+```
+
+
+Saves the assessment results to a JSON file instead of displaying them in the console. Uses default data paths for modules/roles and standards directory. Creates a machine-readable report file.:
+
+```bash
+python scripts/assess_modules_with_standards.py --output reports/standards_compliance.json --format json
+```
+
 
 ## Types of Analysis
 
