@@ -1,231 +1,162 @@
 # Curriculum Generator (CG)
 
-A suite of Python scripts for modular curriculum generation and assessment aligned with the Digital4Sustainability project. 
-The curriculum generator (CG) automatically generates curricula at various EQF levels for different professional roles and assesses their quality.
-The focus of CG is currently  on Digital Sustainability. HOwever, its architecture is set up in a general way such that other thematic areas are also supported.  
+**Curriculum Generator (CG)** is a Python-based toolkit for the automated generation, analysis, and visualization of modular, outcome-based curricula aligned with the *Digital4Sustainability* project. 
+Designed to accommodate multiple roles and EQF levels (4–8), it supports full programme development as well as granular micro-credential pathways.
 
+## Highlights
 
-## Key Features
+- **Role-to-Profile Mapping**: Converts job role definitions into educational profiles with EQF and ESCO alignment
+- **Modular Curriculum Generation**: Builds curricula from flexible, ECTS-compliant learning modules
+- **Micro-Credential Support**: Generates stackable credentials and visualizes learning pathways
+- **Learning Outcomes**: Generates multi-level outcomes aligned with Bloom's taxonomy and Tuning methodology
+- **Standards Compliance**: Incorporates EQF, ECTS, ECVET, ESCO, and micro-credential guidelines
+- **Assessment Tools**: Evaluate modules, curricula, and micro-credentials for standard compliance
+- **Flexible Learning Pathways**: Supports full, upskilling, reskilling, dual, and work-based arrangements
+- **Rich Export Options**: Outputs in HTML, JSON, PDF, SCORM, and xAPI formats
 
-- **Educational Profile Generation**: Creation of detailed educational profiles from role definitions (`roles.json`)  
-- **Skill and Role Mapping**: Structured modeling of skills and professional competencies mapped to EQF levels  
-- **Profile-to-Curriculum Translation**: Transformation of educational profiles into concrete curricula  
-- **Modular Design**: Flexible curriculum generation with modular components  
-- **EQF Alignment**: Support for European Qualification Framework levels 4-8  
-- **Work-based Learning**: Integration of theoretical, practical, and work-based modules  
-- **Dynamic Semester Assignment**: Intelligent distribution of modules across semesters  
-- **Intelligent Module Selection**: Enhanced algorithms for optimal module selection based on educational profiles  
-- **Learning Outcomes Generation**: Automatic generation of Bloom's taxonomy-aligned learning outcomes  
-- **Multiple Export Formats**: HTML, JSON, PDF, SCORM, and xAPI  
+---
 
-## Educational Profiles as Intermediate Data Structure
+## Standards Integration
 
-In the CG architecture, educational profiles serve as a critical intermediate data structure set between profiles and curricula. 
+| Standard      | Role in CG                                                                 |
+|---------------|----------------------------------------------------------------------------|
+| **EQF**       | Levels 4–8 structuring; stacking logic for curricula and credentials       |
+| **ECTS**      | Credit weighting and validation of learning modules                        |
+| **ECVET**     | Support for modular, transferable work-based learning                      |
+| **ESCO**      | Competence-to-role matching; profile enrichment                            |
+| **Tuning**    | Structuring of learning outcomes from program to module level              |
+| **EU Micro-Credentials** | Recognition, granularity, and stackability of short-form learning units |
 
-**Source Data → Educational Profiles**: The system parses the roles defined in `roles.json` to generate comprehensive educational profiles  
-**Educational Profiles → Curricula**: These profiles then drive the curriculum generation process, determining module selection and organization  
+---
 
-This two-step approach allows for:
+## Example Commands
 
-- Separation of role definitions from curriculum specifics  
-- More flexible adaptation of curricula to different educational contexts  
-- Clear traceability between professional requirements and educational implementation  
-
-**Visualizing the Process Flow:**  
-`roles.json → Educational Profiles → Curriculum Generation → Generated Curricula`
-
-## Project Structure
-
+### Generate One Curriculum
+```bash
+python scripts/generate_curriculum.py --role DSL --eqf 7 --output output/curricula/curriculum_DSL_7.html
 ```
-dscg/
-├── output/
-│   ├── curricula/
-│   ├── profiles/
-├── package/
+
+### Generate All Curricula
+```bash
+python scripts/generate_all_curricula.py --output-dir output/curricula
+```
+
+### Create Micro-Credentials
+```bash
+python scripts/generate_micro_credentials.py --output output/micro_credentials
+```
+
+### Visualize Credential Stacking
+```bash
+pip install matplotlib networkx
+python scripts/visualize_stacking_paths.py
+```
+
+### Export Educational Profiles
+```bash
+python scripts/export_profiles.py --output output/profiles --format both
+```
+
+### Standards-Based Assessment
+```bash
+python scripts/assess_modules_against_standards.py --check-standards --standards-dir data/
+```
+
+---
+
+## Project Overview
+
+```text
+roles.json 
+  ↓
+Educational Profiles 
+  ↓
+Curriculum Generator 
+  ↓
+Curricula + Micro-Credentials + Visual Stack Pathways
+```
+
+---
+
+## Directory Structure (Condensed)
+
+```bash
+.
+├── README.md
+├── requirements.txt
+├── run_curriculum.sh
+├── data/
+│   ├── modules.json
+│   ├── roles.json
+│   ├── curriculum_design_standards.json
+│   ├── ects_standards.json
+│   ├── educational_profile_standards.json
+│   └── micro_credentials/
+│       ├── certification_framework.json
+│       └── micro_credential_standards.json
+├── dscg/
 │   ├── __init__.py
-│   ├── curriculum.py
-│   ├── ects_validator.py             
-│   ├── generator.py            
-│   ├── module.py    
-│   ├── role.py                
+│   ├── __pycache__/
+│   ├── package/
+│   │   ├── __init__.py
+│   │   ├── curriculum.py
+│   │   ├── ects_validator.py
+│   │   ├── generator.py
+│   │   ├── micro_credentials.py
+│   │   ├── models.py
+│   │   ├── module.py
+│   │   └── role.py
 │   └── utils/
-│       └── validation.py
+│       ├── __init__.py
+│       ├── config.py
+│       └── learning_outcomes.py
 ├── scripts/
+│   ├── assess_curricula_against_standards.py
+│   ├── assess_educational_profiles_against_standards.py
+│   ├── assess_micro_credentials.py
 │   ├── assess_modules.py
+│   ├── assess_modules_against_standards.py
 │   ├── export_profiles.py
+│   ├── generate_all_curricula.py
 │   ├── generate_curriculum.py
-│   ├── generate_all_curricula.py             
-│   └── improved_generate_curriculum.py  
-└── data/
-    ├── ects_standards.json
-    ├── modules.json
-    └── roles.json
+│   ├── generate_micro_credentials.py
+│   ├── improved_generate_curriculum.py
+│   └── visualize_stacking_paths.py
+├── output/
+│   ├── curricula/                   # Generated curricula (HTML, JSON)
+│   ├── profiles/                    # Exported educational profiles
+│   └── micro_credentials/          # Micro-credential JSON sets
+├── exporters/
+├── generate_curriculum/
+├── assess_modules.txt
+├── export_profiles.txt
+├── generate_all_curricula.txt
+├── generate_curriculum.txt
+├── tree.txt
 ```
-
-## Input Files and Data Transformation
-
-CG uses a multi-step data transformation process:
-
-**Input Files:**
-
-- `roles.json`: Defines professional roles with their skills, EQF levels, and requirements  
-- `modules.json`: Contains module definitions with detailed educational specifications
-   `ects_standards.json`: Contains the definition of the ECTS standard 
-
-
-**Internal Transformation:**
-
-- Roles are converted into comprehensive educational profiles  
-- These profiles serve as the blueprint for curriculum generation  
-
-**Output:**
-
-- Generated curricula in various formats (HTML, JSON, etc.)  
-- Educational profiles can be exported for inspection (see below)  
-
-## Educational Profile Examples
-
-The system generates educational profiles for various professional roles in digital sustainability:
-
-- **Digital Sustainability Lead (DSL)**: Strategic leadership role focused on organizational transformation  
-- **Sustainable Software Developer (SSD)**: Technical role focused on environmentally efficient software  
-- **Sustainability Data Analyst (SDA)**: Analytical role focused on sustainability metrics and reporting  
-- **Digital Sustainability Consultant (DSC)**: Advisory role spanning technical and business domains  
-- **Sustainable Technology Specialist (STS)**: Specialized technical role for sustainable systems  
-
-Each generated educational profile contains:
-
-- Skill requirements by EQF level  
-- Learning pathway specifications  
-- Competency mappings  
-- Required knowledge areas  
-- Assessment criteria  
-
-## Core Classes and Methods
-
-| Class               | Key Methods                                          | Description |
-|---------------------|------------------------------------------------------|-------------|
-| `Module`            | `__init__`, `to_dict`                                | Represents individual learning modules with attributes like ECTS, skills, and outcomes |
-| `Role`              | `__init__`, `from_dict`, `generate_educational_profile` | Represents professional roles and generates educational profiles |
-| `Curriculum`        | `calculate_total_ects`, `export_as_html`, `export_as_json` | Manages a complete curriculum composed of modules |
-| `CurriculumGenerator` | `generate_curriculum`, `distribute_modules_to_semesters` | Core engine for curriculum generation based on educational profiles |
-
-## Command-Line Usage
-
-
-
-### Example of how to create a single curriculum
-
-```bash
-python scripts/generate_curriculum.py --role DSL --eqf 7 --output curriculum.html --validate-ects
-```
-
-
-
-### Export Educational Profiles for Inspection
-
-```bash
-python scripts/export_profiles.py --output output/profiles/
-```
-
-**Command-Line Arguments for `export_profiles.py`**
-
-- `--output`: Directory to save the exported profiles  
-- `--format`: Export format (`json`, `html`, or `both`) (default: both)  
-- `--roles-json`: Path to roles JSON file (default: `data/roles.json`)  
-- `--roles`: Specific roles to export (default: all roles)  
-- `--eqf-levels`: Specific EQF levels to export (default: all levels)  
-
-### Generate a curriculum for a specific educational profile
-
-```bash
-python scripts/generate_curriculum.py --role DSL --eqf 7 --output output/curricula/curriculum_dsl_7.html
-```
-
-**Command-Line Arguments**
-
-- `--role`: Role ID corresponding to an educational profile (e.g., DSL for Digital Sustainability Lead)  
-- `--eqf`: EQF level (4-8) for the educational profile  
-- `--output`: Output file path (supports `.html`, `.json`)  
-- `--type`: Curriculum type (`full` or `upskilling`)  
-- `--skills`: Optional list of target skills for specialized educational profile  
-- `--modules-json`: Path to modules JSON file (default: `data/modules.json`)  
-- `--roles-json`: Path to roles JSON file (default: `data/roles.json`)  
-- `--debug`: Enable debug logging  
-
-### Generate curricula for all educational profiles
-
-```bash
-python scripts/generate_all_curricula.py
-```
-
-**Additional options:**
-
-- `--output-dir`: Specify output directory  
-- `--parallel`: Generate curricula in parallel  
-- `--module-report`: Generate a consolidated report of module usage  
-- `--report-html`: Save module usage report as HTML  
-
-### Assess module quality against educational profiles
-
-```bash
-python scripts/assess_modules.py > assessment_report.txt
-```
-
-
-
-
-### Use the assessment script
-The assessment script assess_modules_with_standards.py carries out compliance testing. 
-
-
-Run the assessment script assess_modules_with_standards.py with default settings, loading modules and roles data, enabling standards compliance checking by default, and outputting the results to the console in text format:
-
-```bash
-python scripts/assess_modules_with_standards.py --modules data/modules.json --roles data/roles.json
-```
-
-Explicitly enable standards compliance checking and specifies the directory containing the standards JSON files. Missing module/role files, so it will use default paths. Results displayed in console:
-```bash
-python scripts/assess_modules_with_standards.py --check-standards --standards-dir data/
-```
-
-
-Saves the assessment results to a JSON file instead of displaying them in the console. Uses default data paths for modules/roles and standards directory. Creates a machine-readable report file.:
-
-```bash
-python scripts/assess_modules_with_standards.py --output reports/standards_compliance.json --format json
-```
-
+---
 
 ## Types of Analysis
 
-The DSCG performs several types of analysis related to educational profiles:
+- **Curriculum/Module Validation**: ECTS, ECVET, micro-credential criteria
+- **Competency Matching**: Job-role to outcome traceability via ESCO
+- **Pathway Structuring**: Stackability and credential logic
+- **Balance & Delivery**: Distribution across semesters and learning types (theory, practice, work-based)
 
-- **Profile Generation Analysis**: Evaluation of how roles are translated into educational profiles  
-- **Profile-Module Alignment Analysis**: Evaluates how well modules align with educational profile requirements  
-- **Competency Coverage Analysis**: Assesses the coverage of required competencies in generated curricula  
-- **Educational Pathway Analysis**: Analyses the progression of learning aligned with educational profiles  
-- **ECTS Distribution Analysis**: Evaluates the appropriate allocation of ECTS across different competency areas  
-- **Module Balance Analysis**: Ensures proper balance of theoretical, practical, and work-based learning  
+---
 
-## Future Enhancements
+## Roadmap
 
-- **Enhanced Profile Export**: More detailed visualization and export options for educational profiles  
-- **Profile Editing Interface**: Tools for manually refining auto-generated educational profiles  
-- **Profile-Curriculum Traceability**: Visual mapping between profile requirements and curriculum components  
-- **Profile Versioning**: Track changes to educational profiles over time  
-- **Interactive Profile Builder**: Web-based tool for creating and editing educational profiles  
-- **Profile Visualization**: Visual representation of educational profiles and competency mappings  
-- **Cross-Profile Analysis**: Compare and contrast different educational profiles for synergies  
-- **Profile Adaptation Tools**: Tools to adapt educational profiles to specific regional or institutional requirements  
-- **Literature Integration**: Automatically include relevant literature aligned with educational profiles  
-- **Competency-Based Assessment**: Generate assessment guidelines aligned with educational profiles  
+- Web-based **Profile & Credential Builder**
+- **Cross-role analytics** and credential clustering
+- Support for **localized curriculum adaptation**
+- Export to **xAPI/SCORM** for LMS integration
+
+---
 
 ## Contributing
 
-Contributions to the Digital Sustainability Curriculum Generator are welcome. Please feel free to submit pull requests or open issues to improve the functionality or documentation, particularly around educational profiles.
-
+This project supports modular curriculum and certification development for high-impact skills frameworks. Contributions and collaborations are welcome.
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
