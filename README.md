@@ -1,6 +1,6 @@
 # Curriculum Generator (CG)
 
-**Curriculum Generator (CG)** is a Python-based toolkit for the automated generation, analysis, and visualization of modular, outcome-based curricula aligned with the *Digital4Sustainability* project. 
+**Curriculum Generator (CG)** is a Python-based toolkit for the  generation, analysis, and visualization of modular, outcome-based curricula for diverse target groups. 
 Designed to accommodate multiple roles and EQF levels (4–8), it supports full programme development as well as granular micro-credential pathways.
 
 ## Highlights
