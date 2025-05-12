@@ -44,6 +44,7 @@ python scripts/generate_all_curricula.py --output-dir output/curricula
 ### Create Micro-Credentials
 ```bash
 python scripts/generate_micro_credentials.py --output output/micro_credentials
+python scripts/improve_micro_credentials.py --force
 ```
 
 ### Visualize Credential Stacking
