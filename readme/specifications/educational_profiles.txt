@@ -1,7 +1,7 @@
 ...
 
 
-Educational Profile Schema: 
+Educational Profile Schema as used by CG
 
 
 Part I - Description
