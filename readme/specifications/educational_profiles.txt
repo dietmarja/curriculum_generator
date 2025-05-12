@@ -314,3 +314,12 @@ Part II - json file (educational_profile_standards.json) used by CG
     }
   }
 }
+
+
+
+References
+
+Aertsen, P., & Saabee, W. (2023). A certification framework for software professionals (Deliverable D.8: Recognised Certifications). European Software Skills Alliance. Available under the Creative Commons License 4.0 BY. Retrieved from https://creativecommons.org/licenses/by/4.0/ (Draft version,subject to change after review coordinated by the European Education and Culture Executive Agency (EACEA))
+ 
+
+Tasevska, G., Soklevski, T., & Vasilevska, J. (2016). CREATION OF EDUCATIONAL PROFILES IN HIGHER EDUCATION. INTERNATIONAL JOURNAL SCIENTIFIC PAPERS VOL 14.1, 87.
