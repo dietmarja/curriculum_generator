@@ -1,0 +1,316 @@
+...
+
+
+Educational Profile Schema: 
+
+
+Part I - Description
+
+The json file offers template for creating educational profiles - essentially blueprints that describe what someone needs to 
+know and be able to do in a specific professional role, particularly in technology fields.
+It captures:
+
+- The title and description of the educational profile
+-  Required knowledge: What someone needs to understand about the subject
+- Practical skills: What someone needs to be able to do
+- Competency levels: How proficient someone needs to be in different areas
+- Learning outcomes: What someone should achieve after completing education
+- Market relevance: How the profile connects to actual job requirements
+- Certification options: Ways to verify someone has met the requirements
+
+This template ensures that CG follows standards in the field. It aligns with  European standards for 
+educational frameworks and incorporates the certification approach described by Aertsen & Saabee (2023), 
+making it particularly relevant for technology and software roles.
+
+Part II - json file (educational_profile_standards.json) used by CG
+
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Educational Profile Schema",
+  "description": "A schema for defining educational profiles according to EU learning standards, based on Aertsen & Saabee (2023) certification framework",
+  "type": "object",
+  "required": ["profileId", "title", "domain", "description", "competencies", "learningOutcomes"],
+  "properties": {
+    "profileId": {
+      "type": "string",
+      "description": "Unique identifier for the educational profile"
+    },
+    "title": {
+      "type": "string",
+      "description": "Title of the educational profile"
+    },
+    "version": {
+      "type": "string",
+      "description": "Version of the educational profile specification"
+    },
+    "domain": {
+      "type": "string",
+      "description": "Domain area (e.g., ICT, AI, Software Engineering)",
+      "enum": ["ICT", "AI", "Software Engineering", "DevOps", "Cybersecurity", "Data Science", "Other"]
+    },
+    "description": {
+      "type": "string",
+      "description": "General description of the educational profile"
+    },
+    "references": {
+      "type": "array",
+      "description": "Reference frameworks that this profile aligns with",
+      "items": {
+        "type": "object",
+        "properties": {
+          "framework": {
+            "type": "string",
+            "description": "Name of the reference framework (e.g., e-CF, CWA 16458)"
+          },
+          "version": {
+            "type": "string",
+            "description": "Version of the reference framework"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri",
+            "description": "URL to the reference framework documentation"
+          }
+        },
+        "required": ["framework"]
+      }
+    },
+    "competencies": {
+      "type": "array",
+      "description": "Competencies required for this profile",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Identifier for the competency"
+          },
+          "name": {
+            "type": "string",
+            "description": "Name of the competency"
+          },
+          "type": {
+            "type": "string",
+            "description": "Type of competency",
+            "enum": ["Technical", "Soft", "Transversal", "Domain-specific"]
+          },
+          "description": {
+            "type": "string",
+            "description": "Description of the competency"
+          },
+          "proficiencyLevel": {
+            "type": "string",
+            "description": "Required proficiency level (e.g., based on EQF or e-CF levels)",
+            "enum": ["1", "2", "3", "4", "5", "6", "7", "8"]
+          },
+          "frameworkReference": {
+            "type": "string",
+            "description": "Reference to specific competency in a framework (e.g., e-CF code)"
+          }
+        },
+        "required": ["id", "name", "description", "proficiencyLevel"]
+      }
+    },
+    "knowledgeAreas": {
+      "type": "array",
+      "description": "Knowledge areas required for this profile",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Identifier for the knowledge area"
+          },
+          "name": {
+            "type": "string",
+            "description": "Name of the knowledge area"
+          },
+          "description": {
+            "type": "string",
+            "description": "Description of the knowledge area"
+          },
+          "topics": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Specific topics covered in this knowledge area"
+          }
+        },
+        "required": ["id", "name", "description"]
+      }
+    },
+    "skills": {
+      "type": "array",
+      "description": "Skills required for this profile",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Identifier for the skill"
+          },
+          "name": {
+            "type": "string",
+            "description": "Name of the skill"
+          },
+          "description": {
+            "type": "string",
+            "description": "Description of the skill"
+          },
+          "category": {
+            "type": "string",
+            "description": "Category of skill (e.g., Technical, Communication, Problem-solving)"
+          }
+        },
+        "required": ["id", "name", "description"]
+      }
+    },
+    "learningOutcomes": {
+      "type": "array",
+      "description": "Expected learning outcomes",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Identifier for the learning outcome"
+          },
+          "description": {
+            "type": "string",
+            "description": "Description of the learning outcome"
+          },
+          "assessmentCriteria": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Criteria for assessing achievement of this learning outcome"
+          },
+          "relatedCompetencies": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "References to competency IDs related to this learning outcome"
+          }
+        },
+        "required": ["id", "description"]
+      }
+    },
+    "targetAudience": {
+      "type": "object",
+      "description": "Target audience for this educational profile",
+      "properties": {
+        "roles": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Professional roles this profile is designed for"
+        },
+        "prerequisites": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Prerequisites for learners"
+        },
+        "eqfLevel": {
+          "type": "string",
+          "description": "European Qualifications Framework level",
+          "enum": ["1", "2", "3", "4", "5", "6", "7", "8"]
+        }
+      }
+    },
+    "marketAlignment": {
+      "type": "object",
+      "description": "Information about alignment with market demands",
+      "properties": {
+        "industries": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Industries this profile is relevant for"
+        },
+        "jobRoles": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Specific job roles this profile prepares for"
+        },
+        "marketTrends": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Relevant market trends this profile addresses"
+        },
+        "validationMethod": {
+          "type": "string",
+          "description": "Method used to validate market alignment"
+        }
+      }
+    },
+    "certificationOptions": {
+      "type": "array",
+      "description": "Available certification options for this profile, based on Aertsen & Saabee (2023)",
+      "items": {
+        "type": "object",
+        "properties": {
+          "certificationName": {
+            "type": "string",
+            "description": "Name of the certification"
+          },
+          "provider": {
+            "type": "string",
+            "description": "Provider of the certification"
+          },
+          "validityPeriod": {
+            "type": "string",
+            "description": "Validity period of the certification"
+          },
+          "assessmentMethod": {
+            "type": "string",
+            "description": "Method used for assessment (e.g., exam, portfolio)"
+          }
+        },
+        "required": ["certificationName", "provider"]
+      }
+    },
+    "metadata": {
+      "type": "object",
+      "description": "Metadata about this educational profile",
+      "properties": {
+        "createdBy": {
+          "type": "string",
+          "description": "Creator of the profile"
+        },
+        "creationDate": {
+          "type": "string",
+          "format": "date",
+          "description": "Date when the profile was created"
+        },
+        "lastUpdated": {
+          "type": "string",
+          "format": "date",
+          "description": "Date when the profile was last updated"
+        },
+        "status": {
+          "type": "string",
+          "description": "Status of the profile (e.g., draft, approved)",
+          "enum": ["Draft", "Under Review", "Approved", "Deprecated", "Archived"]
+        },
+        "reviewers": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Reviewers of the profile"
+        }
+      }
+    }
+  }
+}
