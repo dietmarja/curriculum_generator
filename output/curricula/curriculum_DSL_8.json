@@ -1,0 +1,1654 @@
+{
+  "name": "Digital Sustainability Lead Full Curriculum (EQF Level 8)",
+  "description": "Full curriculum for Digital Sustainability Lead at EQF Level 8",
+  "role": {
+    "id": "DSL",
+    "name": "Digital Sustainability Lead"
+  },
+  "eqf_level": 8,
+  "total_ects": 180,
+  "duration_semesters": 6,
+  "delivery_modes": [
+    "online",
+    "workplace",
+    "classroom",
+    "blended"
+  ],
+  "work_based_learning": {
+    "percentage": 40.0,
+    "ects": 10,
+    "modules": [
+      "M28"
+    ]
+  },
+  "program_duration": 6,
+  "work_based_percentage": 38.88888888888889,
+  "is_full_curriculum": true,
+  "thematic_area": "sustainability",
+  "target_skills": [],
+  "program_learning_outcomes": [
+    "Create new knowledge that advances the field of digital sustainability through rigorous research",
+    "Develop theoretical frameworks that integrate sustainability principles with digital transformation paradigms",
+    "Design and validate innovative methodologies for measuring and enhancing sustainability in digital contexts",
+    "Lead innovative research addressing complex sustainability challenges at the intersection of digital technology and environmental systems",
+    "Contribute to policy development and standards for sustainable digital transformation at national and international levels",
+    "Advance pedagogical approaches for digital sustainability education and professional development",
+    "Lead organizational initiatives to embed sustainability throughout digital strategy and operations"
+  ],
+  "modules": [
+    {
+      "id": "OM10",
+      "name": "Advanced Sustainability Impact Assessment Methods",
+      "description": "Cutting-edge methodologies for sustainability impact measurement",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "impact_assessment",
+        "advanced_metrics"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Evaluate advanced methodologies for sustainability impact assessment.",
+        "Critically analyze the strengths and limitations of different impact measurement approaches.",
+        "Design innovative assessment frameworks for complex sustainability challenges."
+      ],
+      "semester": 4
+    },
+    {
+      "id": "OM10",
+      "name": "Advanced Sustainability Impact Assessment Methods",
+      "description": "Cutting-edge methodologies for sustainability impact measurement",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "impact_assessment",
+        "advanced_metrics"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Evaluate advanced methodologies for sustainability impact assessment.",
+        "Critically analyze the strengths and limitations of different impact measurement approaches.",
+        "Design innovative assessment frameworks for complex sustainability challenges."
+      ],
+      "semester": 4
+    },
+    {
+      "id": "OM10",
+      "name": "Advanced Sustainability Impact Assessment Methods",
+      "description": "Cutting-edge methodologies for sustainability impact measurement",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "impact_assessment",
+        "advanced_metrics"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Evaluate advanced methodologies for sustainability impact assessment.",
+        "Critically analyze the strengths and limitations of different impact measurement approaches.",
+        "Design innovative assessment frameworks for complex sustainability challenges."
+      ],
+      "semester": 4
+    },
+    {
+      "id": "OM10",
+      "name": "Advanced Sustainability Impact Assessment Methods",
+      "description": "Cutting-edge methodologies for sustainability impact measurement",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "impact_assessment",
+        "advanced_metrics"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Evaluate advanced methodologies for sustainability impact assessment.",
+        "Critically analyze the strengths and limitations of different impact measurement approaches.",
+        "Design innovative assessment frameworks for complex sustainability challenges."
+      ],
+      "semester": 4
+    },
+    {
+      "id": "OM10",
+      "name": "Advanced Sustainability Impact Assessment Methods",
+      "description": "Cutting-edge methodologies for sustainability impact measurement",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "impact_assessment",
+        "advanced_metrics"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Evaluate advanced methodologies for sustainability impact assessment.",
+        "Critically analyze the strengths and limitations of different impact measurement approaches.",
+        "Design innovative assessment frameworks for complex sustainability challenges."
+      ],
+      "semester": 4
+    },
+    {
+      "id": "DGDSL801",
+      "name": "Digital Sustainability Research Project",
+      "description": "Research-based exploration of digital sustainability challenges",
+      "eqf_level": 8,
+      "ects_points": 15,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "workplace",
+        "blended"
+      ],
+      "module_type": [
+        "work-based"
+      ],
+      "skills": [
+        "research_methodology",
+        "critical_analysis"
+      ],
+      "is_work_based": true,
+      "learning_outcomes": [
+        "Conceptualize sustainability project methodologies for sustainable business practices",
+        "Transform innovative solutions using stakeholder engagement strategies to address complex sustainability challenges to support sustainable development goals",
+        "Develop project management methodologies that integrate sustainability metrics throughout the project lifecycle",
+        "Evaluate ethical leadership in promoting digital sustainability research project solutions that prioritize environmental stewardship",
+        "Critically evaluate the effectiveness of digital sustainability research project approaches through evidence-based assessment frameworks",
+        "Integrate advanced digital sustainability research project principles with broader sustainability frameworks to address complex organizational and societal challenges"
+      ],
+      "semester": 6
+    },
+    {
+      "id": "DGDSL802",
+      "name": "Digital Sustainability Principles",
+      "description": "Core principles and frameworks for digital sustainability",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "online"
+      ],
+      "module_type": [
+        "theoretical"
+      ],
+      "skills": [
+        "sustainability_frameworks",
+        "digital_transformation"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Synthesize digital sustainability approaches for sustainable business practices",
+        "Hypothesize the theoretical foundations and emerging trends in sustainability principles for addressing environmental challenges",
+        "Prioritize ethical leadership in promoting digital sustainability principles solutions that prioritize environmental stewardship",
+        "Critically evaluate the effectiveness of digital sustainability principles approaches through evidence-based assessment frameworks",
+        "Integrate advanced digital sustainability principles principles with broader sustainability frameworks to address complex organizational and societal challenges"
+      ],
+      "semester": 1
+    },
+    {
+      "id": "DGDSL803",
+      "name": "Sustainable IT Leadership",
+      "description": "Leading organizational change toward sustainable digital practices",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "leadership",
+        "change_management"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Conceptualize environmental impact reduction strategies for sustainable business practices",
+        "Strategize the theoretical foundations and emerging trends in sustainable technology practices to enhance environmental performance",
+        "Integrate innovative solutions using sustainability principles to address complex sustainability challenges for addressing environmental challenges",
+        "Design solutions that balance environmental, social, and economic considerations in practical scenarios",
+        "Evaluate ethical leadership in promoting sustainable it leadership solutions that prioritize environmental stewardship",
+        "Critically evaluate the effectiveness of sustainable it leadership approaches through evidence-based assessment frameworks",
+        "Integrate advanced sustainable it leadership principles with broader sustainability frameworks to address complex organizational and societal challenges"
+      ],
+      "semester": 1
+    },
+    {
+      "id": "DGDSL804",
+      "name": "Sustainable Software Development",
+      "description": "Practices for developing environmentally efficient software",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "blended"
+      ],
+      "module_type": [
+        "practical"
+      ],
+      "skills": [
+        "software_development",
+        "green_coding"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Strategize green software architecture to support sustainable development goals",
+        "Compose innovative solutions using sustainable coding practices to address complex sustainability challenges for addressing environmental challenges",
+        "Design software solutions that minimize environmental impact while maintaining performance",
+        "Judge ethical leadership in promoting sustainable software development solutions that prioritize environmental stewardship",
+        "Critically evaluate the effectiveness of sustainable software development approaches through evidence-based assessment frameworks",
+        "Integrate advanced sustainable software development principles with broader sustainability frameworks to address complex organizational and societal challenges"
+      ],
+      "semester": 1
+    },
+    {
+      "id": "DGDSL805",
+      "name": "Advanced Green IT Solutions",
+      "description": "Cutting-edge approaches to sustainable IT implementation",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "blended"
+      ],
+      "module_type": [
+        "practical"
+      ],
+      "skills": [
+        "advanced_implementation",
+        "solution_design"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Strategize sustainable technology practices in circular economy applications",
+        "Compose innovative solutions using sustainability principles to address complex sustainability challenges in organizational sustainability contexts",
+        "Transform solutions that balance environmental, social, and economic considerations in practical scenarios",
+        "Lead ethical leadership in promoting advanced green it solutions solutions that prioritize environmental stewardship",
+        "Critically evaluate the effectiveness of advanced green it solutions approaches through evidence-based assessment frameworks",
+        "Integrate advanced advanced green it solutions principles with broader sustainability frameworks to address complex organizational and societal challenges"
+      ],
+      "semester": 6
+    },
+    {
+      "id": "DGDSL806",
+      "name": "AI for Sustainability Optimization",
+      "description": "Using artificial intelligence to optimize digital sustainability",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "online",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "ai_applications",
+        "optimization_techniques"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Synthesize sustainable technology practices to enhance environmental performance",
+        "Strategize the theoretical foundations and emerging trends in digital sustainability approaches in circular economy applications",
+        "Design innovative solutions using digital sustainability approaches to address complex sustainability challenges in circular economy applications",
+        "Compose solutions that balance environmental, social, and economic considerations in practical scenarios",
+        "Prioritize ethical leadership in promoting ai sustainability optimization solutions that prioritize environmental stewardship",
+        "Critically evaluate the effectiveness of ai sustainability optimization approaches through evidence-based assessment frameworks",
+        "Integrate advanced ai sustainability optimization principles with broader sustainability frameworks to address complex organizational and societal challenges"
+      ],
+      "semester": 2
+    },
+    {
+      "id": "DGDSL807",
+      "name": "Advanced Digital Sustainability Strategy",
+      "description": "Strategic approaches to implementing sustainable digital transformation",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical"
+      ],
+      "skills": [
+        "strategic_planning",
+        "sustainability_integration"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Evaluate organizational sustainability integration in organizational sustainability contexts",
+        "Conceptualize the theoretical foundations and emerging trends in strategic resource management for sustainable business practices",
+        "Evaluate ethical leadership in promoting advanced digital sustainability strategy solutions that prioritize environmental stewardship",
+        "Critically evaluate the effectiveness of advanced digital sustainability strategy approaches through evidence-based assessment frameworks",
+        "Integrate advanced advanced digital sustainability strategy principles with broader sustainability frameworks to address complex organizational and societal challenges"
+      ],
+      "semester": 6
+    },
+    {
+      "id": "DGDSL808",
+      "name": "Digital Sustainability Research Project in Practice",
+      "description": "Implementation aspects of research-based exploration of digital sustainability challenges",
+      "eqf_level": 8,
+      "ects_points": 15,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "workplace",
+        "blended"
+      ],
+      "module_type": [
+        "work-based"
+      ],
+      "skills": [
+        "research_methodology",
+        "critical_analysis"
+      ],
+      "is_work_based": true,
+      "learning_outcomes": [
+        "Evaluate sustainability impact metrics in organizational sustainability contexts",
+        "Generate innovative solutions using sustainable project outcomes to address complex sustainability challenges for sustainable business practices",
+        "Develop project management methodologies that integrate sustainability metrics throughout the project lifecycle",
+        "Advocate ethical leadership in promoting digital sustainability research project practice solutions that prioritize environmental stewardship",
+        "Critically evaluate the effectiveness of digital sustainability research project practice approaches through evidence-based assessment frameworks",
+        "Integrate advanced digital sustainability research project practice principles with broader sustainability frameworks to address complex organizational and societal challenges"
+      ],
+      "semester": 5
+    },
+    {
+      "id": "DGDSL809",
+      "name": "Digital Sustainability Principles in Practice",
+      "description": "Implementation aspects of core principles and frameworks for digital sustainability",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "online"
+      ],
+      "module_type": [
+        "theoretical"
+      ],
+      "skills": [
+        "sustainability_frameworks",
+        "digital_transformation"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Strategize sustainability principles to enhance environmental performance",
+        "Synthesize the theoretical foundations and emerging trends in digital sustainability approaches to support sustainable development goals",
+        "Appraise ethical leadership in promoting digital sustainability principles practice solutions that prioritize environmental stewardship",
+        "Critically evaluate the effectiveness of digital sustainability principles practice approaches through evidence-based assessment frameworks",
+        "Integrate advanced digital sustainability principles practice principles with broader sustainability frameworks to address complex organizational and societal challenges"
+      ],
+      "semester": 1
+    },
+    {
+      "id": "DGDSL810",
+      "name": "Sustainable IT Leadership in Practice",
+      "description": "Implementation aspects of leading organizational change toward sustainable digital practices",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "leadership",
+        "change_management"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Hypothesize sustainability principles to enhance environmental performance",
+        "Formulate the theoretical foundations and emerging trends in sustainable technology practices for sustainable business practices",
+        "Integrate innovative solutions using sustainable technology practices to address complex sustainability challenges in digital transformation for sustainability",
+        "Innovate solutions that balance environmental, social, and economic considerations in practical scenarios",
+        "Prioritize ethical leadership in promoting sustainable it leadership practice solutions that prioritize environmental stewardship",
+        "Critically evaluate the effectiveness of sustainable it leadership practice approaches through evidence-based assessment frameworks",
+        "Integrate advanced sustainable it leadership practice principles with broader sustainability frameworks to address complex organizational and societal challenges"
+      ],
+      "semester": 2
+    },
+    {
+      "id": "DGDSL811",
+      "name": "Sustainable Software Development in Practice",
+      "description": "Implementation aspects of practices for developing environmentally efficient software",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "blended"
+      ],
+      "module_type": [
+        "practical"
+      ],
+      "skills": [
+        "software_development",
+        "green_coding"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Theorize sustainable coding practices to enhance environmental performance",
+        "Design innovative solutions using sustainable coding practices to address complex sustainability challenges for sustainable business practices",
+        "Integrate software solutions that minimize environmental impact while maintaining performance",
+        "Advocate ethical leadership in promoting sustainable software development practice solutions that prioritize environmental stewardship",
+        "Critically evaluate the effectiveness of sustainable software development practice approaches through evidence-based assessment frameworks",
+        "Integrate advanced sustainable software development practice principles with broader sustainability frameworks to address complex organizational and societal challenges"
+      ],
+      "semester": 2
+    },
+    {
+      "id": "DGDSL812",
+      "name": "Advanced Green IT Solutions in Practice",
+      "description": "Implementation aspects of cutting-edge approaches to sustainable IT implementation",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "blended"
+      ],
+      "module_type": [
+        "practical"
+      ],
+      "skills": [
+        "advanced_implementation",
+        "solution_design"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Conceptualize sustainability principles for sustainable business practices",
+        "Generate innovative solutions using sustainability principles to address complex sustainability challenges in circular economy applications",
+        "Develop solutions that balance environmental, social, and economic considerations in practical scenarios",
+        "Prioritize ethical leadership in promoting advanced green it solutions practice solutions that prioritize environmental stewardship",
+        "Critically evaluate the effectiveness of advanced green it solutions practice approaches through evidence-based assessment frameworks",
+        "Integrate advanced advanced green it solutions practice principles with broader sustainability frameworks to address complex organizational and societal challenges"
+      ],
+      "semester": 6
+    },
+    {
+      "id": "DGDSL813",
+      "name": "AI for Sustainability Optimization in Practice",
+      "description": "Implementation aspects of using artificial intelligence to optimize digital sustainability",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "online",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "ai_applications",
+        "optimization_techniques"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Conceptualize sustainable technology practices for addressing environmental challenges",
+        "Strategize the theoretical foundations and emerging trends in sustainability principles to support sustainable development goals",
+        "Integrate innovative solutions using sustainable technology practices to address complex sustainability challenges in digital transformation for sustainability",
+        "Generate solutions that balance environmental, social, and economic considerations in practical scenarios",
+        "Recommend ethical leadership in promoting ai sustainability optimization practice solutions that prioritize environmental stewardship",
+        "Critically evaluate the effectiveness of ai sustainability optimization practice approaches through evidence-based assessment frameworks",
+        "Integrate advanced ai sustainability optimization practice principles with broader sustainability frameworks to address complex organizational and societal challenges"
+      ],
+      "semester": 2
+    },
+    {
+      "id": "DGDSL814",
+      "name": "Advanced Digital Sustainability Strategy in Practice",
+      "description": "Implementation aspects of strategic approaches to implementing sustainable digital transformation",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical"
+      ],
+      "skills": [
+        "strategic_planning",
+        "sustainability_integration"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Theorize long-term environmental initiatives to support sustainable development goals",
+        "Critique the theoretical foundations and emerging trends in organizational sustainability integration in digital transformation for sustainability",
+        "Advocate ethical leadership in promoting advanced digital sustainability strategy practice solutions that prioritize environmental stewardship",
+        "Critically evaluate the effectiveness of advanced digital sustainability strategy practice approaches through evidence-based assessment frameworks",
+        "Integrate advanced advanced digital sustainability strategy practice principles with broader sustainability frameworks to address complex organizational and societal challenges"
+      ],
+      "semester": 6
+    },
+    {
+      "id": "DGDSL815",
+      "name": "Digital Sustainability Research Project Leadership",
+      "description": "Leadership dimensions of research-based exploration of digital sustainability challenges",
+      "eqf_level": 8,
+      "ects_points": 15,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "workplace",
+        "blended"
+      ],
+      "module_type": [
+        "work-based"
+      ],
+      "skills": [
+        "research_methodology",
+        "critical_analysis"
+      ],
+      "is_work_based": true,
+      "learning_outcomes": [
+        "Formulate sustainable project outcomes in circular economy applications",
+        "Develop innovative solutions using sustainable project outcomes to address complex sustainability challenges for addressing environmental challenges",
+        "Design project management methodologies that integrate sustainability metrics throughout the project lifecycle",
+        "Appraise ethical leadership in promoting digital sustainability research project leadership solutions that prioritize environmental stewardship",
+        "Critically evaluate the effectiveness of digital sustainability research project leadership approaches through evidence-based assessment frameworks",
+        "Integrate advanced digital sustainability research project leadership principles with broader sustainability frameworks to address complex organizational and societal challenges"
+      ],
+      "semester": 5
+    },
+    {
+      "id": "DGDSL816",
+      "name": "Digital Sustainability Principles Leadership",
+      "description": "Leadership dimensions of core principles and frameworks for digital sustainability",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "online"
+      ],
+      "module_type": [
+        "theoretical"
+      ],
+      "skills": [
+        "sustainability_frameworks",
+        "digital_transformation"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Theorize sustainability principles to enhance environmental performance",
+        "Formulate the theoretical foundations and emerging trends in environmental impact reduction strategies for addressing environmental challenges",
+        "Lead ethical leadership in promoting digital sustainability principles leadership solutions that prioritize environmental stewardship",
+        "Critically evaluate the effectiveness of digital sustainability principles leadership approaches through evidence-based assessment frameworks",
+        "Integrate advanced digital sustainability principles leadership principles with broader sustainability frameworks to address complex organizational and societal challenges"
+      ],
+      "semester": 1
+    },
+    {
+      "id": "DGDSL817",
+      "name": "Sustainable IT Leadership Leadership",
+      "description": "Leadership dimensions of leading organizational change toward sustainable digital practices",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "leadership",
+        "change_management"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Synthesize digital sustainability approaches for addressing environmental challenges",
+        "Conceptualize the theoretical foundations and emerging trends in environmental impact reduction strategies to enhance environmental performance",
+        "Design innovative solutions using digital sustainability approaches to address complex sustainability challenges to enhance environmental performance",
+        "Create solutions that balance environmental, social, and economic considerations in practical scenarios",
+        "Evaluate ethical leadership in promoting sustainable it leadership leadership solutions that prioritize environmental stewardship",
+        "Critically evaluate the effectiveness of sustainable it leadership leadership approaches through evidence-based assessment frameworks",
+        "Integrate advanced sustainable it leadership leadership principles with broader sustainability frameworks to address complex organizational and societal challenges"
+      ],
+      "semester": 2
+    },
+    {
+      "id": "DGDSL818",
+      "name": "Sustainable Software Development Leadership",
+      "description": "Leadership dimensions of practices for developing environmentally efficient software",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "blended"
+      ],
+      "module_type": [
+        "practical"
+      ],
+      "skills": [
+        "software_development",
+        "green_coding"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Hypothesize sustainable coding practices for sustainable business practices",
+        "Create innovative solutions using energy-efficient software development to address complex sustainability challenges for sustainable business practices",
+        "Integrate software solutions that minimize environmental impact while maintaining performance",
+        "Champion ethical leadership in promoting sustainable software development leadership solutions that prioritize environmental stewardship",
+        "Critically evaluate the effectiveness of sustainable software development leadership approaches through evidence-based assessment frameworks",
+        "Integrate advanced sustainable software development leadership principles with broader sustainability frameworks to address complex organizational and societal challenges"
+      ],
+      "semester": 2
+    },
+    {
+      "id": "DGDSL819",
+      "name": "Advanced Green IT Solutions Leadership",
+      "description": "Leadership dimensions of cutting-edge approaches to sustainable IT implementation",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "blended"
+      ],
+      "module_type": [
+        "practical"
+      ],
+      "skills": [
+        "advanced_implementation",
+        "solution_design"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Hypothesize sustainable technology practices for sustainable business practices",
+        "Integrate innovative solutions using environmental impact reduction strategies to address complex sustainability challenges for addressing environmental challenges",
+        "Create solutions that balance environmental, social, and economic considerations in practical scenarios",
+        "Evaluate ethical leadership in promoting advanced green it solutions leadership solutions that prioritize environmental stewardship",
+        "Critically evaluate the effectiveness of advanced green it solutions leadership approaches through evidence-based assessment frameworks",
+        "Integrate advanced advanced green it solutions leadership principles with broader sustainability frameworks to address complex organizational and societal challenges"
+      ],
+      "semester": 6
+    },
+    {
+      "id": "DGDSL820",
+      "name": "AI for Sustainability Optimization Leadership",
+      "description": "Leadership dimensions of using artificial intelligence to optimize digital sustainability",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "online",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "ai_applications",
+        "optimization_techniques"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Strategize sustainable technology practices in organizational sustainability contexts",
+        "Theorize the theoretical foundations and emerging trends in environmental impact reduction strategies in digital transformation for sustainability",
+        "Transform innovative solutions using environmental impact reduction strategies to address complex sustainability challenges for addressing environmental challenges",
+        "Generate solutions that balance environmental, social, and economic considerations in practical scenarios",
+        "Appraise ethical leadership in promoting ai sustainability optimization leadership solutions that prioritize environmental stewardship",
+        "Critically evaluate the effectiveness of ai sustainability optimization leadership approaches through evidence-based assessment frameworks",
+        "Integrate advanced ai sustainability optimization leadership principles with broader sustainability frameworks to address complex organizational and societal challenges"
+      ],
+      "semester": 2
+    },
+    {
+      "id": "DGDSL821",
+      "name": "Advanced Digital Sustainability Strategy Leadership",
+      "description": "Leadership dimensions of strategic approaches to implementing sustainable digital transformation",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical"
+      ],
+      "skills": [
+        "strategic_planning",
+        "sustainability_integration"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Formulate long-term environmental initiatives for sustainable business practices",
+        "Hypothesize the theoretical foundations and emerging trends in strategic resource management in digital transformation for sustainability",
+        "Appraise ethical leadership in promoting advanced digital sustainability strategy leadership solutions that prioritize environmental stewardship",
+        "Critically evaluate the effectiveness of advanced digital sustainability strategy leadership approaches through evidence-based assessment frameworks",
+        "Integrate advanced advanced digital sustainability strategy leadership principles with broader sustainability frameworks to address complex organizational and societal challenges"
+      ],
+      "semester": 6
+    },
+    {
+      "id": "DGDSL822",
+      "name": "Digital Sustainability Research Project Analytics",
+      "description": "Analytical approaches to research-based exploration of digital sustainability challenges",
+      "eqf_level": 8,
+      "ects_points": 15,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "workplace",
+        "blended"
+      ],
+      "module_type": [
+        "work-based"
+      ],
+      "skills": [
+        "research_methodology",
+        "critical_analysis"
+      ],
+      "is_work_based": true,
+      "learning_outcomes": [
+        "Theorize sustainable project outcomes to support sustainable development goals",
+        "Innovate innovative solutions using stakeholder engagement strategies to address complex sustainability challenges in organizational sustainability contexts",
+        "Design project management methodologies that integrate sustainability metrics throughout the project lifecycle",
+        "Champion ethical leadership in promoting digital sustainability research project analytics solutions that prioritize environmental stewardship",
+        "Critically evaluate the effectiveness of digital sustainability research project analytics approaches through evidence-based assessment frameworks",
+        "Integrate advanced digital sustainability research project analytics principles with broader sustainability frameworks to address complex organizational and societal challenges"
+      ],
+      "semester": 5
+    }
+  ],
+  "modules_by_semester": {
+    "3": [
+      {
+        "id": "OM10",
+        "name": "Advanced Sustainability Impact Assessment Methods",
+        "description": "Cutting-edge methodologies for sustainability impact measurement",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "impact_assessment",
+          "advanced_metrics"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Evaluate advanced methodologies for sustainability impact assessment.",
+          "Critically analyze the strengths and limitations of different impact measurement approaches.",
+          "Design innovative assessment frameworks for complex sustainability challenges."
+        ],
+        "semester": 4
+      },
+      {
+        "id": "OM10",
+        "name": "Advanced Sustainability Impact Assessment Methods",
+        "description": "Cutting-edge methodologies for sustainability impact measurement",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "impact_assessment",
+          "advanced_metrics"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Evaluate advanced methodologies for sustainability impact assessment.",
+          "Critically analyze the strengths and limitations of different impact measurement approaches.",
+          "Design innovative assessment frameworks for complex sustainability challenges."
+        ],
+        "semester": 4
+      },
+      {
+        "id": "OM10",
+        "name": "Advanced Sustainability Impact Assessment Methods",
+        "description": "Cutting-edge methodologies for sustainability impact measurement",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "impact_assessment",
+          "advanced_metrics"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Evaluate advanced methodologies for sustainability impact assessment.",
+          "Critically analyze the strengths and limitations of different impact measurement approaches.",
+          "Design innovative assessment frameworks for complex sustainability challenges."
+        ],
+        "semester": 4
+      }
+    ],
+    "4": [
+      {
+        "id": "OM10",
+        "name": "Advanced Sustainability Impact Assessment Methods",
+        "description": "Cutting-edge methodologies for sustainability impact measurement",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "impact_assessment",
+          "advanced_metrics"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Evaluate advanced methodologies for sustainability impact assessment.",
+          "Critically analyze the strengths and limitations of different impact measurement approaches.",
+          "Design innovative assessment frameworks for complex sustainability challenges."
+        ],
+        "semester": 4
+      },
+      {
+        "id": "OM10",
+        "name": "Advanced Sustainability Impact Assessment Methods",
+        "description": "Cutting-edge methodologies for sustainability impact measurement",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "impact_assessment",
+          "advanced_metrics"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Evaluate advanced methodologies for sustainability impact assessment.",
+          "Critically analyze the strengths and limitations of different impact measurement approaches.",
+          "Design innovative assessment frameworks for complex sustainability challenges."
+        ],
+        "semester": 4
+      }
+    ],
+    "6": [
+      {
+        "id": "DGDSL801",
+        "name": "Digital Sustainability Research Project",
+        "description": "Research-based exploration of digital sustainability challenges",
+        "eqf_level": 8,
+        "ects_points": 15,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "workplace",
+          "blended"
+        ],
+        "module_type": [
+          "work-based"
+        ],
+        "skills": [
+          "research_methodology",
+          "critical_analysis"
+        ],
+        "is_work_based": true,
+        "learning_outcomes": [
+          "Conceptualize sustainability project methodologies for sustainable business practices",
+          "Transform innovative solutions using stakeholder engagement strategies to address complex sustainability challenges to support sustainable development goals",
+          "Develop project management methodologies that integrate sustainability metrics throughout the project lifecycle",
+          "Evaluate ethical leadership in promoting digital sustainability research project solutions that prioritize environmental stewardship",
+          "Critically evaluate the effectiveness of digital sustainability research project approaches through evidence-based assessment frameworks",
+          "Integrate advanced digital sustainability research project principles with broader sustainability frameworks to address complex organizational and societal challenges"
+        ],
+        "semester": 6
+      },
+      {
+        "id": "DGDSL805",
+        "name": "Advanced Green IT Solutions",
+        "description": "Cutting-edge approaches to sustainable IT implementation",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "blended"
+        ],
+        "module_type": [
+          "practical"
+        ],
+        "skills": [
+          "advanced_implementation",
+          "solution_design"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Strategize sustainable technology practices in circular economy applications",
+          "Compose innovative solutions using sustainability principles to address complex sustainability challenges in organizational sustainability contexts",
+          "Transform solutions that balance environmental, social, and economic considerations in practical scenarios",
+          "Lead ethical leadership in promoting advanced green it solutions solutions that prioritize environmental stewardship",
+          "Critically evaluate the effectiveness of advanced green it solutions approaches through evidence-based assessment frameworks",
+          "Integrate advanced advanced green it solutions principles with broader sustainability frameworks to address complex organizational and societal challenges"
+        ],
+        "semester": 6
+      },
+      {
+        "id": "DGDSL807",
+        "name": "Advanced Digital Sustainability Strategy",
+        "description": "Strategic approaches to implementing sustainable digital transformation",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical"
+        ],
+        "skills": [
+          "strategic_planning",
+          "sustainability_integration"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Evaluate organizational sustainability integration in organizational sustainability contexts",
+          "Conceptualize the theoretical foundations and emerging trends in strategic resource management for sustainable business practices",
+          "Evaluate ethical leadership in promoting advanced digital sustainability strategy solutions that prioritize environmental stewardship",
+          "Critically evaluate the effectiveness of advanced digital sustainability strategy approaches through evidence-based assessment frameworks",
+          "Integrate advanced advanced digital sustainability strategy principles with broader sustainability frameworks to address complex organizational and societal challenges"
+        ],
+        "semester": 6
+      },
+      {
+        "id": "DGDSL812",
+        "name": "Advanced Green IT Solutions in Practice",
+        "description": "Implementation aspects of cutting-edge approaches to sustainable IT implementation",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "blended"
+        ],
+        "module_type": [
+          "practical"
+        ],
+        "skills": [
+          "advanced_implementation",
+          "solution_design"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Conceptualize sustainability principles for sustainable business practices",
+          "Generate innovative solutions using sustainability principles to address complex sustainability challenges in circular economy applications",
+          "Develop solutions that balance environmental, social, and economic considerations in practical scenarios",
+          "Prioritize ethical leadership in promoting advanced green it solutions practice solutions that prioritize environmental stewardship",
+          "Critically evaluate the effectiveness of advanced green it solutions practice approaches through evidence-based assessment frameworks",
+          "Integrate advanced advanced green it solutions practice principles with broader sustainability frameworks to address complex organizational and societal challenges"
+        ],
+        "semester": 6
+      },
+      {
+        "id": "DGDSL814",
+        "name": "Advanced Digital Sustainability Strategy in Practice",
+        "description": "Implementation aspects of strategic approaches to implementing sustainable digital transformation",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical"
+        ],
+        "skills": [
+          "strategic_planning",
+          "sustainability_integration"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Theorize long-term environmental initiatives to support sustainable development goals",
+          "Critique the theoretical foundations and emerging trends in organizational sustainability integration in digital transformation for sustainability",
+          "Advocate ethical leadership in promoting advanced digital sustainability strategy practice solutions that prioritize environmental stewardship",
+          "Critically evaluate the effectiveness of advanced digital sustainability strategy practice approaches through evidence-based assessment frameworks",
+          "Integrate advanced advanced digital sustainability strategy practice principles with broader sustainability frameworks to address complex organizational and societal challenges"
+        ],
+        "semester": 6
+      },
+      {
+        "id": "DGDSL819",
+        "name": "Advanced Green IT Solutions Leadership",
+        "description": "Leadership dimensions of cutting-edge approaches to sustainable IT implementation",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "blended"
+        ],
+        "module_type": [
+          "practical"
+        ],
+        "skills": [
+          "advanced_implementation",
+          "solution_design"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Hypothesize sustainable technology practices for sustainable business practices",
+          "Integrate innovative solutions using environmental impact reduction strategies to address complex sustainability challenges for addressing environmental challenges",
+          "Create solutions that balance environmental, social, and economic considerations in practical scenarios",
+          "Evaluate ethical leadership in promoting advanced green it solutions leadership solutions that prioritize environmental stewardship",
+          "Critically evaluate the effectiveness of advanced green it solutions leadership approaches through evidence-based assessment frameworks",
+          "Integrate advanced advanced green it solutions leadership principles with broader sustainability frameworks to address complex organizational and societal challenges"
+        ],
+        "semester": 6
+      },
+      {
+        "id": "DGDSL821",
+        "name": "Advanced Digital Sustainability Strategy Leadership",
+        "description": "Leadership dimensions of strategic approaches to implementing sustainable digital transformation",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical"
+        ],
+        "skills": [
+          "strategic_planning",
+          "sustainability_integration"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Formulate long-term environmental initiatives for sustainable business practices",
+          "Hypothesize the theoretical foundations and emerging trends in strategic resource management in digital transformation for sustainability",
+          "Appraise ethical leadership in promoting advanced digital sustainability strategy leadership solutions that prioritize environmental stewardship",
+          "Critically evaluate the effectiveness of advanced digital sustainability strategy leadership approaches through evidence-based assessment frameworks",
+          "Integrate advanced advanced digital sustainability strategy leadership principles with broader sustainability frameworks to address complex organizational and societal challenges"
+        ],
+        "semester": 6
+      }
+    ],
+    "1": [
+      {
+        "id": "DGDSL802",
+        "name": "Digital Sustainability Principles",
+        "description": "Core principles and frameworks for digital sustainability",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "online"
+        ],
+        "module_type": [
+          "theoretical"
+        ],
+        "skills": [
+          "sustainability_frameworks",
+          "digital_transformation"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Synthesize digital sustainability approaches for sustainable business practices",
+          "Hypothesize the theoretical foundations and emerging trends in sustainability principles for addressing environmental challenges",
+          "Prioritize ethical leadership in promoting digital sustainability principles solutions that prioritize environmental stewardship",
+          "Critically evaluate the effectiveness of digital sustainability principles approaches through evidence-based assessment frameworks",
+          "Integrate advanced digital sustainability principles principles with broader sustainability frameworks to address complex organizational and societal challenges"
+        ],
+        "semester": 1
+      },
+      {
+        "id": "DGDSL803",
+        "name": "Sustainable IT Leadership",
+        "description": "Leading organizational change toward sustainable digital practices",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "leadership",
+          "change_management"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Conceptualize environmental impact reduction strategies for sustainable business practices",
+          "Strategize the theoretical foundations and emerging trends in sustainable technology practices to enhance environmental performance",
+          "Integrate innovative solutions using sustainability principles to address complex sustainability challenges for addressing environmental challenges",
+          "Design solutions that balance environmental, social, and economic considerations in practical scenarios",
+          "Evaluate ethical leadership in promoting sustainable it leadership solutions that prioritize environmental stewardship",
+          "Critically evaluate the effectiveness of sustainable it leadership approaches through evidence-based assessment frameworks",
+          "Integrate advanced sustainable it leadership principles with broader sustainability frameworks to address complex organizational and societal challenges"
+        ],
+        "semester": 1
+      },
+      {
+        "id": "DGDSL804",
+        "name": "Sustainable Software Development",
+        "description": "Practices for developing environmentally efficient software",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "blended"
+        ],
+        "module_type": [
+          "practical"
+        ],
+        "skills": [
+          "software_development",
+          "green_coding"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Strategize green software architecture to support sustainable development goals",
+          "Compose innovative solutions using sustainable coding practices to address complex sustainability challenges for addressing environmental challenges",
+          "Design software solutions that minimize environmental impact while maintaining performance",
+          "Judge ethical leadership in promoting sustainable software development solutions that prioritize environmental stewardship",
+          "Critically evaluate the effectiveness of sustainable software development approaches through evidence-based assessment frameworks",
+          "Integrate advanced sustainable software development principles with broader sustainability frameworks to address complex organizational and societal challenges"
+        ],
+        "semester": 1
+      },
+      {
+        "id": "DGDSL809",
+        "name": "Digital Sustainability Principles in Practice",
+        "description": "Implementation aspects of core principles and frameworks for digital sustainability",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "online"
+        ],
+        "module_type": [
+          "theoretical"
+        ],
+        "skills": [
+          "sustainability_frameworks",
+          "digital_transformation"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Strategize sustainability principles to enhance environmental performance",
+          "Synthesize the theoretical foundations and emerging trends in digital sustainability approaches to support sustainable development goals",
+          "Appraise ethical leadership in promoting digital sustainability principles practice solutions that prioritize environmental stewardship",
+          "Critically evaluate the effectiveness of digital sustainability principles practice approaches through evidence-based assessment frameworks",
+          "Integrate advanced digital sustainability principles practice principles with broader sustainability frameworks to address complex organizational and societal challenges"
+        ],
+        "semester": 1
+      },
+      {
+        "id": "DGDSL816",
+        "name": "Digital Sustainability Principles Leadership",
+        "description": "Leadership dimensions of core principles and frameworks for digital sustainability",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "online"
+        ],
+        "module_type": [
+          "theoretical"
+        ],
+        "skills": [
+          "sustainability_frameworks",
+          "digital_transformation"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Theorize sustainability principles to enhance environmental performance",
+          "Formulate the theoretical foundations and emerging trends in environmental impact reduction strategies for addressing environmental challenges",
+          "Lead ethical leadership in promoting digital sustainability principles leadership solutions that prioritize environmental stewardship",
+          "Critically evaluate the effectiveness of digital sustainability principles leadership approaches through evidence-based assessment frameworks",
+          "Integrate advanced digital sustainability principles leadership principles with broader sustainability frameworks to address complex organizational and societal challenges"
+        ],
+        "semester": 1
+      }
+    ],
+    "2": [
+      {
+        "id": "DGDSL806",
+        "name": "AI for Sustainability Optimization",
+        "description": "Using artificial intelligence to optimize digital sustainability",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "online",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "ai_applications",
+          "optimization_techniques"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Synthesize sustainable technology practices to enhance environmental performance",
+          "Strategize the theoretical foundations and emerging trends in digital sustainability approaches in circular economy applications",
+          "Design innovative solutions using digital sustainability approaches to address complex sustainability challenges in circular economy applications",
+          "Compose solutions that balance environmental, social, and economic considerations in practical scenarios",
+          "Prioritize ethical leadership in promoting ai sustainability optimization solutions that prioritize environmental stewardship",
+          "Critically evaluate the effectiveness of ai sustainability optimization approaches through evidence-based assessment frameworks",
+          "Integrate advanced ai sustainability optimization principles with broader sustainability frameworks to address complex organizational and societal challenges"
+        ],
+        "semester": 2
+      },
+      {
+        "id": "DGDSL810",
+        "name": "Sustainable IT Leadership in Practice",
+        "description": "Implementation aspects of leading organizational change toward sustainable digital practices",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "leadership",
+          "change_management"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Hypothesize sustainability principles to enhance environmental performance",
+          "Formulate the theoretical foundations and emerging trends in sustainable technology practices for sustainable business practices",
+          "Integrate innovative solutions using sustainable technology practices to address complex sustainability challenges in digital transformation for sustainability",
+          "Innovate solutions that balance environmental, social, and economic considerations in practical scenarios",
+          "Prioritize ethical leadership in promoting sustainable it leadership practice solutions that prioritize environmental stewardship",
+          "Critically evaluate the effectiveness of sustainable it leadership practice approaches through evidence-based assessment frameworks",
+          "Integrate advanced sustainable it leadership practice principles with broader sustainability frameworks to address complex organizational and societal challenges"
+        ],
+        "semester": 2
+      },
+      {
+        "id": "DGDSL811",
+        "name": "Sustainable Software Development in Practice",
+        "description": "Implementation aspects of practices for developing environmentally efficient software",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "blended"
+        ],
+        "module_type": [
+          "practical"
+        ],
+        "skills": [
+          "software_development",
+          "green_coding"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Theorize sustainable coding practices to enhance environmental performance",
+          "Design innovative solutions using sustainable coding practices to address complex sustainability challenges for sustainable business practices",
+          "Integrate software solutions that minimize environmental impact while maintaining performance",
+          "Advocate ethical leadership in promoting sustainable software development practice solutions that prioritize environmental stewardship",
+          "Critically evaluate the effectiveness of sustainable software development practice approaches through evidence-based assessment frameworks",
+          "Integrate advanced sustainable software development practice principles with broader sustainability frameworks to address complex organizational and societal challenges"
+        ],
+        "semester": 2
+      },
+      {
+        "id": "DGDSL813",
+        "name": "AI for Sustainability Optimization in Practice",
+        "description": "Implementation aspects of using artificial intelligence to optimize digital sustainability",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "online",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "ai_applications",
+          "optimization_techniques"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Conceptualize sustainable technology practices for addressing environmental challenges",
+          "Strategize the theoretical foundations and emerging trends in sustainability principles to support sustainable development goals",
+          "Integrate innovative solutions using sustainable technology practices to address complex sustainability challenges in digital transformation for sustainability",
+          "Generate solutions that balance environmental, social, and economic considerations in practical scenarios",
+          "Recommend ethical leadership in promoting ai sustainability optimization practice solutions that prioritize environmental stewardship",
+          "Critically evaluate the effectiveness of ai sustainability optimization practice approaches through evidence-based assessment frameworks",
+          "Integrate advanced ai sustainability optimization practice principles with broader sustainability frameworks to address complex organizational and societal challenges"
+        ],
+        "semester": 2
+      },
+      {
+        "id": "DGDSL817",
+        "name": "Sustainable IT Leadership Leadership",
+        "description": "Leadership dimensions of leading organizational change toward sustainable digital practices",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "leadership",
+          "change_management"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Synthesize digital sustainability approaches for addressing environmental challenges",
+          "Conceptualize the theoretical foundations and emerging trends in environmental impact reduction strategies to enhance environmental performance",
+          "Design innovative solutions using digital sustainability approaches to address complex sustainability challenges to enhance environmental performance",
+          "Create solutions that balance environmental, social, and economic considerations in practical scenarios",
+          "Evaluate ethical leadership in promoting sustainable it leadership leadership solutions that prioritize environmental stewardship",
+          "Critically evaluate the effectiveness of sustainable it leadership leadership approaches through evidence-based assessment frameworks",
+          "Integrate advanced sustainable it leadership leadership principles with broader sustainability frameworks to address complex organizational and societal challenges"
+        ],
+        "semester": 2
+      },
+      {
+        "id": "DGDSL818",
+        "name": "Sustainable Software Development Leadership",
+        "description": "Leadership dimensions of practices for developing environmentally efficient software",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "blended"
+        ],
+        "module_type": [
+          "practical"
+        ],
+        "skills": [
+          "software_development",
+          "green_coding"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Hypothesize sustainable coding practices for sustainable business practices",
+          "Create innovative solutions using energy-efficient software development to address complex sustainability challenges for sustainable business practices",
+          "Integrate software solutions that minimize environmental impact while maintaining performance",
+          "Champion ethical leadership in promoting sustainable software development leadership solutions that prioritize environmental stewardship",
+          "Critically evaluate the effectiveness of sustainable software development leadership approaches through evidence-based assessment frameworks",
+          "Integrate advanced sustainable software development leadership principles with broader sustainability frameworks to address complex organizational and societal challenges"
+        ],
+        "semester": 2
+      },
+      {
+        "id": "DGDSL820",
+        "name": "AI for Sustainability Optimization Leadership",
+        "description": "Leadership dimensions of using artificial intelligence to optimize digital sustainability",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "online",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "ai_applications",
+          "optimization_techniques"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Strategize sustainable technology practices in organizational sustainability contexts",
+          "Theorize the theoretical foundations and emerging trends in environmental impact reduction strategies in digital transformation for sustainability",
+          "Transform innovative solutions using environmental impact reduction strategies to address complex sustainability challenges for addressing environmental challenges",
+          "Generate solutions that balance environmental, social, and economic considerations in practical scenarios",
+          "Appraise ethical leadership in promoting ai sustainability optimization leadership solutions that prioritize environmental stewardship",
+          "Critically evaluate the effectiveness of ai sustainability optimization leadership approaches through evidence-based assessment frameworks",
+          "Integrate advanced ai sustainability optimization leadership principles with broader sustainability frameworks to address complex organizational and societal challenges"
+        ],
+        "semester": 2
+      }
+    ],
+    "5": [
+      {
+        "id": "DGDSL808",
+        "name": "Digital Sustainability Research Project in Practice",
+        "description": "Implementation aspects of research-based exploration of digital sustainability challenges",
+        "eqf_level": 8,
+        "ects_points": 15,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "workplace",
+          "blended"
+        ],
+        "module_type": [
+          "work-based"
+        ],
+        "skills": [
+          "research_methodology",
+          "critical_analysis"
+        ],
+        "is_work_based": true,
+        "learning_outcomes": [
+          "Evaluate sustainability impact metrics in organizational sustainability contexts",
+          "Generate innovative solutions using sustainable project outcomes to address complex sustainability challenges for sustainable business practices",
+          "Develop project management methodologies that integrate sustainability metrics throughout the project lifecycle",
+          "Advocate ethical leadership in promoting digital sustainability research project practice solutions that prioritize environmental stewardship",
+          "Critically evaluate the effectiveness of digital sustainability research project practice approaches through evidence-based assessment frameworks",
+          "Integrate advanced digital sustainability research project practice principles with broader sustainability frameworks to address complex organizational and societal challenges"
+        ],
+        "semester": 5
+      },
+      {
+        "id": "DGDSL815",
+        "name": "Digital Sustainability Research Project Leadership",
+        "description": "Leadership dimensions of research-based exploration of digital sustainability challenges",
+        "eqf_level": 8,
+        "ects_points": 15,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "workplace",
+          "blended"
+        ],
+        "module_type": [
+          "work-based"
+        ],
+        "skills": [
+          "research_methodology",
+          "critical_analysis"
+        ],
+        "is_work_based": true,
+        "learning_outcomes": [
+          "Formulate sustainable project outcomes in circular economy applications",
+          "Develop innovative solutions using sustainable project outcomes to address complex sustainability challenges for addressing environmental challenges",
+          "Design project management methodologies that integrate sustainability metrics throughout the project lifecycle",
+          "Appraise ethical leadership in promoting digital sustainability research project leadership solutions that prioritize environmental stewardship",
+          "Critically evaluate the effectiveness of digital sustainability research project leadership approaches through evidence-based assessment frameworks",
+          "Integrate advanced digital sustainability research project leadership principles with broader sustainability frameworks to address complex organizational and societal challenges"
+        ],
+        "semester": 5
+      },
+      {
+        "id": "DGDSL822",
+        "name": "Digital Sustainability Research Project Analytics",
+        "description": "Analytical approaches to research-based exploration of digital sustainability challenges",
+        "eqf_level": 8,
+        "ects_points": 15,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "workplace",
+          "blended"
+        ],
+        "module_type": [
+          "work-based"
+        ],
+        "skills": [
+          "research_methodology",
+          "critical_analysis"
+        ],
+        "is_work_based": true,
+        "learning_outcomes": [
+          "Theorize sustainable project outcomes to support sustainable development goals",
+          "Innovate innovative solutions using stakeholder engagement strategies to address complex sustainability challenges in organizational sustainability contexts",
+          "Design project management methodologies that integrate sustainability metrics throughout the project lifecycle",
+          "Champion ethical leadership in promoting digital sustainability research project analytics solutions that prioritize environmental stewardship",
+          "Critically evaluate the effectiveness of digital sustainability research project analytics approaches through evidence-based assessment frameworks",
+          "Integrate advanced digital sustainability research project analytics principles with broader sustainability frameworks to address complex organizational and societal challenges"
+        ],
+        "semester": 5
+      }
+    ]
+  }
+}

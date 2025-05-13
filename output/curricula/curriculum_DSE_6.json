@@ -1,0 +1,1905 @@
+{
+  "name": "Data Engineer Full Curriculum (EQF Level 6)",
+  "description": "Full curriculum for Data Engineer at EQF Level 6",
+  "role": {
+    "id": "DSE",
+    "name": "Data Engineer"
+  },
+  "eqf_level": 6,
+  "total_ects": 170,
+  "duration_semesters": 6,
+  "delivery_modes": [
+    "online",
+    "workplace",
+    "blended",
+    "classroom"
+  ],
+  "work_based_learning": {
+    "percentage": 17.647058823529413,
+    "ects": 30,
+    "modules": [
+      "M5",
+      "M8",
+      "M37",
+      "M41",
+      "M42"
+    ]
+  },
+  "program_duration": 6,
+  "work_based_percentage": 17.647058823529413,
+  "is_full_curriculum": true,
+  "thematic_area": "sustainability",
+  "target_skills": [],
+  "program_learning_outcomes": [
+    "Analyze complex sustainability challenges in digital environments using appropriate frameworks and methodologies",
+    "Design and develop digital solutions that incorporate sustainability principles and minimize environmental impact",
+    "Evaluate the sustainability performance of digital systems using appropriate metrics and assessment tools",
+    "Apply ethical reasoning to address sustainability dilemmas in digital transformation contexts",
+    "Collaborate effectively with multidisciplinary teams to implement sustainable digital initiatives",
+    "Design and develop digital systems with sustainability principles embedded throughout the engineering lifecycle"
+  ],
+  "modules": [
+    {
+      "id": "OM10",
+      "name": "Advanced Sustainability Impact Assessment Methods",
+      "description": "Cutting-edge methodologies for sustainability impact measurement",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "impact_assessment",
+        "advanced_metrics"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Evaluate advanced methodologies for sustainability impact assessment.",
+        "Critically analyze the strengths and limitations of different impact measurement approaches.",
+        "Design innovative assessment frameworks for complex sustainability challenges."
+      ],
+      "semester": 1
+    },
+    {
+      "id": "OM10",
+      "name": "Advanced Sustainability Impact Assessment Methods",
+      "description": "Cutting-edge methodologies for sustainability impact measurement",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "impact_assessment",
+        "advanced_metrics"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Evaluate advanced methodologies for sustainability impact assessment.",
+        "Critically analyze the strengths and limitations of different impact measurement approaches.",
+        "Design innovative assessment frameworks for complex sustainability challenges."
+      ],
+      "semester": 1
+    },
+    {
+      "id": "OM10",
+      "name": "Advanced Sustainability Impact Assessment Methods",
+      "description": "Cutting-edge methodologies for sustainability impact measurement",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "impact_assessment",
+        "advanced_metrics"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Evaluate advanced methodologies for sustainability impact assessment.",
+        "Critically analyze the strengths and limitations of different impact measurement approaches.",
+        "Design innovative assessment frameworks for complex sustainability challenges."
+      ],
+      "semester": 1
+    },
+    {
+      "id": "OM10",
+      "name": "Advanced Sustainability Impact Assessment Methods",
+      "description": "Cutting-edge methodologies for sustainability impact measurement",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "impact_assessment",
+        "advanced_metrics"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Evaluate advanced methodologies for sustainability impact assessment.",
+        "Critically analyze the strengths and limitations of different impact measurement approaches.",
+        "Design innovative assessment frameworks for complex sustainability challenges."
+      ],
+      "semester": 1
+    },
+    {
+      "id": "OM10",
+      "name": "Advanced Sustainability Impact Assessment Methods",
+      "description": "Cutting-edge methodologies for sustainability impact measurement",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "impact_assessment",
+        "advanced_metrics"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Evaluate advanced methodologies for sustainability impact assessment.",
+        "Critically analyze the strengths and limitations of different impact measurement approaches.",
+        "Design innovative assessment frameworks for complex sustainability challenges."
+      ],
+      "semester": 1
+    },
+    {
+      "id": "OM10",
+      "name": "Advanced Sustainability Impact Assessment Methods",
+      "description": "Cutting-edge methodologies for sustainability impact measurement",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "impact_assessment",
+        "advanced_metrics"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Evaluate advanced methodologies for sustainability impact assessment.",
+        "Critically analyze the strengths and limitations of different impact measurement approaches.",
+        "Design innovative assessment frameworks for complex sustainability challenges."
+      ],
+      "semester": 1
+    },
+    {
+      "id": "OM10",
+      "name": "Advanced Sustainability Impact Assessment Methods",
+      "description": "Cutting-edge methodologies for sustainability impact measurement",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "impact_assessment",
+        "advanced_metrics"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Evaluate advanced methodologies for sustainability impact assessment.",
+        "Critically analyze the strengths and limitations of different impact measurement approaches.",
+        "Design innovative assessment frameworks for complex sustainability challenges."
+      ],
+      "semester": 1
+    },
+    {
+      "id": "OM10",
+      "name": "Advanced Sustainability Impact Assessment Methods",
+      "description": "Cutting-edge methodologies for sustainability impact measurement",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "impact_assessment",
+        "advanced_metrics"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Evaluate advanced methodologies for sustainability impact assessment.",
+        "Critically analyze the strengths and limitations of different impact measurement approaches.",
+        "Design innovative assessment frameworks for complex sustainability challenges."
+      ],
+      "semester": 1
+    },
+    {
+      "id": "OM10",
+      "name": "Advanced Sustainability Impact Assessment Methods",
+      "description": "Cutting-edge methodologies for sustainability impact measurement",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "impact_assessment",
+        "advanced_metrics"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Evaluate advanced methodologies for sustainability impact assessment.",
+        "Critically analyze the strengths and limitations of different impact measurement approaches.",
+        "Design innovative assessment frameworks for complex sustainability challenges."
+      ],
+      "semester": 1
+    },
+    {
+      "id": "OM10",
+      "name": "Advanced Sustainability Impact Assessment Methods",
+      "description": "Cutting-edge methodologies for sustainability impact measurement",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "impact_assessment",
+        "advanced_metrics"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Evaluate advanced methodologies for sustainability impact assessment.",
+        "Critically analyze the strengths and limitations of different impact measurement approaches.",
+        "Design innovative assessment frameworks for complex sustainability challenges."
+      ],
+      "semester": 1
+    },
+    {
+      "id": "OM10",
+      "name": "Advanced Sustainability Impact Assessment Methods",
+      "description": "Cutting-edge methodologies for sustainability impact measurement",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "impact_assessment",
+        "advanced_metrics"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Evaluate advanced methodologies for sustainability impact assessment.",
+        "Critically analyze the strengths and limitations of different impact measurement approaches.",
+        "Design innovative assessment frameworks for complex sustainability challenges."
+      ],
+      "semester": 1
+    },
+    {
+      "id": "OM10",
+      "name": "Advanced Sustainability Impact Assessment Methods",
+      "description": "Cutting-edge methodologies for sustainability impact measurement",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "impact_assessment",
+        "advanced_metrics"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Evaluate advanced methodologies for sustainability impact assessment.",
+        "Critically analyze the strengths and limitations of different impact measurement approaches.",
+        "Design innovative assessment frameworks for complex sustainability challenges."
+      ],
+      "semester": 1
+    },
+    {
+      "id": "OM10",
+      "name": "Advanced Sustainability Impact Assessment Methods",
+      "description": "Cutting-edge methodologies for sustainability impact measurement",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "impact_assessment",
+        "advanced_metrics"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Evaluate advanced methodologies for sustainability impact assessment.",
+        "Critically analyze the strengths and limitations of different impact measurement approaches.",
+        "Design innovative assessment frameworks for complex sustainability challenges."
+      ],
+      "semester": 1
+    },
+    {
+      "id": "OM10",
+      "name": "Advanced Sustainability Impact Assessment Methods",
+      "description": "Cutting-edge methodologies for sustainability impact measurement",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "impact_assessment",
+        "advanced_metrics"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Evaluate advanced methodologies for sustainability impact assessment.",
+        "Critically analyze the strengths and limitations of different impact measurement approaches.",
+        "Design innovative assessment frameworks for complex sustainability challenges."
+      ],
+      "semester": 1
+    },
+    {
+      "id": "OM10",
+      "name": "Advanced Sustainability Impact Assessment Methods",
+      "description": "Cutting-edge methodologies for sustainability impact measurement",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "impact_assessment",
+        "advanced_metrics"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Evaluate advanced methodologies for sustainability impact assessment.",
+        "Critically analyze the strengths and limitations of different impact measurement approaches.",
+        "Design innovative assessment frameworks for complex sustainability challenges."
+      ],
+      "semester": 1
+    },
+    {
+      "id": "OM10",
+      "name": "Advanced Sustainability Impact Assessment Methods",
+      "description": "Cutting-edge methodologies for sustainability impact measurement",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "impact_assessment",
+        "advanced_metrics"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Evaluate advanced methodologies for sustainability impact assessment.",
+        "Critically analyze the strengths and limitations of different impact measurement approaches.",
+        "Design innovative assessment frameworks for complex sustainability challenges."
+      ],
+      "semester": 1
+    },
+    {
+      "id": "OM10",
+      "name": "Advanced Sustainability Impact Assessment Methods",
+      "description": "Cutting-edge methodologies for sustainability impact measurement",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "impact_assessment",
+        "advanced_metrics"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Evaluate advanced methodologies for sustainability impact assessment.",
+        "Critically analyze the strengths and limitations of different impact measurement approaches.",
+        "Design innovative assessment frameworks for complex sustainability challenges."
+      ],
+      "semester": 1
+    },
+    {
+      "id": "OM10",
+      "name": "Advanced Sustainability Impact Assessment Methods",
+      "description": "Cutting-edge methodologies for sustainability impact measurement",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "impact_assessment",
+        "advanced_metrics"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Evaluate advanced methodologies for sustainability impact assessment.",
+        "Critically analyze the strengths and limitations of different impact measurement approaches.",
+        "Design innovative assessment frameworks for complex sustainability challenges."
+      ],
+      "semester": 1
+    },
+    {
+      "id": "OM10",
+      "name": "Advanced Sustainability Impact Assessment Methods",
+      "description": "Cutting-edge methodologies for sustainability impact measurement",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "impact_assessment",
+        "advanced_metrics"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Evaluate advanced methodologies for sustainability impact assessment.",
+        "Critically analyze the strengths and limitations of different impact measurement approaches.",
+        "Design innovative assessment frameworks for complex sustainability challenges."
+      ],
+      "semester": 1
+    },
+    {
+      "id": "OM10",
+      "name": "Advanced Sustainability Impact Assessment Methods",
+      "description": "Cutting-edge methodologies for sustainability impact measurement",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "impact_assessment",
+        "advanced_metrics"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Evaluate advanced methodologies for sustainability impact assessment.",
+        "Critically analyze the strengths and limitations of different impact measurement approaches.",
+        "Design innovative assessment frameworks for complex sustainability challenges."
+      ],
+      "semester": 1
+    },
+    {
+      "id": "OM10",
+      "name": "Advanced Sustainability Impact Assessment Methods",
+      "description": "Cutting-edge methodologies for sustainability impact measurement",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "impact_assessment",
+        "advanced_metrics"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Evaluate advanced methodologies for sustainability impact assessment.",
+        "Critically analyze the strengths and limitations of different impact measurement approaches.",
+        "Design innovative assessment frameworks for complex sustainability challenges."
+      ],
+      "semester": 1
+    },
+    {
+      "id": "OM10",
+      "name": "Advanced Sustainability Impact Assessment Methods",
+      "description": "Cutting-edge methodologies for sustainability impact measurement",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "impact_assessment",
+        "advanced_metrics"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Evaluate advanced methodologies for sustainability impact assessment.",
+        "Critically analyze the strengths and limitations of different impact measurement approaches.",
+        "Design innovative assessment frameworks for complex sustainability challenges."
+      ],
+      "semester": 1
+    },
+    {
+      "id": "OM10",
+      "name": "Advanced Sustainability Impact Assessment Methods",
+      "description": "Cutting-edge methodologies for sustainability impact measurement",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "impact_assessment",
+        "advanced_metrics"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Evaluate advanced methodologies for sustainability impact assessment.",
+        "Critically analyze the strengths and limitations of different impact measurement approaches.",
+        "Design innovative assessment frameworks for complex sustainability challenges."
+      ],
+      "semester": 1
+    },
+    {
+      "id": "OM10",
+      "name": "Advanced Sustainability Impact Assessment Methods",
+      "description": "Cutting-edge methodologies for sustainability impact measurement",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "impact_assessment",
+        "advanced_metrics"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Evaluate advanced methodologies for sustainability impact assessment.",
+        "Critically analyze the strengths and limitations of different impact measurement approaches.",
+        "Design innovative assessment frameworks for complex sustainability challenges."
+      ],
+      "semester": 1
+    },
+    {
+      "id": "OM10",
+      "name": "Advanced Sustainability Impact Assessment Methods",
+      "description": "Cutting-edge methodologies for sustainability impact measurement",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "impact_assessment",
+        "advanced_metrics"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Evaluate advanced methodologies for sustainability impact assessment.",
+        "Critically analyze the strengths and limitations of different impact measurement approaches.",
+        "Design innovative assessment frameworks for complex sustainability challenges."
+      ],
+      "semester": 1
+    },
+    {
+      "id": "OM10",
+      "name": "Advanced Sustainability Impact Assessment Methods",
+      "description": "Cutting-edge methodologies for sustainability impact measurement",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "impact_assessment",
+        "advanced_metrics"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Evaluate advanced methodologies for sustainability impact assessment.",
+        "Critically analyze the strengths and limitations of different impact measurement approaches.",
+        "Design innovative assessment frameworks for complex sustainability challenges."
+      ],
+      "semester": 1
+    },
+    {
+      "id": "OM10",
+      "name": "Advanced Sustainability Impact Assessment Methods",
+      "description": "Cutting-edge methodologies for sustainability impact measurement",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "impact_assessment",
+        "advanced_metrics"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Evaluate advanced methodologies for sustainability impact assessment.",
+        "Critically analyze the strengths and limitations of different impact measurement approaches.",
+        "Design innovative assessment frameworks for complex sustainability challenges."
+      ],
+      "semester": 1
+    },
+    {
+      "id": "OM10",
+      "name": "Advanced Sustainability Impact Assessment Methods",
+      "description": "Cutting-edge methodologies for sustainability impact measurement",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "impact_assessment",
+        "advanced_metrics"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Evaluate advanced methodologies for sustainability impact assessment.",
+        "Critically analyze the strengths and limitations of different impact measurement approaches.",
+        "Design innovative assessment frameworks for complex sustainability challenges."
+      ],
+      "semester": 1
+    },
+    {
+      "id": "OM10",
+      "name": "Advanced Sustainability Impact Assessment Methods",
+      "description": "Cutting-edge methodologies for sustainability impact measurement",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "impact_assessment",
+        "advanced_metrics"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Evaluate advanced methodologies for sustainability impact assessment.",
+        "Critically analyze the strengths and limitations of different impact measurement approaches.",
+        "Design innovative assessment frameworks for complex sustainability challenges."
+      ],
+      "semester": 1
+    },
+    {
+      "id": "OM10",
+      "name": "Advanced Sustainability Impact Assessment Methods",
+      "description": "Cutting-edge methodologies for sustainability impact measurement",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "impact_assessment",
+        "advanced_metrics"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Evaluate advanced methodologies for sustainability impact assessment.",
+        "Critically analyze the strengths and limitations of different impact measurement approaches.",
+        "Design innovative assessment frameworks for complex sustainability challenges."
+      ],
+      "semester": 1
+    },
+    {
+      "id": "OM10",
+      "name": "Advanced Sustainability Impact Assessment Methods",
+      "description": "Cutting-edge methodologies for sustainability impact measurement",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "impact_assessment",
+        "advanced_metrics"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Evaluate advanced methodologies for sustainability impact assessment.",
+        "Critically analyze the strengths and limitations of different impact measurement approaches.",
+        "Design innovative assessment frameworks for complex sustainability challenges."
+      ],
+      "semester": 1
+    },
+    {
+      "id": "OM10",
+      "name": "Advanced Sustainability Impact Assessment Methods",
+      "description": "Cutting-edge methodologies for sustainability impact measurement",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "impact_assessment",
+        "advanced_metrics"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Evaluate advanced methodologies for sustainability impact assessment.",
+        "Critically analyze the strengths and limitations of different impact measurement approaches.",
+        "Design innovative assessment frameworks for complex sustainability challenges."
+      ],
+      "semester": 1
+    },
+    {
+      "id": "OM10",
+      "name": "Advanced Sustainability Impact Assessment Methods",
+      "description": "Cutting-edge methodologies for sustainability impact measurement",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "impact_assessment",
+        "advanced_metrics"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Evaluate advanced methodologies for sustainability impact assessment.",
+        "Critically analyze the strengths and limitations of different impact measurement approaches.",
+        "Design innovative assessment frameworks for complex sustainability challenges."
+      ],
+      "semester": 1
+    }
+  ],
+  "modules_by_semester": {
+    "1": [
+      {
+        "id": "OM10",
+        "name": "Advanced Sustainability Impact Assessment Methods",
+        "description": "Cutting-edge methodologies for sustainability impact measurement",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "impact_assessment",
+          "advanced_metrics"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Evaluate advanced methodologies for sustainability impact assessment.",
+          "Critically analyze the strengths and limitations of different impact measurement approaches.",
+          "Design innovative assessment frameworks for complex sustainability challenges."
+        ],
+        "semester": 1
+      },
+      {
+        "id": "OM10",
+        "name": "Advanced Sustainability Impact Assessment Methods",
+        "description": "Cutting-edge methodologies for sustainability impact measurement",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "impact_assessment",
+          "advanced_metrics"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Evaluate advanced methodologies for sustainability impact assessment.",
+          "Critically analyze the strengths and limitations of different impact measurement approaches.",
+          "Design innovative assessment frameworks for complex sustainability challenges."
+        ],
+        "semester": 1
+      },
+      {
+        "id": "OM10",
+        "name": "Advanced Sustainability Impact Assessment Methods",
+        "description": "Cutting-edge methodologies for sustainability impact measurement",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "impact_assessment",
+          "advanced_metrics"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Evaluate advanced methodologies for sustainability impact assessment.",
+          "Critically analyze the strengths and limitations of different impact measurement approaches.",
+          "Design innovative assessment frameworks for complex sustainability challenges."
+        ],
+        "semester": 1
+      },
+      {
+        "id": "OM10",
+        "name": "Advanced Sustainability Impact Assessment Methods",
+        "description": "Cutting-edge methodologies for sustainability impact measurement",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "impact_assessment",
+          "advanced_metrics"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Evaluate advanced methodologies for sustainability impact assessment.",
+          "Critically analyze the strengths and limitations of different impact measurement approaches.",
+          "Design innovative assessment frameworks for complex sustainability challenges."
+        ],
+        "semester": 1
+      },
+      {
+        "id": "OM10",
+        "name": "Advanced Sustainability Impact Assessment Methods",
+        "description": "Cutting-edge methodologies for sustainability impact measurement",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "impact_assessment",
+          "advanced_metrics"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Evaluate advanced methodologies for sustainability impact assessment.",
+          "Critically analyze the strengths and limitations of different impact measurement approaches.",
+          "Design innovative assessment frameworks for complex sustainability challenges."
+        ],
+        "semester": 1
+      },
+      {
+        "id": "OM10",
+        "name": "Advanced Sustainability Impact Assessment Methods",
+        "description": "Cutting-edge methodologies for sustainability impact measurement",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "impact_assessment",
+          "advanced_metrics"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Evaluate advanced methodologies for sustainability impact assessment.",
+          "Critically analyze the strengths and limitations of different impact measurement approaches.",
+          "Design innovative assessment frameworks for complex sustainability challenges."
+        ],
+        "semester": 1
+      },
+      {
+        "id": "OM10",
+        "name": "Advanced Sustainability Impact Assessment Methods",
+        "description": "Cutting-edge methodologies for sustainability impact measurement",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "impact_assessment",
+          "advanced_metrics"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Evaluate advanced methodologies for sustainability impact assessment.",
+          "Critically analyze the strengths and limitations of different impact measurement approaches.",
+          "Design innovative assessment frameworks for complex sustainability challenges."
+        ],
+        "semester": 1
+      },
+      {
+        "id": "OM10",
+        "name": "Advanced Sustainability Impact Assessment Methods",
+        "description": "Cutting-edge methodologies for sustainability impact measurement",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "impact_assessment",
+          "advanced_metrics"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Evaluate advanced methodologies for sustainability impact assessment.",
+          "Critically analyze the strengths and limitations of different impact measurement approaches.",
+          "Design innovative assessment frameworks for complex sustainability challenges."
+        ],
+        "semester": 1
+      }
+    ],
+    "3": [
+      {
+        "id": "OM10",
+        "name": "Advanced Sustainability Impact Assessment Methods",
+        "description": "Cutting-edge methodologies for sustainability impact measurement",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "impact_assessment",
+          "advanced_metrics"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Evaluate advanced methodologies for sustainability impact assessment.",
+          "Critically analyze the strengths and limitations of different impact measurement approaches.",
+          "Design innovative assessment frameworks for complex sustainability challenges."
+        ],
+        "semester": 1
+      },
+      {
+        "id": "OM10",
+        "name": "Advanced Sustainability Impact Assessment Methods",
+        "description": "Cutting-edge methodologies for sustainability impact measurement",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "impact_assessment",
+          "advanced_metrics"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Evaluate advanced methodologies for sustainability impact assessment.",
+          "Critically analyze the strengths and limitations of different impact measurement approaches.",
+          "Design innovative assessment frameworks for complex sustainability challenges."
+        ],
+        "semester": 1
+      },
+      {
+        "id": "OM10",
+        "name": "Advanced Sustainability Impact Assessment Methods",
+        "description": "Cutting-edge methodologies for sustainability impact measurement",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "impact_assessment",
+          "advanced_metrics"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Evaluate advanced methodologies for sustainability impact assessment.",
+          "Critically analyze the strengths and limitations of different impact measurement approaches.",
+          "Design innovative assessment frameworks for complex sustainability challenges."
+        ],
+        "semester": 1
+      },
+      {
+        "id": "OM10",
+        "name": "Advanced Sustainability Impact Assessment Methods",
+        "description": "Cutting-edge methodologies for sustainability impact measurement",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "impact_assessment",
+          "advanced_metrics"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Evaluate advanced methodologies for sustainability impact assessment.",
+          "Critically analyze the strengths and limitations of different impact measurement approaches.",
+          "Design innovative assessment frameworks for complex sustainability challenges."
+        ],
+        "semester": 1
+      },
+      {
+        "id": "OM10",
+        "name": "Advanced Sustainability Impact Assessment Methods",
+        "description": "Cutting-edge methodologies for sustainability impact measurement",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "impact_assessment",
+          "advanced_metrics"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Evaluate advanced methodologies for sustainability impact assessment.",
+          "Critically analyze the strengths and limitations of different impact measurement approaches.",
+          "Design innovative assessment frameworks for complex sustainability challenges."
+        ],
+        "semester": 1
+      }
+    ],
+    "4": [
+      {
+        "id": "OM10",
+        "name": "Advanced Sustainability Impact Assessment Methods",
+        "description": "Cutting-edge methodologies for sustainability impact measurement",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "impact_assessment",
+          "advanced_metrics"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Evaluate advanced methodologies for sustainability impact assessment.",
+          "Critically analyze the strengths and limitations of different impact measurement approaches.",
+          "Design innovative assessment frameworks for complex sustainability challenges."
+        ],
+        "semester": 1
+      },
+      {
+        "id": "OM10",
+        "name": "Advanced Sustainability Impact Assessment Methods",
+        "description": "Cutting-edge methodologies for sustainability impact measurement",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "impact_assessment",
+          "advanced_metrics"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Evaluate advanced methodologies for sustainability impact assessment.",
+          "Critically analyze the strengths and limitations of different impact measurement approaches.",
+          "Design innovative assessment frameworks for complex sustainability challenges."
+        ],
+        "semester": 1
+      },
+      {
+        "id": "OM10",
+        "name": "Advanced Sustainability Impact Assessment Methods",
+        "description": "Cutting-edge methodologies for sustainability impact measurement",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "impact_assessment",
+          "advanced_metrics"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Evaluate advanced methodologies for sustainability impact assessment.",
+          "Critically analyze the strengths and limitations of different impact measurement approaches.",
+          "Design innovative assessment frameworks for complex sustainability challenges."
+        ],
+        "semester": 1
+      },
+      {
+        "id": "OM10",
+        "name": "Advanced Sustainability Impact Assessment Methods",
+        "description": "Cutting-edge methodologies for sustainability impact measurement",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "impact_assessment",
+          "advanced_metrics"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Evaluate advanced methodologies for sustainability impact assessment.",
+          "Critically analyze the strengths and limitations of different impact measurement approaches.",
+          "Design innovative assessment frameworks for complex sustainability challenges."
+        ],
+        "semester": 1
+      },
+      {
+        "id": "OM10",
+        "name": "Advanced Sustainability Impact Assessment Methods",
+        "description": "Cutting-edge methodologies for sustainability impact measurement",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "impact_assessment",
+          "advanced_metrics"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Evaluate advanced methodologies for sustainability impact assessment.",
+          "Critically analyze the strengths and limitations of different impact measurement approaches.",
+          "Design innovative assessment frameworks for complex sustainability challenges."
+        ],
+        "semester": 1
+      }
+    ],
+    "2": [
+      {
+        "id": "OM10",
+        "name": "Advanced Sustainability Impact Assessment Methods",
+        "description": "Cutting-edge methodologies for sustainability impact measurement",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "impact_assessment",
+          "advanced_metrics"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Evaluate advanced methodologies for sustainability impact assessment.",
+          "Critically analyze the strengths and limitations of different impact measurement approaches.",
+          "Design innovative assessment frameworks for complex sustainability challenges."
+        ],
+        "semester": 1
+      },
+      {
+        "id": "OM10",
+        "name": "Advanced Sustainability Impact Assessment Methods",
+        "description": "Cutting-edge methodologies for sustainability impact measurement",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "impact_assessment",
+          "advanced_metrics"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Evaluate advanced methodologies for sustainability impact assessment.",
+          "Critically analyze the strengths and limitations of different impact measurement approaches.",
+          "Design innovative assessment frameworks for complex sustainability challenges."
+        ],
+        "semester": 1
+      },
+      {
+        "id": "OM10",
+        "name": "Advanced Sustainability Impact Assessment Methods",
+        "description": "Cutting-edge methodologies for sustainability impact measurement",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "impact_assessment",
+          "advanced_metrics"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Evaluate advanced methodologies for sustainability impact assessment.",
+          "Critically analyze the strengths and limitations of different impact measurement approaches.",
+          "Design innovative assessment frameworks for complex sustainability challenges."
+        ],
+        "semester": 1
+      },
+      {
+        "id": "OM10",
+        "name": "Advanced Sustainability Impact Assessment Methods",
+        "description": "Cutting-edge methodologies for sustainability impact measurement",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "impact_assessment",
+          "advanced_metrics"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Evaluate advanced methodologies for sustainability impact assessment.",
+          "Critically analyze the strengths and limitations of different impact measurement approaches.",
+          "Design innovative assessment frameworks for complex sustainability challenges."
+        ],
+        "semester": 1
+      },
+      {
+        "id": "OM10",
+        "name": "Advanced Sustainability Impact Assessment Methods",
+        "description": "Cutting-edge methodologies for sustainability impact measurement",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "impact_assessment",
+          "advanced_metrics"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Evaluate advanced methodologies for sustainability impact assessment.",
+          "Critically analyze the strengths and limitations of different impact measurement approaches.",
+          "Design innovative assessment frameworks for complex sustainability challenges."
+        ],
+        "semester": 1
+      }
+    ],
+    "5": [
+      {
+        "id": "OM10",
+        "name": "Advanced Sustainability Impact Assessment Methods",
+        "description": "Cutting-edge methodologies for sustainability impact measurement",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "impact_assessment",
+          "advanced_metrics"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Evaluate advanced methodologies for sustainability impact assessment.",
+          "Critically analyze the strengths and limitations of different impact measurement approaches.",
+          "Design innovative assessment frameworks for complex sustainability challenges."
+        ],
+        "semester": 1
+      },
+      {
+        "id": "OM10",
+        "name": "Advanced Sustainability Impact Assessment Methods",
+        "description": "Cutting-edge methodologies for sustainability impact measurement",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "impact_assessment",
+          "advanced_metrics"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Evaluate advanced methodologies for sustainability impact assessment.",
+          "Critically analyze the strengths and limitations of different impact measurement approaches.",
+          "Design innovative assessment frameworks for complex sustainability challenges."
+        ],
+        "semester": 1
+      },
+      {
+        "id": "OM10",
+        "name": "Advanced Sustainability Impact Assessment Methods",
+        "description": "Cutting-edge methodologies for sustainability impact measurement",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "impact_assessment",
+          "advanced_metrics"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Evaluate advanced methodologies for sustainability impact assessment.",
+          "Critically analyze the strengths and limitations of different impact measurement approaches.",
+          "Design innovative assessment frameworks for complex sustainability challenges."
+        ],
+        "semester": 1
+      },
+      {
+        "id": "OM10",
+        "name": "Advanced Sustainability Impact Assessment Methods",
+        "description": "Cutting-edge methodologies for sustainability impact measurement",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "impact_assessment",
+          "advanced_metrics"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Evaluate advanced methodologies for sustainability impact assessment.",
+          "Critically analyze the strengths and limitations of different impact measurement approaches.",
+          "Design innovative assessment frameworks for complex sustainability challenges."
+        ],
+        "semester": 1
+      },
+      {
+        "id": "OM10",
+        "name": "Advanced Sustainability Impact Assessment Methods",
+        "description": "Cutting-edge methodologies for sustainability impact measurement",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "impact_assessment",
+          "advanced_metrics"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Evaluate advanced methodologies for sustainability impact assessment.",
+          "Critically analyze the strengths and limitations of different impact measurement approaches.",
+          "Design innovative assessment frameworks for complex sustainability challenges."
+        ],
+        "semester": 1
+      }
+    ],
+    "6": [
+      {
+        "id": "OM10",
+        "name": "Advanced Sustainability Impact Assessment Methods",
+        "description": "Cutting-edge methodologies for sustainability impact measurement",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "impact_assessment",
+          "advanced_metrics"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Evaluate advanced methodologies for sustainability impact assessment.",
+          "Critically analyze the strengths and limitations of different impact measurement approaches.",
+          "Design innovative assessment frameworks for complex sustainability challenges."
+        ],
+        "semester": 1
+      },
+      {
+        "id": "OM10",
+        "name": "Advanced Sustainability Impact Assessment Methods",
+        "description": "Cutting-edge methodologies for sustainability impact measurement",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "impact_assessment",
+          "advanced_metrics"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Evaluate advanced methodologies for sustainability impact assessment.",
+          "Critically analyze the strengths and limitations of different impact measurement approaches.",
+          "Design innovative assessment frameworks for complex sustainability challenges."
+        ],
+        "semester": 1
+      },
+      {
+        "id": "OM10",
+        "name": "Advanced Sustainability Impact Assessment Methods",
+        "description": "Cutting-edge methodologies for sustainability impact measurement",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "impact_assessment",
+          "advanced_metrics"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Evaluate advanced methodologies for sustainability impact assessment.",
+          "Critically analyze the strengths and limitations of different impact measurement approaches.",
+          "Design innovative assessment frameworks for complex sustainability challenges."
+        ],
+        "semester": 1
+      },
+      {
+        "id": "OM10",
+        "name": "Advanced Sustainability Impact Assessment Methods",
+        "description": "Cutting-edge methodologies for sustainability impact measurement",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "impact_assessment",
+          "advanced_metrics"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Evaluate advanced methodologies for sustainability impact assessment.",
+          "Critically analyze the strengths and limitations of different impact measurement approaches.",
+          "Design innovative assessment frameworks for complex sustainability challenges."
+        ],
+        "semester": 1
+      },
+      {
+        "id": "OM10",
+        "name": "Advanced Sustainability Impact Assessment Methods",
+        "description": "Cutting-edge methodologies for sustainability impact measurement",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "impact_assessment",
+          "advanced_metrics"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Evaluate advanced methodologies for sustainability impact assessment.",
+          "Critically analyze the strengths and limitations of different impact measurement approaches.",
+          "Design innovative assessment frameworks for complex sustainability challenges."
+        ],
+        "semester": 1
+      }
+    ]
+  }
+}
