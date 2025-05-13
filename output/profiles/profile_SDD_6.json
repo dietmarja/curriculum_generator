@@ -1,0 +1,55 @@
+{
+  "role_id": "SDD",
+  "role_name": "Software Developer for Sustainability",
+  "eqf_level": 6,
+  "description": "Implements sustainable coding practices and develops eco-efficient applications",
+  "main_area": "Software Development",
+  "thematic_area": "sustainability",
+  "program_duration": 6,
+  "learning_outcomes": [
+    "Compare ethical design principles to support sustainable development goals",
+    "Analyze ethical design principles to support sustainable development goals",
+    "Analyze ethical design principles for sustainable business practices",
+    "Implement user experience in organizational sustainability contexts",
+    "Develop user experience to enhance environmental performance",
+    "Evaluate accessible interfaces in digital transformation for sustainability",
+    "Apply integrated knowledge of accessible interfaces, ethical design principles to solve complex sustainability challenges"
+  ],
+  "skills": [
+    "sustainable design principles",
+    "design systems optimization",
+    "energy-efficient UI/UX design",
+    "user research for sustainability",
+    "low-impact interface design",
+    "digital sustainability assessment",
+    "sustainable development goals alignment",
+    "environmental impact assessment"
+  ],
+  "competencies": [
+    "Capability in developing energy-efficient digital design",
+    "Capability in developing sustainable user experience development",
+    "Capability in developing accessibility implementation",
+    "Capability in developing sustainable design systems management",
+    "Capability in developing ethical design principles application",
+    "Proficiency in developing digital tools for sustainability assessment",
+    "Ability to analyze and interpret sustainability data for developing decision-making",
+    "Capacity to communicate sustainability concepts to diverse stakeholders",
+    "Skill in developing sustainable development frameworks in digital contexts"
+  ],
+  "target_ects": 180,
+  "assessment_methods": [
+    "exams",
+    "project_work",
+    "thesis",
+    "case_studies",
+    "reports"
+  ],
+  "career_pathways": [
+    "Green UX Research Lead",
+    "Sustainable Design Systems Architect",
+    "Ethical Design Director",
+    "Chief Sustainable Design Officer",
+    "Sustainable Innovation Entrepreneur",
+    "Digital Sustainability Researcher"
+  ]
+}

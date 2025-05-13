@@ -1,0 +1,57 @@
+{
+  "role_id": "DSE",
+  "role_name": "Data Engineer",
+  "eqf_level": 6,
+  "description": "Implements and optimizes digital infrastructure with minimal environmental impact",
+  "main_area": "Data",
+  "thematic_area": "sustainability",
+  "program_duration": 6,
+  "learning_outcomes": [
+    "Solve technical implementation in circular economy applications",
+    "Solve systems design for sustainable business practices",
+    "Implement resource management to support sustainable development goals",
+    "Optimize infrastructure optimization in organizational sustainability contexts",
+    "Assess energy efficiency in organizational sustainability contexts",
+    "Compare energy efficiency in organizational sustainability contexts",
+    "Optimize systems design in circular economy applications",
+    "Examine resource management in digital transformation for sustainability",
+    "Apply integrated knowledge of infrastructure optimization, systems design to solve complex sustainability challenges"
+  ],
+  "skills": [
+    "carbon-aware infrastructure",
+    "sustainable IT infrastructure",
+    "green datacenter design",
+    "renewable energy integration",
+    "power usage effectiveness optimization",
+    "stakeholder communication",
+    "sustainability frameworks application",
+    "environmental impact assessment"
+  ],
+  "competencies": [
+    "Capability in developing sustainable systems architecture",
+    "Capability in developing energy-efficient infrastructure design",
+    "Capability in developing circular design principles application",
+    "Capability in developing technical sustainability implementation",
+    "Capability in developing resource optimization engineering",
+    "Proficiency in developing digital tools for sustainability assessment",
+    "Ability to analyze and interpret sustainability data for developing decision-making",
+    "Capacity to communicate sustainability concepts to diverse stakeholders",
+    "Skill in developing sustainable development frameworks in digital contexts"
+  ],
+  "target_ects": 180,
+  "assessment_methods": [
+    "exams",
+    "project_work",
+    "thesis",
+    "case_studies",
+    "reports"
+  ],
+  "career_pathways": [
+    "Green IT Engineering Director",
+    "Circular Systems Design Lead",
+    "Energy Efficiency Engineering Consultant",
+    "Chief Sustainable Technology Officer",
+    "Sustainability Educator/Trainer",
+    "Sustainable Innovation Entrepreneur"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "role_id": "DSC",
+  "role_name": "Digital Sustainability Consultant",
+  "eqf_level": 6,
+  "description": "Provides advisory services on digital sustainability strategies",
+  "main_area": "Advisory",
+  "thematic_area": "sustainability",
+  "program_duration": 6,
+  "learning_outcomes": [
+    "Examine sustainability consulting for sustainable business practices",
+    "Solve sustainability consulting in digital transformation for sustainability",
+    "Optimize strategic advising in digital transformation for sustainability",
+    "Compare assessment methodologies in circular economy applications",
+    "Assess strategic advising in circular economy applications",
+    "Assess transformation guidance for sustainable business practices",
+    "Apply integrated knowledge of assessment methodologies, best practices implementation to solve complex sustainability challenges"
+  ],
+  "skills": [
+    "ESG integration frameworks",
+    "sustainability transformation roadmapping",
+    "sustainability assessment methodologies",
+    "sustainability reporting",
+    "digital sustainability auditing",
+    "carbon footprint calculation",
+    "circular economy principles application",
+    "stakeholder communication"
+  ],
+  "competencies": [
+    "Capability in developing sustainability assessment and auditing",
+    "Capability in developing strategic sustainability consulting",
+    "Capability in developing transformation roadmap development",
+    "Capability in developing sustainability framework implementation",
+    "Capability in developing ESG integration consulting",
+    "Proficiency in developing digital tools for sustainability assessment",
+    "Ability to analyze and interpret sustainability data for developing decision-making",
+    "Capacity to communicate sustainability concepts to diverse stakeholders",
+    "Skill in developing sustainable development frameworks in digital contexts"
+  ],
+  "target_ects": 180,
+  "assessment_methods": [
+    "exams",
+    "project_work",
+    "thesis",
+    "case_studies",
+    "reports"
+  ],
+  "career_pathways": [
+    "ESG Transformation Director",
+    "Partner in Sustainability Practice",
+    "Sustainability Strategy Executive",
+    "Chief Sustainability Advisor",
+    "Digital Sustainability Researcher",
+    "Sustainability Educator/Trainer"
+  ]
+}

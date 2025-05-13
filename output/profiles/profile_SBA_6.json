@@ -1,0 +1,57 @@
+{
+  "role_id": "SBA",
+  "role_name": "Sustainability Business Analyst",
+  "eqf_level": 6,
+  "description": "Analyzes business processes and sustainability performance metrics",
+  "main_area": "Analysis",
+  "thematic_area": "sustainability",
+  "program_duration": 6,
+  "learning_outcomes": [
+    "Optimize sustainable business models in circular economy applications",
+    "Implement sustainable business models to support sustainable development goals",
+    "Compare process optimization in circular economy applications",
+    "Evaluate sustainable business models for addressing environmental challenges",
+    "Compare sustainable business models for sustainable business practices",
+    "Assess impact assessment for addressing environmental challenges",
+    "Analyze data-driven decision making in digital transformation for sustainability",
+    "Assess impact assessment in circular economy applications",
+    "Apply integrated knowledge of data-driven decision making, impact assessment to solve complex sustainability challenges"
+  ],
+  "skills": [
+    "impact data collection",
+    "metrics development",
+    "sustainability requirements analysis",
+    "process efficiency analysis",
+    "sustainable value chain mapping",
+    "digital sustainability assessment",
+    "sustainable development goals alignment",
+    "sustainability frameworks application"
+  ],
+  "competencies": [
+    "Capability in developing sustainability requirements analysis",
+    "Capability in developing sustainable business process modeling",
+    "Capability in developing impact data collection and validation",
+    "Capability in developing sustainable value chain analysis",
+    "Capability in developing sustainability metrics development",
+    "Proficiency in developing digital tools for sustainability assessment",
+    "Ability to analyze and interpret sustainability data for developing decision-making",
+    "Capacity to communicate sustainability concepts to diverse stakeholders",
+    "Skill in developing sustainable development frameworks in digital contexts"
+  ],
+  "target_ects": 180,
+  "assessment_methods": [
+    "exams",
+    "project_work",
+    "thesis",
+    "case_studies",
+    "reports"
+  ],
+  "career_pathways": [
+    "Sustainable Business Transformation Analyst",
+    "ESG Business Analysis Manager",
+    "Sustainability Process Optimization Lead",
+    "Sustainable Value Chain Analyst",
+    "Independent Sustainability Consultant",
+    "Digital Sustainability Researcher"
+  ]
+}

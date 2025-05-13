@@ -1,0 +1,53 @@
+{
+  "role_id": "SDD",
+  "role_name": "Software Developer for Sustainability",
+  "eqf_level": 4,
+  "description": "Implements sustainable coding practices and develops eco-efficient applications",
+  "main_area": "Software Development",
+  "thematic_area": "sustainability",
+  "program_duration": 2,
+  "learning_outcomes": [
+    "Demonstrate sustainable design for addressing environmental challenges",
+    "Identify energy-efficient interfaces in organizational sustainability contexts",
+    "Identify accessible interfaces in organizational sustainability contexts",
+    "Perform sustainable design to enhance environmental performance",
+    "Identify ethical design principles to enhance environmental performance",
+    "Apply energy-efficient interfaces for addressing environmental challenges",
+    "Implement sustainable design for addressing environmental challenges",
+    "Operate ethical design principles for addressing environmental challenges",
+    "Apply integrated knowledge of accessible interfaces, ethical design principles to solve complex sustainability challenges"
+  ],
+  "skills": [
+    "sustainable design principles",
+    "accessibility implementation",
+    "design systems optimization",
+    "energy-efficient UI/UX design",
+    "digital sustainability assessment",
+    "lifecycle thinking application"
+  ],
+  "competencies": [
+    "Capability in applying energy-efficient digital design",
+    "Capability in applying sustainable user experience development",
+    "Capability in applying accessibility implementation",
+    "Capability in applying sustainable design systems management",
+    "Capability in applying ethical design principles application",
+    "Proficiency in applying digital tools for sustainability assessment",
+    "Ability to analyze and interpret sustainability data for applying decision-making",
+    "Capacity to communicate sustainability concepts to diverse stakeholders",
+    "Skill in applying sustainable development frameworks in digital contexts"
+  ],
+  "target_ects": 60,
+  "assessment_methods": [
+    "practical_assignments",
+    "portfolio",
+    "skills_demonstrations"
+  ],
+  "career_pathways": [
+    "Sustainable Design Systems Architect",
+    "Ethical Design Director",
+    "Chief Sustainable Design Officer",
+    "Sustainable Design Consultant",
+    "ESG Integration Specialist",
+    "Sustainability Educator/Trainer"
+  ]
+}

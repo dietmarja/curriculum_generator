@@ -1,0 +1,59 @@
+{
+  "role_id": "DSL",
+  "role_name": "Digital Sustainability Lead",
+  "eqf_level": 8,
+  "description": "Drives digital sustainability initiatives within organizations",
+  "main_area": "Management",
+  "thematic_area": "sustainability",
+  "program_duration": 6,
+  "learning_outcomes": [
+    "Theorize stakeholder management for sustainable business practices",
+    "Develop digital transformation to support sustainable development goals",
+    "Create digital transformation in circular economy applications",
+    "Formulate strategic planning in circular economy applications",
+    "Develop leadership for addressing environmental challenges",
+    "Transform sustainability integration for sustainable business practices",
+    "Design leadership for sustainable business practices",
+    "Lead transformative initiatives in strategic planning, digital transformation that advance the field of digital sustainability"
+  ],
+  "skills": [
+    "carbon footprint analysis",
+    "ESG reporting",
+    "digital transformation planning",
+    "green IT governance",
+    "stakeholder engagement",
+    "change management",
+    "sustainability KPI development",
+    "sustainable development goals alignment",
+    "carbon footprint calculation",
+    "stakeholder communication"
+  ],
+  "competencies": [
+    "Capability in advancing strategic sustainability leadership",
+    "Capability in advancing digital transformation governance",
+    "Capability in advancing organizational change management",
+    "Capability in advancing sustainability integration in digital strategy",
+    "Capability in advancing cross-functional stakeholder engagement",
+    "Proficiency in advancing digital tools for sustainability assessment",
+    "Ability to analyze and interpret sustainability data for advancing decision-making",
+    "Capacity to communicate sustainability concepts to diverse stakeholders",
+    "Skill in advancing sustainable development frameworks in digital contexts"
+  ],
+  "target_ects": 180,
+  "assessment_methods": [
+    "dissertation",
+    "publications",
+    "research_projects",
+    "academic_defense",
+    "peer_review"
+  ],
+  "career_pathways": [
+    "Chief Sustainability Officer",
+    "Head of Digital Sustainability",
+    "Sustainability Transformation Lead",
+    "Digital Sustainability Director",
+    "Sustainability Educator/Trainer",
+    "Sustainable Innovation Entrepreneur",
+    "Independent Sustainability Consultant"
+  ]
+}

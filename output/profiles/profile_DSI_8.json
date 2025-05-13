@@ -1,0 +1,59 @@
+{
+  "role_id": "DSI",
+  "role_name": "Data Scientist (Sustainability)",
+  "eqf_level": 8,
+  "description": "Applies advanced analytics and machine learning to address sustainability challenges",
+  "main_area": "Data",
+  "thematic_area": "sustainability",
+  "program_duration": 6,
+  "learning_outcomes": [
+    "Develop sustainability metrics in circular economy applications",
+    "Transform predictive modeling in circular economy applications",
+    "Lead machine learning to enhance environmental performance",
+    "Transform machine learning to support sustainable development goals",
+    "Create impact assessment to enhance environmental performance",
+    "Transform sustainability metrics to support sustainable development goals",
+    "Formulate sustainability metrics in organizational sustainability contexts",
+    "Lead transformative initiatives in sustainability metrics, machine learning that advance the field of digital sustainability"
+  ],
+  "skills": [
+    "sustainability data analytics",
+    "data visualization for sustainability",
+    "machine learning for environmental impact",
+    "sustainability metrics development",
+    "carbon accounting",
+    "lifecycle assessment modeling",
+    "impact assessment methodologies",
+    "sustainability frameworks application",
+    "stakeholder communication",
+    "lifecycle thinking application"
+  ],
+  "competencies": [
+    "Capability in advancing sustainability data analysis and interpretation",
+    "Capability in advancing environmental impact modeling",
+    "Capability in advancing machine learning for sustainability optimization",
+    "Capability in advancing data-driven decision support for sustainability",
+    "Capability in advancing complex systems analysis for environmental impacts",
+    "Proficiency in advancing digital tools for sustainability assessment",
+    "Ability to analyze and interpret sustainability data for advancing decision-making",
+    "Capacity to communicate sustainability concepts to diverse stakeholders",
+    "Skill in advancing sustainable development frameworks in digital contexts"
+  ],
+  "target_ects": 180,
+  "assessment_methods": [
+    "dissertation",
+    "publications",
+    "research_projects",
+    "academic_defense",
+    "peer_review"
+  ],
+  "career_pathways": [
+    "Lead Sustainability Data Scientist",
+    "Sustainability Analytics Director",
+    "ESG Data Science Lead",
+    "Sustainability Impact Modeling Expert",
+    "Sustainable Innovation Entrepreneur",
+    "Digital Sustainability Researcher",
+    "Independent Sustainability Consultant"
+  ]
+}

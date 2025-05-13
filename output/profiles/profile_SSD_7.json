@@ -1,0 +1,59 @@
+{
+  "role_id": "SSD",
+  "role_name": "Sustainable Solution Designer",
+  "eqf_level": 7,
+  "description": "Designs IT architectures and systems with sustainability as a core principle",
+  "main_area": "Design",
+  "thematic_area": "sustainability",
+  "program_duration": 4,
+  "learning_outcomes": [
+    "Formulate energy-efficient software to enhance environmental performance",
+    "Create circular software design in circular economy applications",
+    "Evaluate circular software design to support sustainable development goals",
+    "Synthesize energy-efficient software for addressing environmental challenges",
+    "Lead energy-efficient software to enhance environmental performance",
+    "Design green coding to support sustainable development goals",
+    "Integrate circular software design in circular economy applications",
+    "Lead lifecycle optimization for addressing environmental challenges",
+    "Lead transformative initiatives in energy-efficient software, lifecycle optimization that advance the field of digital sustainability"
+  ],
+  "skills": [
+    "sustainable development practices",
+    "lifecycle optimization",
+    "software carbon intensity (SCI) calculation",
+    "energy profiling",
+    "green software architecture",
+    "code refactoring for sustainability",
+    "lifecycle thinking application",
+    "digital sustainability assessment",
+    "carbon footprint calculation"
+  ],
+  "competencies": [
+    "Capability in leading sustainable software lifecycle management",
+    "Capability in leading green code development and optimization",
+    "Capability in leading environmental impact assessment of software",
+    "Capability in leading sustainable development methodologies",
+    "Capability in leading technical debt management for sustainability",
+    "Proficiency in leading digital tools for sustainability assessment",
+    "Ability to analyze and interpret sustainability data for leading decision-making",
+    "Capacity to communicate sustainability concepts to diverse stakeholders",
+    "Skill in leading sustainable development frameworks in digital contexts"
+  ],
+  "target_ects": 120,
+  "assessment_methods": [
+    "research_papers",
+    "project_work",
+    "thesis",
+    "presentations",
+    "portfolios"
+  ],
+  "career_pathways": [
+    "Lead Green Software Engineer",
+    "Sustainable Software Architect",
+    "Green Code Optimization Specialist",
+    "Sustainable Development Team Lead",
+    "Sustainability Educator/Trainer",
+    "Digital Sustainability Researcher",
+    "Sustainable Innovation Entrepreneur"
+  ]
+}

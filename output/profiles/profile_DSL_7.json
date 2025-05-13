@@ -1,0 +1,59 @@
+{
+  "role_id": "DSL",
+  "role_name": "Digital Sustainability Lead",
+  "eqf_level": 7,
+  "description": "Drives digital sustainability initiatives within organizations",
+  "main_area": "Management",
+  "thematic_area": "sustainability",
+  "program_duration": 4,
+  "learning_outcomes": [
+    "Integrate digital transformation to support sustainable development goals",
+    "Integrate strategic planning in organizational sustainability contexts",
+    "Synthesize stakeholder management in circular economy applications",
+    "Evaluate stakeholder management to support sustainable development goals",
+    "Synthesize stakeholder management for sustainable business practices",
+    "Design digital transformation to enhance environmental performance",
+    "Integrate stakeholder management to support sustainable development goals",
+    "Create strategic planning in digital transformation for sustainability",
+    "Lead transformative initiatives in leadership, digital transformation that advance the field of digital sustainability"
+  ],
+  "skills": [
+    "carbon footprint analysis",
+    "green IT governance",
+    "ESG reporting",
+    "sustainability strategy development",
+    "stakeholder engagement",
+    "digital transformation planning",
+    "environmental impact assessment",
+    "sustainability frameworks application",
+    "sustainable development goals alignment"
+  ],
+  "competencies": [
+    "Capability in leading strategic sustainability leadership",
+    "Capability in leading digital transformation governance",
+    "Capability in leading organizational change management",
+    "Capability in leading sustainability integration in digital strategy",
+    "Capability in leading cross-functional stakeholder engagement",
+    "Proficiency in leading digital tools for sustainability assessment",
+    "Ability to analyze and interpret sustainability data for leading decision-making",
+    "Capacity to communicate sustainability concepts to diverse stakeholders",
+    "Skill in leading sustainable development frameworks in digital contexts"
+  ],
+  "target_ects": 120,
+  "assessment_methods": [
+    "research_papers",
+    "project_work",
+    "thesis",
+    "presentations",
+    "portfolios"
+  ],
+  "career_pathways": [
+    "Chief Sustainability Officer",
+    "Head of Digital Sustainability",
+    "Sustainability Transformation Lead",
+    "Digital Sustainability Director",
+    "Independent Sustainability Consultant",
+    "ESG Integration Specialist",
+    "Digital Sustainability Researcher"
+  ]
+}

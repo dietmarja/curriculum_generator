@@ -1,0 +1,55 @@
+{
+  "role_id": "SDD",
+  "role_name": "Software Developer for Sustainability",
+  "eqf_level": 5,
+  "description": "Implements sustainable coding practices and develops eco-efficient applications",
+  "main_area": "Software Development",
+  "thematic_area": "sustainability",
+  "program_duration": 4,
+  "learning_outcomes": [
+    "Apply energy-efficient interfaces for addressing environmental challenges",
+    "Implement user experience in digital transformation for sustainability",
+    "Solve user experience in digital transformation for sustainability",
+    "Analyze sustainable design to enhance environmental performance",
+    "Solve accessible interfaces for addressing environmental challenges",
+    "Compare user experience to support sustainable development goals",
+    "Implement energy-efficient interfaces for sustainable business practices",
+    "Apply user experience for sustainable business practices",
+    "Apply integrated knowledge of user experience, sustainable design to solve complex sustainability challenges"
+  ],
+  "skills": [
+    "sustainable design principles",
+    "accessibility implementation",
+    "user research for sustainability",
+    "energy-efficient UI/UX design",
+    "environmental impact assessment",
+    "sustainability frameworks application",
+    "circular economy principles application"
+  ],
+  "competencies": [
+    "Capability in implementing energy-efficient digital design",
+    "Capability in implementing sustainable user experience development",
+    "Capability in implementing accessibility implementation",
+    "Capability in implementing sustainable design systems management",
+    "Capability in implementing ethical design principles application",
+    "Proficiency in implementing digital tools for sustainability assessment",
+    "Ability to analyze and interpret sustainability data for implementing decision-making",
+    "Capacity to communicate sustainability concepts to diverse stakeholders",
+    "Skill in implementing sustainable development frameworks in digital contexts"
+  ],
+  "target_ects": 120,
+  "assessment_methods": [
+    "practical_assignments",
+    "portfolio",
+    "project_work",
+    "case_studies"
+  ],
+  "career_pathways": [
+    "Sustainable Design Systems Architect",
+    "Ethical Design Director",
+    "Chief Sustainable Design Officer",
+    "Sustainable Design Consultant",
+    "Sustainability Educator/Trainer",
+    "Independent Sustainability Consultant"
+  ]
+}

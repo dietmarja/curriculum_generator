@@ -1,0 +1,54 @@
+{
+  "role_id": "STS",
+  "role_name": "Sustainability Technical Specialist",
+  "eqf_level": 5,
+  "description": "Provides specialized technical support for sustainability tools and platforms",
+  "main_area": "Technical Implementation",
+  "thematic_area": "sustainability",
+  "program_duration": 4,
+  "learning_outcomes": [
+    "Differentiate green IT for addressing environmental challenges",
+    "Compare environmental impact reduction for addressing environmental challenges",
+    "Implement environmental impact reduction to enhance environmental performance",
+    "Apply environmental impact reduction in organizational sustainability contexts",
+    "Examine technical consulting for sustainable business practices",
+    "Differentiate technology assessment in circular economy applications",
+    "Differentiate sustainable technologies in organizational sustainability contexts",
+    "Apply integrated knowledge of green IT, technical consulting to solve complex sustainability challenges"
+  ],
+  "skills": [
+    "energy efficiency auditing",
+    "sustainable IT solutions design",
+    "sustainable hardware evaluation",
+    "e-waste reduction strategies",
+    "lifecycle thinking application",
+    "sustainable development goals alignment",
+    "carbon footprint calculation"
+  ],
+  "competencies": [
+    "Capability in implementing green technology evaluation",
+    "Capability in implementing sustainable IT solutions design",
+    "Capability in implementing environmental impact assessment of technology",
+    "Capability in implementing circular technology implementation",
+    "Capability in implementing technology sustainability consulting",
+    "Proficiency in implementing digital tools for sustainability assessment",
+    "Ability to analyze and interpret sustainability data for implementing decision-making",
+    "Capacity to communicate sustainability concepts to diverse stakeholders",
+    "Skill in implementing sustainable development frameworks in digital contexts"
+  ],
+  "target_ects": 120,
+  "assessment_methods": [
+    "practical_assignments",
+    "portfolio",
+    "project_work",
+    "case_studies"
+  ],
+  "career_pathways": [
+    "Circular IT Implementation Lead",
+    "Green Technology Assessment Lead",
+    "Chief Green Technology Officer",
+    "Sustainable Technology Research Lead",
+    "Sustainability Educator/Trainer",
+    "Digital Sustainability Researcher"
+  ]
+}

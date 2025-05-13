@@ -1,0 +1,57 @@
+{
+  "role_id": "DAN",
+  "role_name": "Data Analyst",
+  "eqf_level": 7,
+  "description": "Analyzes and visualizes data to drive sustainability insights and reporting",
+  "main_area": "Data",
+  "thematic_area": "sustainability",
+  "program_duration": 4,
+  "learning_outcomes": [
+    "Create data analysis for sustainable business practices",
+    "Develop data analysis for sustainable business practices",
+    "Synthesize data-driven insights to enhance environmental performance",
+    "Design data analysis in circular economy applications",
+    "Integrate data-driven insights to enhance environmental performance",
+    "Formulate dashboard creation for sustainable business practices",
+    "Lead transformative initiatives in reporting, data-driven insights that advance the field of digital sustainability"
+  ],
+  "skills": [
+    "sustainability data modeling",
+    "impact dashboard creation",
+    "analytics tool development",
+    "sustainability reporting automation",
+    "data-driven sustainability optimization",
+    "ESG metrics development",
+    "digital sustainability assessment",
+    "lifecycle thinking application",
+    "circular economy principles application"
+  ],
+  "competencies": [
+    "Capability in leading sustainability data modeling and analysis",
+    "Capability in leading ESG metrics framework development",
+    "Capability in leading data-driven sustainability reporting",
+    "Capability in leading analytical dashboard development",
+    "Capability in leading impact assessment methodologies",
+    "Proficiency in leading digital tools for sustainability assessment",
+    "Ability to analyze and interpret sustainability data for leading decision-making",
+    "Capacity to communicate sustainability concepts to diverse stakeholders",
+    "Skill in leading sustainable development frameworks in digital contexts"
+  ],
+  "target_ects": 120,
+  "assessment_methods": [
+    "research_papers",
+    "project_work",
+    "thesis",
+    "presentations",
+    "portfolios"
+  ],
+  "career_pathways": [
+    "Sustainability Analytics Lead",
+    "ESG Data & Analytics Manager",
+    "Sustainability Reporting Director",
+    "Impact Measurement Lead",
+    "Independent Sustainability Consultant",
+    "Digital Sustainability Researcher",
+    "Sustainability Educator/Trainer"
+  ]
+}

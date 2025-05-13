@@ -1,0 +1,57 @@
+{
+  "role_id": "DSM",
+  "role_name": "Digital Sustainability Manager",
+  "eqf_level": 6,
+  "description": "Implements and manages digital sustainability initiatives",
+  "main_area": "Management",
+  "thematic_area": "sustainability",
+  "program_duration": 6,
+  "learning_outcomes": [
+    "Develop program management to support sustainable development goals",
+    "Optimize resource allocation in organizational sustainability contexts",
+    "Implement program management in digital transformation for sustainability",
+    "Develop program management in circular economy applications",
+    "Examine implementation oversight for addressing environmental challenges",
+    "Optimize organizational change to enhance environmental performance",
+    "Evaluate sustainability strategy to enhance environmental performance",
+    "Evaluate organizational change for addressing environmental challenges",
+    "Apply integrated knowledge of resource allocation, organizational change to solve complex sustainability challenges"
+  ],
+  "skills": [
+    "green IT budget allocation",
+    "ESG performance monitoring",
+    "sustainability program management",
+    "sustainability team leadership",
+    "sustainable procurement",
+    "stakeholder communication",
+    "carbon footprint calculation",
+    "environmental impact assessment"
+  ],
+  "competencies": [
+    "Capability in developing sustainable digital program management",
+    "Capability in developing ESG performance monitoring and reporting",
+    "Capability in developing sustainable digital operations oversight",
+    "Capability in developing green IT resource management",
+    "Capability in developing sustainability team coordination",
+    "Proficiency in developing digital tools for sustainability assessment",
+    "Ability to analyze and interpret sustainability data for developing decision-making",
+    "Capacity to communicate sustainability concepts to diverse stakeholders",
+    "Skill in developing sustainable development frameworks in digital contexts"
+  ],
+  "target_ects": 180,
+  "assessment_methods": [
+    "exams",
+    "project_work",
+    "thesis",
+    "case_studies",
+    "reports"
+  ],
+  "career_pathways": [
+    "Digital Sustainability Executive",
+    "ESG Operations Director",
+    "Chief Sustainability Officer",
+    "Sustainable Transformation Lead",
+    "Independent Sustainability Consultant",
+    "Digital Sustainability Researcher"
+  ]
+}

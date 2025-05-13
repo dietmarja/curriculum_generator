@@ -1,0 +1,58 @@
+{
+  "role_id": "DSC",
+  "role_name": "Digital Sustainability Consultant",
+  "eqf_level": 7,
+  "description": "Provides advisory services on digital sustainability strategies",
+  "main_area": "Advisory",
+  "thematic_area": "sustainability",
+  "program_duration": 4,
+  "learning_outcomes": [
+    "Evaluate sustainability consulting in organizational sustainability contexts",
+    "Formulate sustainability consulting in organizational sustainability contexts",
+    "Integrate assessment methodologies for addressing environmental challenges",
+    "Design assessment methodologies for sustainable business practices",
+    "Integrate transformation guidance in circular economy applications",
+    "Synthesize assessment methodologies to enhance environmental performance",
+    "Evaluate strategic advising in organizational sustainability contexts",
+    "Lead transformative initiatives in sustainability consulting, transformation guidance that advance the field of digital sustainability"
+  ],
+  "skills": [
+    "strategic sustainability consulting",
+    "digital sustainability auditing",
+    "sustainability reporting",
+    "ESG integration frameworks",
+    "sustainability transformation roadmapping",
+    "sustainability assessment methodologies",
+    "digital sustainability assessment",
+    "lifecycle thinking application",
+    "stakeholder communication"
+  ],
+  "competencies": [
+    "Capability in leading sustainability assessment and auditing",
+    "Capability in leading strategic sustainability consulting",
+    "Capability in leading transformation roadmap development",
+    "Capability in leading sustainability framework implementation",
+    "Capability in leading ESG integration consulting",
+    "Proficiency in leading digital tools for sustainability assessment",
+    "Ability to analyze and interpret sustainability data for leading decision-making",
+    "Capacity to communicate sustainability concepts to diverse stakeholders",
+    "Skill in leading sustainable development frameworks in digital contexts"
+  ],
+  "target_ects": 120,
+  "assessment_methods": [
+    "research_papers",
+    "project_work",
+    "thesis",
+    "presentations",
+    "portfolios"
+  ],
+  "career_pathways": [
+    "Senior Sustainability Consultant",
+    "Sustainability Practice Lead",
+    "ESG Transformation Director",
+    "Partner in Sustainability Practice",
+    "Digital Sustainability Researcher",
+    "Sustainability Educator/Trainer",
+    "ESG Integration Specialist"
+  ]
+}

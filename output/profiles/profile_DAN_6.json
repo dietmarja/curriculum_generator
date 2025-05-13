@@ -1,0 +1,56 @@
+{
+  "role_id": "DAN",
+  "role_name": "Data Analyst",
+  "eqf_level": 6,
+  "description": "Analyzes and visualizes data to drive sustainability insights and reporting",
+  "main_area": "Data",
+  "thematic_area": "sustainability",
+  "program_duration": 6,
+  "learning_outcomes": [
+    "Analyze data-driven insights for addressing environmental challenges",
+    "Implement metrics development to enhance environmental performance",
+    "Solve data-driven insights to enhance environmental performance",
+    "Develop dashboard creation in circular economy applications",
+    "Optimize reporting for addressing environmental challenges",
+    "Examine data analysis for addressing environmental challenges",
+    "Examine data-driven insights for addressing environmental challenges",
+    "Apply integrated knowledge of dashboard creation, data-driven insights to solve complex sustainability challenges"
+  ],
+  "skills": [
+    "sustainability data modeling",
+    "ESG metrics development",
+    "data-driven sustainability optimization",
+    "analytics tool development",
+    "impact dashboard creation",
+    "digital sustainability assessment",
+    "sustainability frameworks application",
+    "carbon footprint calculation"
+  ],
+  "competencies": [
+    "Capability in developing sustainability data modeling and analysis",
+    "Capability in developing ESG metrics framework development",
+    "Capability in developing data-driven sustainability reporting",
+    "Capability in developing analytical dashboard development",
+    "Capability in developing impact assessment methodologies",
+    "Proficiency in developing digital tools for sustainability assessment",
+    "Ability to analyze and interpret sustainability data for developing decision-making",
+    "Capacity to communicate sustainability concepts to diverse stakeholders",
+    "Skill in developing sustainable development frameworks in digital contexts"
+  ],
+  "target_ects": 180,
+  "assessment_methods": [
+    "exams",
+    "project_work",
+    "thesis",
+    "case_studies",
+    "reports"
+  ],
+  "career_pathways": [
+    "Sustainability Reporting Director",
+    "Impact Measurement Lead",
+    "Chief Sustainability Data Officer",
+    "Sustainability Intelligence Director",
+    "Sustainability Educator/Trainer",
+    "Independent Sustainability Consultant"
+  ]
+}

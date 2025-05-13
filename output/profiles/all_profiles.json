@@ -1,0 +1,1193 @@
+[
+  {
+    "role_id": "DAN",
+    "role_name": "Data Analyst",
+    "eqf_level": 6,
+    "description": "Analyzes and visualizes data to drive sustainability insights and reporting",
+    "main_area": "Data",
+    "thematic_area": "sustainability",
+    "program_duration": 6,
+    "learning_outcomes": [
+      "Analyze data-driven insights for addressing environmental challenges",
+      "Implement metrics development to enhance environmental performance",
+      "Solve data-driven insights to enhance environmental performance",
+      "Develop dashboard creation in circular economy applications",
+      "Optimize reporting for addressing environmental challenges",
+      "Examine data analysis for addressing environmental challenges",
+      "Examine data-driven insights for addressing environmental challenges",
+      "Apply integrated knowledge of dashboard creation, data-driven insights to solve complex sustainability challenges"
+    ],
+    "skills": [
+      "sustainability data modeling",
+      "ESG metrics development",
+      "data-driven sustainability optimization",
+      "analytics tool development",
+      "impact dashboard creation",
+      "digital sustainability assessment",
+      "sustainability frameworks application",
+      "carbon footprint calculation"
+    ],
+    "competencies": [
+      "Capability in developing sustainability data modeling and analysis",
+      "Capability in developing ESG metrics framework development",
+      "Capability in developing data-driven sustainability reporting",
+      "Capability in developing analytical dashboard development",
+      "Capability in developing impact assessment methodologies",
+      "Proficiency in developing digital tools for sustainability assessment",
+      "Ability to analyze and interpret sustainability data for developing decision-making",
+      "Capacity to communicate sustainability concepts to diverse stakeholders",
+      "Skill in developing sustainable development frameworks in digital contexts"
+    ],
+    "target_ects": 180,
+    "assessment_methods": [
+      "exams",
+      "project_work",
+      "thesis",
+      "case_studies",
+      "reports"
+    ],
+    "career_pathways": [
+      "Sustainability Reporting Director",
+      "Impact Measurement Lead",
+      "Chief Sustainability Data Officer",
+      "Sustainability Intelligence Director",
+      "Sustainability Educator/Trainer",
+      "Independent Sustainability Consultant"
+    ]
+  },
+  {
+    "role_id": "DAN",
+    "role_name": "Data Analyst",
+    "eqf_level": 7,
+    "description": "Analyzes and visualizes data to drive sustainability insights and reporting",
+    "main_area": "Data",
+    "thematic_area": "sustainability",
+    "program_duration": 4,
+    "learning_outcomes": [
+      "Create data analysis for sustainable business practices",
+      "Develop data analysis for sustainable business practices",
+      "Synthesize data-driven insights to enhance environmental performance",
+      "Design data analysis in circular economy applications",
+      "Integrate data-driven insights to enhance environmental performance",
+      "Formulate dashboard creation for sustainable business practices",
+      "Lead transformative initiatives in reporting, data-driven insights that advance the field of digital sustainability"
+    ],
+    "skills": [
+      "sustainability data modeling",
+      "impact dashboard creation",
+      "analytics tool development",
+      "sustainability reporting automation",
+      "data-driven sustainability optimization",
+      "ESG metrics development",
+      "digital sustainability assessment",
+      "lifecycle thinking application",
+      "circular economy principles application"
+    ],
+    "competencies": [
+      "Capability in leading sustainability data modeling and analysis",
+      "Capability in leading ESG metrics framework development",
+      "Capability in leading data-driven sustainability reporting",
+      "Capability in leading analytical dashboard development",
+      "Capability in leading impact assessment methodologies",
+      "Proficiency in leading digital tools for sustainability assessment",
+      "Ability to analyze and interpret sustainability data for leading decision-making",
+      "Capacity to communicate sustainability concepts to diverse stakeholders",
+      "Skill in leading sustainable development frameworks in digital contexts"
+    ],
+    "target_ects": 120,
+    "assessment_methods": [
+      "research_papers",
+      "project_work",
+      "thesis",
+      "presentations",
+      "portfolios"
+    ],
+    "career_pathways": [
+      "Sustainability Analytics Lead",
+      "ESG Data & Analytics Manager",
+      "Sustainability Reporting Director",
+      "Impact Measurement Lead",
+      "Independent Sustainability Consultant",
+      "Digital Sustainability Researcher",
+      "Sustainability Educator/Trainer"
+    ]
+  },
+  {
+    "role_id": "DSE",
+    "role_name": "Data Engineer",
+    "eqf_level": 6,
+    "description": "Implements and optimizes digital infrastructure with minimal environmental impact",
+    "main_area": "Data",
+    "thematic_area": "sustainability",
+    "program_duration": 6,
+    "learning_outcomes": [
+      "Solve technical implementation in circular economy applications",
+      "Solve systems design for sustainable business practices",
+      "Implement resource management to support sustainable development goals",
+      "Optimize infrastructure optimization in organizational sustainability contexts",
+      "Assess energy efficiency in organizational sustainability contexts",
+      "Compare energy efficiency in organizational sustainability contexts",
+      "Optimize systems design in circular economy applications",
+      "Examine resource management in digital transformation for sustainability",
+      "Apply integrated knowledge of infrastructure optimization, systems design to solve complex sustainability challenges"
+    ],
+    "skills": [
+      "carbon-aware infrastructure",
+      "sustainable IT infrastructure",
+      "green datacenter design",
+      "renewable energy integration",
+      "power usage effectiveness optimization",
+      "stakeholder communication",
+      "sustainability frameworks application",
+      "environmental impact assessment"
+    ],
+    "competencies": [
+      "Capability in developing sustainable systems architecture",
+      "Capability in developing energy-efficient infrastructure design",
+      "Capability in developing circular design principles application",
+      "Capability in developing technical sustainability implementation",
+      "Capability in developing resource optimization engineering",
+      "Proficiency in developing digital tools for sustainability assessment",
+      "Ability to analyze and interpret sustainability data for developing decision-making",
+      "Capacity to communicate sustainability concepts to diverse stakeholders",
+      "Skill in developing sustainable development frameworks in digital contexts"
+    ],
+    "target_ects": 180,
+    "assessment_methods": [
+      "exams",
+      "project_work",
+      "thesis",
+      "case_studies",
+      "reports"
+    ],
+    "career_pathways": [
+      "Green IT Engineering Director",
+      "Circular Systems Design Lead",
+      "Energy Efficiency Engineering Consultant",
+      "Chief Sustainable Technology Officer",
+      "Sustainability Educator/Trainer",
+      "Sustainable Innovation Entrepreneur"
+    ]
+  },
+  {
+    "role_id": "DSE",
+    "role_name": "Data Engineer",
+    "eqf_level": 7,
+    "description": "Implements and optimizes digital infrastructure with minimal environmental impact",
+    "main_area": "Data",
+    "thematic_area": "sustainability",
+    "program_duration": 4,
+    "learning_outcomes": [
+      "Critique technical implementation to support sustainable development goals",
+      "Design infrastructure optimization in circular economy applications",
+      "Integrate infrastructure optimization in organizational sustainability contexts",
+      "Critique systems design for sustainable business practices",
+      "Develop energy efficiency to support sustainable development goals",
+      "Integrate energy efficiency in digital transformation for sustainability",
+      "Lead transformative initiatives in resource management, energy efficiency that advance the field of digital sustainability"
+    ],
+    "skills": [
+      "sustainable IT infrastructure",
+      "energy-efficient systems design",
+      "renewable energy integration",
+      "green datacenter design",
+      "carbon-aware infrastructure",
+      "power usage effectiveness optimization",
+      "environmental impact assessment",
+      "circular economy principles application",
+      "digital sustainability assessment"
+    ],
+    "competencies": [
+      "Capability in leading sustainable systems architecture",
+      "Capability in leading energy-efficient infrastructure design",
+      "Capability in leading circular design principles application",
+      "Capability in leading technical sustainability implementation",
+      "Capability in leading resource optimization engineering",
+      "Proficiency in leading digital tools for sustainability assessment",
+      "Ability to analyze and interpret sustainability data for leading decision-making",
+      "Capacity to communicate sustainability concepts to diverse stakeholders",
+      "Skill in leading sustainable development frameworks in digital contexts"
+    ],
+    "target_ects": 120,
+    "assessment_methods": [
+      "research_papers",
+      "project_work",
+      "thesis",
+      "presentations",
+      "portfolios"
+    ],
+    "career_pathways": [
+      "Lead Sustainability Systems Engineer",
+      "Sustainable Infrastructure Architect",
+      "Green IT Engineering Director",
+      "Circular Systems Design Lead",
+      "Sustainable Innovation Entrepreneur",
+      "Sustainability Educator/Trainer",
+      "Independent Sustainability Consultant"
+    ]
+  },
+  {
+    "role_id": "DSL",
+    "role_name": "Digital Sustainability Lead",
+    "eqf_level": 7,
+    "description": "Drives digital sustainability initiatives within organizations",
+    "main_area": "Management",
+    "thematic_area": "sustainability",
+    "program_duration": 4,
+    "learning_outcomes": [
+      "Integrate digital transformation to support sustainable development goals",
+      "Integrate strategic planning in organizational sustainability contexts",
+      "Synthesize stakeholder management in circular economy applications",
+      "Evaluate stakeholder management to support sustainable development goals",
+      "Synthesize stakeholder management for sustainable business practices",
+      "Design digital transformation to enhance environmental performance",
+      "Integrate stakeholder management to support sustainable development goals",
+      "Create strategic planning in digital transformation for sustainability",
+      "Lead transformative initiatives in leadership, digital transformation that advance the field of digital sustainability"
+    ],
+    "skills": [
+      "carbon footprint analysis",
+      "green IT governance",
+      "ESG reporting",
+      "sustainability strategy development",
+      "stakeholder engagement",
+      "digital transformation planning",
+      "environmental impact assessment",
+      "sustainability frameworks application",
+      "sustainable development goals alignment"
+    ],
+    "competencies": [
+      "Capability in leading strategic sustainability leadership",
+      "Capability in leading digital transformation governance",
+      "Capability in leading organizational change management",
+      "Capability in leading sustainability integration in digital strategy",
+      "Capability in leading cross-functional stakeholder engagement",
+      "Proficiency in leading digital tools for sustainability assessment",
+      "Ability to analyze and interpret sustainability data for leading decision-making",
+      "Capacity to communicate sustainability concepts to diverse stakeholders",
+      "Skill in leading sustainable development frameworks in digital contexts"
+    ],
+    "target_ects": 120,
+    "assessment_methods": [
+      "research_papers",
+      "project_work",
+      "thesis",
+      "presentations",
+      "portfolios"
+    ],
+    "career_pathways": [
+      "Chief Sustainability Officer",
+      "Head of Digital Sustainability",
+      "Sustainability Transformation Lead",
+      "Digital Sustainability Director",
+      "Independent Sustainability Consultant",
+      "ESG Integration Specialist",
+      "Digital Sustainability Researcher"
+    ]
+  },
+  {
+    "role_id": "DSL",
+    "role_name": "Digital Sustainability Lead",
+    "eqf_level": 8,
+    "description": "Drives digital sustainability initiatives within organizations",
+    "main_area": "Management",
+    "thematic_area": "sustainability",
+    "program_duration": 6,
+    "learning_outcomes": [
+      "Theorize stakeholder management for sustainable business practices",
+      "Develop digital transformation to support sustainable development goals",
+      "Create digital transformation in circular economy applications",
+      "Formulate strategic planning in circular economy applications",
+      "Develop leadership for addressing environmental challenges",
+      "Transform sustainability integration for sustainable business practices",
+      "Design leadership for sustainable business practices",
+      "Lead transformative initiatives in strategic planning, digital transformation that advance the field of digital sustainability"
+    ],
+    "skills": [
+      "carbon footprint analysis",
+      "ESG reporting",
+      "digital transformation planning",
+      "green IT governance",
+      "stakeholder engagement",
+      "change management",
+      "sustainability KPI development",
+      "sustainable development goals alignment",
+      "carbon footprint calculation",
+      "stakeholder communication"
+    ],
+    "competencies": [
+      "Capability in advancing strategic sustainability leadership",
+      "Capability in advancing digital transformation governance",
+      "Capability in advancing organizational change management",
+      "Capability in advancing sustainability integration in digital strategy",
+      "Capability in advancing cross-functional stakeholder engagement",
+      "Proficiency in advancing digital tools for sustainability assessment",
+      "Ability to analyze and interpret sustainability data for advancing decision-making",
+      "Capacity to communicate sustainability concepts to diverse stakeholders",
+      "Skill in advancing sustainable development frameworks in digital contexts"
+    ],
+    "target_ects": 180,
+    "assessment_methods": [
+      "dissertation",
+      "publications",
+      "research_projects",
+      "academic_defense",
+      "peer_review"
+    ],
+    "career_pathways": [
+      "Chief Sustainability Officer",
+      "Head of Digital Sustainability",
+      "Sustainability Transformation Lead",
+      "Digital Sustainability Director",
+      "Sustainability Educator/Trainer",
+      "Sustainable Innovation Entrepreneur",
+      "Independent Sustainability Consultant"
+    ]
+  },
+  {
+    "role_id": "DSM",
+    "role_name": "Digital Sustainability Manager",
+    "eqf_level": 6,
+    "description": "Implements and manages digital sustainability initiatives",
+    "main_area": "Management",
+    "thematic_area": "sustainability",
+    "program_duration": 6,
+    "learning_outcomes": [
+      "Develop program management to support sustainable development goals",
+      "Optimize resource allocation in organizational sustainability contexts",
+      "Implement program management in digital transformation for sustainability",
+      "Develop program management in circular economy applications",
+      "Examine implementation oversight for addressing environmental challenges",
+      "Optimize organizational change to enhance environmental performance",
+      "Evaluate sustainability strategy to enhance environmental performance",
+      "Evaluate organizational change for addressing environmental challenges",
+      "Apply integrated knowledge of resource allocation, organizational change to solve complex sustainability challenges"
+    ],
+    "skills": [
+      "green IT budget allocation",
+      "ESG performance monitoring",
+      "sustainability program management",
+      "sustainability team leadership",
+      "sustainable procurement",
+      "stakeholder communication",
+      "carbon footprint calculation",
+      "environmental impact assessment"
+    ],
+    "competencies": [
+      "Capability in developing sustainable digital program management",
+      "Capability in developing ESG performance monitoring and reporting",
+      "Capability in developing sustainable digital operations oversight",
+      "Capability in developing green IT resource management",
+      "Capability in developing sustainability team coordination",
+      "Proficiency in developing digital tools for sustainability assessment",
+      "Ability to analyze and interpret sustainability data for developing decision-making",
+      "Capacity to communicate sustainability concepts to diverse stakeholders",
+      "Skill in developing sustainable development frameworks in digital contexts"
+    ],
+    "target_ects": 180,
+    "assessment_methods": [
+      "exams",
+      "project_work",
+      "thesis",
+      "case_studies",
+      "reports"
+    ],
+    "career_pathways": [
+      "Digital Sustainability Executive",
+      "ESG Operations Director",
+      "Chief Sustainability Officer",
+      "Sustainable Transformation Lead",
+      "Independent Sustainability Consultant",
+      "Digital Sustainability Researcher"
+    ]
+  },
+  {
+    "role_id": "DSM",
+    "role_name": "Digital Sustainability Manager",
+    "eqf_level": 7,
+    "description": "Implements and manages digital sustainability initiatives",
+    "main_area": "Management",
+    "thematic_area": "sustainability",
+    "program_duration": 4,
+    "learning_outcomes": [
+      "Create sustainability strategy to enhance environmental performance",
+      "Create organizational change to enhance environmental performance",
+      "Create organizational change for addressing environmental challenges",
+      "Lead sustainability strategy in digital transformation for sustainability",
+      "Integrate organizational change in digital transformation for sustainability",
+      "Critique sustainability strategy in digital transformation for sustainability",
+      "Synthesize organizational change to support sustainable development goals",
+      "Lead transformative initiatives in organizational change, program management that advance the field of digital sustainability"
+    ],
+    "skills": [
+      "sustainability team leadership",
+      "ESG performance monitoring",
+      "carbon reduction management",
+      "green IT budget allocation",
+      "sustainability program management",
+      "sustainable procurement",
+      "sustainable development goals alignment",
+      "circular economy principles application",
+      "digital sustainability assessment"
+    ],
+    "competencies": [
+      "Capability in leading sustainable digital program management",
+      "Capability in leading ESG performance monitoring and reporting",
+      "Capability in leading sustainable digital operations oversight",
+      "Capability in leading green IT resource management",
+      "Capability in leading sustainability team coordination",
+      "Proficiency in leading digital tools for sustainability assessment",
+      "Ability to analyze and interpret sustainability data for leading decision-making",
+      "Capacity to communicate sustainability concepts to diverse stakeholders",
+      "Skill in leading sustainable development frameworks in digital contexts"
+    ],
+    "target_ects": 120,
+    "assessment_methods": [
+      "research_papers",
+      "project_work",
+      "thesis",
+      "presentations",
+      "portfolios"
+    ],
+    "career_pathways": [
+      "Head of Sustainability",
+      "Sustainability Program Director",
+      "Digital Sustainability Executive",
+      "ESG Operations Director",
+      "Independent Sustainability Consultant",
+      "ESG Integration Specialist",
+      "Sustainable Innovation Entrepreneur"
+    ]
+  },
+  {
+    "role_id": "DSC",
+    "role_name": "Digital Sustainability Consultant",
+    "eqf_level": 6,
+    "description": "Provides advisory services on digital sustainability strategies",
+    "main_area": "Advisory",
+    "thematic_area": "sustainability",
+    "program_duration": 6,
+    "learning_outcomes": [
+      "Examine sustainability consulting for sustainable business practices",
+      "Solve sustainability consulting in digital transformation for sustainability",
+      "Optimize strategic advising in digital transformation for sustainability",
+      "Compare assessment methodologies in circular economy applications",
+      "Assess strategic advising in circular economy applications",
+      "Assess transformation guidance for sustainable business practices",
+      "Apply integrated knowledge of assessment methodologies, best practices implementation to solve complex sustainability challenges"
+    ],
+    "skills": [
+      "ESG integration frameworks",
+      "sustainability transformation roadmapping",
+      "sustainability assessment methodologies",
+      "sustainability reporting",
+      "digital sustainability auditing",
+      "carbon footprint calculation",
+      "circular economy principles application",
+      "stakeholder communication"
+    ],
+    "competencies": [
+      "Capability in developing sustainability assessment and auditing",
+      "Capability in developing strategic sustainability consulting",
+      "Capability in developing transformation roadmap development",
+      "Capability in developing sustainability framework implementation",
+      "Capability in developing ESG integration consulting",
+      "Proficiency in developing digital tools for sustainability assessment",
+      "Ability to analyze and interpret sustainability data for developing decision-making",
+      "Capacity to communicate sustainability concepts to diverse stakeholders",
+      "Skill in developing sustainable development frameworks in digital contexts"
+    ],
+    "target_ects": 180,
+    "assessment_methods": [
+      "exams",
+      "project_work",
+      "thesis",
+      "case_studies",
+      "reports"
+    ],
+    "career_pathways": [
+      "ESG Transformation Director",
+      "Partner in Sustainability Practice",
+      "Sustainability Strategy Executive",
+      "Chief Sustainability Advisor",
+      "Digital Sustainability Researcher",
+      "Sustainability Educator/Trainer"
+    ]
+  },
+  {
+    "role_id": "DSC",
+    "role_name": "Digital Sustainability Consultant",
+    "eqf_level": 7,
+    "description": "Provides advisory services on digital sustainability strategies",
+    "main_area": "Advisory",
+    "thematic_area": "sustainability",
+    "program_duration": 4,
+    "learning_outcomes": [
+      "Evaluate sustainability consulting in organizational sustainability contexts",
+      "Formulate sustainability consulting in organizational sustainability contexts",
+      "Integrate assessment methodologies for addressing environmental challenges",
+      "Design assessment methodologies for sustainable business practices",
+      "Integrate transformation guidance in circular economy applications",
+      "Synthesize assessment methodologies to enhance environmental performance",
+      "Evaluate strategic advising in organizational sustainability contexts",
+      "Lead transformative initiatives in sustainability consulting, transformation guidance that advance the field of digital sustainability"
+    ],
+    "skills": [
+      "strategic sustainability consulting",
+      "digital sustainability auditing",
+      "sustainability reporting",
+      "ESG integration frameworks",
+      "sustainability transformation roadmapping",
+      "sustainability assessment methodologies",
+      "digital sustainability assessment",
+      "lifecycle thinking application",
+      "stakeholder communication"
+    ],
+    "competencies": [
+      "Capability in leading sustainability assessment and auditing",
+      "Capability in leading strategic sustainability consulting",
+      "Capability in leading transformation roadmap development",
+      "Capability in leading sustainability framework implementation",
+      "Capability in leading ESG integration consulting",
+      "Proficiency in leading digital tools for sustainability assessment",
+      "Ability to analyze and interpret sustainability data for leading decision-making",
+      "Capacity to communicate sustainability concepts to diverse stakeholders",
+      "Skill in leading sustainable development frameworks in digital contexts"
+    ],
+    "target_ects": 120,
+    "assessment_methods": [
+      "research_papers",
+      "project_work",
+      "thesis",
+      "presentations",
+      "portfolios"
+    ],
+    "career_pathways": [
+      "Senior Sustainability Consultant",
+      "Sustainability Practice Lead",
+      "ESG Transformation Director",
+      "Partner in Sustainability Practice",
+      "Digital Sustainability Researcher",
+      "Sustainability Educator/Trainer",
+      "ESG Integration Specialist"
+    ]
+  },
+  {
+    "role_id": "DSI",
+    "role_name": "Data Scientist (Sustainability)",
+    "eqf_level": 7,
+    "description": "Applies advanced analytics and machine learning to address sustainability challenges",
+    "main_area": "Data",
+    "thematic_area": "sustainability",
+    "program_duration": 4,
+    "learning_outcomes": [
+      "Formulate machine learning in circular economy applications",
+      "Integrate data analytics in organizational sustainability contexts",
+      "Integrate impact assessment to enhance environmental performance",
+      "Critique impact assessment in organizational sustainability contexts",
+      "Lead machine learning to enhance environmental performance",
+      "Lead data analytics to support sustainable development goals",
+      "Develop machine learning for sustainable business practices",
+      "Lead sustainability metrics to support sustainable development goals",
+      "Lead transformative initiatives in predictive modeling, sustainability metrics that advance the field of digital sustainability"
+    ],
+    "skills": [
+      "carbon accounting",
+      "data visualization for sustainability",
+      "sustainability metrics development",
+      "predictive modeling for resource optimization",
+      "machine learning for environmental impact",
+      "impact assessment methodologies",
+      "sustainability frameworks application",
+      "environmental impact assessment",
+      "carbon footprint calculation"
+    ],
+    "competencies": [
+      "Capability in leading sustainability data analysis and interpretation",
+      "Capability in leading environmental impact modeling",
+      "Capability in leading machine learning for sustainability optimization",
+      "Capability in leading data-driven decision support for sustainability",
+      "Capability in leading complex systems analysis for environmental impacts",
+      "Proficiency in leading digital tools for sustainability assessment",
+      "Ability to analyze and interpret sustainability data for leading decision-making",
+      "Capacity to communicate sustainability concepts to diverse stakeholders",
+      "Skill in leading sustainable development frameworks in digital contexts"
+    ],
+    "target_ects": 120,
+    "assessment_methods": [
+      "research_papers",
+      "project_work",
+      "thesis",
+      "presentations",
+      "portfolios"
+    ],
+    "career_pathways": [
+      "Lead Sustainability Data Scientist",
+      "Sustainability Analytics Director",
+      "ESG Data Science Lead",
+      "Sustainability Impact Modeling Expert",
+      "Sustainability Educator/Trainer",
+      "Digital Sustainability Researcher",
+      "Independent Sustainability Consultant"
+    ]
+  },
+  {
+    "role_id": "DSI",
+    "role_name": "Data Scientist (Sustainability)",
+    "eqf_level": 8,
+    "description": "Applies advanced analytics and machine learning to address sustainability challenges",
+    "main_area": "Data",
+    "thematic_area": "sustainability",
+    "program_duration": 6,
+    "learning_outcomes": [
+      "Develop sustainability metrics in circular economy applications",
+      "Transform predictive modeling in circular economy applications",
+      "Lead machine learning to enhance environmental performance",
+      "Transform machine learning to support sustainable development goals",
+      "Create impact assessment to enhance environmental performance",
+      "Transform sustainability metrics to support sustainable development goals",
+      "Formulate sustainability metrics in organizational sustainability contexts",
+      "Lead transformative initiatives in sustainability metrics, machine learning that advance the field of digital sustainability"
+    ],
+    "skills": [
+      "sustainability data analytics",
+      "data visualization for sustainability",
+      "machine learning for environmental impact",
+      "sustainability metrics development",
+      "carbon accounting",
+      "lifecycle assessment modeling",
+      "impact assessment methodologies",
+      "sustainability frameworks application",
+      "stakeholder communication",
+      "lifecycle thinking application"
+    ],
+    "competencies": [
+      "Capability in advancing sustainability data analysis and interpretation",
+      "Capability in advancing environmental impact modeling",
+      "Capability in advancing machine learning for sustainability optimization",
+      "Capability in advancing data-driven decision support for sustainability",
+      "Capability in advancing complex systems analysis for environmental impacts",
+      "Proficiency in advancing digital tools for sustainability assessment",
+      "Ability to analyze and interpret sustainability data for advancing decision-making",
+      "Capacity to communicate sustainability concepts to diverse stakeholders",
+      "Skill in advancing sustainable development frameworks in digital contexts"
+    ],
+    "target_ects": 180,
+    "assessment_methods": [
+      "dissertation",
+      "publications",
+      "research_projects",
+      "academic_defense",
+      "peer_review"
+    ],
+    "career_pathways": [
+      "Lead Sustainability Data Scientist",
+      "Sustainability Analytics Director",
+      "ESG Data Science Lead",
+      "Sustainability Impact Modeling Expert",
+      "Sustainable Innovation Entrepreneur",
+      "Digital Sustainability Researcher",
+      "Independent Sustainability Consultant"
+    ]
+  },
+  {
+    "role_id": "SBA",
+    "role_name": "Sustainability Business Analyst",
+    "eqf_level": 6,
+    "description": "Analyzes business processes and sustainability performance metrics",
+    "main_area": "Analysis",
+    "thematic_area": "sustainability",
+    "program_duration": 6,
+    "learning_outcomes": [
+      "Optimize sustainable business models in circular economy applications",
+      "Implement sustainable business models to support sustainable development goals",
+      "Compare process optimization in circular economy applications",
+      "Evaluate sustainable business models for addressing environmental challenges",
+      "Compare sustainable business models for sustainable business practices",
+      "Assess impact assessment for addressing environmental challenges",
+      "Analyze data-driven decision making in digital transformation for sustainability",
+      "Assess impact assessment in circular economy applications",
+      "Apply integrated knowledge of data-driven decision making, impact assessment to solve complex sustainability challenges"
+    ],
+    "skills": [
+      "impact data collection",
+      "metrics development",
+      "sustainability requirements analysis",
+      "process efficiency analysis",
+      "sustainable value chain mapping",
+      "digital sustainability assessment",
+      "sustainable development goals alignment",
+      "sustainability frameworks application"
+    ],
+    "competencies": [
+      "Capability in developing sustainability requirements analysis",
+      "Capability in developing sustainable business process modeling",
+      "Capability in developing impact data collection and validation",
+      "Capability in developing sustainable value chain analysis",
+      "Capability in developing sustainability metrics development",
+      "Proficiency in developing digital tools for sustainability assessment",
+      "Ability to analyze and interpret sustainability data for developing decision-making",
+      "Capacity to communicate sustainability concepts to diverse stakeholders",
+      "Skill in developing sustainable development frameworks in digital contexts"
+    ],
+    "target_ects": 180,
+    "assessment_methods": [
+      "exams",
+      "project_work",
+      "thesis",
+      "case_studies",
+      "reports"
+    ],
+    "career_pathways": [
+      "Sustainable Business Transformation Analyst",
+      "ESG Business Analysis Manager",
+      "Sustainability Process Optimization Lead",
+      "Sustainable Value Chain Analyst",
+      "Independent Sustainability Consultant",
+      "Digital Sustainability Researcher"
+    ]
+  },
+  {
+    "role_id": "SBA",
+    "role_name": "Sustainability Business Analyst",
+    "eqf_level": 7,
+    "description": "Analyzes business processes and sustainability performance metrics",
+    "main_area": "Analysis",
+    "thematic_area": "sustainability",
+    "program_duration": 4,
+    "learning_outcomes": [
+      "Design requirements analysis to enhance environmental performance",
+      "Integrate impact assessment in circular economy applications",
+      "Critique impact assessment for addressing environmental challenges",
+      "Lead requirements analysis for addressing environmental challenges",
+      "Develop impact assessment for addressing environmental challenges",
+      "Integrate data-driven decision making to support sustainable development goals",
+      "Create data-driven decision making in organizational sustainability contexts",
+      "Create impact assessment to enhance environmental performance",
+      "Lead transformative initiatives in requirements analysis, process optimization that advance the field of digital sustainability"
+    ],
+    "skills": [
+      "impact data collection",
+      "sustainability requirements analysis",
+      "sustainable value chain mapping",
+      "metrics development",
+      "sustainable business model analysis",
+      "process efficiency analysis",
+      "carbon footprint calculation",
+      "stakeholder communication",
+      "circular economy principles application"
+    ],
+    "competencies": [
+      "Capability in leading sustainability requirements analysis",
+      "Capability in leading sustainable business process modeling",
+      "Capability in leading impact data collection and validation",
+      "Capability in leading sustainable value chain analysis",
+      "Capability in leading sustainability metrics development",
+      "Proficiency in leading digital tools for sustainability assessment",
+      "Ability to analyze and interpret sustainability data for leading decision-making",
+      "Capacity to communicate sustainability concepts to diverse stakeholders",
+      "Skill in leading sustainable development frameworks in digital contexts"
+    ],
+    "target_ects": 120,
+    "assessment_methods": [
+      "research_papers",
+      "project_work",
+      "thesis",
+      "presentations",
+      "portfolios"
+    ],
+    "career_pathways": [
+      "Senior Sustainability Analyst",
+      "Sustainability Requirements Lead",
+      "Sustainable Business Transformation Analyst",
+      "ESG Business Analysis Manager",
+      "Independent Sustainability Consultant",
+      "ESG Integration Specialist",
+      "Digital Sustainability Researcher"
+    ]
+  },
+  {
+    "role_id": "SDD",
+    "role_name": "Software Developer for Sustainability",
+    "eqf_level": 4,
+    "description": "Implements sustainable coding practices and develops eco-efficient applications",
+    "main_area": "Software Development",
+    "thematic_area": "sustainability",
+    "program_duration": 2,
+    "learning_outcomes": [
+      "Demonstrate sustainable design for addressing environmental challenges",
+      "Identify energy-efficient interfaces in organizational sustainability contexts",
+      "Identify accessible interfaces in organizational sustainability contexts",
+      "Perform sustainable design to enhance environmental performance",
+      "Identify ethical design principles to enhance environmental performance",
+      "Apply energy-efficient interfaces for addressing environmental challenges",
+      "Implement sustainable design for addressing environmental challenges",
+      "Operate ethical design principles for addressing environmental challenges",
+      "Apply integrated knowledge of accessible interfaces, ethical design principles to solve complex sustainability challenges"
+    ],
+    "skills": [
+      "sustainable design principles",
+      "accessibility implementation",
+      "design systems optimization",
+      "energy-efficient UI/UX design",
+      "digital sustainability assessment",
+      "lifecycle thinking application"
+    ],
+    "competencies": [
+      "Capability in applying energy-efficient digital design",
+      "Capability in applying sustainable user experience development",
+      "Capability in applying accessibility implementation",
+      "Capability in applying sustainable design systems management",
+      "Capability in applying ethical design principles application",
+      "Proficiency in applying digital tools for sustainability assessment",
+      "Ability to analyze and interpret sustainability data for applying decision-making",
+      "Capacity to communicate sustainability concepts to diverse stakeholders",
+      "Skill in applying sustainable development frameworks in digital contexts"
+    ],
+    "target_ects": 60,
+    "assessment_methods": [
+      "practical_assignments",
+      "portfolio",
+      "skills_demonstrations"
+    ],
+    "career_pathways": [
+      "Sustainable Design Systems Architect",
+      "Ethical Design Director",
+      "Chief Sustainable Design Officer",
+      "Sustainable Design Consultant",
+      "ESG Integration Specialist",
+      "Sustainability Educator/Trainer"
+    ]
+  },
+  {
+    "role_id": "SDD",
+    "role_name": "Software Developer for Sustainability",
+    "eqf_level": 5,
+    "description": "Implements sustainable coding practices and develops eco-efficient applications",
+    "main_area": "Software Development",
+    "thematic_area": "sustainability",
+    "program_duration": 4,
+    "learning_outcomes": [
+      "Apply energy-efficient interfaces for addressing environmental challenges",
+      "Implement user experience in digital transformation for sustainability",
+      "Solve user experience in digital transformation for sustainability",
+      "Analyze sustainable design to enhance environmental performance",
+      "Solve accessible interfaces for addressing environmental challenges",
+      "Compare user experience to support sustainable development goals",
+      "Implement energy-efficient interfaces for sustainable business practices",
+      "Apply user experience for sustainable business practices",
+      "Apply integrated knowledge of user experience, sustainable design to solve complex sustainability challenges"
+    ],
+    "skills": [
+      "sustainable design principles",
+      "accessibility implementation",
+      "user research for sustainability",
+      "energy-efficient UI/UX design",
+      "environmental impact assessment",
+      "sustainability frameworks application",
+      "circular economy principles application"
+    ],
+    "competencies": [
+      "Capability in implementing energy-efficient digital design",
+      "Capability in implementing sustainable user experience development",
+      "Capability in implementing accessibility implementation",
+      "Capability in implementing sustainable design systems management",
+      "Capability in implementing ethical design principles application",
+      "Proficiency in implementing digital tools for sustainability assessment",
+      "Ability to analyze and interpret sustainability data for implementing decision-making",
+      "Capacity to communicate sustainability concepts to diverse stakeholders",
+      "Skill in implementing sustainable development frameworks in digital contexts"
+    ],
+    "target_ects": 120,
+    "assessment_methods": [
+      "practical_assignments",
+      "portfolio",
+      "project_work",
+      "case_studies"
+    ],
+    "career_pathways": [
+      "Sustainable Design Systems Architect",
+      "Ethical Design Director",
+      "Chief Sustainable Design Officer",
+      "Sustainable Design Consultant",
+      "Sustainability Educator/Trainer",
+      "Independent Sustainability Consultant"
+    ]
+  },
+  {
+    "role_id": "SDD",
+    "role_name": "Software Developer for Sustainability",
+    "eqf_level": 6,
+    "description": "Implements sustainable coding practices and develops eco-efficient applications",
+    "main_area": "Software Development",
+    "thematic_area": "sustainability",
+    "program_duration": 6,
+    "learning_outcomes": [
+      "Compare ethical design principles to support sustainable development goals",
+      "Analyze ethical design principles to support sustainable development goals",
+      "Analyze ethical design principles for sustainable business practices",
+      "Implement user experience in organizational sustainability contexts",
+      "Develop user experience to enhance environmental performance",
+      "Evaluate accessible interfaces in digital transformation for sustainability",
+      "Apply integrated knowledge of accessible interfaces, ethical design principles to solve complex sustainability challenges"
+    ],
+    "skills": [
+      "sustainable design principles",
+      "design systems optimization",
+      "energy-efficient UI/UX design",
+      "user research for sustainability",
+      "low-impact interface design",
+      "digital sustainability assessment",
+      "sustainable development goals alignment",
+      "environmental impact assessment"
+    ],
+    "competencies": [
+      "Capability in developing energy-efficient digital design",
+      "Capability in developing sustainable user experience development",
+      "Capability in developing accessibility implementation",
+      "Capability in developing sustainable design systems management",
+      "Capability in developing ethical design principles application",
+      "Proficiency in developing digital tools for sustainability assessment",
+      "Ability to analyze and interpret sustainability data for developing decision-making",
+      "Capacity to communicate sustainability concepts to diverse stakeholders",
+      "Skill in developing sustainable development frameworks in digital contexts"
+    ],
+    "target_ects": 180,
+    "assessment_methods": [
+      "exams",
+      "project_work",
+      "thesis",
+      "case_studies",
+      "reports"
+    ],
+    "career_pathways": [
+      "Green UX Research Lead",
+      "Sustainable Design Systems Architect",
+      "Ethical Design Director",
+      "Chief Sustainable Design Officer",
+      "Sustainable Innovation Entrepreneur",
+      "Digital Sustainability Researcher"
+    ]
+  },
+  {
+    "role_id": "SSD",
+    "role_name": "Sustainable Solution Designer",
+    "eqf_level": 6,
+    "description": "Designs IT architectures and systems with sustainability as a core principle",
+    "main_area": "Design",
+    "thematic_area": "sustainability",
+    "program_duration": 6,
+    "learning_outcomes": [
+      "Optimize energy-efficient software for sustainable business practices",
+      "Develop green coding in circular economy applications",
+      "Compare circular software design in digital transformation for sustainability",
+      "Evaluate energy-efficient software to enhance environmental performance",
+      "Assess lifecycle optimization for sustainable business practices",
+      "Compare circular software design in circular economy applications",
+      "Assess energy-efficient software to support sustainable development goals",
+      "Apply integrated knowledge of green coding, lifecycle optimization to solve complex sustainability challenges"
+    ],
+    "skills": [
+      "sustainable development practices",
+      "energy profiling",
+      "energy-efficient code optimization",
+      "code refactoring for sustainability",
+      "lifecycle optimization",
+      "sustainability frameworks application",
+      "sustainable development goals alignment",
+      "carbon footprint calculation"
+    ],
+    "competencies": [
+      "Capability in developing sustainable software lifecycle management",
+      "Capability in developing green code development and optimization",
+      "Capability in developing environmental impact assessment of software",
+      "Capability in developing sustainable development methodologies",
+      "Capability in developing technical debt management for sustainability",
+      "Proficiency in developing digital tools for sustainability assessment",
+      "Ability to analyze and interpret sustainability data for developing decision-making",
+      "Capacity to communicate sustainability concepts to diverse stakeholders",
+      "Skill in developing sustainable development frameworks in digital contexts"
+    ],
+    "target_ects": 180,
+    "assessment_methods": [
+      "exams",
+      "project_work",
+      "thesis",
+      "case_studies",
+      "reports"
+    ],
+    "career_pathways": [
+      "Green Code Optimization Specialist",
+      "Sustainable Development Team Lead",
+      "Chief Green Code Officer",
+      "Sustainable Software Consultant",
+      "Digital Sustainability Researcher",
+      "Sustainability Educator/Trainer"
+    ]
+  },
+  {
+    "role_id": "SSD",
+    "role_name": "Sustainable Solution Designer",
+    "eqf_level": 7,
+    "description": "Designs IT architectures and systems with sustainability as a core principle",
+    "main_area": "Design",
+    "thematic_area": "sustainability",
+    "program_duration": 4,
+    "learning_outcomes": [
+      "Formulate energy-efficient software to enhance environmental performance",
+      "Create circular software design in circular economy applications",
+      "Evaluate circular software design to support sustainable development goals",
+      "Synthesize energy-efficient software for addressing environmental challenges",
+      "Lead energy-efficient software to enhance environmental performance",
+      "Design green coding to support sustainable development goals",
+      "Integrate circular software design in circular economy applications",
+      "Lead lifecycle optimization for addressing environmental challenges",
+      "Lead transformative initiatives in energy-efficient software, lifecycle optimization that advance the field of digital sustainability"
+    ],
+    "skills": [
+      "sustainable development practices",
+      "lifecycle optimization",
+      "software carbon intensity (SCI) calculation",
+      "energy profiling",
+      "green software architecture",
+      "code refactoring for sustainability",
+      "lifecycle thinking application",
+      "digital sustainability assessment",
+      "carbon footprint calculation"
+    ],
+    "competencies": [
+      "Capability in leading sustainable software lifecycle management",
+      "Capability in leading green code development and optimization",
+      "Capability in leading environmental impact assessment of software",
+      "Capability in leading sustainable development methodologies",
+      "Capability in leading technical debt management for sustainability",
+      "Proficiency in leading digital tools for sustainability assessment",
+      "Ability to analyze and interpret sustainability data for leading decision-making",
+      "Capacity to communicate sustainability concepts to diverse stakeholders",
+      "Skill in leading sustainable development frameworks in digital contexts"
+    ],
+    "target_ects": 120,
+    "assessment_methods": [
+      "research_papers",
+      "project_work",
+      "thesis",
+      "presentations",
+      "portfolios"
+    ],
+    "career_pathways": [
+      "Lead Green Software Engineer",
+      "Sustainable Software Architect",
+      "Green Code Optimization Specialist",
+      "Sustainable Development Team Lead",
+      "Sustainability Educator/Trainer",
+      "Digital Sustainability Researcher",
+      "Sustainable Innovation Entrepreneur"
+    ]
+  },
+  {
+    "role_id": "STS",
+    "role_name": "Sustainability Technical Specialist",
+    "eqf_level": 4,
+    "description": "Provides specialized technical support for sustainability tools and platforms",
+    "main_area": "Technical Implementation",
+    "thematic_area": "sustainability",
+    "program_duration": 2,
+    "learning_outcomes": [
+      "Describe technology assessment in digital transformation for sustainability",
+      "Explain environmental impact reduction to support sustainable development goals",
+      "Demonstrate environmental impact reduction to enhance environmental performance",
+      "Implement technical consulting in organizational sustainability contexts",
+      "Implement sustainable technologies to enhance environmental performance",
+      "Identify green IT in organizational sustainability contexts",
+      "Use sustainable technologies to support sustainable development goals",
+      "Apply integrated knowledge of technical consulting, sustainable technologies to solve complex sustainability challenges"
+    ],
+    "skills": [
+      "circular IT implementation",
+      "energy efficiency auditing",
+      "sustainable hardware evaluation",
+      "e-waste reduction strategies",
+      "stakeholder communication",
+      "carbon footprint calculation"
+    ],
+    "competencies": [
+      "Capability in applying green technology evaluation",
+      "Capability in applying sustainable IT solutions design",
+      "Capability in applying environmental impact assessment of technology",
+      "Capability in applying circular technology implementation",
+      "Capability in applying technology sustainability consulting",
+      "Proficiency in applying digital tools for sustainability assessment",
+      "Ability to analyze and interpret sustainability data for applying decision-making",
+      "Capacity to communicate sustainability concepts to diverse stakeholders",
+      "Skill in applying sustainable development frameworks in digital contexts"
+    ],
+    "target_ects": 60,
+    "assessment_methods": [
+      "practical_assignments",
+      "portfolio",
+      "skills_demonstrations"
+    ],
+    "career_pathways": [
+      "Circular IT Implementation Lead",
+      "Green Technology Assessment Lead",
+      "Chief Green Technology Officer",
+      "Sustainable Technology Research Lead",
+      "Sustainability Educator/Trainer",
+      "ESG Integration Specialist"
+    ]
+  },
+  {
+    "role_id": "STS",
+    "role_name": "Sustainability Technical Specialist",
+    "eqf_level": 5,
+    "description": "Provides specialized technical support for sustainability tools and platforms",
+    "main_area": "Technical Implementation",
+    "thematic_area": "sustainability",
+    "program_duration": 4,
+    "learning_outcomes": [
+      "Differentiate green IT for addressing environmental challenges",
+      "Compare environmental impact reduction for addressing environmental challenges",
+      "Implement environmental impact reduction to enhance environmental performance",
+      "Apply environmental impact reduction in organizational sustainability contexts",
+      "Examine technical consulting for sustainable business practices",
+      "Differentiate technology assessment in circular economy applications",
+      "Differentiate sustainable technologies in organizational sustainability contexts",
+      "Apply integrated knowledge of green IT, technical consulting to solve complex sustainability challenges"
+    ],
+    "skills": [
+      "energy efficiency auditing",
+      "sustainable IT solutions design",
+      "sustainable hardware evaluation",
+      "e-waste reduction strategies",
+      "lifecycle thinking application",
+      "sustainable development goals alignment",
+      "carbon footprint calculation"
+    ],
+    "competencies": [
+      "Capability in implementing green technology evaluation",
+      "Capability in implementing sustainable IT solutions design",
+      "Capability in implementing environmental impact assessment of technology",
+      "Capability in implementing circular technology implementation",
+      "Capability in implementing technology sustainability consulting",
+      "Proficiency in implementing digital tools for sustainability assessment",
+      "Ability to analyze and interpret sustainability data for implementing decision-making",
+      "Capacity to communicate sustainability concepts to diverse stakeholders",
+      "Skill in implementing sustainable development frameworks in digital contexts"
+    ],
+    "target_ects": 120,
+    "assessment_methods": [
+      "practical_assignments",
+      "portfolio",
+      "project_work",
+      "case_studies"
+    ],
+    "career_pathways": [
+      "Circular IT Implementation Lead",
+      "Green Technology Assessment Lead",
+      "Chief Green Technology Officer",
+      "Sustainable Technology Research Lead",
+      "Sustainability Educator/Trainer",
+      "Digital Sustainability Researcher"
+    ]
+  }
+]
