@@ -1,0 +1,1889 @@
+{
+  "name": "Digital Sustainability Consultant Curriculum (EQF Level 4)",
+  "description": "Curriculum for Digital Sustainability Consultant at EQF Level 4",
+  "role": {
+    "id": "DSC",
+    "name": "Digital Sustainability Consultant",
+    "description": "Provides advisory services on digital sustainability strategies",
+    "main_area": "Advisory",
+    "thematic_area": "sustainability",
+    "eqf_levels": [
+      6,
+      7
+    ],
+    "core_skills": [
+      "consulting",
+      "regulatory_compliance",
+      "stakeholder_engagement"
+    ],
+    "default_ects": {
+      "6": 70,
+      "7": 75
+    },
+    "work_based_components": {
+      "6": false,
+      "7": false
+    },
+    "module_design": {
+      "module_types": [
+        "theoretical",
+        "practical"
+      ],
+      "preferred_delivery": [
+        "blended",
+        "online"
+      ]
+    },
+    "related_modules": {
+      "M1": 70,
+      "M2": 100,
+      "M7": 85,
+      "M14": 80,
+      "M19": 100,
+      "M20": 80,
+      "M22": 85
+    },
+    "dual_principle_applicable": false
+  },
+  "eqf_level": 4,
+  "modules": [
+    {
+      "id": "M37_EQF4",
+      "name": "Sector-Specific Digital Sustainability Applications (EQF 4 Version)",
+      "description": "Applying digital sustainability principles to specific industry domains (This module has been adapted for EQF level 4.)",
+      "eqf_level": 4,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [
+        "M1"
+      ],
+      "delivery_methods": [
+        "blended",
+        "workplace"
+      ],
+      "module_type": [
+        "work-based",
+        "practical"
+      ],
+      "skills": [
+        "domain_adaptation",
+        "contextual_application",
+        "industry_specific_implementation"
+      ],
+      "role_relevance": {
+        "DSC": 95,
+        "SBA": 90,
+        "DSM": 85,
+        "SSD": 80,
+        "DSL": 75,
+        "SDD": 70,
+        "DAN": 65,
+        "DSI": 60,
+        "DSE": 65,
+        "STS": 75
+      },
+      "is_work_based": true,
+      "learning_outcomes": {
+        "knowledge": "Identify sustainability challenges and opportunities in specific industry sectors.",
+        "understanding": "Explain how digital sustainability principles must be adapted to sector-specific contexts.",
+        "skills": "Apply digital sustainability approaches to address sector-specific challenges."
+      },
+      "dual_principle_applicable": true,
+      "is_optional": false,
+      "is_adapted": true,
+      "original_module": "M37",
+      "semester": 1
+    },
+    {
+      "id": "M2_EQF4",
+      "name": "Sustainability Frameworks and Standards (EQF 4 Version)",
+      "description": "Overview of major sustainability frameworks, regulations, and standards (This module has been adapted for EQF level 4.)",
+      "eqf_level": 4,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [
+        "M1"
+      ],
+      "delivery_methods": [
+        "classroom",
+        "online"
+      ],
+      "module_type": [
+        "theoretical"
+      ],
+      "skills": [
+        "Familiarity with frameworks like GRI, SDGs",
+        "Regulatory literacy in sustainability reporting"
+      ],
+      "role_relevance": {
+        "DSL": 90,
+        "DSM": 95,
+        "DSC": 100,
+        "SBA": 85,
+        "SDD": 65,
+        "SSD": 70,
+        "DAN": 70,
+        "DSI": 70,
+        "DSE": 65,
+        "STS": 60
+      },
+      "is_work_based": false,
+      "learning_outcomes": {
+        "knowledge": "Identify major sustainability frameworks, standards, and regulations relevant to digital industries.",
+        "understanding": "Compare different sustainability reporting frameworks and their application contexts.",
+        "skills": "Apply appropriate standards to evaluate organizational sustainability performance."
+      },
+      "dual_principle_applicable": false,
+      "is_optional": false,
+      "is_adapted": true,
+      "original_module": "M2",
+      "semester": 1
+    },
+    {
+      "id": "M19_EQF4",
+      "name": "Sustainability Assessment and Benchmarking (EQF 4 Version)",
+      "description": "Evaluate organizational sustainability performance against relevant benchmarks (This module has been adapted for EQF level 4.)",
+      "eqf_level": 4,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [
+        "M1"
+      ],
+      "delivery_methods": [
+        "classroom"
+      ],
+      "module_type": [
+        "theoretical"
+      ],
+      "skills": [
+        "performance_assessment",
+        "benchmarking"
+      ],
+      "role_relevance": {
+        "DSC": 100,
+        "DSL": 85,
+        "DSM": 80,
+        "SBA": 85,
+        "SDD": 60,
+        "SSD": 70,
+        "DAN": 75,
+        "DSI": 70,
+        "DSE": 65,
+        "STS": 65
+      },
+      "is_work_based": false,
+      "learning_outcomes": {
+        "knowledge": "Identify sustainability assessment methodologies and benchmarking frameworks.",
+        "understanding": "Explain performance evaluation approaches for digital sustainability initiatives.",
+        "skills": "Conduct comprehensive sustainability assessments and comparative benchmarking."
+      },
+      "dual_principle_applicable": false,
+      "is_optional": false,
+      "is_adapted": true,
+      "original_module": "M19",
+      "semester": 1
+    },
+    {
+      "id": "M32_EQF4",
+      "name": "Climate Resilience through Digital Solutions (EQF 4 Version)",
+      "description": "Applying digital technologies to enhance climate resilience in organizations and communities (This module has been adapted for EQF level 4.)",
+      "eqf_level": 4,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [
+        "M1"
+      ],
+      "delivery_methods": [
+        "blended",
+        "online"
+      ],
+      "module_type": [
+        "practical"
+      ],
+      "skills": [
+        "climate_risk_analysis",
+        "resilience_planning",
+        "adaptation_strategies"
+      ],
+      "role_relevance": {
+        "DSL": 90,
+        "DSC": 95,
+        "SBA": 85,
+        "DSE": 75,
+        "DSM": 80,
+        "SDD": 65,
+        "SSD": 70,
+        "DAN": 65,
+        "DSI": 70,
+        "STS": 60
+      },
+      "is_work_based": false,
+      "learning_outcomes": {
+        "knowledge": "Identify climate risks and resilience opportunities addressable through digital technologies.",
+        "understanding": "Explain connections between climate adaptation, mitigation, and digital solutions.",
+        "skills": "Design digital interventions that enhance climate resilience in specific organizational contexts."
+      },
+      "dual_principle_applicable": false,
+      "is_optional": false,
+      "is_adapted": true,
+      "original_module": "M32",
+      "semester": 1
+    },
+    {
+      "id": "M8_EQF4",
+      "name": "Work-based Sustainability Project (EQF 4 Version)",
+      "description": "Apply sustainability knowledge in real-world workplace settings (This module has been adapted for EQF level 4.)",
+      "eqf_level": 4,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [
+        "M1",
+        "M2"
+      ],
+      "delivery_methods": [
+        "workplace",
+        "blended"
+      ],
+      "module_type": [
+        "work-based"
+      ],
+      "skills": [
+        "project_implementation",
+        "collaborative_work"
+      ],
+      "role_relevance": {
+        "DSM": 100,
+        "STS": 95,
+        "DSE": 90,
+        "SDD": 85,
+        "DSL": 85,
+        "DSC": 80,
+        "SBA": 75,
+        "SSD": 80,
+        "DAN": 65,
+        "DSI": 70
+      },
+      "is_work_based": true,
+      "learning_outcomes": {
+        "knowledge": "Recognize organizational contexts for sustainability project implementation.",
+        "understanding": "Explain sustainability project management methodologies in workplace settings.",
+        "skills": "Execute a sustainability initiative in a real-world professional environment."
+      },
+      "dual_principle_applicable": true,
+      "is_optional": false,
+      "is_adapted": true,
+      "original_module": "M8",
+      "semester": 1
+    },
+    {
+      "id": "M33_EQF4",
+      "name": "Digital Solutions for Social Inclusion (EQF 4 Version)",
+      "description": "Designing and implementing digital technologies that promote equity and inclusion (This module has been adapted for EQF level 4.)",
+      "eqf_level": 4,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [
+        "M1",
+        "M7"
+      ],
+      "delivery_methods": [
+        "classroom",
+        "online"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "inclusive_design",
+        "accessibility_implementation",
+        "digital_divide_assessment"
+      ],
+      "role_relevance": {
+        "DSL": 85,
+        "DSM": 80,
+        "DSC": 90,
+        "SSD": 95,
+        "SBA": 75,
+        "SDD": 70,
+        "DAN": 65,
+        "DSI": 60,
+        "DSE": 65,
+        "STS": 75
+      },
+      "is_work_based": false,
+      "learning_outcomes": {
+        "knowledge": "Identify social inclusion challenges addressable through digital solutions.",
+        "understanding": "Explain how digital technologies can either exacerbate or mitigate social inequalities.",
+        "skills": "Design inclusive digital solutions that address social sustainability challenges."
+      },
+      "dual_principle_applicable": false,
+      "is_optional": false,
+      "is_adapted": true,
+      "original_module": "M33",
+      "semester": 1
+    },
+    {
+      "id": "M34_EQF4",
+      "name": "Gender Equality in Digital Sustainability (EQF 4 Version)",
+      "description": "Addressing gender disparities through sustainable digital solutions (This module has been adapted for EQF level 4.)",
+      "eqf_level": 4,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [
+        "M1"
+      ],
+      "delivery_methods": [
+        "online",
+        "classroom"
+      ],
+      "module_type": [
+        "theoretical"
+      ],
+      "skills": [
+        "gender_analysis",
+        "inclusive_technology_design",
+        "diversity_promotion"
+      ],
+      "role_relevance": {
+        "DSL": 80,
+        "DSM": 85,
+        "DSC": 90,
+        "SSD": 85,
+        "SBA": 75,
+        "SDD": 65,
+        "DAN": 60,
+        "DSI": 55,
+        "DSE": 60,
+        "STS": 70
+      },
+      "is_work_based": false,
+      "learning_outcomes": {
+        "knowledge": "Identify gender-related disparities in digital access and participation.",
+        "understanding": "Explain how digital technologies can be designed to promote gender equality.",
+        "skills": "Apply gender-inclusive approaches to digital sustainability initiatives."
+      },
+      "dual_principle_applicable": false,
+      "is_optional": false,
+      "is_adapted": true,
+      "original_module": "M34",
+      "semester": 1
+    },
+    {
+      "id": "M25",
+      "name": "Digital Sustainability in SMEs",
+      "description": "Work-based strategies to apply digital sustainability in small and medium-sized enterprises",
+      "eqf_level": 4,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [],
+      "delivery_methods": [
+        "workplace",
+        "blended"
+      ],
+      "module_type": [
+        "work-based"
+      ],
+      "skills": [
+        "sme_sustainability",
+        "digital_tool_use"
+      ],
+      "role_relevance": {
+        "DSL": 60,
+        "DSM": 80,
+        "STS": 90,
+        "SDD": 70,
+        "DSC": 75,
+        "SSD": 65,
+        "SBA": 70,
+        "DAN": 55,
+        "DSI": 50,
+        "DSE": 60
+      },
+      "is_work_based": true,
+      "learning_outcomes": {
+        "knowledge": "Identify the challenges and opportunities of implementing digital sustainability in SMEs.",
+        "understanding": "Recognize appropriate digital tools and workflows to enhance sustainability in small business contexts.",
+        "skills": "Apply digital solutions in a real SME context to address sustainability issues."
+      },
+      "dual_principle_applicable": true,
+      "is_optional": false,
+      "semester": 1
+    },
+    {
+      "id": "M50",
+      "name": "Sustainable Business Models for Digital Companies (EQF 4 Version)",
+      "description": "Creating viable business models that integrate sustainability principles (This module has been adapted for EQF level 4.)",
+      "eqf_level": 4,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [
+        "M1"
+      ],
+      "delivery_methods": [
+        "classroom",
+        "online"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "sustainable_business_modeling",
+        "value_proposition_design",
+        "revenue_model_innovation"
+      ],
+      "role_relevance": {
+        "DSL": 90,
+        "DSM": 95,
+        "DSC": 85,
+        "SBA": 90,
+        "SDD": 65,
+        "SSD": 75,
+        "DAN": 60,
+        "DSI": 65,
+        "DSE": 60,
+        "STS": 70
+      },
+      "is_work_based": false,
+      "learning_outcomes": {
+        "knowledge": "Identify sustainable business model patterns for digital products and services.",
+        "understanding": "Explain how sustainability principles can be integrated into core business models.",
+        "skills": "Design economically viable business models that achieve sustainability objectives."
+      },
+      "dual_principle_applicable": false,
+      "is_optional": false,
+      "semester": 1
+    },
+    {
+      "id": "M7_EQF4",
+      "name": "Ethics and Governance in Digital Innovation (EQF 4 Version)",
+      "description": "Evaluate ethical implications of digital systems and ensure inclusive governance (This module has been adapted for EQF level 4.)",
+      "eqf_level": 4,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [
+        "M1"
+      ],
+      "delivery_methods": [
+        "classroom",
+        "online"
+      ],
+      "module_type": [
+        "theoretical"
+      ],
+      "skills": [
+        "ethics",
+        "governance",
+        "stakeholder_engagement"
+      ],
+      "role_relevance": {
+        "DSL": 95,
+        "DSM": 90,
+        "DSC": 85,
+        "SBA": 80,
+        "SDD": 70,
+        "SSD": 75,
+        "DAN": 65,
+        "DSI": 75,
+        "DSE": 65,
+        "STS": 70
+      },
+      "is_work_based": false,
+      "learning_outcomes": {
+        "knowledge": "Identify ethical considerations in digital innovation for sustainability.",
+        "understanding": "Explain governance frameworks that support responsible technology deployment.",
+        "skills": "Apply ethical principles to evaluate sustainability technologies and initiatives."
+      },
+      "dual_principle_applicable": false,
+      "is_optional": false,
+      "is_adapted": true,
+      "original_module": "M7",
+      "semester": 1
+    },
+    {
+      "id": "M17_EQF4",
+      "name": "Digital Circular Business Models (EQF 4 Version)",
+      "description": "Design business models that leverage digital technologies for circular economy (This module has been adapted for EQF level 4.)",
+      "eqf_level": 4,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [
+        "M1"
+      ],
+      "delivery_methods": [
+        "classroom",
+        "online"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "business_model_innovation",
+        "circular_economy"
+      ],
+      "role_relevance": {
+        "SBA": 95,
+        "DSM": 90,
+        "SSD": 80,
+        "DSC": 85,
+        "DSL": 80,
+        "SDD": 65,
+        "DAN": 70,
+        "DSI": 65,
+        "DSE": 60,
+        "STS": 70
+      },
+      "is_work_based": false,
+      "learning_outcomes": {
+        "knowledge": "Identify digital business models that support circular economy principles.",
+        "understanding": "Explain how digital technologies enable resource efficiency and circular value chains.",
+        "skills": "Design business models that leverage digital technologies for sustainability outcomes."
+      },
+      "dual_principle_applicable": false,
+      "is_optional": false,
+      "is_adapted": true,
+      "original_module": "M17",
+      "semester": 2
+    },
+    {
+      "id": "M22_EQF4",
+      "name": "Sustainable ICT Procurement and Policy (EQF 4 Version)",
+      "description": "Develop policies and practices for sustainable technology procurement (This module has been adapted for EQF level 4.)",
+      "eqf_level": 4,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [
+        "M1"
+      ],
+      "delivery_methods": [
+        "classroom",
+        "online"
+      ],
+      "module_type": [
+        "theoretical"
+      ],
+      "skills": [
+        "procurement_strategy",
+        "policy_development"
+      ],
+      "role_relevance": {
+        "DSL": 90,
+        "DSC": 85,
+        "DSM": 80,
+        "SBA": 75,
+        "SDD": 60,
+        "SSD": 70,
+        "DAN": 65,
+        "DSI": 60,
+        "DSE": 65,
+        "STS": 70
+      },
+      "is_work_based": false,
+      "learning_outcomes": {
+        "knowledge": "Identify sustainable procurement criteria for ICT equipment and services.",
+        "understanding": "Explain policy frameworks that promote sustainable technology acquisition.",
+        "skills": "Develop procurement policies that prioritize sustainability in ICT purchasing decisions."
+      },
+      "dual_principle_applicable": false,
+      "is_optional": false,
+      "is_adapted": true,
+      "original_module": "M22",
+      "semester": 2
+    },
+    {
+      "id": "M31_EQF4",
+      "name": "Digital Resilience Strategies (EQF 4 Version)",
+      "description": "Building resilient digital systems and organizations to withstand sustainability challenges (This module has been adapted for EQF level 4.)",
+      "eqf_level": 4,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [
+        "M1"
+      ],
+      "delivery_methods": [
+        "classroom",
+        "online"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "resilience_assessment",
+        "adaptive_strategy",
+        "risk_mitigation"
+      ],
+      "role_relevance": {
+        "DSL": 95,
+        "DSM": 90,
+        "DSC": 85,
+        "SBA": 80,
+        "SDD": 70,
+        "SSD": 75,
+        "DAN": 65,
+        "DSI": 70,
+        "DSE": 65,
+        "STS": 70
+      },
+      "is_work_based": false,
+      "learning_outcomes": {
+        "knowledge": "Identify resilience principles and frameworks in digital sustainability contexts.",
+        "understanding": "Explain how resilience thinking strengthens sustainability initiatives.",
+        "skills": "Apply resilience assessment tools to evaluate organization's capacity to withstand sustainability disruptions."
+      },
+      "dual_principle_applicable": false,
+      "is_optional": false,
+      "is_adapted": true,
+      "original_module": "M31",
+      "semester": 2
+    },
+    {
+      "id": "M36_EQF4",
+      "name": "Sustainable Business Models for Digital Companies (EQF 4 Version)",
+      "description": "Creating viable business models that integrate sustainability principles (This module has been adapted for EQF level 4.)",
+      "eqf_level": 4,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [
+        "M1"
+      ],
+      "delivery_methods": [
+        "classroom",
+        "online"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "sustainable_business_modeling",
+        "value_proposition_design",
+        "revenue_model_innovation"
+      ],
+      "role_relevance": {
+        "DSL": 90,
+        "DSM": 95,
+        "DSC": 85,
+        "SBA": 90,
+        "SDD": 65,
+        "SSD": 75,
+        "DAN": 60,
+        "DSI": 65,
+        "DSE": 60,
+        "STS": 70
+      },
+      "is_work_based": false,
+      "learning_outcomes": {
+        "knowledge": "Identify sustainable business model patterns for digital products and services.",
+        "understanding": "Explain how sustainability principles can be integrated into core business models.",
+        "skills": "Design economically viable business models that achieve sustainability objectives."
+      },
+      "dual_principle_applicable": false,
+      "is_optional": false,
+      "is_adapted": true,
+      "original_module": "M36",
+      "semester": 2
+    },
+    {
+      "id": "M40_EQF4",
+      "name": "Sustainability Data Analysis and Reporting (EQF 4 Version)",
+      "description": "Analyzing sustainability data and creating meaningful reports for stakeholders (This module has been adapted for EQF level 4.)",
+      "eqf_level": 4,
+      "ects_points": 5,
+      "thematic_area": "data",
+      "prerequisites": [
+        "M3"
+      ],
+      "delivery_methods": [
+        "blended",
+        "online"
+      ],
+      "module_type": [
+        "practical"
+      ],
+      "skills": [
+        "impact_measurement",
+        "esg_data_analysis",
+        "sustainability_reporting"
+      ],
+      "role_relevance": {
+        "DAN": 100,
+        "SBA": 90,
+        "DSC": 85,
+        "DSL": 75,
+        "DSM": 70,
+        "SDD": 60,
+        "SSD": 65,
+        "DSI": 80,
+        "DSE": 70,
+        "STS": 65
+      },
+      "is_work_based": false,
+      "learning_outcomes": {
+        "knowledge": "Identify analytical approaches for extracting insights from sustainability data.",
+        "understanding": "Explain how to translate data analysis into actionable sustainability reporting.",
+        "skills": "Conduct comprehensive analyses of sustainability metrics and produce stakeholder-relevant reports."
+      },
+      "dual_principle_applicable": false,
+      "is_optional": false,
+      "is_adapted": true,
+      "original_module": "M40",
+      "semester": 2
+    },
+    {
+      "id": "M14_EQF4",
+      "name": "Sustainable Digital Transformation Strategy (EQF 4 Version)",
+      "description": "Develop holistic strategies for sustainability-focused digital transformation (This module has been adapted for EQF level 4.)",
+      "eqf_level": 4,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [
+        "M1"
+      ],
+      "delivery_methods": [
+        "classroom",
+        "online"
+      ],
+      "module_type": [
+        "theoretical"
+      ],
+      "skills": [
+        "strategy_development",
+        "digital_transformation"
+      ],
+      "role_relevance": {
+        "DSL": 100,
+        "DSM": 90,
+        "DSC": 80,
+        "SBA": 75,
+        "SDD": 65,
+        "SSD": 70,
+        "DAN": 60,
+        "DSI": 65,
+        "DSE": 60,
+        "STS": 70
+      },
+      "is_work_based": false,
+      "learning_outcomes": {
+        "knowledge": "Identify components of digital transformation strategies aligned with sustainability goals.",
+        "understanding": "Explain the integration of sustainability principles into digital business strategies.",
+        "skills": "Develop comprehensive digital transformation roadmaps that prioritize sustainability outcomes."
+      },
+      "dual_principle_applicable": false,
+      "is_optional": false,
+      "is_adapted": true,
+      "original_module": "M14",
+      "semester": 2
+    },
+    {
+      "id": "M15_EQF4",
+      "name": "Applied Ethics in AI for Sustainability (EQF 4 Version)",
+      "description": "Address ethical considerations in AI applications for sustainability challenges (This module has been adapted for EQF level 4.)",
+      "eqf_level": 4,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [
+        "M1"
+      ],
+      "delivery_methods": [
+        "online"
+      ],
+      "module_type": [
+        "theoretical"
+      ],
+      "skills": [
+        "ethical_analysis",
+        "ai_governance"
+      ],
+      "role_relevance": {
+        "DSI": 90,
+        "DSL": 85,
+        "SBA": 75,
+        "DSC": 80,
+        "DSM": 80,
+        "SDD": 65,
+        "SSD": 70,
+        "DAN": 70,
+        "DSE": 65,
+        "STS": 60
+      },
+      "is_work_based": false,
+      "learning_outcomes": {
+        "knowledge": "Identify ethical frameworks applicable to AI systems in sustainability contexts.",
+        "understanding": "Explain potential ethical challenges in AI applications for environmental and social good.",
+        "skills": "Apply ethical principles to the design and evaluation of AI-driven sustainability solutions."
+      },
+      "dual_principle_applicable": false,
+      "is_optional": false,
+      "is_adapted": true,
+      "original_module": "M15",
+      "semester": 2
+    },
+    {
+      "id": "M20_EQF4",
+      "name": "Data Ethics and Governance in Practice (EQF 4 Version)",
+      "description": "Implement ethical data governance approaches for sustainability initiatives (This module has been adapted for EQF level 4.)",
+      "eqf_level": 4,
+      "ects_points": 5,
+      "thematic_area": "data",
+      "prerequisites": [
+        "M1"
+      ],
+      "delivery_methods": [
+        "online",
+        "blended"
+      ],
+      "module_type": [
+        "practical"
+      ],
+      "skills": [
+        "data_governance",
+        "ethical_data_management"
+      ],
+      "role_relevance": {
+        "DAN": 95,
+        "DSI": 85,
+        "DSC": 80,
+        "DSL": 75,
+        "DSM": 70,
+        "SDD": 60,
+        "SSD": 65,
+        "DSE": 75,
+        "SBA": 70,
+        "STS": 65
+      },
+      "is_work_based": false,
+      "learning_outcomes": {
+        "knowledge": "Identify data governance frameworks and ethical principles for sustainability data.",
+        "understanding": "Explain the practical challenges of implementing data ethics in sustainability contexts.",
+        "skills": "Apply data governance practices that ensure ethical use of sustainability information."
+      },
+      "dual_principle_applicable": false,
+      "is_optional": false,
+      "is_adapted": true,
+      "original_module": "M20",
+      "semester": 2
+    },
+    {
+      "id": "M24_EQF4",
+      "name": "Collaborative Tools for Green Innovation (EQF 4 Version)",
+      "description": "Leverage collaborative platforms to drive sustainable innovation processes (This module has been adapted for EQF level 4.)",
+      "eqf_level": 4,
+      "ects_points": 5,
+      "thematic_area": "sustainability",
+      "prerequisites": [
+        "M1"
+      ],
+      "delivery_methods": [
+        "classroom",
+        "online"
+      ],
+      "module_type": [
+        "practical"
+      ],
+      "skills": [
+        "collaborative_innovation",
+        "digital_facilitation"
+      ],
+      "role_relevance": {
+        "DSM": 95,
+        "STS": 90,
+        "SBA": 85,
+        "DSC": 80,
+        "DSL": 75,
+        "SDD": 65,
+        "SSD": 70,
+        "DAN": 65,
+        "DSI": 60,
+        "DSE": 65
+      },
+      "is_work_based": false,
+      "learning_outcomes": {
+        "knowledge": "Identify collaborative digital tools that support sustainability innovation.",
+        "understanding": "Explain how digital collaboration can accelerate green innovation processes.",
+        "skills": "Implement collaborative platforms to facilitate sustainability-focused innovation."
+      },
+      "dual_principle_applicable": true,
+      "is_optional": false,
+      "is_adapted": true,
+      "original_module": "M24",
+      "semester": 2
+    },
+    {
+      "id": "M41_EQF4",
+      "name": "IoT for Environmental Monitoring (EQF 4 Version)",
+      "description": "Using Internet of Things technologies for sustainability monitoring and management (This module has been adapted for EQF level 4.)",
+      "eqf_level": 4,
+      "ects_points": 5,
+      "thematic_area": "technology",
+      "prerequisites": [
+        "M1"
+      ],
+      "delivery_methods": [
+        "blended",
+        "workplace"
+      ],
+      "module_type": [
+        "practical",
+        "work-based"
+      ],
+      "skills": [
+        "iot_implementation",
+        "sensor_networks",
+        "environmental_monitoring"
+      ],
+      "role_relevance": {
+        "DSE": 90,
+        "STS": 85,
+        "SDD": 80,
+        "SSD": 75,
+        "DSC": 70,
+        "DSL": 65,
+        "DSM": 70,
+        "SBA": 60,
+        "DAN": 65,
+        "DSI": 70
+      },
+      "is_work_based": true,
+      "learning_outcomes": {
+        "knowledge": "Identify IoT architectures and technologies applicable to sustainability monitoring.",
+        "understanding": "Explain how sensor networks can provide real-time environmental data for decision-making.",
+        "skills": "Implement IoT solutions for monitoring environmental parameters and resource usage."
+      },
+      "dual_principle_applicable": true,
+      "is_optional": false,
+      "is_adapted": true,
+      "original_module": "M41",
+      "semester": 2
+    }
+  ],
+  "modules_by_semester": {
+    "1": [
+      {
+        "id": "M37_EQF4",
+        "name": "Sector-Specific Digital Sustainability Applications (EQF 4 Version)",
+        "description": "Applying digital sustainability principles to specific industry domains (This module has been adapted for EQF level 4.)",
+        "eqf_level": 4,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [
+          "M1"
+        ],
+        "delivery_methods": [
+          "blended",
+          "workplace"
+        ],
+        "module_type": [
+          "work-based",
+          "practical"
+        ],
+        "skills": [
+          "domain_adaptation",
+          "contextual_application",
+          "industry_specific_implementation"
+        ],
+        "role_relevance": {
+          "DSC": 95,
+          "SBA": 90,
+          "DSM": 85,
+          "SSD": 80,
+          "DSL": 75,
+          "SDD": 70,
+          "DAN": 65,
+          "DSI": 60,
+          "DSE": 65,
+          "STS": 75
+        },
+        "is_work_based": true,
+        "learning_outcomes": {
+          "knowledge": "Identify sustainability challenges and opportunities in specific industry sectors.",
+          "understanding": "Explain how digital sustainability principles must be adapted to sector-specific contexts.",
+          "skills": "Apply digital sustainability approaches to address sector-specific challenges."
+        },
+        "dual_principle_applicable": true,
+        "is_optional": false,
+        "is_adapted": true,
+        "original_module": "M37",
+        "semester": 1
+      },
+      {
+        "id": "M2_EQF4",
+        "name": "Sustainability Frameworks and Standards (EQF 4 Version)",
+        "description": "Overview of major sustainability frameworks, regulations, and standards (This module has been adapted for EQF level 4.)",
+        "eqf_level": 4,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [
+          "M1"
+        ],
+        "delivery_methods": [
+          "classroom",
+          "online"
+        ],
+        "module_type": [
+          "theoretical"
+        ],
+        "skills": [
+          "Familiarity with frameworks like GRI, SDGs",
+          "Regulatory literacy in sustainability reporting"
+        ],
+        "role_relevance": {
+          "DSL": 90,
+          "DSM": 95,
+          "DSC": 100,
+          "SBA": 85,
+          "SDD": 65,
+          "SSD": 70,
+          "DAN": 70,
+          "DSI": 70,
+          "DSE": 65,
+          "STS": 60
+        },
+        "is_work_based": false,
+        "learning_outcomes": {
+          "knowledge": "Identify major sustainability frameworks, standards, and regulations relevant to digital industries.",
+          "understanding": "Compare different sustainability reporting frameworks and their application contexts.",
+          "skills": "Apply appropriate standards to evaluate organizational sustainability performance."
+        },
+        "dual_principle_applicable": false,
+        "is_optional": false,
+        "is_adapted": true,
+        "original_module": "M2",
+        "semester": 1
+      },
+      {
+        "id": "M19_EQF4",
+        "name": "Sustainability Assessment and Benchmarking (EQF 4 Version)",
+        "description": "Evaluate organizational sustainability performance against relevant benchmarks (This module has been adapted for EQF level 4.)",
+        "eqf_level": 4,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [
+          "M1"
+        ],
+        "delivery_methods": [
+          "classroom"
+        ],
+        "module_type": [
+          "theoretical"
+        ],
+        "skills": [
+          "performance_assessment",
+          "benchmarking"
+        ],
+        "role_relevance": {
+          "DSC": 100,
+          "DSL": 85,
+          "DSM": 80,
+          "SBA": 85,
+          "SDD": 60,
+          "SSD": 70,
+          "DAN": 75,
+          "DSI": 70,
+          "DSE": 65,
+          "STS": 65
+        },
+        "is_work_based": false,
+        "learning_outcomes": {
+          "knowledge": "Identify sustainability assessment methodologies and benchmarking frameworks.",
+          "understanding": "Explain performance evaluation approaches for digital sustainability initiatives.",
+          "skills": "Conduct comprehensive sustainability assessments and comparative benchmarking."
+        },
+        "dual_principle_applicable": false,
+        "is_optional": false,
+        "is_adapted": true,
+        "original_module": "M19",
+        "semester": 1
+      },
+      {
+        "id": "M32_EQF4",
+        "name": "Climate Resilience through Digital Solutions (EQF 4 Version)",
+        "description": "Applying digital technologies to enhance climate resilience in organizations and communities (This module has been adapted for EQF level 4.)",
+        "eqf_level": 4,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [
+          "M1"
+        ],
+        "delivery_methods": [
+          "blended",
+          "online"
+        ],
+        "module_type": [
+          "practical"
+        ],
+        "skills": [
+          "climate_risk_analysis",
+          "resilience_planning",
+          "adaptation_strategies"
+        ],
+        "role_relevance": {
+          "DSL": 90,
+          "DSC": 95,
+          "SBA": 85,
+          "DSE": 75,
+          "DSM": 80,
+          "SDD": 65,
+          "SSD": 70,
+          "DAN": 65,
+          "DSI": 70,
+          "STS": 60
+        },
+        "is_work_based": false,
+        "learning_outcomes": {
+          "knowledge": "Identify climate risks and resilience opportunities addressable through digital technologies.",
+          "understanding": "Explain connections between climate adaptation, mitigation, and digital solutions.",
+          "skills": "Design digital interventions that enhance climate resilience in specific organizational contexts."
+        },
+        "dual_principle_applicable": false,
+        "is_optional": false,
+        "is_adapted": true,
+        "original_module": "M32",
+        "semester": 1
+      },
+      {
+        "id": "M8_EQF4",
+        "name": "Work-based Sustainability Project (EQF 4 Version)",
+        "description": "Apply sustainability knowledge in real-world workplace settings (This module has been adapted for EQF level 4.)",
+        "eqf_level": 4,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [
+          "M1",
+          "M2"
+        ],
+        "delivery_methods": [
+          "workplace",
+          "blended"
+        ],
+        "module_type": [
+          "work-based"
+        ],
+        "skills": [
+          "project_implementation",
+          "collaborative_work"
+        ],
+        "role_relevance": {
+          "DSM": 100,
+          "STS": 95,
+          "DSE": 90,
+          "SDD": 85,
+          "DSL": 85,
+          "DSC": 80,
+          "SBA": 75,
+          "SSD": 80,
+          "DAN": 65,
+          "DSI": 70
+        },
+        "is_work_based": true,
+        "learning_outcomes": {
+          "knowledge": "Recognize organizational contexts for sustainability project implementation.",
+          "understanding": "Explain sustainability project management methodologies in workplace settings.",
+          "skills": "Execute a sustainability initiative in a real-world professional environment."
+        },
+        "dual_principle_applicable": true,
+        "is_optional": false,
+        "is_adapted": true,
+        "original_module": "M8",
+        "semester": 1
+      },
+      {
+        "id": "M33_EQF4",
+        "name": "Digital Solutions for Social Inclusion (EQF 4 Version)",
+        "description": "Designing and implementing digital technologies that promote equity and inclusion (This module has been adapted for EQF level 4.)",
+        "eqf_level": 4,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [
+          "M1",
+          "M7"
+        ],
+        "delivery_methods": [
+          "classroom",
+          "online"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "inclusive_design",
+          "accessibility_implementation",
+          "digital_divide_assessment"
+        ],
+        "role_relevance": {
+          "DSL": 85,
+          "DSM": 80,
+          "DSC": 90,
+          "SSD": 95,
+          "SBA": 75,
+          "SDD": 70,
+          "DAN": 65,
+          "DSI": 60,
+          "DSE": 65,
+          "STS": 75
+        },
+        "is_work_based": false,
+        "learning_outcomes": {
+          "knowledge": "Identify social inclusion challenges addressable through digital solutions.",
+          "understanding": "Explain how digital technologies can either exacerbate or mitigate social inequalities.",
+          "skills": "Design inclusive digital solutions that address social sustainability challenges."
+        },
+        "dual_principle_applicable": false,
+        "is_optional": false,
+        "is_adapted": true,
+        "original_module": "M33",
+        "semester": 1
+      },
+      {
+        "id": "M34_EQF4",
+        "name": "Gender Equality in Digital Sustainability (EQF 4 Version)",
+        "description": "Addressing gender disparities through sustainable digital solutions (This module has been adapted for EQF level 4.)",
+        "eqf_level": 4,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [
+          "M1"
+        ],
+        "delivery_methods": [
+          "online",
+          "classroom"
+        ],
+        "module_type": [
+          "theoretical"
+        ],
+        "skills": [
+          "gender_analysis",
+          "inclusive_technology_design",
+          "diversity_promotion"
+        ],
+        "role_relevance": {
+          "DSL": 80,
+          "DSM": 85,
+          "DSC": 90,
+          "SSD": 85,
+          "SBA": 75,
+          "SDD": 65,
+          "DAN": 60,
+          "DSI": 55,
+          "DSE": 60,
+          "STS": 70
+        },
+        "is_work_based": false,
+        "learning_outcomes": {
+          "knowledge": "Identify gender-related disparities in digital access and participation.",
+          "understanding": "Explain how digital technologies can be designed to promote gender equality.",
+          "skills": "Apply gender-inclusive approaches to digital sustainability initiatives."
+        },
+        "dual_principle_applicable": false,
+        "is_optional": false,
+        "is_adapted": true,
+        "original_module": "M34",
+        "semester": 1
+      },
+      {
+        "id": "M25",
+        "name": "Digital Sustainability in SMEs",
+        "description": "Work-based strategies to apply digital sustainability in small and medium-sized enterprises",
+        "eqf_level": 4,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [],
+        "delivery_methods": [
+          "workplace",
+          "blended"
+        ],
+        "module_type": [
+          "work-based"
+        ],
+        "skills": [
+          "sme_sustainability",
+          "digital_tool_use"
+        ],
+        "role_relevance": {
+          "DSL": 60,
+          "DSM": 80,
+          "STS": 90,
+          "SDD": 70,
+          "DSC": 75,
+          "SSD": 65,
+          "SBA": 70,
+          "DAN": 55,
+          "DSI": 50,
+          "DSE": 60
+        },
+        "is_work_based": true,
+        "learning_outcomes": {
+          "knowledge": "Identify the challenges and opportunities of implementing digital sustainability in SMEs.",
+          "understanding": "Recognize appropriate digital tools and workflows to enhance sustainability in small business contexts.",
+          "skills": "Apply digital solutions in a real SME context to address sustainability issues."
+        },
+        "dual_principle_applicable": true,
+        "is_optional": false,
+        "semester": 1
+      },
+      {
+        "id": "M50",
+        "name": "Sustainable Business Models for Digital Companies (EQF 4 Version)",
+        "description": "Creating viable business models that integrate sustainability principles (This module has been adapted for EQF level 4.)",
+        "eqf_level": 4,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [
+          "M1"
+        ],
+        "delivery_methods": [
+          "classroom",
+          "online"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "sustainable_business_modeling",
+          "value_proposition_design",
+          "revenue_model_innovation"
+        ],
+        "role_relevance": {
+          "DSL": 90,
+          "DSM": 95,
+          "DSC": 85,
+          "SBA": 90,
+          "SDD": 65,
+          "SSD": 75,
+          "DAN": 60,
+          "DSI": 65,
+          "DSE": 60,
+          "STS": 70
+        },
+        "is_work_based": false,
+        "learning_outcomes": {
+          "knowledge": "Identify sustainable business model patterns for digital products and services.",
+          "understanding": "Explain how sustainability principles can be integrated into core business models.",
+          "skills": "Design economically viable business models that achieve sustainability objectives."
+        },
+        "dual_principle_applicable": false,
+        "is_optional": false,
+        "semester": 1
+      },
+      {
+        "id": "M7_EQF4",
+        "name": "Ethics and Governance in Digital Innovation (EQF 4 Version)",
+        "description": "Evaluate ethical implications of digital systems and ensure inclusive governance (This module has been adapted for EQF level 4.)",
+        "eqf_level": 4,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [
+          "M1"
+        ],
+        "delivery_methods": [
+          "classroom",
+          "online"
+        ],
+        "module_type": [
+          "theoretical"
+        ],
+        "skills": [
+          "ethics",
+          "governance",
+          "stakeholder_engagement"
+        ],
+        "role_relevance": {
+          "DSL": 95,
+          "DSM": 90,
+          "DSC": 85,
+          "SBA": 80,
+          "SDD": 70,
+          "SSD": 75,
+          "DAN": 65,
+          "DSI": 75,
+          "DSE": 65,
+          "STS": 70
+        },
+        "is_work_based": false,
+        "learning_outcomes": {
+          "knowledge": "Identify ethical considerations in digital innovation for sustainability.",
+          "understanding": "Explain governance frameworks that support responsible technology deployment.",
+          "skills": "Apply ethical principles to evaluate sustainability technologies and initiatives."
+        },
+        "dual_principle_applicable": false,
+        "is_optional": false,
+        "is_adapted": true,
+        "original_module": "M7",
+        "semester": 1
+      }
+    ],
+    "2": [
+      {
+        "id": "M17_EQF4",
+        "name": "Digital Circular Business Models (EQF 4 Version)",
+        "description": "Design business models that leverage digital technologies for circular economy (This module has been adapted for EQF level 4.)",
+        "eqf_level": 4,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [
+          "M1"
+        ],
+        "delivery_methods": [
+          "classroom",
+          "online"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "business_model_innovation",
+          "circular_economy"
+        ],
+        "role_relevance": {
+          "SBA": 95,
+          "DSM": 90,
+          "SSD": 80,
+          "DSC": 85,
+          "DSL": 80,
+          "SDD": 65,
+          "DAN": 70,
+          "DSI": 65,
+          "DSE": 60,
+          "STS": 70
+        },
+        "is_work_based": false,
+        "learning_outcomes": {
+          "knowledge": "Identify digital business models that support circular economy principles.",
+          "understanding": "Explain how digital technologies enable resource efficiency and circular value chains.",
+          "skills": "Design business models that leverage digital technologies for sustainability outcomes."
+        },
+        "dual_principle_applicable": false,
+        "is_optional": false,
+        "is_adapted": true,
+        "original_module": "M17",
+        "semester": 2
+      },
+      {
+        "id": "M22_EQF4",
+        "name": "Sustainable ICT Procurement and Policy (EQF 4 Version)",
+        "description": "Develop policies and practices for sustainable technology procurement (This module has been adapted for EQF level 4.)",
+        "eqf_level": 4,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [
+          "M1"
+        ],
+        "delivery_methods": [
+          "classroom",
+          "online"
+        ],
+        "module_type": [
+          "theoretical"
+        ],
+        "skills": [
+          "procurement_strategy",
+          "policy_development"
+        ],
+        "role_relevance": {
+          "DSL": 90,
+          "DSC": 85,
+          "DSM": 80,
+          "SBA": 75,
+          "SDD": 60,
+          "SSD": 70,
+          "DAN": 65,
+          "DSI": 60,
+          "DSE": 65,
+          "STS": 70
+        },
+        "is_work_based": false,
+        "learning_outcomes": {
+          "knowledge": "Identify sustainable procurement criteria for ICT equipment and services.",
+          "understanding": "Explain policy frameworks that promote sustainable technology acquisition.",
+          "skills": "Develop procurement policies that prioritize sustainability in ICT purchasing decisions."
+        },
+        "dual_principle_applicable": false,
+        "is_optional": false,
+        "is_adapted": true,
+        "original_module": "M22",
+        "semester": 2
+      },
+      {
+        "id": "M31_EQF4",
+        "name": "Digital Resilience Strategies (EQF 4 Version)",
+        "description": "Building resilient digital systems and organizations to withstand sustainability challenges (This module has been adapted for EQF level 4.)",
+        "eqf_level": 4,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [
+          "M1"
+        ],
+        "delivery_methods": [
+          "classroom",
+          "online"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "resilience_assessment",
+          "adaptive_strategy",
+          "risk_mitigation"
+        ],
+        "role_relevance": {
+          "DSL": 95,
+          "DSM": 90,
+          "DSC": 85,
+          "SBA": 80,
+          "SDD": 70,
+          "SSD": 75,
+          "DAN": 65,
+          "DSI": 70,
+          "DSE": 65,
+          "STS": 70
+        },
+        "is_work_based": false,
+        "learning_outcomes": {
+          "knowledge": "Identify resilience principles and frameworks in digital sustainability contexts.",
+          "understanding": "Explain how resilience thinking strengthens sustainability initiatives.",
+          "skills": "Apply resilience assessment tools to evaluate organization's capacity to withstand sustainability disruptions."
+        },
+        "dual_principle_applicable": false,
+        "is_optional": false,
+        "is_adapted": true,
+        "original_module": "M31",
+        "semester": 2
+      },
+      {
+        "id": "M36_EQF4",
+        "name": "Sustainable Business Models for Digital Companies (EQF 4 Version)",
+        "description": "Creating viable business models that integrate sustainability principles (This module has been adapted for EQF level 4.)",
+        "eqf_level": 4,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [
+          "M1"
+        ],
+        "delivery_methods": [
+          "classroom",
+          "online"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "sustainable_business_modeling",
+          "value_proposition_design",
+          "revenue_model_innovation"
+        ],
+        "role_relevance": {
+          "DSL": 90,
+          "DSM": 95,
+          "DSC": 85,
+          "SBA": 90,
+          "SDD": 65,
+          "SSD": 75,
+          "DAN": 60,
+          "DSI": 65,
+          "DSE": 60,
+          "STS": 70
+        },
+        "is_work_based": false,
+        "learning_outcomes": {
+          "knowledge": "Identify sustainable business model patterns for digital products and services.",
+          "understanding": "Explain how sustainability principles can be integrated into core business models.",
+          "skills": "Design economically viable business models that achieve sustainability objectives."
+        },
+        "dual_principle_applicable": false,
+        "is_optional": false,
+        "is_adapted": true,
+        "original_module": "M36",
+        "semester": 2
+      },
+      {
+        "id": "M40_EQF4",
+        "name": "Sustainability Data Analysis and Reporting (EQF 4 Version)",
+        "description": "Analyzing sustainability data and creating meaningful reports for stakeholders (This module has been adapted for EQF level 4.)",
+        "eqf_level": 4,
+        "ects_points": 5,
+        "thematic_area": "data",
+        "prerequisites": [
+          "M3"
+        ],
+        "delivery_methods": [
+          "blended",
+          "online"
+        ],
+        "module_type": [
+          "practical"
+        ],
+        "skills": [
+          "impact_measurement",
+          "esg_data_analysis",
+          "sustainability_reporting"
+        ],
+        "role_relevance": {
+          "DAN": 100,
+          "SBA": 90,
+          "DSC": 85,
+          "DSL": 75,
+          "DSM": 70,
+          "SDD": 60,
+          "SSD": 65,
+          "DSI": 80,
+          "DSE": 70,
+          "STS": 65
+        },
+        "is_work_based": false,
+        "learning_outcomes": {
+          "knowledge": "Identify analytical approaches for extracting insights from sustainability data.",
+          "understanding": "Explain how to translate data analysis into actionable sustainability reporting.",
+          "skills": "Conduct comprehensive analyses of sustainability metrics and produce stakeholder-relevant reports."
+        },
+        "dual_principle_applicable": false,
+        "is_optional": false,
+        "is_adapted": true,
+        "original_module": "M40",
+        "semester": 2
+      },
+      {
+        "id": "M14_EQF4",
+        "name": "Sustainable Digital Transformation Strategy (EQF 4 Version)",
+        "description": "Develop holistic strategies for sustainability-focused digital transformation (This module has been adapted for EQF level 4.)",
+        "eqf_level": 4,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [
+          "M1"
+        ],
+        "delivery_methods": [
+          "classroom",
+          "online"
+        ],
+        "module_type": [
+          "theoretical"
+        ],
+        "skills": [
+          "strategy_development",
+          "digital_transformation"
+        ],
+        "role_relevance": {
+          "DSL": 100,
+          "DSM": 90,
+          "DSC": 80,
+          "SBA": 75,
+          "SDD": 65,
+          "SSD": 70,
+          "DAN": 60,
+          "DSI": 65,
+          "DSE": 60,
+          "STS": 70
+        },
+        "is_work_based": false,
+        "learning_outcomes": {
+          "knowledge": "Identify components of digital transformation strategies aligned with sustainability goals.",
+          "understanding": "Explain the integration of sustainability principles into digital business strategies.",
+          "skills": "Develop comprehensive digital transformation roadmaps that prioritize sustainability outcomes."
+        },
+        "dual_principle_applicable": false,
+        "is_optional": false,
+        "is_adapted": true,
+        "original_module": "M14",
+        "semester": 2
+      },
+      {
+        "id": "M15_EQF4",
+        "name": "Applied Ethics in AI for Sustainability (EQF 4 Version)",
+        "description": "Address ethical considerations in AI applications for sustainability challenges (This module has been adapted for EQF level 4.)",
+        "eqf_level": 4,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [
+          "M1"
+        ],
+        "delivery_methods": [
+          "online"
+        ],
+        "module_type": [
+          "theoretical"
+        ],
+        "skills": [
+          "ethical_analysis",
+          "ai_governance"
+        ],
+        "role_relevance": {
+          "DSI": 90,
+          "DSL": 85,
+          "SBA": 75,
+          "DSC": 80,
+          "DSM": 80,
+          "SDD": 65,
+          "SSD": 70,
+          "DAN": 70,
+          "DSE": 65,
+          "STS": 60
+        },
+        "is_work_based": false,
+        "learning_outcomes": {
+          "knowledge": "Identify ethical frameworks applicable to AI systems in sustainability contexts.",
+          "understanding": "Explain potential ethical challenges in AI applications for environmental and social good.",
+          "skills": "Apply ethical principles to the design and evaluation of AI-driven sustainability solutions."
+        },
+        "dual_principle_applicable": false,
+        "is_optional": false,
+        "is_adapted": true,
+        "original_module": "M15",
+        "semester": 2
+      },
+      {
+        "id": "M20_EQF4",
+        "name": "Data Ethics and Governance in Practice (EQF 4 Version)",
+        "description": "Implement ethical data governance approaches for sustainability initiatives (This module has been adapted for EQF level 4.)",
+        "eqf_level": 4,
+        "ects_points": 5,
+        "thematic_area": "data",
+        "prerequisites": [
+          "M1"
+        ],
+        "delivery_methods": [
+          "online",
+          "blended"
+        ],
+        "module_type": [
+          "practical"
+        ],
+        "skills": [
+          "data_governance",
+          "ethical_data_management"
+        ],
+        "role_relevance": {
+          "DAN": 95,
+          "DSI": 85,
+          "DSC": 80,
+          "DSL": 75,
+          "DSM": 70,
+          "SDD": 60,
+          "SSD": 65,
+          "DSE": 75,
+          "SBA": 70,
+          "STS": 65
+        },
+        "is_work_based": false,
+        "learning_outcomes": {
+          "knowledge": "Identify data governance frameworks and ethical principles for sustainability data.",
+          "understanding": "Explain the practical challenges of implementing data ethics in sustainability contexts.",
+          "skills": "Apply data governance practices that ensure ethical use of sustainability information."
+        },
+        "dual_principle_applicable": false,
+        "is_optional": false,
+        "is_adapted": true,
+        "original_module": "M20",
+        "semester": 2
+      },
+      {
+        "id": "M24_EQF4",
+        "name": "Collaborative Tools for Green Innovation (EQF 4 Version)",
+        "description": "Leverage collaborative platforms to drive sustainable innovation processes (This module has been adapted for EQF level 4.)",
+        "eqf_level": 4,
+        "ects_points": 5,
+        "thematic_area": "sustainability",
+        "prerequisites": [
+          "M1"
+        ],
+        "delivery_methods": [
+          "classroom",
+          "online"
+        ],
+        "module_type": [
+          "practical"
+        ],
+        "skills": [
+          "collaborative_innovation",
+          "digital_facilitation"
+        ],
+        "role_relevance": {
+          "DSM": 95,
+          "STS": 90,
+          "SBA": 85,
+          "DSC": 80,
+          "DSL": 75,
+          "SDD": 65,
+          "SSD": 70,
+          "DAN": 65,
+          "DSI": 60,
+          "DSE": 65
+        },
+        "is_work_based": false,
+        "learning_outcomes": {
+          "knowledge": "Identify collaborative digital tools that support sustainability innovation.",
+          "understanding": "Explain how digital collaboration can accelerate green innovation processes.",
+          "skills": "Implement collaborative platforms to facilitate sustainability-focused innovation."
+        },
+        "dual_principle_applicable": true,
+        "is_optional": false,
+        "is_adapted": true,
+        "original_module": "M24",
+        "semester": 2
+      },
+      {
+        "id": "M41_EQF4",
+        "name": "IoT for Environmental Monitoring (EQF 4 Version)",
+        "description": "Using Internet of Things technologies for sustainability monitoring and management (This module has been adapted for EQF level 4.)",
+        "eqf_level": 4,
+        "ects_points": 5,
+        "thematic_area": "technology",
+        "prerequisites": [
+          "M1"
+        ],
+        "delivery_methods": [
+          "blended",
+          "workplace"
+        ],
+        "module_type": [
+          "practical",
+          "work-based"
+        ],
+        "skills": [
+          "iot_implementation",
+          "sensor_networks",
+          "environmental_monitoring"
+        ],
+        "role_relevance": {
+          "DSE": 90,
+          "STS": 85,
+          "SDD": 80,
+          "SSD": 75,
+          "DSC": 70,
+          "DSL": 65,
+          "DSM": 70,
+          "SBA": 60,
+          "DAN": 65,
+          "DSI": 70
+        },
+        "is_work_based": true,
+        "learning_outcomes": {
+          "knowledge": "Identify IoT architectures and technologies applicable to sustainability monitoring.",
+          "understanding": "Explain how sensor networks can provide real-time environmental data for decision-making.",
+          "skills": "Implement IoT solutions for monitoring environmental parameters and resource usage."
+        },
+        "dual_principle_applicable": true,
+        "is_optional": false,
+        "is_adapted": true,
+        "original_module": "M41",
+        "semester": 2
+      }
+    ]
+  },
+  "total_ects": 100,
+  "work_based_percentage": 20.0,
+  "program_duration": 2,
+  "program_learning_outcomes": [
+    "Apply fundamental digital sustainability principles and methodologies in structured environments",
+    "Utilize appropriate tools and technologies to support sustainability objectives in digital contexts",
+    "Demonstrate awareness of ethical and environmental implications of digital systems and decisions",
+    "Communicate sustainability concepts and practices effectively with diverse stakeholders",
+    "Implement basic sustainability improvements in digital systems and processes"
+  ]
+}
