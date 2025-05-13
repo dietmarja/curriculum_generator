@@ -33,6 +33,7 @@ Designed to accommodate multiple roles and EQF levels (4–8), it supports full 
 
 ### Generate One Curriculum
 ```bash
+# Central CLI script
 python scripts/generate_curriculum.py --role DSL --eqf 7 --output output/curricula/curriculum_DSL_7.html
 ```
 
@@ -43,8 +44,8 @@ python scripts/generate_all_curricula.py --output-dir output/curricula
 
 ### Create Micro-Credentials
 ```bash
-python scripts/generate_micro_credentials.py --output output/micro_credentials
-python scripts/improve_micro_credentials.py --force
+#python scripts/generate_micro_credentials.py --output output/micro_credentials
+#python scripts/improve_micro_credentials.py --force
 python scripts/generate_enhanced_micro_credentials.py --generate-upskilling
 ```
 
