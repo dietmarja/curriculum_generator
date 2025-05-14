@@ -16,18 +16,22 @@ Designed to accommodate multiple roles and EQF levels (4–8), it supports full 
 
 ---
 
-## Standards Integration
+| Standard                 | Role in CG                                                                            |
+| ------------------------ | ------------------------------------------------------------------------------------- |
+| **EQF**                  | Levels 4–8 structuring; outcome-based design and transparency across national systems |
+| **ECTS**                 | Credit weighting, workload calculation, and validation of learning modules            |
+| **ECVET**                | Modular and transferable design for vocational and work-based learning                |
+| **e-CF**                 | Structuring ICT competences aligned to EQF and supporting digital role profiles       |
+| **ESCO**                 | Mapping of learning outcomes to labor market competences and job roles                |
+| **GreenComp**            | Embedding sustainability competencies into transversal learning outcomes              |
+| **EU Micro-Credentials** | Quality, granularity, and stackability for short-form learning units                  |
+| **Tuning**               | Alignment and calibration of learning outcomes from program to module level           |
 
-| Standard      | Role in CG                                                                 |
-|---------------|----------------------------------------------------------------------------|
-| **EQF**       | Levels 4–8 structuring; stacking logic for curricula and credentials       |
-| **ECTS**      | Credit weighting and validation of learning modules                        |
-| **ECVET**     | Support for modular, transferable work-based learning                      |
-| **ESCO**      | Competence-to-role matching; profile enrichment                            |
-| **Tuning**    | Structuring of learning outcomes from program to module level              |
-| **EU Micro-Credentials** | Recognition, granularity, and stackability of short-form learning units |
 
----
+
+
+
+
 
 ## Example Commands
 
