@@ -7,23 +7,23 @@
   "thematic_area": "sustainability",
   "program_duration": 6,
   "learning_outcomes": [
-    "Optimize energy-efficient software for sustainable business practices",
-    "Develop green coding in circular economy applications",
-    "Compare circular software design in digital transformation for sustainability",
-    "Evaluate energy-efficient software to enhance environmental performance",
-    "Assess lifecycle optimization for sustainable business practices",
-    "Compare circular software design in circular economy applications",
-    "Assess energy-efficient software to support sustainable development goals",
-    "Apply integrated knowledge of green coding, lifecycle optimization to solve complex sustainability challenges"
+    "Evaluate sustainable software architectures in circular economy applications",
+    "Assess green coding for addressing environmental challenges",
+    "Optimize lifecycle optimization in organizational sustainability contexts",
+    "Optimize lifecycle optimization in circular economy applications",
+    "Solve energy-efficient software in organizational sustainability contexts",
+    "Analyze circular software design for addressing environmental challenges",
+    "Optimize energy-efficient software in circular economy applications",
+    "Apply integrated knowledge of circular software design, energy-efficient software to solve complex sustainability challenges"
   ],
   "skills": [
-    "sustainable development practices",
-    "energy profiling",
     "energy-efficient code optimization",
-    "code refactoring for sustainability",
-    "lifecycle optimization",
-    "sustainability frameworks application",
-    "sustainable development goals alignment",
+    "software carbon intensity (SCI) calculation",
+    "energy profiling",
+    "sustainable development practices",
+    "green software architecture",
+    "lifecycle thinking application",
+    "circular economy principles application",
     "carbon footprint calculation"
   ],
   "competencies": [
@@ -50,7 +50,7 @@
     "Sustainable Development Team Lead",
     "Chief Green Code Officer",
     "Sustainable Software Consultant",
-    "Digital Sustainability Researcher",
-    "Sustainability Educator/Trainer"
+    "Sustainability Educator/Trainer",
+    "Sustainable Innovation Entrepreneur"
   ]
 }

@@ -7,23 +7,22 @@
   "thematic_area": "sustainability",
   "program_duration": 4,
   "learning_outcomes": [
-    "Differentiate green IT for addressing environmental challenges",
-    "Compare environmental impact reduction for addressing environmental challenges",
-    "Implement environmental impact reduction to enhance environmental performance",
-    "Apply environmental impact reduction in organizational sustainability contexts",
-    "Examine technical consulting for sustainable business practices",
-    "Differentiate technology assessment in circular economy applications",
-    "Differentiate sustainable technologies in organizational sustainability contexts",
-    "Apply integrated knowledge of green IT, technical consulting to solve complex sustainability challenges"
+    "Apply sustainable technologies for sustainable business practices",
+    "Apply technology assessment for sustainable business practices",
+    "Compare technology assessment in circular economy applications",
+    "Solve technology assessment for sustainable business practices",
+    "Analyze environmental impact reduction in circular economy applications",
+    "Apply environmental impact reduction in circular economy applications",
+    "Apply integrated knowledge of technical consulting, green IT to solve complex sustainability challenges"
   ],
   "skills": [
-    "energy efficiency auditing",
-    "sustainable IT solutions design",
     "sustainable hardware evaluation",
+    "green technology assessment",
     "e-waste reduction strategies",
-    "lifecycle thinking application",
-    "sustainable development goals alignment",
-    "carbon footprint calculation"
+    "sustainable IT solutions design",
+    "carbon footprint calculation",
+    "sustainability frameworks application",
+    "lifecycle thinking application"
   ],
   "competencies": [
     "Capability in implementing green technology evaluation",
@@ -48,7 +47,7 @@
     "Green Technology Assessment Lead",
     "Chief Green Technology Officer",
     "Sustainable Technology Research Lead",
-    "Sustainability Educator/Trainer",
+    "ESG Integration Specialist",
     "Digital Sustainability Researcher"
   ]
 }

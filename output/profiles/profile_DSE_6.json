@@ -7,23 +7,21 @@
   "thematic_area": "sustainability",
   "program_duration": 6,
   "learning_outcomes": [
-    "Solve technical implementation in circular economy applications",
+    "Analyze systems design for addressing environmental challenges",
+    "Compare systems design in digital transformation for sustainability",
+    "Assess infrastructure optimization in organizational sustainability contexts",
     "Solve systems design for sustainable business practices",
-    "Implement resource management to support sustainable development goals",
-    "Optimize infrastructure optimization in organizational sustainability contexts",
-    "Assess energy efficiency in organizational sustainability contexts",
-    "Compare energy efficiency in organizational sustainability contexts",
-    "Optimize systems design in circular economy applications",
-    "Examine resource management in digital transformation for sustainability",
-    "Apply integrated knowledge of infrastructure optimization, systems design to solve complex sustainability challenges"
+    "Evaluate technical implementation for addressing environmental challenges",
+    "Develop resource management in organizational sustainability contexts",
+    "Apply integrated knowledge of energy efficiency, technical implementation to solve complex sustainability challenges"
   ],
   "skills": [
-    "carbon-aware infrastructure",
     "sustainable IT infrastructure",
-    "green datacenter design",
     "renewable energy integration",
+    "energy-efficient systems design",
     "power usage effectiveness optimization",
-    "stakeholder communication",
+    "carbon-aware infrastructure",
+    "sustainable development goals alignment",
     "sustainability frameworks application",
     "environmental impact assessment"
   ],
@@ -52,6 +50,6 @@
     "Energy Efficiency Engineering Consultant",
     "Chief Sustainable Technology Officer",
     "Sustainability Educator/Trainer",
-    "Sustainable Innovation Entrepreneur"
+    "Digital Sustainability Researcher"
   ]
 }

@@ -7,24 +7,26 @@
   "thematic_area": "sustainability",
   "program_duration": 4,
   "learning_outcomes": [
-    "Critique technical implementation to support sustainable development goals",
-    "Design infrastructure optimization in circular economy applications",
-    "Integrate infrastructure optimization in organizational sustainability contexts",
-    "Critique systems design for sustainable business practices",
-    "Develop energy efficiency to support sustainable development goals",
-    "Integrate energy efficiency in digital transformation for sustainability",
-    "Lead transformative initiatives in resource management, energy efficiency that advance the field of digital sustainability"
+    "Evaluate technical implementation to support sustainable development goals",
+    "Lead infrastructure optimization in organizational sustainability contexts",
+    "Lead technical implementation to enhance environmental performance",
+    "Design infrastructure optimization to support sustainable development goals",
+    "Synthesize infrastructure optimization for sustainable business practices",
+    "Lead energy efficiency in circular economy applications",
+    "Lead resource management in organizational sustainability contexts",
+    "Develop systems design to support sustainable development goals",
+    "Lead transformative initiatives in systems design, infrastructure optimization that advance the field of digital sustainability"
   ],
   "skills": [
-    "sustainable IT infrastructure",
+    "power usage effectiveness optimization",
     "energy-efficient systems design",
     "renewable energy integration",
-    "green datacenter design",
     "carbon-aware infrastructure",
-    "power usage effectiveness optimization",
-    "environmental impact assessment",
-    "circular economy principles application",
-    "digital sustainability assessment"
+    "green datacenter design",
+    "sustainable IT infrastructure",
+    "stakeholder communication",
+    "carbon footprint calculation",
+    "sustainability frameworks application"
   ],
   "competencies": [
     "Capability in leading sustainable systems architecture",
@@ -50,8 +52,8 @@
     "Sustainable Infrastructure Architect",
     "Green IT Engineering Director",
     "Circular Systems Design Lead",
-    "Sustainable Innovation Entrepreneur",
     "Sustainability Educator/Trainer",
+    "ESG Integration Specialist",
     "Independent Sustainability Consultant"
   ]
 }

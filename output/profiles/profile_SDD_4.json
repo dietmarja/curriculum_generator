@@ -7,23 +7,23 @@
   "thematic_area": "sustainability",
   "program_duration": 2,
   "learning_outcomes": [
-    "Demonstrate sustainable design for addressing environmental challenges",
-    "Identify energy-efficient interfaces in organizational sustainability contexts",
-    "Identify accessible interfaces in organizational sustainability contexts",
-    "Perform sustainable design to enhance environmental performance",
-    "Identify ethical design principles to enhance environmental performance",
-    "Apply energy-efficient interfaces for addressing environmental challenges",
-    "Implement sustainable design for addressing environmental challenges",
-    "Operate ethical design principles for addressing environmental challenges",
-    "Apply integrated knowledge of accessible interfaces, ethical design principles to solve complex sustainability challenges"
+    "Use user experience to enhance environmental performance",
+    "Implement user experience in circular economy applications",
+    "Apply sustainable design to enhance environmental performance",
+    "Explain accessible interfaces to enhance environmental performance",
+    "Use energy-efficient interfaces to enhance environmental performance",
+    "Describe sustainable design to support sustainable development goals",
+    "Perform user experience to enhance environmental performance",
+    "Describe ethical design principles to support sustainable development goals",
+    "Apply integrated knowledge of sustainable design, ethical design principles to solve complex sustainability challenges"
   ],
   "skills": [
-    "sustainable design principles",
-    "accessibility implementation",
+    "low-impact interface design",
+    "user research for sustainability",
     "design systems optimization",
-    "energy-efficient UI/UX design",
-    "digital sustainability assessment",
-    "lifecycle thinking application"
+    "sustainable design principles",
+    "carbon footprint calculation",
+    "sustainability frameworks application"
   ],
   "competencies": [
     "Capability in applying energy-efficient digital design",
@@ -47,7 +47,7 @@
     "Ethical Design Director",
     "Chief Sustainable Design Officer",
     "Sustainable Design Consultant",
-    "ESG Integration Specialist",
+    "Independent Sustainability Consultant",
     "Sustainability Educator/Trainer"
   ]
 }

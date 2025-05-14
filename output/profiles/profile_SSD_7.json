@@ -7,26 +7,24 @@
   "thematic_area": "sustainability",
   "program_duration": 4,
   "learning_outcomes": [
-    "Formulate energy-efficient software to enhance environmental performance",
-    "Create circular software design in circular economy applications",
-    "Evaluate circular software design to support sustainable development goals",
-    "Synthesize energy-efficient software for addressing environmental challenges",
-    "Lead energy-efficient software to enhance environmental performance",
-    "Design green coding to support sustainable development goals",
-    "Integrate circular software design in circular economy applications",
-    "Lead lifecycle optimization for addressing environmental challenges",
-    "Lead transformative initiatives in energy-efficient software, lifecycle optimization that advance the field of digital sustainability"
+    "Formulate lifecycle optimization in digital transformation for sustainability",
+    "Lead green coding in organizational sustainability contexts",
+    "Develop sustainable software architectures to enhance environmental performance",
+    "Create green coding in organizational sustainability contexts",
+    "Synthesize lifecycle optimization to support sustainable development goals",
+    "Create energy-efficient software to support sustainable development goals",
+    "Lead transformative initiatives in green coding, sustainable software architectures that advance the field of digital sustainability"
   ],
   "skills": [
-    "sustainable development practices",
-    "lifecycle optimization",
-    "software carbon intensity (SCI) calculation",
-    "energy profiling",
-    "green software architecture",
     "code refactoring for sustainability",
-    "lifecycle thinking application",
+    "software carbon intensity (SCI) calculation",
+    "energy-efficient code optimization",
+    "sustainable development practices",
+    "green software architecture",
+    "energy profiling",
     "digital sustainability assessment",
-    "carbon footprint calculation"
+    "sustainability frameworks application",
+    "environmental impact assessment"
   ],
   "competencies": [
     "Capability in leading sustainable software lifecycle management",
@@ -52,8 +50,8 @@
     "Sustainable Software Architect",
     "Green Code Optimization Specialist",
     "Sustainable Development Team Lead",
-    "Sustainability Educator/Trainer",
-    "Digital Sustainability Researcher",
-    "Sustainable Innovation Entrepreneur"
+    "Sustainable Innovation Entrepreneur",
+    "ESG Integration Specialist",
+    "Digital Sustainability Researcher"
   ]
 }

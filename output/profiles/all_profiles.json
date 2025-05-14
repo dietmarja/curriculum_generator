@@ -8,24 +8,23 @@
     "thematic_area": "sustainability",
     "program_duration": 6,
     "learning_outcomes": [
-      "Analyze data-driven insights for addressing environmental challenges",
-      "Implement metrics development to enhance environmental performance",
-      "Solve data-driven insights to enhance environmental performance",
-      "Develop dashboard creation in circular economy applications",
-      "Optimize reporting for addressing environmental challenges",
-      "Examine data analysis for addressing environmental challenges",
-      "Examine data-driven insights for addressing environmental challenges",
-      "Apply integrated knowledge of dashboard creation, data-driven insights to solve complex sustainability challenges"
+      "Examine metrics development in organizational sustainability contexts",
+      "Evaluate data analysis to enhance environmental performance",
+      "Assess metrics development in circular economy applications",
+      "Optimize data-driven insights in organizational sustainability contexts",
+      "Analyze data-driven insights in digital transformation for sustainability",
+      "Solve data analysis in digital transformation for sustainability",
+      "Apply integrated knowledge of reporting, dashboard creation to solve complex sustainability challenges"
     ],
     "skills": [
       "sustainability data modeling",
-      "ESG metrics development",
-      "data-driven sustainability optimization",
+      "sustainability reporting automation",
       "analytics tool development",
       "impact dashboard creation",
-      "digital sustainability assessment",
-      "sustainability frameworks application",
-      "carbon footprint calculation"
+      "data-driven sustainability optimization",
+      "stakeholder communication",
+      "carbon footprint calculation",
+      "sustainability frameworks application"
     ],
     "competencies": [
       "Capability in developing sustainability data modeling and analysis",
@@ -51,8 +50,8 @@
       "Impact Measurement Lead",
       "Chief Sustainability Data Officer",
       "Sustainability Intelligence Director",
-      "Sustainability Educator/Trainer",
-      "Independent Sustainability Consultant"
+      "Digital Sustainability Researcher",
+      "Sustainability Educator/Trainer"
     ]
   },
   {
@@ -64,24 +63,24 @@
     "thematic_area": "sustainability",
     "program_duration": 4,
     "learning_outcomes": [
-      "Create data analysis for sustainable business practices",
-      "Develop data analysis for sustainable business practices",
-      "Synthesize data-driven insights to enhance environmental performance",
-      "Design data analysis in circular economy applications",
-      "Integrate data-driven insights to enhance environmental performance",
-      "Formulate dashboard creation for sustainable business practices",
-      "Lead transformative initiatives in reporting, data-driven insights that advance the field of digital sustainability"
+      "Create data-driven insights to support sustainable development goals",
+      "Create metrics development in organizational sustainability contexts",
+      "Evaluate metrics development for addressing environmental challenges",
+      "Develop data-driven insights for addressing environmental challenges",
+      "Synthesize metrics development for sustainable business practices",
+      "Develop data analysis in organizational sustainability contexts",
+      "Lead transformative initiatives in metrics development, data analysis that advance the field of digital sustainability"
     ],
     "skills": [
       "sustainability data modeling",
-      "impact dashboard creation",
-      "analytics tool development",
+      "ESG metrics development",
       "sustainability reporting automation",
       "data-driven sustainability optimization",
-      "ESG metrics development",
+      "impact dashboard creation",
+      "analytics tool development",
       "digital sustainability assessment",
-      "lifecycle thinking application",
-      "circular economy principles application"
+      "circular economy principles application",
+      "lifecycle thinking application"
     ],
     "competencies": [
       "Capability in leading sustainability data modeling and analysis",
@@ -107,9 +106,9 @@
       "ESG Data & Analytics Manager",
       "Sustainability Reporting Director",
       "Impact Measurement Lead",
-      "Independent Sustainability Consultant",
       "Digital Sustainability Researcher",
-      "Sustainability Educator/Trainer"
+      "Sustainable Innovation Entrepreneur",
+      "Independent Sustainability Consultant"
     ]
   },
   {
@@ -121,23 +120,21 @@
     "thematic_area": "sustainability",
     "program_duration": 6,
     "learning_outcomes": [
-      "Solve technical implementation in circular economy applications",
+      "Analyze systems design for addressing environmental challenges",
+      "Compare systems design in digital transformation for sustainability",
+      "Assess infrastructure optimization in organizational sustainability contexts",
       "Solve systems design for sustainable business practices",
-      "Implement resource management to support sustainable development goals",
-      "Optimize infrastructure optimization in organizational sustainability contexts",
-      "Assess energy efficiency in organizational sustainability contexts",
-      "Compare energy efficiency in organizational sustainability contexts",
-      "Optimize systems design in circular economy applications",
-      "Examine resource management in digital transformation for sustainability",
-      "Apply integrated knowledge of infrastructure optimization, systems design to solve complex sustainability challenges"
+      "Evaluate technical implementation for addressing environmental challenges",
+      "Develop resource management in organizational sustainability contexts",
+      "Apply integrated knowledge of energy efficiency, technical implementation to solve complex sustainability challenges"
     ],
     "skills": [
-      "carbon-aware infrastructure",
       "sustainable IT infrastructure",
-      "green datacenter design",
       "renewable energy integration",
+      "energy-efficient systems design",
       "power usage effectiveness optimization",
-      "stakeholder communication",
+      "carbon-aware infrastructure",
+      "sustainable development goals alignment",
       "sustainability frameworks application",
       "environmental impact assessment"
     ],
@@ -166,7 +163,7 @@
       "Energy Efficiency Engineering Consultant",
       "Chief Sustainable Technology Officer",
       "Sustainability Educator/Trainer",
-      "Sustainable Innovation Entrepreneur"
+      "Digital Sustainability Researcher"
     ]
   },
   {
@@ -178,24 +175,26 @@
     "thematic_area": "sustainability",
     "program_duration": 4,
     "learning_outcomes": [
-      "Critique technical implementation to support sustainable development goals",
-      "Design infrastructure optimization in circular economy applications",
-      "Integrate infrastructure optimization in organizational sustainability contexts",
-      "Critique systems design for sustainable business practices",
-      "Develop energy efficiency to support sustainable development goals",
-      "Integrate energy efficiency in digital transformation for sustainability",
-      "Lead transformative initiatives in resource management, energy efficiency that advance the field of digital sustainability"
+      "Evaluate technical implementation to support sustainable development goals",
+      "Lead infrastructure optimization in organizational sustainability contexts",
+      "Lead technical implementation to enhance environmental performance",
+      "Design infrastructure optimization to support sustainable development goals",
+      "Synthesize infrastructure optimization for sustainable business practices",
+      "Lead energy efficiency in circular economy applications",
+      "Lead resource management in organizational sustainability contexts",
+      "Develop systems design to support sustainable development goals",
+      "Lead transformative initiatives in systems design, infrastructure optimization that advance the field of digital sustainability"
     ],
     "skills": [
-      "sustainable IT infrastructure",
+      "power usage effectiveness optimization",
       "energy-efficient systems design",
       "renewable energy integration",
-      "green datacenter design",
       "carbon-aware infrastructure",
-      "power usage effectiveness optimization",
-      "environmental impact assessment",
-      "circular economy principles application",
-      "digital sustainability assessment"
+      "green datacenter design",
+      "sustainable IT infrastructure",
+      "stakeholder communication",
+      "carbon footprint calculation",
+      "sustainability frameworks application"
     ],
     "competencies": [
       "Capability in leading sustainable systems architecture",
@@ -221,8 +220,8 @@
       "Sustainable Infrastructure Architect",
       "Green IT Engineering Director",
       "Circular Systems Design Lead",
-      "Sustainable Innovation Entrepreneur",
       "Sustainability Educator/Trainer",
+      "ESG Integration Specialist",
       "Independent Sustainability Consultant"
     ]
   },
@@ -235,26 +234,25 @@
     "thematic_area": "sustainability",
     "program_duration": 4,
     "learning_outcomes": [
-      "Integrate digital transformation to support sustainable development goals",
-      "Integrate strategic planning in organizational sustainability contexts",
-      "Synthesize stakeholder management in circular economy applications",
-      "Evaluate stakeholder management to support sustainable development goals",
-      "Synthesize stakeholder management for sustainable business practices",
-      "Design digital transformation to enhance environmental performance",
-      "Integrate stakeholder management to support sustainable development goals",
-      "Create strategic planning in digital transformation for sustainability",
-      "Lead transformative initiatives in leadership, digital transformation that advance the field of digital sustainability"
+      "Lead leadership for sustainable business practices",
+      "Synthesize strategic planning to enhance environmental performance",
+      "Critique sustainability integration to support sustainable development goals",
+      "Design stakeholder management in organizational sustainability contexts",
+      "Develop leadership in organizational sustainability contexts",
+      "Develop leadership for sustainable business practices",
+      "Create stakeholder management for sustainable business practices",
+      "Lead transformative initiatives in strategic planning, sustainability integration that advance the field of digital sustainability"
     ],
     "skills": [
-      "carbon footprint analysis",
-      "green IT governance",
-      "ESG reporting",
       "sustainability strategy development",
-      "stakeholder engagement",
       "digital transformation planning",
+      "ESG reporting",
+      "stakeholder engagement",
+      "green IT governance",
+      "change management",
+      "circular economy principles application",
       "environmental impact assessment",
-      "sustainability frameworks application",
-      "sustainable development goals alignment"
+      "stakeholder communication"
     ],
     "competencies": [
       "Capability in leading strategic sustainability leadership",
@@ -280,9 +278,9 @@
       "Head of Digital Sustainability",
       "Sustainability Transformation Lead",
       "Digital Sustainability Director",
-      "Independent Sustainability Consultant",
+      "Digital Sustainability Researcher",
       "ESG Integration Specialist",
-      "Digital Sustainability Researcher"
+      "Sustainable Innovation Entrepreneur"
     ]
   },
   {
@@ -294,26 +292,27 @@
     "thematic_area": "sustainability",
     "program_duration": 6,
     "learning_outcomes": [
-      "Theorize stakeholder management for sustainable business practices",
-      "Develop digital transformation to support sustainable development goals",
-      "Create digital transformation in circular economy applications",
-      "Formulate strategic planning in circular economy applications",
-      "Develop leadership for addressing environmental challenges",
-      "Transform sustainability integration for sustainable business practices",
-      "Design leadership for sustainable business practices",
-      "Lead transformative initiatives in strategic planning, digital transformation that advance the field of digital sustainability"
+      "Design digital transformation in circular economy applications",
+      "Theorize digital transformation in digital transformation for sustainability",
+      "Formulate digital transformation to enhance environmental performance",
+      "Develop stakeholder management for sustainable business practices",
+      "Develop leadership to support sustainable development goals",
+      "Transform leadership in circular economy applications",
+      "Formulate leadership to support sustainable development goals",
+      "Develop sustainability integration in organizational sustainability contexts",
+      "Lead transformative initiatives in sustainability integration, leadership that advance the field of digital sustainability"
     ],
     "skills": [
-      "carbon footprint analysis",
-      "ESG reporting",
-      "digital transformation planning",
-      "green IT governance",
       "stakeholder engagement",
       "change management",
+      "digital transformation planning",
+      "sustainability strategy development",
+      "carbon footprint analysis",
       "sustainability KPI development",
-      "sustainable development goals alignment",
-      "carbon footprint calculation",
-      "stakeholder communication"
+      "ESG reporting",
+      "circular economy principles application",
+      "lifecycle thinking application",
+      "carbon footprint calculation"
     ],
     "competencies": [
       "Capability in advancing strategic sustainability leadership",
@@ -339,8 +338,8 @@
       "Head of Digital Sustainability",
       "Sustainability Transformation Lead",
       "Digital Sustainability Director",
-      "Sustainability Educator/Trainer",
       "Sustainable Innovation Entrepreneur",
+      "Sustainability Educator/Trainer",
       "Independent Sustainability Consultant"
     ]
   },
@@ -353,24 +352,22 @@
     "thematic_area": "sustainability",
     "program_duration": 6,
     "learning_outcomes": [
-      "Develop program management to support sustainable development goals",
-      "Optimize resource allocation in organizational sustainability contexts",
-      "Implement program management in digital transformation for sustainability",
-      "Develop program management in circular economy applications",
-      "Examine implementation oversight for addressing environmental challenges",
-      "Optimize organizational change to enhance environmental performance",
-      "Evaluate sustainability strategy to enhance environmental performance",
-      "Evaluate organizational change for addressing environmental challenges",
-      "Apply integrated knowledge of resource allocation, organizational change to solve complex sustainability challenges"
+      "Optimize sustainability strategy to enhance environmental performance",
+      "Solve organizational change in organizational sustainability contexts",
+      "Examine program management in circular economy applications",
+      "Implement program management for sustainable business practices",
+      "Optimize resource allocation in circular economy applications",
+      "Analyze implementation oversight for sustainable business practices",
+      "Apply integrated knowledge of sustainability strategy, program management to solve complex sustainability challenges"
     ],
     "skills": [
-      "green IT budget allocation",
-      "ESG performance monitoring",
-      "sustainability program management",
-      "sustainability team leadership",
       "sustainable procurement",
-      "stakeholder communication",
-      "carbon footprint calculation",
+      "sustainability team leadership",
+      "sustainability program management",
+      "carbon reduction management",
+      "green IT budget allocation",
+      "sustainability frameworks application",
+      "circular economy principles application",
       "environmental impact assessment"
     ],
     "competencies": [
@@ -397,8 +394,8 @@
       "ESG Operations Director",
       "Chief Sustainability Officer",
       "Sustainable Transformation Lead",
-      "Independent Sustainability Consultant",
-      "Digital Sustainability Researcher"
+      "Digital Sustainability Researcher",
+      "Sustainable Innovation Entrepreneur"
     ]
   },
   {
@@ -410,25 +407,24 @@
     "thematic_area": "sustainability",
     "program_duration": 4,
     "learning_outcomes": [
-      "Create sustainability strategy to enhance environmental performance",
-      "Create organizational change to enhance environmental performance",
-      "Create organizational change for addressing environmental challenges",
-      "Lead sustainability strategy in digital transformation for sustainability",
-      "Integrate organizational change in digital transformation for sustainability",
-      "Critique sustainability strategy in digital transformation for sustainability",
-      "Synthesize organizational change to support sustainable development goals",
-      "Lead transformative initiatives in organizational change, program management that advance the field of digital sustainability"
+      "Develop organizational change for addressing environmental challenges",
+      "Develop resource allocation to enhance environmental performance",
+      "Critique program management in organizational sustainability contexts",
+      "Evaluate resource allocation to enhance environmental performance",
+      "Integrate implementation oversight in digital transformation for sustainability",
+      "Create resource allocation for addressing environmental challenges",
+      "Lead transformative initiatives in implementation oversight, organizational change that advance the field of digital sustainability"
     ],
     "skills": [
-      "sustainability team leadership",
-      "ESG performance monitoring",
-      "carbon reduction management",
       "green IT budget allocation",
+      "sustainability team leadership",
       "sustainability program management",
       "sustainable procurement",
+      "carbon reduction management",
+      "ESG performance monitoring",
       "sustainable development goals alignment",
-      "circular economy principles application",
-      "digital sustainability assessment"
+      "digital sustainability assessment",
+      "environmental impact assessment"
     ],
     "competencies": [
       "Capability in leading sustainable digital program management",
@@ -454,9 +450,9 @@
       "Sustainability Program Director",
       "Digital Sustainability Executive",
       "ESG Operations Director",
+      "Sustainable Innovation Entrepreneur",
       "Independent Sustainability Consultant",
-      "ESG Integration Specialist",
-      "Sustainable Innovation Entrepreneur"
+      "Sustainability Educator/Trainer"
     ]
   },
   {
@@ -468,23 +464,23 @@
     "thematic_area": "sustainability",
     "program_duration": 6,
     "learning_outcomes": [
-      "Examine sustainability consulting for sustainable business practices",
-      "Solve sustainability consulting in digital transformation for sustainability",
-      "Optimize strategic advising in digital transformation for sustainability",
-      "Compare assessment methodologies in circular economy applications",
-      "Assess strategic advising in circular economy applications",
-      "Assess transformation guidance for sustainable business practices",
-      "Apply integrated knowledge of assessment methodologies, best practices implementation to solve complex sustainability challenges"
+      "Solve transformation guidance to support sustainable development goals",
+      "Evaluate best practices implementation for sustainable business practices",
+      "Implement best practices implementation in circular economy applications",
+      "Implement best practices implementation in organizational sustainability contexts",
+      "Analyze best practices implementation in organizational sustainability contexts",
+      "Compare strategic advising for addressing environmental challenges",
+      "Apply integrated knowledge of transformation guidance, sustainability consulting to solve complex sustainability challenges"
     ],
     "skills": [
-      "ESG integration frameworks",
-      "sustainability transformation roadmapping",
-      "sustainability assessment methodologies",
+      "strategic sustainability consulting",
       "sustainability reporting",
+      "sustainability assessment methodologies",
+      "ESG integration frameworks",
       "digital sustainability auditing",
-      "carbon footprint calculation",
-      "circular economy principles application",
-      "stakeholder communication"
+      "environmental impact assessment",
+      "lifecycle thinking application",
+      "sustainable development goals alignment"
     ],
     "competencies": [
       "Capability in developing sustainability assessment and auditing",
@@ -510,7 +506,7 @@
       "Partner in Sustainability Practice",
       "Sustainability Strategy Executive",
       "Chief Sustainability Advisor",
-      "Digital Sustainability Researcher",
+      "Sustainable Innovation Entrepreneur",
       "Sustainability Educator/Trainer"
     ]
   },
@@ -523,24 +519,25 @@
     "thematic_area": "sustainability",
     "program_duration": 4,
     "learning_outcomes": [
-      "Evaluate sustainability consulting in organizational sustainability contexts",
-      "Formulate sustainability consulting in organizational sustainability contexts",
-      "Integrate assessment methodologies for addressing environmental challenges",
-      "Design assessment methodologies for sustainable business practices",
-      "Integrate transformation guidance in circular economy applications",
-      "Synthesize assessment methodologies to enhance environmental performance",
-      "Evaluate strategic advising in organizational sustainability contexts",
-      "Lead transformative initiatives in sustainability consulting, transformation guidance that advance the field of digital sustainability"
+      "Lead best practices implementation for sustainable business practices",
+      "Synthesize best practices implementation in circular economy applications",
+      "Critique strategic advising in digital transformation for sustainability",
+      "Design transformation guidance in organizational sustainability contexts",
+      "Lead transformation guidance to enhance environmental performance",
+      "Synthesize strategic advising in organizational sustainability contexts",
+      "Integrate strategic advising for addressing environmental challenges",
+      "Integrate best practices implementation in organizational sustainability contexts",
+      "Lead transformative initiatives in assessment methodologies, sustainability consulting that advance the field of digital sustainability"
     ],
     "skills": [
-      "strategic sustainability consulting",
       "digital sustainability auditing",
       "sustainability reporting",
+      "sustainability assessment methodologies",
+      "strategic sustainability consulting",
       "ESG integration frameworks",
       "sustainability transformation roadmapping",
-      "sustainability assessment methodologies",
-      "digital sustainability assessment",
       "lifecycle thinking application",
+      "sustainable development goals alignment",
       "stakeholder communication"
     ],
     "competencies": [
@@ -567,9 +564,9 @@
       "Sustainability Practice Lead",
       "ESG Transformation Director",
       "Partner in Sustainability Practice",
-      "Digital Sustainability Researcher",
+      "Sustainable Innovation Entrepreneur",
       "Sustainability Educator/Trainer",
-      "ESG Integration Specialist"
+      "Independent Sustainability Consultant"
     ]
   },
   {
@@ -581,26 +578,26 @@
     "thematic_area": "sustainability",
     "program_duration": 4,
     "learning_outcomes": [
-      "Formulate machine learning in circular economy applications",
-      "Integrate data analytics in organizational sustainability contexts",
-      "Integrate impact assessment to enhance environmental performance",
-      "Critique impact assessment in organizational sustainability contexts",
-      "Lead machine learning to enhance environmental performance",
-      "Lead data analytics to support sustainable development goals",
-      "Develop machine learning for sustainable business practices",
-      "Lead sustainability metrics to support sustainable development goals",
+      "Integrate machine learning to enhance environmental performance",
+      "Formulate impact assessment for sustainable business practices",
+      "Critique sustainability metrics in digital transformation for sustainability",
+      "Lead impact assessment in circular economy applications",
+      "Formulate data analytics in digital transformation for sustainability",
+      "Design predictive modeling in digital transformation for sustainability",
+      "Evaluate sustainability metrics to support sustainable development goals",
+      "Develop impact assessment to enhance environmental performance",
       "Lead transformative initiatives in predictive modeling, sustainability metrics that advance the field of digital sustainability"
     ],
     "skills": [
-      "carbon accounting",
-      "data visualization for sustainability",
       "sustainability metrics development",
       "predictive modeling for resource optimization",
-      "machine learning for environmental impact",
+      "sustainability data analytics",
       "impact assessment methodologies",
-      "sustainability frameworks application",
-      "environmental impact assessment",
-      "carbon footprint calculation"
+      "data visualization for sustainability",
+      "lifecycle assessment modeling",
+      "stakeholder communication",
+      "carbon footprint calculation",
+      "digital sustainability assessment"
     ],
     "competencies": [
       "Capability in leading sustainability data analysis and interpretation",
@@ -626,9 +623,9 @@
       "Sustainability Analytics Director",
       "ESG Data Science Lead",
       "Sustainability Impact Modeling Expert",
-      "Sustainability Educator/Trainer",
       "Digital Sustainability Researcher",
-      "Independent Sustainability Consultant"
+      "Independent Sustainability Consultant",
+      "Sustainability Educator/Trainer"
     ]
   },
   {
@@ -640,26 +637,26 @@
     "thematic_area": "sustainability",
     "program_duration": 6,
     "learning_outcomes": [
-      "Develop sustainability metrics in circular economy applications",
-      "Transform predictive modeling in circular economy applications",
-      "Lead machine learning to enhance environmental performance",
-      "Transform machine learning to support sustainable development goals",
-      "Create impact assessment to enhance environmental performance",
       "Transform sustainability metrics to support sustainable development goals",
-      "Formulate sustainability metrics in organizational sustainability contexts",
-      "Lead transformative initiatives in sustainability metrics, machine learning that advance the field of digital sustainability"
+      "Advance predictive modeling for addressing environmental challenges",
+      "Transform predictive modeling in organizational sustainability contexts",
+      "Formulate data analytics for addressing environmental challenges",
+      "Innovate machine learning in digital transformation for sustainability",
+      "Advance predictive modeling for sustainable business practices",
+      "Create sustainability metrics for sustainable business practices",
+      "Lead transformative initiatives in data analytics, impact assessment that advance the field of digital sustainability"
     ],
     "skills": [
-      "sustainability data analytics",
-      "data visualization for sustainability",
-      "machine learning for environmental impact",
-      "sustainability metrics development",
-      "carbon accounting",
       "lifecycle assessment modeling",
+      "data visualization for sustainability",
+      "carbon accounting",
+      "predictive modeling for resource optimization",
+      "machine learning for environmental impact",
+      "sustainability data analytics",
       "impact assessment methodologies",
-      "sustainability frameworks application",
+      "circular economy principles application",
       "stakeholder communication",
-      "lifecycle thinking application"
+      "environmental impact assessment"
     ],
     "competencies": [
       "Capability in advancing sustainability data analysis and interpretation",
@@ -685,9 +682,9 @@
       "Sustainability Analytics Director",
       "ESG Data Science Lead",
       "Sustainability Impact Modeling Expert",
-      "Sustainable Innovation Entrepreneur",
-      "Digital Sustainability Researcher",
-      "Independent Sustainability Consultant"
+      "Independent Sustainability Consultant",
+      "Sustainability Educator/Trainer",
+      "Digital Sustainability Researcher"
     ]
   },
   {
@@ -699,25 +696,25 @@
     "thematic_area": "sustainability",
     "program_duration": 6,
     "learning_outcomes": [
-      "Optimize sustainable business models in circular economy applications",
-      "Implement sustainable business models to support sustainable development goals",
-      "Compare process optimization in circular economy applications",
-      "Evaluate sustainable business models for addressing environmental challenges",
-      "Compare sustainable business models for sustainable business practices",
-      "Assess impact assessment for addressing environmental challenges",
-      "Analyze data-driven decision making in digital transformation for sustainability",
-      "Assess impact assessment in circular economy applications",
-      "Apply integrated knowledge of data-driven decision making, impact assessment to solve complex sustainability challenges"
+      "Solve process optimization to enhance environmental performance",
+      "Optimize requirements analysis in organizational sustainability contexts",
+      "Solve process optimization to support sustainable development goals",
+      "Assess impact assessment in organizational sustainability contexts",
+      "Develop data-driven decision making to support sustainable development goals",
+      "Optimize process optimization for addressing environmental challenges",
+      "Examine process optimization for addressing environmental challenges",
+      "Solve requirements analysis for addressing environmental challenges",
+      "Apply integrated knowledge of process optimization, data-driven decision making to solve complex sustainability challenges"
     ],
     "skills": [
-      "impact data collection",
-      "metrics development",
-      "sustainability requirements analysis",
-      "process efficiency analysis",
       "sustainable value chain mapping",
-      "digital sustainability assessment",
+      "sustainable business model analysis",
+      "metrics development",
+      "process efficiency analysis",
+      "impact data collection",
       "sustainable development goals alignment",
-      "sustainability frameworks application"
+      "carbon footprint calculation",
+      "circular economy principles application"
     ],
     "competencies": [
       "Capability in developing sustainability requirements analysis",
@@ -744,7 +741,7 @@
       "Sustainability Process Optimization Lead",
       "Sustainable Value Chain Analyst",
       "Independent Sustainability Consultant",
-      "Digital Sustainability Researcher"
+      "Sustainability Educator/Trainer"
     ]
   },
   {
@@ -756,26 +753,25 @@
     "thematic_area": "sustainability",
     "program_duration": 4,
     "learning_outcomes": [
-      "Design requirements analysis to enhance environmental performance",
-      "Integrate impact assessment in circular economy applications",
-      "Critique impact assessment for addressing environmental challenges",
-      "Lead requirements analysis for addressing environmental challenges",
-      "Develop impact assessment for addressing environmental challenges",
-      "Integrate data-driven decision making to support sustainable development goals",
-      "Create data-driven decision making in organizational sustainability contexts",
-      "Create impact assessment to enhance environmental performance",
-      "Lead transformative initiatives in requirements analysis, process optimization that advance the field of digital sustainability"
+      "Evaluate process optimization to support sustainable development goals",
+      "Lead process optimization for addressing environmental challenges",
+      "Create sustainable business models in organizational sustainability contexts",
+      "Design impact assessment for addressing environmental challenges",
+      "Create impact assessment in circular economy applications",
+      "Integrate impact assessment for addressing environmental challenges",
+      "Lead data-driven decision making to support sustainable development goals",
+      "Lead transformative initiatives in process optimization, data-driven decision making that advance the field of digital sustainability"
     ],
     "skills": [
       "impact data collection",
-      "sustainability requirements analysis",
       "sustainable value chain mapping",
-      "metrics development",
       "sustainable business model analysis",
       "process efficiency analysis",
-      "carbon footprint calculation",
+      "metrics development",
+      "sustainability requirements analysis",
+      "sustainable development goals alignment",
       "stakeholder communication",
-      "circular economy principles application"
+      "sustainability frameworks application"
     ],
     "competencies": [
       "Capability in leading sustainability requirements analysis",
@@ -803,7 +799,7 @@
       "ESG Business Analysis Manager",
       "Independent Sustainability Consultant",
       "ESG Integration Specialist",
-      "Digital Sustainability Researcher"
+      "Sustainability Educator/Trainer"
     ]
   },
   {
@@ -815,23 +811,23 @@
     "thematic_area": "sustainability",
     "program_duration": 2,
     "learning_outcomes": [
-      "Demonstrate sustainable design for addressing environmental challenges",
-      "Identify energy-efficient interfaces in organizational sustainability contexts",
-      "Identify accessible interfaces in organizational sustainability contexts",
-      "Perform sustainable design to enhance environmental performance",
-      "Identify ethical design principles to enhance environmental performance",
-      "Apply energy-efficient interfaces for addressing environmental challenges",
-      "Implement sustainable design for addressing environmental challenges",
-      "Operate ethical design principles for addressing environmental challenges",
-      "Apply integrated knowledge of accessible interfaces, ethical design principles to solve complex sustainability challenges"
+      "Use user experience to enhance environmental performance",
+      "Implement user experience in circular economy applications",
+      "Apply sustainable design to enhance environmental performance",
+      "Explain accessible interfaces to enhance environmental performance",
+      "Use energy-efficient interfaces to enhance environmental performance",
+      "Describe sustainable design to support sustainable development goals",
+      "Perform user experience to enhance environmental performance",
+      "Describe ethical design principles to support sustainable development goals",
+      "Apply integrated knowledge of sustainable design, ethical design principles to solve complex sustainability challenges"
     ],
     "skills": [
-      "sustainable design principles",
-      "accessibility implementation",
+      "low-impact interface design",
+      "user research for sustainability",
       "design systems optimization",
-      "energy-efficient UI/UX design",
-      "digital sustainability assessment",
-      "lifecycle thinking application"
+      "sustainable design principles",
+      "carbon footprint calculation",
+      "sustainability frameworks application"
     ],
     "competencies": [
       "Capability in applying energy-efficient digital design",
@@ -855,7 +851,7 @@
       "Ethical Design Director",
       "Chief Sustainable Design Officer",
       "Sustainable Design Consultant",
-      "ESG Integration Specialist",
+      "Independent Sustainability Consultant",
       "Sustainability Educator/Trainer"
     ]
   },
@@ -868,24 +864,24 @@
     "thematic_area": "sustainability",
     "program_duration": 4,
     "learning_outcomes": [
-      "Apply energy-efficient interfaces for addressing environmental challenges",
-      "Implement user experience in digital transformation for sustainability",
-      "Solve user experience in digital transformation for sustainability",
-      "Analyze sustainable design to enhance environmental performance",
-      "Solve accessible interfaces for addressing environmental challenges",
-      "Compare user experience to support sustainable development goals",
-      "Implement energy-efficient interfaces for sustainable business practices",
-      "Apply user experience for sustainable business practices",
-      "Apply integrated knowledge of user experience, sustainable design to solve complex sustainability challenges"
+      "Optimize energy-efficient interfaces to enhance environmental performance",
+      "Implement ethical design principles in circular economy applications",
+      "Differentiate ethical design principles in organizational sustainability contexts",
+      "Analyze ethical design principles in organizational sustainability contexts",
+      "Optimize sustainable design in organizational sustainability contexts",
+      "Explain accessible interfaces to support sustainable development goals",
+      "Explain ethical design principles to support sustainable development goals",
+      "Examine accessible interfaces for sustainable business practices",
+      "Apply integrated knowledge of sustainable design, ethical design principles to solve complex sustainability challenges"
     ],
     "skills": [
+      "energy-efficient UI/UX design",
+      "low-impact interface design",
       "sustainable design principles",
       "accessibility implementation",
-      "user research for sustainability",
-      "energy-efficient UI/UX design",
       "environmental impact assessment",
-      "sustainability frameworks application",
-      "circular economy principles application"
+      "lifecycle thinking application",
+      "sustainable development goals alignment"
     ],
     "competencies": [
       "Capability in implementing energy-efficient digital design",
@@ -910,8 +906,8 @@
       "Ethical Design Director",
       "Chief Sustainable Design Officer",
       "Sustainable Design Consultant",
-      "Sustainability Educator/Trainer",
-      "Independent Sustainability Consultant"
+      "Digital Sustainability Researcher",
+      "Sustainability Educator/Trainer"
     ]
   },
   {
@@ -923,23 +919,23 @@
     "thematic_area": "sustainability",
     "program_duration": 6,
     "learning_outcomes": [
-      "Compare ethical design principles to support sustainable development goals",
-      "Analyze ethical design principles to support sustainable development goals",
-      "Analyze ethical design principles for sustainable business practices",
-      "Implement user experience in organizational sustainability contexts",
-      "Develop user experience to enhance environmental performance",
-      "Evaluate accessible interfaces in digital transformation for sustainability",
-      "Apply integrated knowledge of accessible interfaces, ethical design principles to solve complex sustainability challenges"
+      "Develop accessible interfaces for addressing environmental challenges",
+      "Solve accessible interfaces for addressing environmental challenges",
+      "Analyze user experience in circular economy applications",
+      "Optimize energy-efficient interfaces to support sustainable development goals",
+      "Compare sustainable design to support sustainable development goals",
+      "Assess ethical design principles in organizational sustainability contexts",
+      "Apply integrated knowledge of ethical design principles, user experience to solve complex sustainability challenges"
     ],
     "skills": [
+      "user research for sustainability",
+      "accessibility implementation",
       "sustainable design principles",
       "design systems optimization",
       "energy-efficient UI/UX design",
-      "user research for sustainability",
-      "low-impact interface design",
       "digital sustainability assessment",
-      "sustainable development goals alignment",
-      "environmental impact assessment"
+      "circular economy principles application",
+      "carbon footprint calculation"
     ],
     "competencies": [
       "Capability in developing energy-efficient digital design",
@@ -965,8 +961,8 @@
       "Sustainable Design Systems Architect",
       "Ethical Design Director",
       "Chief Sustainable Design Officer",
-      "Sustainable Innovation Entrepreneur",
-      "Digital Sustainability Researcher"
+      "ESG Integration Specialist",
+      "Independent Sustainability Consultant"
     ]
   },
   {
@@ -978,23 +974,23 @@
     "thematic_area": "sustainability",
     "program_duration": 6,
     "learning_outcomes": [
-      "Optimize energy-efficient software for sustainable business practices",
-      "Develop green coding in circular economy applications",
-      "Compare circular software design in digital transformation for sustainability",
-      "Evaluate energy-efficient software to enhance environmental performance",
-      "Assess lifecycle optimization for sustainable business practices",
-      "Compare circular software design in circular economy applications",
-      "Assess energy-efficient software to support sustainable development goals",
-      "Apply integrated knowledge of green coding, lifecycle optimization to solve complex sustainability challenges"
+      "Evaluate sustainable software architectures in circular economy applications",
+      "Assess green coding for addressing environmental challenges",
+      "Optimize lifecycle optimization in organizational sustainability contexts",
+      "Optimize lifecycle optimization in circular economy applications",
+      "Solve energy-efficient software in organizational sustainability contexts",
+      "Analyze circular software design for addressing environmental challenges",
+      "Optimize energy-efficient software in circular economy applications",
+      "Apply integrated knowledge of circular software design, energy-efficient software to solve complex sustainability challenges"
     ],
     "skills": [
-      "sustainable development practices",
-      "energy profiling",
       "energy-efficient code optimization",
-      "code refactoring for sustainability",
-      "lifecycle optimization",
-      "sustainability frameworks application",
-      "sustainable development goals alignment",
+      "software carbon intensity (SCI) calculation",
+      "energy profiling",
+      "sustainable development practices",
+      "green software architecture",
+      "lifecycle thinking application",
+      "circular economy principles application",
       "carbon footprint calculation"
     ],
     "competencies": [
@@ -1021,8 +1017,8 @@
       "Sustainable Development Team Lead",
       "Chief Green Code Officer",
       "Sustainable Software Consultant",
-      "Digital Sustainability Researcher",
-      "Sustainability Educator/Trainer"
+      "Sustainability Educator/Trainer",
+      "Sustainable Innovation Entrepreneur"
     ]
   },
   {
@@ -1034,26 +1030,24 @@
     "thematic_area": "sustainability",
     "program_duration": 4,
     "learning_outcomes": [
-      "Formulate energy-efficient software to enhance environmental performance",
-      "Create circular software design in circular economy applications",
-      "Evaluate circular software design to support sustainable development goals",
-      "Synthesize energy-efficient software for addressing environmental challenges",
-      "Lead energy-efficient software to enhance environmental performance",
-      "Design green coding to support sustainable development goals",
-      "Integrate circular software design in circular economy applications",
-      "Lead lifecycle optimization for addressing environmental challenges",
-      "Lead transformative initiatives in energy-efficient software, lifecycle optimization that advance the field of digital sustainability"
+      "Formulate lifecycle optimization in digital transformation for sustainability",
+      "Lead green coding in organizational sustainability contexts",
+      "Develop sustainable software architectures to enhance environmental performance",
+      "Create green coding in organizational sustainability contexts",
+      "Synthesize lifecycle optimization to support sustainable development goals",
+      "Create energy-efficient software to support sustainable development goals",
+      "Lead transformative initiatives in green coding, sustainable software architectures that advance the field of digital sustainability"
     ],
     "skills": [
-      "sustainable development practices",
-      "lifecycle optimization",
-      "software carbon intensity (SCI) calculation",
-      "energy profiling",
-      "green software architecture",
       "code refactoring for sustainability",
-      "lifecycle thinking application",
+      "software carbon intensity (SCI) calculation",
+      "energy-efficient code optimization",
+      "sustainable development practices",
+      "green software architecture",
+      "energy profiling",
       "digital sustainability assessment",
-      "carbon footprint calculation"
+      "sustainability frameworks application",
+      "environmental impact assessment"
     ],
     "competencies": [
       "Capability in leading sustainable software lifecycle management",
@@ -1079,9 +1073,9 @@
       "Sustainable Software Architect",
       "Green Code Optimization Specialist",
       "Sustainable Development Team Lead",
-      "Sustainability Educator/Trainer",
-      "Digital Sustainability Researcher",
-      "Sustainable Innovation Entrepreneur"
+      "Sustainable Innovation Entrepreneur",
+      "ESG Integration Specialist",
+      "Digital Sustainability Researcher"
     ]
   },
   {
@@ -1093,22 +1087,21 @@
     "thematic_area": "sustainability",
     "program_duration": 2,
     "learning_outcomes": [
-      "Describe technology assessment in digital transformation for sustainability",
-      "Explain environmental impact reduction to support sustainable development goals",
-      "Demonstrate environmental impact reduction to enhance environmental performance",
-      "Implement technical consulting in organizational sustainability contexts",
-      "Implement sustainable technologies to enhance environmental performance",
-      "Identify green IT in organizational sustainability contexts",
-      "Use sustainable technologies to support sustainable development goals",
-      "Apply integrated knowledge of technical consulting, sustainable technologies to solve complex sustainability challenges"
+      "Operate technical consulting for sustainable business practices",
+      "Perform environmental impact reduction in circular economy applications",
+      "Apply sustainable technologies for addressing environmental challenges",
+      "Perform sustainable technologies to enhance environmental performance",
+      "Demonstrate green IT to enhance environmental performance",
+      "Describe green IT in digital transformation for sustainability",
+      "Apply integrated knowledge of green IT, sustainable technologies to solve complex sustainability challenges"
     ],
     "skills": [
-      "circular IT implementation",
       "energy efficiency auditing",
       "sustainable hardware evaluation",
-      "e-waste reduction strategies",
+      "green technology assessment",
+      "circular IT implementation",
       "stakeholder communication",
-      "carbon footprint calculation"
+      "environmental impact assessment"
     ],
     "competencies": [
       "Capability in applying green technology evaluation",
@@ -1132,8 +1125,8 @@
       "Green Technology Assessment Lead",
       "Chief Green Technology Officer",
       "Sustainable Technology Research Lead",
-      "Sustainability Educator/Trainer",
-      "ESG Integration Specialist"
+      "Sustainable Innovation Entrepreneur",
+      "Sustainability Educator/Trainer"
     ]
   },
   {
@@ -1145,23 +1138,22 @@
     "thematic_area": "sustainability",
     "program_duration": 4,
     "learning_outcomes": [
-      "Differentiate green IT for addressing environmental challenges",
-      "Compare environmental impact reduction for addressing environmental challenges",
-      "Implement environmental impact reduction to enhance environmental performance",
-      "Apply environmental impact reduction in organizational sustainability contexts",
-      "Examine technical consulting for sustainable business practices",
-      "Differentiate technology assessment in circular economy applications",
-      "Differentiate sustainable technologies in organizational sustainability contexts",
-      "Apply integrated knowledge of green IT, technical consulting to solve complex sustainability challenges"
+      "Apply sustainable technologies for sustainable business practices",
+      "Apply technology assessment for sustainable business practices",
+      "Compare technology assessment in circular economy applications",
+      "Solve technology assessment for sustainable business practices",
+      "Analyze environmental impact reduction in circular economy applications",
+      "Apply environmental impact reduction in circular economy applications",
+      "Apply integrated knowledge of technical consulting, green IT to solve complex sustainability challenges"
     ],
     "skills": [
-      "energy efficiency auditing",
-      "sustainable IT solutions design",
       "sustainable hardware evaluation",
+      "green technology assessment",
       "e-waste reduction strategies",
-      "lifecycle thinking application",
-      "sustainable development goals alignment",
-      "carbon footprint calculation"
+      "sustainable IT solutions design",
+      "carbon footprint calculation",
+      "sustainability frameworks application",
+      "lifecycle thinking application"
     ],
     "competencies": [
       "Capability in implementing green technology evaluation",
@@ -1186,7 +1178,7 @@
       "Green Technology Assessment Lead",
       "Chief Green Technology Officer",
       "Sustainable Technology Research Lead",
-      "Sustainability Educator/Trainer",
+      "ESG Integration Specialist",
       "Digital Sustainability Researcher"
     ]
   }
