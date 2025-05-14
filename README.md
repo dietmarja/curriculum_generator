@@ -15,7 +15,6 @@ Designed to accommodate multiple roles and EQF levels (4–8), it supports full 
 - **Rich Export Options**: Outputs in HTML, JSON, PDF, SCORM, and xAPI formats
 
 ---
-
 | Standard                 | Role in CG                                                                            |
 | ------------------------ | ------------------------------------------------------------------------------------- |
 | **EQF**                  | Levels 4–8 structuring; outcome-based design and transparency across national systems |
@@ -26,7 +25,7 @@ Designed to accommodate multiple roles and EQF levels (4–8), it supports full 
 | **GreenComp**            | Embedding sustainability competencies into transversal learning outcomes              |
 | **EU Micro-Credentials** | Quality, granularity, and stackability for short-form learning units                  |
 | **Tuning**               | Alignment and calibration of learning outcomes from program to module level           |
-
+---
 
 
 
