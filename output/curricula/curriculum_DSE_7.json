@@ -11,20 +11,26 @@
   "delivery_modes": [
     "online",
     "workplace",
-    "classroom",
-    "blended"
+    "blended",
+    "classroom"
   ],
   "work_based_learning": {
-    "percentage": 37.5,
-    "ects": 15,
+    "percentage": 23.91304347826087,
+    "ects": 55.0,
     "modules": [
       "M45",
       "M46",
-      "M47"
+      "M47",
+      "M5_EQF7",
+      "M8_EQF7",
+      "M28_EQF7",
+      "M37_EQF7",
+      "M41_EQF7",
+      "M42_EQF7"
     ]
   },
   "program_duration": 4,
-  "work_based_percentage": 37.5,
+  "work_based_percentage": 20.833333333333336,
   "is_full_curriculum": true,
   "thematic_area": "sustainability",
   "target_skills": [],
@@ -39,12 +45,12 @@
   ],
   "modules": [
     {
-      "id": "OM10",
-      "name": "Advanced Sustainability Impact Assessment Methods",
-      "description": "Cutting-edge methodologies for sustainability impact measurement",
+      "id": "OM7_EQF8",
+      "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+      "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
       "eqf_level": 8,
       "ects_points": 5,
-      "thematic_area": "sustainability",
+      "thematic_area": "technology",
       "prerequisites": [],
       "delivery_methods": [
         "classroom",
@@ -55,24 +61,24 @@
         "practical"
       ],
       "skills": [
-        "impact_assessment",
-        "advanced_metrics"
+        "infrastructure_management",
+        "carbon_reduction"
       ],
       "is_work_based": false,
       "learning_outcomes": [
-        "Evaluate advanced methodologies for sustainability impact assessment.",
-        "Critically analyze the strengths and limitations of different impact measurement approaches.",
-        "Design innovative assessment frameworks for complex sustainability challenges."
+        "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+        "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+        "Design and implement net-zero IT infrastructures in various organizational contexts."
       ],
       "semester": 1
     },
     {
-      "id": "OM10",
-      "name": "Advanced Sustainability Impact Assessment Methods",
-      "description": "Cutting-edge methodologies for sustainability impact measurement",
+      "id": "OM7_EQF8",
+      "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+      "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
       "eqf_level": 8,
       "ects_points": 5,
-      "thematic_area": "sustainability",
+      "thematic_area": "technology",
       "prerequisites": [],
       "delivery_methods": [
         "classroom",
@@ -83,24 +89,24 @@
         "practical"
       ],
       "skills": [
-        "impact_assessment",
-        "advanced_metrics"
+        "infrastructure_management",
+        "carbon_reduction"
       ],
       "is_work_based": false,
       "learning_outcomes": [
-        "Evaluate advanced methodologies for sustainability impact assessment.",
-        "Critically analyze the strengths and limitations of different impact measurement approaches.",
-        "Design innovative assessment frameworks for complex sustainability challenges."
+        "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+        "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+        "Design and implement net-zero IT infrastructures in various organizational contexts."
       ],
       "semester": 1
     },
     {
-      "id": "OM10",
-      "name": "Advanced Sustainability Impact Assessment Methods",
-      "description": "Cutting-edge methodologies for sustainability impact measurement",
+      "id": "OM7_EQF8",
+      "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+      "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
       "eqf_level": 8,
       "ects_points": 5,
-      "thematic_area": "sustainability",
+      "thematic_area": "technology",
       "prerequisites": [],
       "delivery_methods": [
         "classroom",
@@ -111,24 +117,24 @@
         "practical"
       ],
       "skills": [
-        "impact_assessment",
-        "advanced_metrics"
+        "infrastructure_management",
+        "carbon_reduction"
       ],
       "is_work_based": false,
       "learning_outcomes": [
-        "Evaluate advanced methodologies for sustainability impact assessment.",
-        "Critically analyze the strengths and limitations of different impact measurement approaches.",
-        "Design innovative assessment frameworks for complex sustainability challenges."
+        "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+        "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+        "Design and implement net-zero IT infrastructures in various organizational contexts."
       ],
       "semester": 1
     },
     {
-      "id": "OM10",
-      "name": "Advanced Sustainability Impact Assessment Methods",
-      "description": "Cutting-edge methodologies for sustainability impact measurement",
+      "id": "OM7_EQF8",
+      "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+      "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
       "eqf_level": 8,
       "ects_points": 5,
-      "thematic_area": "sustainability",
+      "thematic_area": "technology",
       "prerequisites": [],
       "delivery_methods": [
         "classroom",
@@ -139,24 +145,24 @@
         "practical"
       ],
       "skills": [
-        "impact_assessment",
-        "advanced_metrics"
+        "infrastructure_management",
+        "carbon_reduction"
       ],
       "is_work_based": false,
       "learning_outcomes": [
-        "Evaluate advanced methodologies for sustainability impact assessment.",
-        "Critically analyze the strengths and limitations of different impact measurement approaches.",
-        "Design innovative assessment frameworks for complex sustainability challenges."
+        "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+        "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+        "Design and implement net-zero IT infrastructures in various organizational contexts."
       ],
       "semester": 1
     },
     {
-      "id": "OM10",
-      "name": "Advanced Sustainability Impact Assessment Methods",
-      "description": "Cutting-edge methodologies for sustainability impact measurement",
+      "id": "OM7_EQF8",
+      "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+      "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
       "eqf_level": 8,
       "ects_points": 5,
-      "thematic_area": "sustainability",
+      "thematic_area": "technology",
       "prerequisites": [],
       "delivery_methods": [
         "classroom",
@@ -167,24 +173,24 @@
         "practical"
       ],
       "skills": [
-        "impact_assessment",
-        "advanced_metrics"
+        "infrastructure_management",
+        "carbon_reduction"
       ],
       "is_work_based": false,
       "learning_outcomes": [
-        "Evaluate advanced methodologies for sustainability impact assessment.",
-        "Critically analyze the strengths and limitations of different impact measurement approaches.",
-        "Design innovative assessment frameworks for complex sustainability challenges."
+        "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+        "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+        "Design and implement net-zero IT infrastructures in various organizational contexts."
       ],
       "semester": 1
     },
     {
-      "id": "OM10",
-      "name": "Advanced Sustainability Impact Assessment Methods",
-      "description": "Cutting-edge methodologies for sustainability impact measurement",
+      "id": "OM7_EQF8",
+      "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+      "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
       "eqf_level": 8,
       "ects_points": 5,
-      "thematic_area": "sustainability",
+      "thematic_area": "technology",
       "prerequisites": [],
       "delivery_methods": [
         "classroom",
@@ -195,24 +201,24 @@
         "practical"
       ],
       "skills": [
-        "impact_assessment",
-        "advanced_metrics"
+        "infrastructure_management",
+        "carbon_reduction"
       ],
       "is_work_based": false,
       "learning_outcomes": [
-        "Evaluate advanced methodologies for sustainability impact assessment.",
-        "Critically analyze the strengths and limitations of different impact measurement approaches.",
-        "Design innovative assessment frameworks for complex sustainability challenges."
+        "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+        "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+        "Design and implement net-zero IT infrastructures in various organizational contexts."
       ],
       "semester": 1
     },
     {
-      "id": "OM10",
-      "name": "Advanced Sustainability Impact Assessment Methods",
-      "description": "Cutting-edge methodologies for sustainability impact measurement",
+      "id": "OM7_EQF8",
+      "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+      "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
       "eqf_level": 8,
       "ects_points": 5,
-      "thematic_area": "sustainability",
+      "thematic_area": "technology",
       "prerequisites": [],
       "delivery_methods": [
         "classroom",
@@ -223,24 +229,24 @@
         "practical"
       ],
       "skills": [
-        "impact_assessment",
-        "advanced_metrics"
+        "infrastructure_management",
+        "carbon_reduction"
       ],
       "is_work_based": false,
       "learning_outcomes": [
-        "Evaluate advanced methodologies for sustainability impact assessment.",
-        "Critically analyze the strengths and limitations of different impact measurement approaches.",
-        "Design innovative assessment frameworks for complex sustainability challenges."
+        "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+        "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+        "Design and implement net-zero IT infrastructures in various organizational contexts."
       ],
       "semester": 1
     },
     {
-      "id": "OM10",
-      "name": "Advanced Sustainability Impact Assessment Methods",
-      "description": "Cutting-edge methodologies for sustainability impact measurement",
+      "id": "OM7_EQF8",
+      "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+      "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
       "eqf_level": 8,
       "ects_points": 5,
-      "thematic_area": "sustainability",
+      "thematic_area": "technology",
       "prerequisites": [],
       "delivery_methods": [
         "classroom",
@@ -251,24 +257,24 @@
         "practical"
       ],
       "skills": [
-        "impact_assessment",
-        "advanced_metrics"
+        "infrastructure_management",
+        "carbon_reduction"
       ],
       "is_work_based": false,
       "learning_outcomes": [
-        "Evaluate advanced methodologies for sustainability impact assessment.",
-        "Critically analyze the strengths and limitations of different impact measurement approaches.",
-        "Design innovative assessment frameworks for complex sustainability challenges."
+        "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+        "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+        "Design and implement net-zero IT infrastructures in various organizational contexts."
       ],
       "semester": 1
     },
     {
-      "id": "OM10",
-      "name": "Advanced Sustainability Impact Assessment Methods",
-      "description": "Cutting-edge methodologies for sustainability impact measurement",
+      "id": "OM7_EQF8",
+      "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+      "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
       "eqf_level": 8,
       "ects_points": 5,
-      "thematic_area": "sustainability",
+      "thematic_area": "technology",
       "prerequisites": [],
       "delivery_methods": [
         "classroom",
@@ -279,56 +285,55 @@
         "practical"
       ],
       "skills": [
-        "impact_assessment",
-        "advanced_metrics"
+        "infrastructure_management",
+        "carbon_reduction"
       ],
       "is_work_based": false,
       "learning_outcomes": [
-        "Evaluate advanced methodologies for sustainability impact assessment.",
-        "Critically analyze the strengths and limitations of different impact measurement approaches.",
-        "Design innovative assessment frameworks for complex sustainability challenges."
+        "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+        "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+        "Design and implement net-zero IT infrastructures in various organizational contexts."
       ],
       "semester": 1
     },
     {
-      "id": "DGDSE701",
-      "name": "Sustainable Software Development",
-      "description": "Practices for developing environmentally efficient software",
-      "eqf_level": 7,
+      "id": "OM7_EQF8",
+      "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+      "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+      "eqf_level": 8,
       "ects_points": 5,
-      "thematic_area": "sustainability",
+      "thematic_area": "technology",
       "prerequisites": [],
       "delivery_methods": [
+        "classroom",
         "blended"
       ],
       "module_type": [
+        "theoretical",
         "practical"
       ],
       "skills": [
-        "software_development",
-        "green_coding"
+        "infrastructure_management",
+        "carbon_reduction"
       ],
       "is_work_based": false,
       "learning_outcomes": [
-        "Conceptualize sustainable coding practices in digital transformation for sustainability",
-        "Design innovative solutions using energy-efficient software development to address complex sustainability challenges in circular economy applications",
-        "Transform software solutions that minimize environmental impact while maintaining performance",
-        "Prioritize ethical leadership in promoting sustainable software development solutions that prioritize environmental stewardship",
-        "Critically evaluate the effectiveness of sustainable software development approaches through evidence-based assessment frameworks",
-        "Integrate advanced sustainable software development principles with broader sustainability frameworks to address complex organizational and societal challenges"
+        "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+        "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+        "Design and implement net-zero IT infrastructures in various organizational contexts."
       ],
       "semester": 1
     },
     {
-      "id": "DGDSE702",
-      "name": "AI for Sustainability Optimization",
-      "description": "Using artificial intelligence to optimize digital sustainability",
-      "eqf_level": 7,
+      "id": "OM7_EQF8",
+      "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+      "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+      "eqf_level": 8,
       "ects_points": 5,
-      "thematic_area": "sustainability",
+      "thematic_area": "technology",
       "prerequisites": [],
       "delivery_methods": [
-        "online",
+        "classroom",
         "blended"
       ],
       "module_type": [
@@ -336,116 +341,24 @@
         "practical"
       ],
       "skills": [
-        "ai_applications",
-        "optimization_techniques"
+        "infrastructure_management",
+        "carbon_reduction"
       ],
       "is_work_based": false,
       "learning_outcomes": [
-        "Formulate sustainability principles in organizational sustainability contexts",
-        "Hypothesize the theoretical foundations and emerging trends in environmental impact reduction strategies in digital transformation for sustainability",
-        "Compose innovative solutions using environmental impact reduction strategies to address complex sustainability challenges in digital transformation for sustainability",
-        "Generate solutions that balance environmental, social, and economic considerations in practical scenarios",
-        "Recommend ethical leadership in promoting ai sustainability optimization solutions that prioritize environmental stewardship",
-        "Critically evaluate the effectiveness of ai sustainability optimization approaches through evidence-based assessment frameworks",
-        "Integrate advanced ai sustainability optimization principles with broader sustainability frameworks to address complex organizational and societal challenges"
-      ],
-      "semester": 2
-    },
-    {
-      "id": "DGDSE703",
-      "name": "Advanced Green IT Solutions",
-      "description": "Cutting-edge approaches to sustainable IT implementation",
-      "eqf_level": 7,
-      "ects_points": 5,
-      "thematic_area": "sustainability",
-      "prerequisites": [],
-      "delivery_methods": [
-        "blended"
-      ],
-      "module_type": [
-        "practical"
-      ],
-      "skills": [
-        "advanced_implementation",
-        "solution_design"
-      ],
-      "is_work_based": false,
-      "learning_outcomes": [
-        "Strategize sustainable technology practices to support sustainable development goals",
-        "Develop innovative solutions using sustainable technology practices to address complex sustainability challenges in digital transformation for sustainability",
-        "Design solutions that balance environmental, social, and economic considerations in practical scenarios",
-        "Lead ethical leadership in promoting advanced green it solutions solutions that prioritize environmental stewardship",
-        "Critically evaluate the effectiveness of advanced green it solutions approaches through evidence-based assessment frameworks",
-        "Integrate advanced advanced green it solutions principles with broader sustainability frameworks to address complex organizational and societal challenges"
-      ],
-      "semester": 2
-    },
-    {
-      "id": "DGDSE704",
-      "name": "Digital Sustainability Research Project",
-      "description": "Research-based exploration of digital sustainability challenges",
-      "eqf_level": 7,
-      "ects_points": 15,
-      "thematic_area": "sustainability",
-      "prerequisites": [],
-      "delivery_methods": [
-        "workplace",
-        "blended"
-      ],
-      "module_type": [
-        "work-based"
-      ],
-      "skills": [
-        "research_methodology",
-        "critical_analysis"
-      ],
-      "is_work_based": true,
-      "learning_outcomes": [
-        "Formulate sustainability project methodologies in digital transformation for sustainability",
-        "Transform innovative solutions using sustainability project methodologies to address complex sustainability challenges for sustainable business practices",
-        "Create project management methodologies that integrate sustainability metrics throughout the project lifecycle",
-        "Champion ethical leadership in promoting digital sustainability research project solutions that prioritize environmental stewardship",
-        "Critically evaluate the effectiveness of digital sustainability research project approaches through evidence-based assessment frameworks",
-        "Integrate advanced digital sustainability research project principles with broader sustainability frameworks to address complex organizational and societal challenges"
-      ],
-      "semester": 4
-    },
-    {
-      "id": "DGDSE705",
-      "name": "Digital Sustainability Principles",
-      "description": "Core principles and frameworks for digital sustainability",
-      "eqf_level": 7,
-      "ects_points": 5,
-      "thematic_area": "sustainability",
-      "prerequisites": [],
-      "delivery_methods": [
-        "classroom",
-        "online"
-      ],
-      "module_type": [
-        "theoretical"
-      ],
-      "skills": [
-        "sustainability_frameworks",
-        "digital_transformation"
-      ],
-      "is_work_based": false,
-      "learning_outcomes": [
-        "Critique sustainability principles in digital transformation for sustainability",
-        "Formulate the theoretical foundations and emerging trends in sustainable technology practices in organizational sustainability contexts",
-        "Recommend ethical leadership in promoting digital sustainability principles solutions that prioritize environmental stewardship",
-        "Critically evaluate the effectiveness of digital sustainability principles approaches through evidence-based assessment frameworks",
-        "Integrate advanced digital sustainability principles principles with broader sustainability frameworks to address complex organizational and societal challenges"
+        "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+        "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+        "Design and implement net-zero IT infrastructures in various organizational contexts."
       ],
       "semester": 1
     },
     {
-      "id": "DGDSE706",
-      "name": "Sustainable IT Leadership",
-      "description": "Leading organizational change toward sustainable digital practices",
-      "eqf_level": 7,
+      "id": "OM7_EQF8",
+      "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+      "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+      "eqf_level": 8,
       "ects_points": 5,
-      "thematic_area": "sustainability",
+      "thematic_area": "technology",
       "prerequisites": [],
       "delivery_methods": [
         "classroom",
@@ -456,89 +369,27 @@
         "practical"
       ],
       "skills": [
-        "leadership",
-        "change_management"
+        "infrastructure_management",
+        "carbon_reduction"
       ],
       "is_work_based": false,
       "learning_outcomes": [
-        "Theorize sustainability principles in digital transformation for sustainability",
-        "Conceptualize the theoretical foundations and emerging trends in digital sustainability approaches in organizational sustainability contexts",
-        "Integrate innovative solutions using sustainability principles to address complex sustainability challenges to support sustainable development goals",
-        "Design solutions that balance environmental, social, and economic considerations in practical scenarios",
-        "Recommend ethical leadership in promoting sustainable it leadership solutions that prioritize environmental stewardship",
-        "Critically evaluate the effectiveness of sustainable it leadership approaches through evidence-based assessment frameworks",
-        "Integrate advanced sustainable it leadership principles with broader sustainability frameworks to address complex organizational and societal challenges"
+        "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+        "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+        "Design and implement net-zero IT infrastructures in various organizational contexts."
       ],
-      "semester": 2
+      "semester": 1
     },
     {
-      "id": "DGDSE707",
-      "name": "Advanced Digital Sustainability Strategy",
-      "description": "Strategic approaches to implementing sustainable digital transformation",
-      "eqf_level": 7,
+      "id": "OM7_EQF8",
+      "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+      "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+      "eqf_level": 8,
       "ects_points": 5,
-      "thematic_area": "sustainability",
+      "thematic_area": "technology",
       "prerequisites": [],
       "delivery_methods": [
         "classroom",
-        "blended"
-      ],
-      "module_type": [
-        "theoretical"
-      ],
-      "skills": [
-        "strategic_planning",
-        "sustainability_integration"
-      ],
-      "is_work_based": false,
-      "learning_outcomes": [
-        "Evaluate organizational sustainability integration to enhance environmental performance",
-        "Hypothesize the theoretical foundations and emerging trends in long-term environmental initiatives in circular economy applications",
-        "Judge ethical leadership in promoting advanced digital sustainability strategy solutions that prioritize environmental stewardship",
-        "Critically evaluate the effectiveness of advanced digital sustainability strategy approaches through evidence-based assessment frameworks",
-        "Integrate advanced advanced digital sustainability strategy principles with broader sustainability frameworks to address complex organizational and societal challenges"
-      ],
-      "semester": 2
-    },
-    {
-      "id": "DGDSE708",
-      "name": "Sustainable Software Development in Practice",
-      "description": "Implementation aspects of practices for developing environmentally efficient software",
-      "eqf_level": 7,
-      "ects_points": 5,
-      "thematic_area": "sustainability",
-      "prerequisites": [],
-      "delivery_methods": [
-        "blended"
-      ],
-      "module_type": [
-        "practical"
-      ],
-      "skills": [
-        "software_development",
-        "green_coding"
-      ],
-      "is_work_based": false,
-      "learning_outcomes": [
-        "Theorize sustainable coding practices in organizational sustainability contexts",
-        "Integrate innovative solutions using green software architecture to address complex sustainability challenges in organizational sustainability contexts",
-        "Transform software solutions that minimize environmental impact while maintaining performance",
-        "Advocate ethical leadership in promoting sustainable software development practice solutions that prioritize environmental stewardship",
-        "Critically evaluate the effectiveness of sustainable software development practice approaches through evidence-based assessment frameworks",
-        "Integrate advanced sustainable software development practice principles with broader sustainability frameworks to address complex organizational and societal challenges"
-      ],
-      "semester": 2
-    },
-    {
-      "id": "DGDSE709",
-      "name": "AI for Sustainability Optimization in Practice",
-      "description": "Implementation aspects of using artificial intelligence to optimize digital sustainability",
-      "eqf_level": 7,
-      "ects_points": 5,
-      "thematic_area": "sustainability",
-      "prerequisites": [],
-      "delivery_methods": [
-        "online",
         "blended"
       ],
       "module_type": [
@@ -546,90 +397,477 @@
         "practical"
       ],
       "skills": [
-        "ai_applications",
-        "optimization_techniques"
+        "infrastructure_management",
+        "carbon_reduction"
       ],
       "is_work_based": false,
       "learning_outcomes": [
-        "Synthesize environmental impact reduction strategies to enhance environmental performance",
-        "Theorize the theoretical foundations and emerging trends in digital sustainability approaches for addressing environmental challenges",
-        "Integrate innovative solutions using environmental impact reduction strategies to address complex sustainability challenges to support sustainable development goals",
-        "Design solutions that balance environmental, social, and economic considerations in practical scenarios",
-        "Advocate ethical leadership in promoting ai sustainability optimization practice solutions that prioritize environmental stewardship",
-        "Critically evaluate the effectiveness of ai sustainability optimization practice approaches through evidence-based assessment frameworks",
-        "Integrate advanced ai sustainability optimization practice principles with broader sustainability frameworks to address complex organizational and societal challenges"
+        "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+        "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+        "Design and implement net-zero IT infrastructures in various organizational contexts."
       ],
-      "semester": 2
+      "semester": 1
     },
     {
-      "id": "DGDSE710",
-      "name": "Advanced Green IT Solutions in Practice",
-      "description": "Implementation aspects of cutting-edge approaches to sustainable IT implementation",
-      "eqf_level": 7,
+      "id": "OM7_EQF8",
+      "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+      "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+      "eqf_level": 8,
       "ects_points": 5,
-      "thematic_area": "sustainability",
+      "thematic_area": "technology",
       "prerequisites": [],
       "delivery_methods": [
+        "classroom",
         "blended"
       ],
       "module_type": [
+        "theoretical",
         "practical"
       ],
       "skills": [
-        "advanced_implementation",
-        "solution_design"
+        "infrastructure_management",
+        "carbon_reduction"
       ],
       "is_work_based": false,
       "learning_outcomes": [
-        "Conceptualize digital sustainability approaches in digital transformation for sustainability",
-        "Innovate innovative solutions using digital sustainability approaches to address complex sustainability challenges for addressing environmental challenges",
-        "Generate solutions that balance environmental, social, and economic considerations in practical scenarios",
-        "Champion ethical leadership in promoting advanced green it solutions practice solutions that prioritize environmental stewardship",
-        "Critically evaluate the effectiveness of advanced green it solutions practice approaches through evidence-based assessment frameworks",
-        "Integrate advanced advanced green it solutions practice principles with broader sustainability frameworks to address complex organizational and societal challenges"
+        "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+        "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+        "Design and implement net-zero IT infrastructures in various organizational contexts."
       ],
-      "semester": 2
+      "semester": 1
     },
     {
-      "id": "DGDSE711",
-      "name": "Digital Sustainability Research Project in Practice",
-      "description": "Implementation aspects of research-based exploration of digital sustainability challenges",
-      "eqf_level": 7,
-      "ects_points": 15,
-      "thematic_area": "sustainability",
+      "id": "OM7_EQF8",
+      "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+      "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "technology",
       "prerequisites": [],
       "delivery_methods": [
-        "workplace",
+        "classroom",
         "blended"
       ],
       "module_type": [
-        "work-based"
+        "theoretical",
+        "practical"
       ],
       "skills": [
-        "research_methodology",
-        "critical_analysis"
+        "infrastructure_management",
+        "carbon_reduction"
       ],
-      "is_work_based": true,
+      "is_work_based": false,
       "learning_outcomes": [
-        "Evaluate sustainability project methodologies in organizational sustainability contexts",
-        "Create innovative solutions using sustainable project outcomes to address complex sustainability challenges for sustainable business practices",
-        "Develop project management methodologies that integrate sustainability metrics throughout the project lifecycle",
-        "Lead ethical leadership in promoting digital sustainability research project practice solutions that prioritize environmental stewardship",
-        "Critically evaluate the effectiveness of digital sustainability research project practice approaches through evidence-based assessment frameworks",
-        "Integrate advanced digital sustainability research project practice principles with broader sustainability frameworks to address complex organizational and societal challenges"
+        "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+        "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+        "Design and implement net-zero IT infrastructures in various organizational contexts."
       ],
-      "semester": 4
+      "semester": 1
+    },
+    {
+      "id": "OM7_EQF8",
+      "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+      "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "technology",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "infrastructure_management",
+        "carbon_reduction"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+        "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+        "Design and implement net-zero IT infrastructures in various organizational contexts."
+      ],
+      "semester": 1
+    },
+    {
+      "id": "OM7_EQF8",
+      "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+      "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "technology",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "infrastructure_management",
+        "carbon_reduction"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+        "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+        "Design and implement net-zero IT infrastructures in various organizational contexts."
+      ],
+      "semester": 1
+    },
+    {
+      "id": "OM7_EQF8",
+      "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+      "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "technology",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "infrastructure_management",
+        "carbon_reduction"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+        "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+        "Design and implement net-zero IT infrastructures in various organizational contexts."
+      ],
+      "semester": 1
+    },
+    {
+      "id": "OM7_EQF8",
+      "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+      "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "technology",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "infrastructure_management",
+        "carbon_reduction"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+        "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+        "Design and implement net-zero IT infrastructures in various organizational contexts."
+      ],
+      "semester": 1
+    },
+    {
+      "id": "OM7_EQF8",
+      "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+      "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "technology",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "infrastructure_management",
+        "carbon_reduction"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+        "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+        "Design and implement net-zero IT infrastructures in various organizational contexts."
+      ],
+      "semester": 1
+    },
+    {
+      "id": "OM7_EQF8",
+      "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+      "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "technology",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "infrastructure_management",
+        "carbon_reduction"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+        "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+        "Design and implement net-zero IT infrastructures in various organizational contexts."
+      ],
+      "semester": 1
+    },
+    {
+      "id": "OM7_EQF8",
+      "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+      "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "technology",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "infrastructure_management",
+        "carbon_reduction"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+        "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+        "Design and implement net-zero IT infrastructures in various organizational contexts."
+      ],
+      "semester": 1
+    },
+    {
+      "id": "OM7_EQF8",
+      "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+      "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "technology",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "infrastructure_management",
+        "carbon_reduction"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+        "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+        "Design and implement net-zero IT infrastructures in various organizational contexts."
+      ],
+      "semester": 1
+    },
+    {
+      "id": "OM7_EQF8",
+      "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+      "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "technology",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "infrastructure_management",
+        "carbon_reduction"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+        "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+        "Design and implement net-zero IT infrastructures in various organizational contexts."
+      ],
+      "semester": 1
     }
   ],
   "modules_by_semester": {
+    "2": [
+      {
+        "id": "OM7_EQF8",
+        "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+        "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "technology",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "infrastructure_management",
+          "carbon_reduction"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+          "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+          "Design and implement net-zero IT infrastructures in various organizational contexts."
+        ],
+        "semester": 1
+      },
+      {
+        "id": "OM7_EQF8",
+        "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+        "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "technology",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "infrastructure_management",
+          "carbon_reduction"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+          "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+          "Design and implement net-zero IT infrastructures in various organizational contexts."
+        ],
+        "semester": 1
+      },
+      {
+        "id": "OM7_EQF8",
+        "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+        "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "technology",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "infrastructure_management",
+          "carbon_reduction"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+          "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+          "Design and implement net-zero IT infrastructures in various organizational contexts."
+        ],
+        "semester": 1
+      },
+      {
+        "id": "OM7_EQF8",
+        "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+        "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "technology",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "infrastructure_management",
+          "carbon_reduction"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+          "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+          "Design and implement net-zero IT infrastructures in various organizational contexts."
+        ],
+        "semester": 1
+      },
+      {
+        "id": "OM7_EQF8",
+        "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+        "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "technology",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "infrastructure_management",
+          "carbon_reduction"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+          "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+          "Design and implement net-zero IT infrastructures in various organizational contexts."
+        ],
+        "semester": 1
+      }
+    ],
     "3": [
       {
-        "id": "OM10",
-        "name": "Advanced Sustainability Impact Assessment Methods",
-        "description": "Cutting-edge methodologies for sustainability impact measurement",
+        "id": "OM7_EQF8",
+        "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+        "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
         "eqf_level": 8,
         "ects_points": 5,
-        "thematic_area": "sustainability",
+        "thematic_area": "technology",
         "prerequisites": [],
         "delivery_methods": [
           "classroom",
@@ -640,24 +878,24 @@
           "practical"
         ],
         "skills": [
-          "impact_assessment",
-          "advanced_metrics"
+          "infrastructure_management",
+          "carbon_reduction"
         ],
         "is_work_based": false,
         "learning_outcomes": [
-          "Evaluate advanced methodologies for sustainability impact assessment.",
-          "Critically analyze the strengths and limitations of different impact measurement approaches.",
-          "Design innovative assessment frameworks for complex sustainability challenges."
+          "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+          "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+          "Design and implement net-zero IT infrastructures in various organizational contexts."
         ],
         "semester": 1
       },
       {
-        "id": "OM10",
-        "name": "Advanced Sustainability Impact Assessment Methods",
-        "description": "Cutting-edge methodologies for sustainability impact measurement",
+        "id": "OM7_EQF8",
+        "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+        "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
         "eqf_level": 8,
         "ects_points": 5,
-        "thematic_area": "sustainability",
+        "thematic_area": "technology",
         "prerequisites": [],
         "delivery_methods": [
           "classroom",
@@ -668,24 +906,24 @@
           "practical"
         ],
         "skills": [
-          "impact_assessment",
-          "advanced_metrics"
+          "infrastructure_management",
+          "carbon_reduction"
         ],
         "is_work_based": false,
         "learning_outcomes": [
-          "Evaluate advanced methodologies for sustainability impact assessment.",
-          "Critically analyze the strengths and limitations of different impact measurement approaches.",
-          "Design innovative assessment frameworks for complex sustainability challenges."
+          "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+          "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+          "Design and implement net-zero IT infrastructures in various organizational contexts."
         ],
         "semester": 1
       },
       {
-        "id": "OM10",
-        "name": "Advanced Sustainability Impact Assessment Methods",
-        "description": "Cutting-edge methodologies for sustainability impact measurement",
+        "id": "OM7_EQF8",
+        "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+        "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
         "eqf_level": 8,
         "ects_points": 5,
-        "thematic_area": "sustainability",
+        "thematic_area": "technology",
         "prerequisites": [],
         "delivery_methods": [
           "classroom",
@@ -696,24 +934,24 @@
           "practical"
         ],
         "skills": [
-          "impact_assessment",
-          "advanced_metrics"
+          "infrastructure_management",
+          "carbon_reduction"
         ],
         "is_work_based": false,
         "learning_outcomes": [
-          "Evaluate advanced methodologies for sustainability impact assessment.",
-          "Critically analyze the strengths and limitations of different impact measurement approaches.",
-          "Design innovative assessment frameworks for complex sustainability challenges."
+          "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+          "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+          "Design and implement net-zero IT infrastructures in various organizational contexts."
         ],
         "semester": 1
       },
       {
-        "id": "OM10",
-        "name": "Advanced Sustainability Impact Assessment Methods",
-        "description": "Cutting-edge methodologies for sustainability impact measurement",
+        "id": "OM7_EQF8",
+        "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+        "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
         "eqf_level": 8,
         "ects_points": 5,
-        "thematic_area": "sustainability",
+        "thematic_area": "technology",
         "prerequisites": [],
         "delivery_methods": [
           "classroom",
@@ -724,26 +962,252 @@
           "practical"
         ],
         "skills": [
-          "impact_assessment",
-          "advanced_metrics"
+          "infrastructure_management",
+          "carbon_reduction"
         ],
         "is_work_based": false,
         "learning_outcomes": [
-          "Evaluate advanced methodologies for sustainability impact assessment.",
-          "Critically analyze the strengths and limitations of different impact measurement approaches.",
-          "Design innovative assessment frameworks for complex sustainability challenges."
+          "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+          "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+          "Design and implement net-zero IT infrastructures in various organizational contexts."
+        ],
+        "semester": 1
+      },
+      {
+        "id": "OM7_EQF8",
+        "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+        "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "technology",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "infrastructure_management",
+          "carbon_reduction"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+          "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+          "Design and implement net-zero IT infrastructures in various organizational contexts."
+        ],
+        "semester": 1
+      },
+      {
+        "id": "OM7_EQF8",
+        "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+        "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "technology",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "infrastructure_management",
+          "carbon_reduction"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+          "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+          "Design and implement net-zero IT infrastructures in various organizational contexts."
+        ],
+        "semester": 1
+      },
+      {
+        "id": "OM7_EQF8",
+        "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+        "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "technology",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "infrastructure_management",
+          "carbon_reduction"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+          "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+          "Design and implement net-zero IT infrastructures in various organizational contexts."
+        ],
+        "semester": 1
+      }
+    ],
+    "4": [
+      {
+        "id": "OM7_EQF8",
+        "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+        "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "technology",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "infrastructure_management",
+          "carbon_reduction"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+          "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+          "Design and implement net-zero IT infrastructures in various organizational contexts."
+        ],
+        "semester": 1
+      },
+      {
+        "id": "OM7_EQF8",
+        "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+        "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "technology",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "infrastructure_management",
+          "carbon_reduction"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+          "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+          "Design and implement net-zero IT infrastructures in various organizational contexts."
+        ],
+        "semester": 1
+      },
+      {
+        "id": "OM7_EQF8",
+        "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+        "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "technology",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "infrastructure_management",
+          "carbon_reduction"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+          "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+          "Design and implement net-zero IT infrastructures in various organizational contexts."
+        ],
+        "semester": 1
+      },
+      {
+        "id": "OM7_EQF8",
+        "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+        "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "technology",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "infrastructure_management",
+          "carbon_reduction"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+          "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+          "Design and implement net-zero IT infrastructures in various organizational contexts."
+        ],
+        "semester": 1
+      },
+      {
+        "id": "OM7_EQF8",
+        "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+        "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "technology",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "infrastructure_management",
+          "carbon_reduction"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+          "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+          "Design and implement net-zero IT infrastructures in various organizational contexts."
         ],
         "semester": 1
       }
     ],
     "1": [
       {
-        "id": "OM10",
-        "name": "Advanced Sustainability Impact Assessment Methods",
-        "description": "Cutting-edge methodologies for sustainability impact measurement",
+        "id": "OM7_EQF8",
+        "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+        "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
         "eqf_level": 8,
         "ects_points": 5,
-        "thematic_area": "sustainability",
+        "thematic_area": "technology",
         "prerequisites": [],
         "delivery_methods": [
           "classroom",
@@ -754,24 +1218,24 @@
           "practical"
         ],
         "skills": [
-          "impact_assessment",
-          "advanced_metrics"
+          "infrastructure_management",
+          "carbon_reduction"
         ],
         "is_work_based": false,
         "learning_outcomes": [
-          "Evaluate advanced methodologies for sustainability impact assessment.",
-          "Critically analyze the strengths and limitations of different impact measurement approaches.",
-          "Design innovative assessment frameworks for complex sustainability challenges."
+          "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+          "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+          "Design and implement net-zero IT infrastructures in various organizational contexts."
         ],
         "semester": 1
       },
       {
-        "id": "OM10",
-        "name": "Advanced Sustainability Impact Assessment Methods",
-        "description": "Cutting-edge methodologies for sustainability impact measurement",
+        "id": "OM7_EQF8",
+        "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+        "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
         "eqf_level": 8,
         "ects_points": 5,
-        "thematic_area": "sustainability",
+        "thematic_area": "technology",
         "prerequisites": [],
         "delivery_methods": [
           "classroom",
@@ -782,24 +1246,24 @@
           "practical"
         ],
         "skills": [
-          "impact_assessment",
-          "advanced_metrics"
+          "infrastructure_management",
+          "carbon_reduction"
         ],
         "is_work_based": false,
         "learning_outcomes": [
-          "Evaluate advanced methodologies for sustainability impact assessment.",
-          "Critically analyze the strengths and limitations of different impact measurement approaches.",
-          "Design innovative assessment frameworks for complex sustainability challenges."
+          "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+          "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+          "Design and implement net-zero IT infrastructures in various organizational contexts."
         ],
         "semester": 1
       },
       {
-        "id": "OM10",
-        "name": "Advanced Sustainability Impact Assessment Methods",
-        "description": "Cutting-edge methodologies for sustainability impact measurement",
+        "id": "OM7_EQF8",
+        "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+        "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
         "eqf_level": 8,
         "ects_points": 5,
-        "thematic_area": "sustainability",
+        "thematic_area": "technology",
         "prerequisites": [],
         "delivery_methods": [
           "classroom",
@@ -810,24 +1274,24 @@
           "practical"
         ],
         "skills": [
-          "impact_assessment",
-          "advanced_metrics"
+          "infrastructure_management",
+          "carbon_reduction"
         ],
         "is_work_based": false,
         "learning_outcomes": [
-          "Evaluate advanced methodologies for sustainability impact assessment.",
-          "Critically analyze the strengths and limitations of different impact measurement approaches.",
-          "Design innovative assessment frameworks for complex sustainability challenges."
+          "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+          "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+          "Design and implement net-zero IT infrastructures in various organizational contexts."
         ],
         "semester": 1
       },
       {
-        "id": "OM10",
-        "name": "Advanced Sustainability Impact Assessment Methods",
-        "description": "Cutting-edge methodologies for sustainability impact measurement",
+        "id": "OM7_EQF8",
+        "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+        "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
         "eqf_level": 8,
         "ects_points": 5,
-        "thematic_area": "sustainability",
+        "thematic_area": "technology",
         "prerequisites": [],
         "delivery_methods": [
           "classroom",
@@ -838,24 +1302,24 @@
           "practical"
         ],
         "skills": [
-          "impact_assessment",
-          "advanced_metrics"
+          "infrastructure_management",
+          "carbon_reduction"
         ],
         "is_work_based": false,
         "learning_outcomes": [
-          "Evaluate advanced methodologies for sustainability impact assessment.",
-          "Critically analyze the strengths and limitations of different impact measurement approaches.",
-          "Design innovative assessment frameworks for complex sustainability challenges."
+          "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+          "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+          "Design and implement net-zero IT infrastructures in various organizational contexts."
         ],
         "semester": 1
       },
       {
-        "id": "OM10",
-        "name": "Advanced Sustainability Impact Assessment Methods",
-        "description": "Cutting-edge methodologies for sustainability impact measurement",
+        "id": "OM7_EQF8",
+        "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+        "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
         "eqf_level": 8,
         "ects_points": 5,
-        "thematic_area": "sustainability",
+        "thematic_area": "technology",
         "prerequisites": [],
         "delivery_methods": [
           "classroom",
@@ -866,350 +1330,72 @@
           "practical"
         ],
         "skills": [
-          "impact_assessment",
-          "advanced_metrics"
+          "infrastructure_management",
+          "carbon_reduction"
         ],
         "is_work_based": false,
         "learning_outcomes": [
-          "Evaluate advanced methodologies for sustainability impact assessment.",
-          "Critically analyze the strengths and limitations of different impact measurement approaches.",
-          "Design innovative assessment frameworks for complex sustainability challenges."
+          "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+          "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+          "Design and implement net-zero IT infrastructures in various organizational contexts."
         ],
         "semester": 1
       },
       {
-        "id": "DGDSE701",
-        "name": "Sustainable Software Development",
-        "description": "Practices for developing environmentally efficient software",
-        "eqf_level": 7,
+        "id": "OM7_EQF8",
+        "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+        "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+        "eqf_level": 8,
         "ects_points": 5,
-        "thematic_area": "sustainability",
+        "thematic_area": "technology",
         "prerequisites": [],
         "delivery_methods": [
+          "classroom",
           "blended"
         ],
         "module_type": [
+          "theoretical",
           "practical"
         ],
         "skills": [
-          "software_development",
-          "green_coding"
+          "infrastructure_management",
+          "carbon_reduction"
         ],
         "is_work_based": false,
         "learning_outcomes": [
-          "Conceptualize sustainable coding practices in digital transformation for sustainability",
-          "Design innovative solutions using energy-efficient software development to address complex sustainability challenges in circular economy applications",
-          "Transform software solutions that minimize environmental impact while maintaining performance",
-          "Prioritize ethical leadership in promoting sustainable software development solutions that prioritize environmental stewardship",
-          "Critically evaluate the effectiveness of sustainable software development approaches through evidence-based assessment frameworks",
-          "Integrate advanced sustainable software development principles with broader sustainability frameworks to address complex organizational and societal challenges"
+          "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+          "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+          "Design and implement net-zero IT infrastructures in various organizational contexts."
         ],
         "semester": 1
       },
       {
-        "id": "DGDSE705",
-        "name": "Digital Sustainability Principles",
-        "description": "Core principles and frameworks for digital sustainability",
-        "eqf_level": 7,
+        "id": "OM7_EQF8",
+        "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+        "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+        "eqf_level": 8,
         "ects_points": 5,
-        "thematic_area": "sustainability",
+        "thematic_area": "technology",
         "prerequisites": [],
         "delivery_methods": [
           "classroom",
-          "online"
+          "blended"
         ],
         "module_type": [
-          "theoretical"
+          "theoretical",
+          "practical"
         ],
         "skills": [
-          "sustainability_frameworks",
-          "digital_transformation"
+          "infrastructure_management",
+          "carbon_reduction"
         ],
         "is_work_based": false,
         "learning_outcomes": [
-          "Critique sustainability principles in digital transformation for sustainability",
-          "Formulate the theoretical foundations and emerging trends in sustainable technology practices in organizational sustainability contexts",
-          "Recommend ethical leadership in promoting digital sustainability principles solutions that prioritize environmental stewardship",
-          "Critically evaluate the effectiveness of digital sustainability principles approaches through evidence-based assessment frameworks",
-          "Integrate advanced digital sustainability principles principles with broader sustainability frameworks to address complex organizational and societal challenges"
+          "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+          "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+          "Design and implement net-zero IT infrastructures in various organizational contexts."
         ],
         "semester": 1
-      }
-    ],
-    "2": [
-      {
-        "id": "DGDSE702",
-        "name": "AI for Sustainability Optimization",
-        "description": "Using artificial intelligence to optimize digital sustainability",
-        "eqf_level": 7,
-        "ects_points": 5,
-        "thematic_area": "sustainability",
-        "prerequisites": [],
-        "delivery_methods": [
-          "online",
-          "blended"
-        ],
-        "module_type": [
-          "theoretical",
-          "practical"
-        ],
-        "skills": [
-          "ai_applications",
-          "optimization_techniques"
-        ],
-        "is_work_based": false,
-        "learning_outcomes": [
-          "Formulate sustainability principles in organizational sustainability contexts",
-          "Hypothesize the theoretical foundations and emerging trends in environmental impact reduction strategies in digital transformation for sustainability",
-          "Compose innovative solutions using environmental impact reduction strategies to address complex sustainability challenges in digital transformation for sustainability",
-          "Generate solutions that balance environmental, social, and economic considerations in practical scenarios",
-          "Recommend ethical leadership in promoting ai sustainability optimization solutions that prioritize environmental stewardship",
-          "Critically evaluate the effectiveness of ai sustainability optimization approaches through evidence-based assessment frameworks",
-          "Integrate advanced ai sustainability optimization principles with broader sustainability frameworks to address complex organizational and societal challenges"
-        ],
-        "semester": 2
-      },
-      {
-        "id": "DGDSE703",
-        "name": "Advanced Green IT Solutions",
-        "description": "Cutting-edge approaches to sustainable IT implementation",
-        "eqf_level": 7,
-        "ects_points": 5,
-        "thematic_area": "sustainability",
-        "prerequisites": [],
-        "delivery_methods": [
-          "blended"
-        ],
-        "module_type": [
-          "practical"
-        ],
-        "skills": [
-          "advanced_implementation",
-          "solution_design"
-        ],
-        "is_work_based": false,
-        "learning_outcomes": [
-          "Strategize sustainable technology practices to support sustainable development goals",
-          "Develop innovative solutions using sustainable technology practices to address complex sustainability challenges in digital transformation for sustainability",
-          "Design solutions that balance environmental, social, and economic considerations in practical scenarios",
-          "Lead ethical leadership in promoting advanced green it solutions solutions that prioritize environmental stewardship",
-          "Critically evaluate the effectiveness of advanced green it solutions approaches through evidence-based assessment frameworks",
-          "Integrate advanced advanced green it solutions principles with broader sustainability frameworks to address complex organizational and societal challenges"
-        ],
-        "semester": 2
-      },
-      {
-        "id": "DGDSE706",
-        "name": "Sustainable IT Leadership",
-        "description": "Leading organizational change toward sustainable digital practices",
-        "eqf_level": 7,
-        "ects_points": 5,
-        "thematic_area": "sustainability",
-        "prerequisites": [],
-        "delivery_methods": [
-          "classroom",
-          "blended"
-        ],
-        "module_type": [
-          "theoretical",
-          "practical"
-        ],
-        "skills": [
-          "leadership",
-          "change_management"
-        ],
-        "is_work_based": false,
-        "learning_outcomes": [
-          "Theorize sustainability principles in digital transformation for sustainability",
-          "Conceptualize the theoretical foundations and emerging trends in digital sustainability approaches in organizational sustainability contexts",
-          "Integrate innovative solutions using sustainability principles to address complex sustainability challenges to support sustainable development goals",
-          "Design solutions that balance environmental, social, and economic considerations in practical scenarios",
-          "Recommend ethical leadership in promoting sustainable it leadership solutions that prioritize environmental stewardship",
-          "Critically evaluate the effectiveness of sustainable it leadership approaches through evidence-based assessment frameworks",
-          "Integrate advanced sustainable it leadership principles with broader sustainability frameworks to address complex organizational and societal challenges"
-        ],
-        "semester": 2
-      },
-      {
-        "id": "DGDSE707",
-        "name": "Advanced Digital Sustainability Strategy",
-        "description": "Strategic approaches to implementing sustainable digital transformation",
-        "eqf_level": 7,
-        "ects_points": 5,
-        "thematic_area": "sustainability",
-        "prerequisites": [],
-        "delivery_methods": [
-          "classroom",
-          "blended"
-        ],
-        "module_type": [
-          "theoretical"
-        ],
-        "skills": [
-          "strategic_planning",
-          "sustainability_integration"
-        ],
-        "is_work_based": false,
-        "learning_outcomes": [
-          "Evaluate organizational sustainability integration to enhance environmental performance",
-          "Hypothesize the theoretical foundations and emerging trends in long-term environmental initiatives in circular economy applications",
-          "Judge ethical leadership in promoting advanced digital sustainability strategy solutions that prioritize environmental stewardship",
-          "Critically evaluate the effectiveness of advanced digital sustainability strategy approaches through evidence-based assessment frameworks",
-          "Integrate advanced advanced digital sustainability strategy principles with broader sustainability frameworks to address complex organizational and societal challenges"
-        ],
-        "semester": 2
-      },
-      {
-        "id": "DGDSE708",
-        "name": "Sustainable Software Development in Practice",
-        "description": "Implementation aspects of practices for developing environmentally efficient software",
-        "eqf_level": 7,
-        "ects_points": 5,
-        "thematic_area": "sustainability",
-        "prerequisites": [],
-        "delivery_methods": [
-          "blended"
-        ],
-        "module_type": [
-          "practical"
-        ],
-        "skills": [
-          "software_development",
-          "green_coding"
-        ],
-        "is_work_based": false,
-        "learning_outcomes": [
-          "Theorize sustainable coding practices in organizational sustainability contexts",
-          "Integrate innovative solutions using green software architecture to address complex sustainability challenges in organizational sustainability contexts",
-          "Transform software solutions that minimize environmental impact while maintaining performance",
-          "Advocate ethical leadership in promoting sustainable software development practice solutions that prioritize environmental stewardship",
-          "Critically evaluate the effectiveness of sustainable software development practice approaches through evidence-based assessment frameworks",
-          "Integrate advanced sustainable software development practice principles with broader sustainability frameworks to address complex organizational and societal challenges"
-        ],
-        "semester": 2
-      },
-      {
-        "id": "DGDSE709",
-        "name": "AI for Sustainability Optimization in Practice",
-        "description": "Implementation aspects of using artificial intelligence to optimize digital sustainability",
-        "eqf_level": 7,
-        "ects_points": 5,
-        "thematic_area": "sustainability",
-        "prerequisites": [],
-        "delivery_methods": [
-          "online",
-          "blended"
-        ],
-        "module_type": [
-          "theoretical",
-          "practical"
-        ],
-        "skills": [
-          "ai_applications",
-          "optimization_techniques"
-        ],
-        "is_work_based": false,
-        "learning_outcomes": [
-          "Synthesize environmental impact reduction strategies to enhance environmental performance",
-          "Theorize the theoretical foundations and emerging trends in digital sustainability approaches for addressing environmental challenges",
-          "Integrate innovative solutions using environmental impact reduction strategies to address complex sustainability challenges to support sustainable development goals",
-          "Design solutions that balance environmental, social, and economic considerations in practical scenarios",
-          "Advocate ethical leadership in promoting ai sustainability optimization practice solutions that prioritize environmental stewardship",
-          "Critically evaluate the effectiveness of ai sustainability optimization practice approaches through evidence-based assessment frameworks",
-          "Integrate advanced ai sustainability optimization practice principles with broader sustainability frameworks to address complex organizational and societal challenges"
-        ],
-        "semester": 2
-      },
-      {
-        "id": "DGDSE710",
-        "name": "Advanced Green IT Solutions in Practice",
-        "description": "Implementation aspects of cutting-edge approaches to sustainable IT implementation",
-        "eqf_level": 7,
-        "ects_points": 5,
-        "thematic_area": "sustainability",
-        "prerequisites": [],
-        "delivery_methods": [
-          "blended"
-        ],
-        "module_type": [
-          "practical"
-        ],
-        "skills": [
-          "advanced_implementation",
-          "solution_design"
-        ],
-        "is_work_based": false,
-        "learning_outcomes": [
-          "Conceptualize digital sustainability approaches in digital transformation for sustainability",
-          "Innovate innovative solutions using digital sustainability approaches to address complex sustainability challenges for addressing environmental challenges",
-          "Generate solutions that balance environmental, social, and economic considerations in practical scenarios",
-          "Champion ethical leadership in promoting advanced green it solutions practice solutions that prioritize environmental stewardship",
-          "Critically evaluate the effectiveness of advanced green it solutions practice approaches through evidence-based assessment frameworks",
-          "Integrate advanced advanced green it solutions practice principles with broader sustainability frameworks to address complex organizational and societal challenges"
-        ],
-        "semester": 2
-      }
-    ],
-    "4": [
-      {
-        "id": "DGDSE704",
-        "name": "Digital Sustainability Research Project",
-        "description": "Research-based exploration of digital sustainability challenges",
-        "eqf_level": 7,
-        "ects_points": 15,
-        "thematic_area": "sustainability",
-        "prerequisites": [],
-        "delivery_methods": [
-          "workplace",
-          "blended"
-        ],
-        "module_type": [
-          "work-based"
-        ],
-        "skills": [
-          "research_methodology",
-          "critical_analysis"
-        ],
-        "is_work_based": true,
-        "learning_outcomes": [
-          "Formulate sustainability project methodologies in digital transformation for sustainability",
-          "Transform innovative solutions using sustainability project methodologies to address complex sustainability challenges for sustainable business practices",
-          "Create project management methodologies that integrate sustainability metrics throughout the project lifecycle",
-          "Champion ethical leadership in promoting digital sustainability research project solutions that prioritize environmental stewardship",
-          "Critically evaluate the effectiveness of digital sustainability research project approaches through evidence-based assessment frameworks",
-          "Integrate advanced digital sustainability research project principles with broader sustainability frameworks to address complex organizational and societal challenges"
-        ],
-        "semester": 4
-      },
-      {
-        "id": "DGDSE711",
-        "name": "Digital Sustainability Research Project in Practice",
-        "description": "Implementation aspects of research-based exploration of digital sustainability challenges",
-        "eqf_level": 7,
-        "ects_points": 15,
-        "thematic_area": "sustainability",
-        "prerequisites": [],
-        "delivery_methods": [
-          "workplace",
-          "blended"
-        ],
-        "module_type": [
-          "work-based"
-        ],
-        "skills": [
-          "research_methodology",
-          "critical_analysis"
-        ],
-        "is_work_based": true,
-        "learning_outcomes": [
-          "Evaluate sustainability project methodologies in organizational sustainability contexts",
-          "Create innovative solutions using sustainable project outcomes to address complex sustainability challenges for sustainable business practices",
-          "Develop project management methodologies that integrate sustainability metrics throughout the project lifecycle",
-          "Lead ethical leadership in promoting digital sustainability research project practice solutions that prioritize environmental stewardship",
-          "Critically evaluate the effectiveness of digital sustainability research project practice approaches through evidence-based assessment frameworks",
-          "Integrate advanced digital sustainability research project practice principles with broader sustainability frameworks to address complex organizational and societal challenges"
-        ],
-        "semester": 4
       }
     ]
   }

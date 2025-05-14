@@ -1,0 +1,724 @@
+{
+  "name": "Sustainable Solution Designer Full Curriculum (EQF Level 4)",
+  "description": "Full curriculum for Sustainable Solution Designer at EQF Level 4",
+  "role": {
+    "id": "SSD",
+    "name": "Sustainable Solution Designer"
+  },
+  "eqf_level": 4,
+  "total_ects": 60,
+  "duration_semesters": 2,
+  "delivery_modes": [
+    "online",
+    "workplace",
+    "blended",
+    "classroom"
+  ],
+  "work_based_learning": {
+    "percentage": 21.951219512195124,
+    "ects": 45,
+    "modules": [
+      "M25",
+      "M5_EQF4",
+      "M8_EQF4",
+      "M9_EQF4",
+      "M12_EQF4",
+      "M37_EQF4",
+      "M41_EQF4",
+      "M42_EQF4",
+      "M51_EQF4"
+    ]
+  },
+  "program_duration": 2,
+  "work_based_percentage": 25.0,
+  "is_full_curriculum": true,
+  "thematic_area": "sustainability",
+  "target_skills": [],
+  "program_learning_outcomes": [
+    "Apply fundamental digital sustainability principles and methodologies in structured environments",
+    "Utilize appropriate tools and technologies to support sustainability objectives in digital contexts",
+    "Demonstrate awareness of ethical and environmental implications of digital systems and decisions",
+    "Communicate sustainability concepts and practices effectively with diverse stakeholders",
+    "Implement basic sustainability improvements in digital systems and processes"
+  ],
+  "modules": [
+    {
+      "id": "OM7_EQF8",
+      "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+      "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "technology",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "infrastructure_management",
+        "carbon_reduction"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+        "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+        "Design and implement net-zero IT infrastructures in various organizational contexts."
+      ],
+      "semester": 1
+    },
+    {
+      "id": "OM7_EQF8",
+      "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+      "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "technology",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "infrastructure_management",
+        "carbon_reduction"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+        "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+        "Design and implement net-zero IT infrastructures in various organizational contexts."
+      ],
+      "semester": 1
+    },
+    {
+      "id": "OM7_EQF8",
+      "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+      "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "technology",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "infrastructure_management",
+        "carbon_reduction"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+        "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+        "Design and implement net-zero IT infrastructures in various organizational contexts."
+      ],
+      "semester": 1
+    },
+    {
+      "id": "OM7_EQF8",
+      "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+      "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "technology",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "infrastructure_management",
+        "carbon_reduction"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+        "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+        "Design and implement net-zero IT infrastructures in various organizational contexts."
+      ],
+      "semester": 1
+    },
+    {
+      "id": "OM7_EQF8",
+      "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+      "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "technology",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "infrastructure_management",
+        "carbon_reduction"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+        "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+        "Design and implement net-zero IT infrastructures in various organizational contexts."
+      ],
+      "semester": 1
+    },
+    {
+      "id": "OM7_EQF8",
+      "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+      "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "technology",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "infrastructure_management",
+        "carbon_reduction"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+        "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+        "Design and implement net-zero IT infrastructures in various organizational contexts."
+      ],
+      "semester": 1
+    },
+    {
+      "id": "OM7_EQF8",
+      "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+      "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "technology",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "infrastructure_management",
+        "carbon_reduction"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+        "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+        "Design and implement net-zero IT infrastructures in various organizational contexts."
+      ],
+      "semester": 1
+    },
+    {
+      "id": "OM7_EQF8",
+      "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+      "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "technology",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "infrastructure_management",
+        "carbon_reduction"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+        "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+        "Design and implement net-zero IT infrastructures in various organizational contexts."
+      ],
+      "semester": 1
+    },
+    {
+      "id": "OM7_EQF8",
+      "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+      "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "technology",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "infrastructure_management",
+        "carbon_reduction"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+        "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+        "Design and implement net-zero IT infrastructures in various organizational contexts."
+      ],
+      "semester": 1
+    },
+    {
+      "id": "OM7_EQF8",
+      "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+      "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "technology",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "infrastructure_management",
+        "carbon_reduction"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+        "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+        "Design and implement net-zero IT infrastructures in various organizational contexts."
+      ],
+      "semester": 1
+    },
+    {
+      "id": "OM7_EQF8",
+      "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+      "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "technology",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "infrastructure_management",
+        "carbon_reduction"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+        "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+        "Design and implement net-zero IT infrastructures in various organizational contexts."
+      ],
+      "semester": 1
+    },
+    {
+      "id": "OM7_EQF8",
+      "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+      "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+      "eqf_level": 8,
+      "ects_points": 5,
+      "thematic_area": "technology",
+      "prerequisites": [],
+      "delivery_methods": [
+        "classroom",
+        "blended"
+      ],
+      "module_type": [
+        "theoretical",
+        "practical"
+      ],
+      "skills": [
+        "infrastructure_management",
+        "carbon_reduction"
+      ],
+      "is_work_based": false,
+      "learning_outcomes": [
+        "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+        "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+        "Design and implement net-zero IT infrastructures in various organizational contexts."
+      ],
+      "semester": 1
+    }
+  ],
+  "modules_by_semester": {
+    "2": [
+      {
+        "id": "OM7_EQF8",
+        "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+        "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "technology",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "infrastructure_management",
+          "carbon_reduction"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+          "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+          "Design and implement net-zero IT infrastructures in various organizational contexts."
+        ],
+        "semester": 1
+      },
+      {
+        "id": "OM7_EQF8",
+        "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+        "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "technology",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "infrastructure_management",
+          "carbon_reduction"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+          "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+          "Design and implement net-zero IT infrastructures in various organizational contexts."
+        ],
+        "semester": 1
+      },
+      {
+        "id": "OM7_EQF8",
+        "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+        "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "technology",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "infrastructure_management",
+          "carbon_reduction"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+          "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+          "Design and implement net-zero IT infrastructures in various organizational contexts."
+        ],
+        "semester": 1
+      },
+      {
+        "id": "OM7_EQF8",
+        "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+        "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "technology",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "infrastructure_management",
+          "carbon_reduction"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+          "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+          "Design and implement net-zero IT infrastructures in various organizational contexts."
+        ],
+        "semester": 1
+      }
+    ],
+    "1": [
+      {
+        "id": "OM7_EQF8",
+        "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+        "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "technology",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "infrastructure_management",
+          "carbon_reduction"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+          "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+          "Design and implement net-zero IT infrastructures in various organizational contexts."
+        ],
+        "semester": 1
+      },
+      {
+        "id": "OM7_EQF8",
+        "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+        "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "technology",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "infrastructure_management",
+          "carbon_reduction"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+          "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+          "Design and implement net-zero IT infrastructures in various organizational contexts."
+        ],
+        "semester": 1
+      },
+      {
+        "id": "OM7_EQF8",
+        "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+        "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "technology",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "infrastructure_management",
+          "carbon_reduction"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+          "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+          "Design and implement net-zero IT infrastructures in various organizational contexts."
+        ],
+        "semester": 1
+      },
+      {
+        "id": "OM7_EQF8",
+        "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+        "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "technology",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "infrastructure_management",
+          "carbon_reduction"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+          "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+          "Design and implement net-zero IT infrastructures in various organizational contexts."
+        ],
+        "semester": 1
+      },
+      {
+        "id": "OM7_EQF8",
+        "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+        "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "technology",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "infrastructure_management",
+          "carbon_reduction"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+          "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+          "Design and implement net-zero IT infrastructures in various organizational contexts."
+        ],
+        "semester": 1
+      },
+      {
+        "id": "OM7_EQF8",
+        "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+        "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "technology",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "infrastructure_management",
+          "carbon_reduction"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+          "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+          "Design and implement net-zero IT infrastructures in various organizational contexts."
+        ],
+        "semester": 1
+      },
+      {
+        "id": "OM7_EQF8",
+        "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+        "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "technology",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "infrastructure_management",
+          "carbon_reduction"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+          "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+          "Design and implement net-zero IT infrastructures in various organizational contexts."
+        ],
+        "semester": 1
+      },
+      {
+        "id": "OM7_EQF8",
+        "name": "Net-Zero IT Infrastructure (EQF 8 Version)",
+        "description": "Principles and practices for carbon-neutral IT infrastructures (This module has been adapted for EQF level 8.)",
+        "eqf_level": 8,
+        "ects_points": 5,
+        "thematic_area": "technology",
+        "prerequisites": [],
+        "delivery_methods": [
+          "classroom",
+          "blended"
+        ],
+        "module_type": [
+          "theoretical",
+          "practical"
+        ],
+        "skills": [
+          "infrastructure_management",
+          "carbon_reduction"
+        ],
+        "is_work_based": false,
+        "learning_outcomes": [
+          "Critically evaluate approaches for achieving carbon neutrality in IT infrastructure.",
+          "Evaluate strategies for measuring and reducing carbon footprint of technology systems.",
+          "Design and implement net-zero IT infrastructures in various organizational contexts."
+        ],
+        "semester": 1
+      }
+    ]
+  }
+}
