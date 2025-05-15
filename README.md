@@ -84,7 +84,7 @@ Curricula + Micro-Credentials + Visual Stack Pathways
 
 ---
 
-## Directory Structure (Condensed)
+## Directory Structure (old structure)
 
 ```bash
 .
@@ -140,6 +140,75 @@ Curricula + Micro-Credentials + Visual Stack Pathways
 ├── generate_curriculum.txt
 ├── tree.txt
 ```
+---
+
+## Directory Structure (new structure)
+
+```bash
+.
+├── README.md
+├── requirements.txt
+├── run_curriculum.sh
+
+├── input/
+│   ├── modules/
+│   │   ├── modules.json
+│   │   └── modules_expanded.json
+│   ├── roles/
+│   │   └── roles.json
+│   └── standards/
+│       ├── README.json
+│       ├── standard_certification.json
+│       ├── standard_curriculum.json
+│       ├── standard_ecf_esco.json
+│       ├── standard_ects.json
+│       ├── standard_ecvet.json
+│       ├── standard_greencomp.json
+│       └── standard_microcredentials.json
+
+├── dscg/
+│   ├── __init__.py
+│   ├── package/
+│   │   ├── __init__.py
+│   │   ├── curriculum.py
+│   │   ├── ects_validator.py
+│   │   ├── generator.py
+│   │   ├── micro_credentials.py
+│   │   ├── models.py
+│   │   ├── module.py
+│   │   └── role.py
+│   └── utils/
+│       ├── __init__.py
+│       ├── config.py
+│       └── learning_outcomes.py
+
+├── scripts/
+│   ├── assess_curricula_against_standards.py
+│   ├── assess_educational_profiles_against_standards.py
+│   ├── assess_micro_credentials.py
+│   ├── assess_modules.py
+│   ├── assess_modules_against_standards.py
+│   ├── export_profiles.py
+│   ├── generate_all_curricula.py
+│   ├── generate_curriculum.py
+│   ├── generate_micro_credentials.py
+│   ├── improved_generate_curriculum.py
+│   └── visualize_stacking_paths.py
+
+├── output/
+│   ├── curricula/                   # Generated curricula (HTML, JSON)
+│   ├── profiles/                    # Exported educational profiles
+│   ├── micro_credentials/          # Micro-credential JSON sets
+│   └── assessments/                # Output of assessment scripts
+
+├── logs/
+│   ├── assess_modules.txt
+│   ├── export_profiles.txt
+│   ├── generate_all_curricula.txt
+│   ├── generate_curriculum.txt
+
+├── exporters/
+├── generate_curriculum/
 ---
 
 ## Types of Analysis
