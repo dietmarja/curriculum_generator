@@ -42,7 +42,7 @@ python scripts/generate_curriculum.py --role DSL --eqf 7 --output output/curricu
 
 ### Generate All Curricula
 ```bash
-python scripts/generate_all_curricula.py --output-dir output/curricula
+python scripts/generate_all_curricula.py --output-dir output/curricula --modules-json input/modules/modules.json
 ```
 
 ### Create Micro-Credentials
