@@ -1,0 +1,61 @@
+{
+  "structure": {
+    "required_fields": [
+      "competency_id",
+      "title",
+      "description",
+      "level",
+      "framework_reference"
+    ],
+    "recommended_fields": [
+      "related_skills",
+      "application_examples",
+      "domain_area"
+    ]
+  },
+  "validation_rules": [
+    "Each competency must have a valid EQF or proficiency level",
+    "Framework reference should follow a known standard (e.g., e-CF:D.11, ESCO:S4D3)",
+    "Descriptions must clearly distinguish scope and context",
+    "Each competency should align with at least one domain or role"
+  ],
+  "references": [
+    "European e-Competence Framework (e-CF) 3.0",
+    "ESCO (European Skills, Competences, Qualifications and Occupations)",
+    "European Commission (2022). GreenComp: The European sustainability competence framework"
+  ],
+  "framework": "GreenComp",
+  "domain_area": "Sustainability",
+  "competency_examples": [
+    {
+      "competency_id": "GC:1",
+      "title": "Systems Thinking",
+      "description": "Understand the interconnection of social, environmental, and economic systems.",
+      "level": "Foundational",
+      "framework_reference": "GreenComp:SystemsThinking",
+      "related_skills": [
+        "Holistic Analysis",
+        "Sustainability Planning"
+      ],
+      "application_examples": [
+        "Evaluating policy impacts on ecosystems",
+        "Analyzing sustainability trade-offs"
+      ]
+    },
+    {
+      "competency_id": "GC:2",
+      "title": "Critical Thinking",
+      "description": "Critically assess information and arguments related to sustainability issues.",
+      "level": "Advanced",
+      "framework_reference": "GreenComp:CriticalThinking",
+      "related_skills": [
+        "Analytical Reasoning",
+        "Problem Solving"
+      ],
+      "application_examples": [
+        "Challenging greenwashing claims",
+        "Assessing renewable energy scenarios"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "name": "certification_framework.json",
+  "sectoral_qualifications": {
+    "digital_sustainability_professional": {
+      "levels": {
+        "foundation": {
+          "eqf_level": 4,
+          "min_ects": 60,
+          "required_competencies": ["basic_sustainability", "digital_literacy"],
+          "micro_credential_clusters": ["sustainability_fundamentals", "digital_tools_basics"]
+        },
+        "practitioner": {
+          "eqf_level": 5,
+          "min_ects": 120,
+          "required_competencies": ["sustainability_analysis", "digital_implementation"],
+          "micro_credential_clusters": ["sustainability_assessment", "digital_solutions"]
+        },
+        "specialist": {
+          "eqf_level": 6,
+          "min_ects": 180,
+          "required_competencies": ["sustainability_design", "digital_transformation"],
+          "micro_credential_clusters": ["sustainable_design", "digital_strategy"]
+        },
+        "expert": {
+          "eqf_level": 7,
+          "min_ects": 120,
+          "required_competencies": ["sustainability_leadership", "digital_innovation"],
+          "micro_credential_clusters": ["sustainability_strategy", "digital_leadership"]
+        },
+        "master": {
+          "eqf_level": 8,
+          "min_ects": 180,
+          "required_competencies": ["sustainability_research", "digital_transformation_leadership"],
+          "micro_credential_clusters": ["sustainability_innovation", "digital_ecosystem_leadership"]
+        }
+      }
+    }
+  },
+  "qualification_pathways": {
+    "role_based_pathways": {
+      "digital_sustainability_lead": {
+        "entry_points": ["foundation", "practitioner"],
+        "progression_path": ["practitioner", "specialist", "expert", "master"],
+        "required_modules": ["M28", "M17", "M19", "M22"],
+        "elective_clusters": ["leadership", "strategy", "innovation"]
+      },
+      "sustainability_data_analyst": {
+        "entry_points": ["foundation", "practitioner"],
+        "progression_path": ["practitioner", "specialist", "expert"],
+        "required_modules": ["M10", "M18", "M22", "M21"],
+        "elective_clusters": ["data_science", "analytics", "reporting"]
+      }
+    }
+  },
+  "recognition_framework": {
+    "national_recognition": {
+      "process": [
+        "Align with national qualifications framework",
+        "Submit to national quality assurance body",
+        "Undergo sector validation",
+        "Register with national registry"
+      ],
+      "requirements": {
+        "quality_assurance": "ISO 9001 or equivalent",
+        "assessment_standards": "Based on national guidelines",
+        "issuer_accreditation": "Required"
+      }
+    },
+    "european_recognition": {
+      "process": [
+        "Map to EQF levels",
+        "Align with ECVET principles",
+        "Submit to European sectoral body",
+        "Apply for ESCO alignment"
+      ],
+      "requirements": {
+        "eqf_alignment": "Mandatory",
+        "ects_compliance": "Mandatory",
+        "learning_outcomes": "Must be clearly defined",
+        "assessment_methods": "Must be transparent and valid"
+      }
+    }
+  }
+}

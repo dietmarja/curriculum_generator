@@ -1,0 +1,62 @@
+{
+    "structure": {
+        "required_fields": [
+            "modules",
+            "total_ects",
+            "duration_semesters",
+            "delivery_modes",
+            "work_based_learning"
+        ],
+        "recommended_fields": [
+            "module_prerequisites",
+            "semester_breakdown",
+            "module_types"
+        ]
+    },
+    "module_rules": {
+        "standard_module_ects": 5,
+        "max_ects_per_module": 10,
+        "project_module_ects_range": [
+            10,
+            30
+        ],
+        "work_based_module_ects_range": [
+            5,
+            30
+        ],
+        "types": [
+            "theoretical",
+            "practical",
+            "work-based",
+            "hybrid"
+        ]
+    },
+    "delivery_modes": [
+        "classroom",
+        "online",
+        "blended",
+        "workplace"
+    ],
+    "curriculum_flexibility": {
+        "supports_modularity": true,
+        "supports_pathways": [
+            "initial",
+            "reskilling",
+            "upskilling"
+        ],
+        "delivery_customization": true
+    },
+    "validation_rules": [
+        "Total ECTS must align with EQF level standard",
+        "No semester should exceed 40 ECTS or fall below 20 ECTS",
+        "Capstone or thesis required in final semester",
+        "Prerequisites must be defined where progression logic applies",
+        "Work-based learning percentage must meet EQF-specific thresholds"
+    ],
+    "references": [
+        "European Commission (2015). 'ECTS Users\u2019 Guide 2015'.",
+        "European Commission (2020). 'A European approach to micro-credentials'.",
+        "Tuning Academy (2021). 'Tuning Educational Structures in Europe'.",
+        "OECD (2020). 'The Future of Education and Skills: Education 2030 Framework'."
+    ]
+}

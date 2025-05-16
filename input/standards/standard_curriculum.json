@@ -1,0 +1,12 @@
+{
+    "delivery_modes": [
+        "classroom",
+        "online",
+        "blended",
+        "workplace"
+    ],
+    "module_ects_limits": {
+        "standard": 5,
+        "max": 10
+    }
+}

@@ -1,0 +1,61 @@
+{
+  "structure": {
+    "required_fields": [
+      "competency_id",
+      "title",
+      "description",
+      "level",
+      "framework_reference"
+    ],
+    "recommended_fields": [
+      "related_skills",
+      "application_examples",
+      "domain_area"
+    ]
+  },
+  "validation_rules": [
+    "Each competency must have a valid EQF or proficiency level",
+    "Framework reference should follow a known standard (e.g., e-CF:D.11, ESCO:S4D3)",
+    "Descriptions must clearly distinguish scope and context",
+    "Each competency should align with at least one domain or role"
+  ],
+  "references": [
+    "European e-Competence Framework (e-CF) 3.0",
+    "ESCO (European Skills, Competences, Qualifications and Occupations)",
+    "European Commission (2022). GreenComp: The European sustainability competence framework"
+  ],
+  "framework": "e-CF / ESCO",
+  "domain_area": "Digital, ICT, General Skills",
+  "competency_examples": [
+    {
+      "competency_id": "e-CF:D.11",
+      "title": "Needs Identification",
+      "description": "Actively listens to internal/external customers and accurately records and interprets statements.",
+      "level": 5,
+      "framework_reference": "e-CF:D.11",
+      "related_skills": [
+        "Customer Engagement",
+        "Problem Framing"
+      ],
+      "application_examples": [
+        "Requirements gathering in software development",
+        "Sustainability needs alignment"
+      ]
+    },
+    {
+      "competency_id": "ESCO:S4D3",
+      "title": "Promote Environmental Sustainability",
+      "description": "Encourages environmentally sustainable practices in digital contexts.",
+      "level": 5,
+      "framework_reference": "ESCO:S4D3",
+      "related_skills": [
+        "Sustainable thinking",
+        "Digital responsibility"
+      ],
+      "application_examples": [
+        "Advising on eco-efficient ICT",
+        "Sustainable procurement evaluation"
+      ]
+    }
+  ]
+}

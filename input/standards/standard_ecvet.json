@@ -1,0 +1,45 @@
+{
+  "structure": {
+    "required_fields": [
+      "unit_id",
+      "title",
+      "description",
+      "learning_outcomes",
+      "credit_points"
+    ],
+    "recommended_fields": [
+      "assessment_criteria",
+      "transferability_notes",
+      "delivery_context"
+    ]
+  },
+  "validation_rules": [
+    "Units should be clearly linked to learning outcomes",
+    "Credit points should reflect notional learning hours",
+    "Each unit should indicate conditions for transfer and accumulation",
+    "Assessment should reflect both theory and work-based learning"
+  ],
+  "references": [
+    "Cedefop (2011). 'ECVET Handbook'",
+    "European Commission (2017). 'User Guide to ECVET Implementation'"
+  ],
+  "framework": "ECVET",
+  "domain_area": "Vocational Education and Training",
+  "competency_examples": [
+    {
+      "unit_id": "ECVET:VET01",
+      "title": "Workplace Sustainability Practices",
+      "description": "Apply sustainable practices in a real-world work environment.",
+      "learning_outcomes": [
+        "Demonstrate waste reduction practices",
+        "Follow environmental health and safety protocols"
+      ],
+      "credit_points": 3,
+      "assessment_criteria": [
+        "Observed practice",
+        "Supervisor interview"
+      ],
+      "delivery_context": "Work-based placement"
+    }
+  ]
+}
