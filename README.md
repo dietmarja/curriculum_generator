@@ -37,7 +37,7 @@ Designed to accommodate multiple roles and EQF levels (4–8), it supports full 
 ### Generate One Curriculum
 ```bash
 # Central CLI script
-python scripts/generate_curriculum.py --role DSL --eqf 7 --output output/curricula/curriculum_DSL_7.html
+python scripts/generate_curriculum.py --role DSL --eqf 7 --output output/curricula/curriculum_DSL_7.html --modules-json input/modules/modules.json
 ```
 
 ### Generate All Curricula
