@@ -9,7 +9,7 @@ Designed to accommodate multiple roles and EQF levels (4–8), it supports full 
 - **Modular Curriculum Generation**: Builds curricula from flexible, ECTS-compliant learning modules
 - **Micro-Credential Support**: Generates stackable credentials and visualizes learning pathways
 - **Learning Outcomes**: Generates multi-level outcomes aligned with Bloom's taxonomy and Tuning methodology
-- **Standards Compliance**: Incorporates EQF, ECTS, ECVET, ESCO, and micro-credential guidelines
+- **Standards Compliance**: Incorporates EQF, ECTS, ECVET, ESCO, GreenComp, and micro-credential guidelines
 - **Assessment Tools**: Evaluate modules, curricula, and micro-credentials for standard compliance
 - **Flexible Learning Pathways**: Supports full, upskilling, reskilling, dual, and work-based arrangements
 - **Rich Export Options**: Outputs in HTML, JSON, PDF, SCORM, and xAPI formats
