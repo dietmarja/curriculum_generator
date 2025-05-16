@@ -105,7 +105,10 @@ curriculum_generator/       # Project root
 │       └── learning_outcomes.py # Learning outcome generation
 ├── input/                # Input data
 │   ├── modules/          # Module definitions
+│       ├── modules.json
+│       └── modules_expanded.josn
 │   ├── roles/            # Role definitions
+│       └── roles.josn
 │   └── standards/        # Educational standards
 │       ├── standard_certification.json
 │       ├── standard_curriculum.json
