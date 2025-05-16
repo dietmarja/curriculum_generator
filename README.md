@@ -87,29 +87,29 @@ Curricula + Micro-Credentials + Visual Stack Pathways
 ## Directory Structure 
 
 ```bash
-curriculum_generator/       # Project root
-├── dscg/                  # Main package
+curriculum_generator/                         # Project root
+├── dscg/                                     # Main package
 │   ├── __init__.py
-│   ├── config.py          # Centralized configuration
-│   ├── standards.py       # Standards manager
-│   ├── package/           # Core functionality
+│   ├── config.py                             # Centralized configuration
+│   ├── standards.py                          # Standards manager
+│   ├── package/                              # Core functionality
 │   │   ├── __init__.py
-│   │   ├── module.py      # Module class
-│   │   ├── role.py        # Role class
-│   │   ├── curriculum.py  # Curriculum class
-│   │   ├── generator.py   # CurriculumGenerator class
-│   │   └── ects_validator.py # ECTS validation
-│   └── utils/             # Utility functions
+│   │   ├── module.py                         # Module class
+│   │   ├── role.py                           # Role class
+│   │   ├── curriculum.py                     # Curriculum class
+│   │   ├── generator.py                      # CurriculumGenerator class
+│   │   └── ects_validator.py                 # ECTS validation
+│   └── utils/                                # Utility functions
 │       ├── __init__.py
-│       ├── file_utils.py  # File handling utilities
-│       └── learning_outcomes.py # Learning outcome generation
-├── input/                # Input data
-│   ├── modules/          # Module definitions
+│       ├── file_utils.py                     # File handling utilities
+│       └── learning_outcomes.py              # Learning outcome generation
+├── input/                                    # Input data
+│   ├── modules/                              # Module definitions
 │       ├── modules.json
 │       └── modules_expanded.josn
-│   ├── roles/            # Role definitions
+│   ├── roles/                                # Role definitions
 │       └── roles.josn
-│   └── standards/        # Educational standards
+│   └── standards/                            # Educational standards
 │       ├── standard_certification.json
 │       ├── standard_curriculum.json
 │       ├── standard_ecf_esco.json
@@ -117,12 +117,12 @@ curriculum_generator/       # Project root
 │       ├── standard_ecvet.json
 │       ├── standard_greencomp.json
 │       └── standard_microcredentials.json
-├── scripts/              # CLI scripts
-├── output/               # Generated output
-│   ├── curricula/        # Generated curricula
-│   ├── profiles/         # Educational profiles
-│   └── micro_credentials/ # Micro-credential definitions
-└── setup.py             # Package setup
+├── scripts/                                  # CLI scripts
+├── output/                                   # Generated output
+│   ├── curricula/                            # Generated curricula
+│   ├── profiles/                             # Educational profiles
+│   └── micro_credentials/                    # Micro-credential definitions
+└── setup.py                                  #  Package setup
 ```
 ---
 
