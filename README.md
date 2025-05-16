@@ -84,80 +84,29 @@ Curricula + Micro-Credentials + Visual Stack Pathways
 
 ---
 
-## Directory Structure (old structure)
+## Directory Structure 
 
 ```bash
-.
-├── README.md
-├── requirements.txt
-├── run_curriculum.sh
-├── data/
-│   ├── modules.json
-│   ├── roles.json
-│   ├── curriculum_design_standards.json
-│   ├── ects_standards.json
-│   ├── educational_profile_standards.json
-│   └── micro_credentials/
-│       ├── certification_framework.json
-│       └── micro_credential_standards.json
-├── dscg/
+curriculum_generator/       # Project root
+├── dscg/                  # Main package
 │   ├── __init__.py
-│   ├── __pycache__/
-│   ├── package/
+│   ├── config.py          # Centralized configuration
+│   ├── standards.py       # Standards manager
+│   ├── package/           # Core functionality
 │   │   ├── __init__.py
-│   │   ├── curriculum.py
-│   │   ├── ects_validator.py
-│   │   ├── generator.py
-│   │   ├── micro_credentials.py
-│   │   ├── models.py
-│   │   ├── module.py
-│   │   └── role.py
-│   └── utils/
+│   │   ├── module.py      # Module class
+│   │   ├── role.py        # Role class
+│   │   ├── curriculum.py  # Curriculum class
+│   │   ├── generator.py   # CurriculumGenerator class
+│   │   └── ects_validator.py # ECTS validation
+│   └── utils/             # Utility functions
 │       ├── __init__.py
-│       ├── config.py
-│       └── learning_outcomes.py
-├── scripts/
-│   ├── assess_curricula_against_standards.py
-│   ├── assess_educational_profiles_against_standards.py
-│   ├── assess_micro_credentials.py
-│   ├── assess_modules.py
-│   ├── assess_modules_against_standards.py
-│   ├── export_profiles.py
-│   ├── generate_all_curricula.py
-│   ├── generate_curriculum.py
-│   ├── generate_micro_credentials.py
-│   ├── improved_generate_curriculum.py
-│   └── visualize_stacking_paths.py
-├── output/
-│   ├── curricula/                   # Generated curricula (HTML, JSON)
-│   ├── profiles/                    # Exported educational profiles
-│   └── micro_credentials/          # Micro-credential JSON sets
-├── exporters/
-├── generate_curriculum/
-├── assess_modules.txt
-├── export_profiles.txt
-├── generate_all_curricula.txt
-├── generate_curriculum.txt
-├── tree.txt
-```
----
-
-## Directory Structure (new structure)
-
-```bash
-.
-├── README.md
-├── requirements.txt
-├── run_curriculum.sh
-
-├── input/
-│   ├── modules/
-│   │   ├── modules.json
-│   │   └── modules_expanded.json
-│   ├── roles/
-│   │   └── roles.json
-│   └── standards/
-│       ├── README.json
+│       ├── file_utils.py  # File handling utilities
+│       └── learning_outcomes.py # Learning outcome generation
+├── input/                # Input data
+│   ├── modules/          # Module definitions
+│   ├── roles/            # Role definitions
+│   └── standards/        # Educational standards
 │       ├── standard_certification.json
 │       ├── standard_curriculum.json
 │       ├── standard_ecf_esco.json
@@ -165,50 +114,13 @@ Curricula + Micro-Credentials + Visual Stack Pathways
 │       ├── standard_ecvet.json
 │       ├── standard_greencomp.json
 │       └── standard_microcredentials.json
-
-├── dscg/
-│   ├── __init__.py
-│   ├── package/
-│   │   ├── __init__.py
-│   │   ├── curriculum.py
-│   │   ├── ects_validator.py
-│   │   ├── generator.py
-│   │   ├── micro_credentials.py
-│   │   ├── models.py
-│   │   ├── module.py
-│   │   └── role.py
-│   └── utils/
-│       ├── __init__.py
-│       ├── config.py
-│       └── learning_outcomes.py
-
-├── scripts/
-│   ├── assess_curricula_against_standards.py
-│   ├── assess_educational_profiles_against_standards.py
-│   ├── assess_micro_credentials.py
-│   ├── assess_modules.py
-│   ├── assess_modules_against_standards.py
-│   ├── export_profiles.py
-│   ├── generate_all_curricula.py
-│   ├── generate_curriculum.py
-│   ├── generate_micro_credentials.py
-│   ├── improved_generate_curriculum.py
-│   └── visualize_stacking_paths.py
-
-├── output/
-│   ├── curricula/                   # Generated curricula (HTML, JSON)
-│   ├── profiles/                    # Exported educational profiles
-│   ├── micro_credentials/          # Micro-credential JSON sets
-│   └── assessments/                # Output of assessment scripts
-
-├── logs/
-│   ├── assess_modules.txt
-│   ├── export_profiles.txt
-│   ├── generate_all_curricula.txt
-│   ├── generate_curriculum.txt
-
-├── exporters/
-├── generate_curriculum/
+├── scripts/              # CLI scripts
+├── output/               # Generated output
+│   ├── curricula/        # Generated curricula
+│   ├── profiles/         # Educational profiles
+│   └── micro_credentials/ # Micro-credential definitions
+└── setup.py             # Package setup
+```
 ---
 
 ## Types of Analysis
