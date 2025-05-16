@@ -134,9 +134,9 @@ curriculum_generator/       # Project root
 
 ## Roadmap
 
-- Web-based **Profile & Credential Builder**
-- **Cross-role analytics** and credential clustering
-- Support for **localized curriculum adaptation**
+- Web-based Interface on top of the CCL interface
+- Integrationn of Bib-tex reference so that the curricula include a reading list
+- Not only full curricula but tailored curricula 
 - Export to **xAPI/SCORM** for LMS integration
 
 ---
