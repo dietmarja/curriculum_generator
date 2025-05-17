@@ -91,19 +91,13 @@ http://localhost:5000
 
 # Generate a curriculum for a specific role and EQF level:
 ```
-python scripts/generate_curriculum.py --role DSL --eqf 7 
---output output/curricula/curriculum_DSL_7.html 
---modules-json input/modules/modules.json 
---roles-json input/roles/roles.json
+python scripts/batch_enhance_curricula.py --input-dir output/curricula --output-dir output/enhanced_curricula --pattern "curriculum_DEO_*.html"
 ```
 
 ```python
 # Generate all curricula for all defined roles and EQF levels:
 ```
-python scripts/generate_all_curricula.py 
---output-dir output/curricula 
---modules-json input/modules/modules.json 
---roles-json input/roles/roles.json
+python scripts/batch_enhance_curricula.py --input-dir output/curricula --output-dir output/enhanced_curricula --pattern "*.html"
 ```
 
 #### Micro-credential Management
