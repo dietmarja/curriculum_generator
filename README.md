@@ -84,73 +84,86 @@ http://localhost:5000
 - Assess the fixed curriculum with the Assessment tool
 - Visualize competencies and stacking paths with the Visualizations tool
 
+
 ### Command Line Interface
 
 #### Curriculum Generation
 
-Generate a curriculum for a specific role and EQF level:
-python scripts/generate_curriculum.py --role DSL --eqf 7 
+# Generate a curriculum for a specific role and EQF level:
+```python scripts/generate_curriculum.py --role DSL --eqf 7 
 --output output/curricula/curriculum_DSL_7.html 
 --modules-json input/modules/modules.json 
 --roles-json input/roles/roles.json
+```
 
-Generate all curricula for all defined roles and EQF levels:
-python scripts/generate_all_curricula.py 
+```python
+# Generate all curricula for all defined roles and EQF levels:
+```python scripts/generate_all_curricula.py 
 --output-dir output/curricula 
 --modules-json input/modules/modules.json 
 --roles-json input/roles/roles.json
+```
 
 #### Micro-credential Management
 
-Generate micro-credential sample data:
-python scripts/microcredential_curriculum_builder.py --create-sample --data-dir input
+# Generate micro-credential sample data:
+```python scripts/microcredential_curriculum_builder.py --create-sample --data-dir input
+```
 
-Build a role-based specific curriculum from micro-credentials:
-python scripts/microcredential_curriculum_builder.py --build-curriculum 
+# Build a role-based specific curriculum from micro-credentials:
+```python scripts/microcredential_curriculum_builder.py --build-curriculum 
 --role-id DSL --eqf-level 5 
 --data-dir input --output-dir output/specific_curricula
+```
 
-Create a custom curriculum from selected micro-credentials:
-python scripts/microcredential_curriculum_builder.py --build-curriculum 
+# Create a custom curriculum from selected micro-credentials:
+```python scripts/microcredential_curriculum_builder.py --build-curriculum 
 --micro-credentials MC001,MC003,MC007 
 --name "Green Computing Fundamentals" 
 --description "A focused curriculum on green computing basics" 
 --data-dir input --output-dir output/specific_curricula
+```
 
 #### Analysis & Quality Improvement
 
-Fix compliance issues in existing curricula:
-python scripts/fix_curriculum_issues.py 
+# Fix compliance issues in existing curricula:
+```python scripts/fix_curriculum_issues.py 
 --input-dir output/curricula 
 --output-dir output/curricula_fixed 
 --standards-dir input/standards
+```
 
-Evaluate curricula against standards and requirements:
-python scripts/curriculum_evaluation_framework.py 
+# Evaluate curricula against standards and requirements:
+```python scripts/curriculum_evaluation_framework.py 
 --input-dir output/curricula_fixed 
 --output-dir output/assessment 
 --include-specific
+```
 
-Generate curriculum summary and validation report:
-python scripts/improved_curriculum_summary.py 
+# Generate curriculum summary and validation report:
+```python scripts/improved_curriculum_summary.py 
 --output-dir output/curricula 
 --modules-json input/modules/modules.json
+```
 
 #### Visualization & Mapping
 
-Generate competence matrix:
-python scripts/generate_competence_matrix.py 
+# Generate competence matrix:
+```python scripts/generate_competence_matrix.py 
 --modules-json input/modules/modules.json 
 --roles-json input/roles/roles.json 
 --output-dir output/matrix 
 --include-heatmap
+```
 
-Visualize stacking paths for micro-credentials:
-python scripts/visualize_stacking_paths.py 
+# Visualize stacking paths for micro-credentials:
+```python scripts/visualize_stacking_paths.py 
 --data-dir input 
 --micro-credentials-file micro_credentials.json 
 --roles-file roles/roles.json 
 --output-dir output/visualizations
+```
+---
 
 ## Example Data Flow
 
