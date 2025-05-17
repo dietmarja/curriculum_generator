@@ -1,143 +1,161 @@
-# Curriculum Generator (CG)
+# Digital Sustainability Curriculum Generator (DSCG)
 
-**Curriculum Generator (CG)** is a Python-based toolkit for the  generation, analysis, and visualization of modular, outcome-based curricula for diverse target groups. 
-Designed to accommodate multiple roles and EQF levels (4–8), it supports full programme development as well as granular micro-credential pathways.
+A comprehensive toolkit for generating, analyzing, and evaluating modular, outcome-based curricula for digital sustainability education. The DSCG supports both full educational programs and specific micro-credential pathways across EQF levels 4-8.
 
-## Highlights
+## Key Features
 
-- **Role-to-Profile Mapping**: Converts job role definitions into educational profiles with EQF and ESCO alignment
-- **Modular Curriculum Generation**: Builds curricula from flexible, ECTS-compliant learning modules
-- **Micro-Credential Support**: Generates stackable credentials and visualizes learning pathways
-- **Learning Outcomes**: Generates multi-level outcomes aligned with Bloom's taxonomy and Tuning methodology
-- **Standards Compliance**: Incorporates EQF, ECTS, ECVET, ESCO, GreenComp, and micro-credential guidelines
-- **Assessment Tools**: Evaluate modules, curricula, and micro-credentials for standard compliance
-- **Flexible Learning Pathways**: Supports full, upskilling, reskilling, dual, and work-based arrangements
-- **Rich Export Options**: Outputs in HTML, JSON, PDF, SCORM, and xAPI formats
-
----
-| Standard                 | Role in CG                                                                            |
-| ------------------------ | ------------------------------------------------------------------------------------- |
-| **EQF**                  | Levels 4–8 structuring; outcome-based design and transparency across national systems |
-| **ECTS**                 | Credit weighting, workload calculation, and validation of learning modules            |
-| **ECVET**                | Modular and transferable design for vocational and work-based learning                |
-| **e-CF**                 | Structuring ICT competences aligned to EQF and supporting digital role profiles       |
-| **ESCO**                 | Mapping of learning outcomes to labor market competences and job roles                |
-| **GreenComp**            | Embedding sustainability competencies into transversal learning outcomes              |
-| **EU Micro-Credentials** | Quality, granularity, and stackability for short-form learning units                  |
-| **Tuning**               | Alignment and calibration of learning outcomes from program to module level           |
----
+- **Full & Specific Curricula**: Generate complete educational programs or targeted micro-credential pathways
+- **Multi-level Support**: Design curricula across EQF levels 4-8 for various digital sustainability roles
+- **Standards Compliance**: Built-in validation against European educational frameworks and standards
+- **Stackable Credentials**: Create and visualize flexible, personalized learning pathways
+- **Rich Evaluation**: Comprehensive assessment against accreditation and T3.2 criteria
+- **Work-based Learning**: Support for dual principle education with industry-aligned components
 
 
+## Project Structure
+
+curriculum_generator/                        # Project root
+├── dscg/                                    # Main package
+│   ├── config.py                            # Centralized configuration
+│   ├── standards.py                         # Standards manager
+│   ├── package/                             # Core functionality
+│   │   ├── module.py                        # Module class
+│   │   ├── role.py                          # Role class
+│   │   ├── curriculum.py                    # Curriculum class
+│   │   ├── generator.py                     # CurriculumGenerator class
+│   │   └── ects_validator.py                # ECTS validation
+│   └── utils/                               # Utility functions
+├── input/                                   # Input data
+│   ├── modules/                             # Module definitions
+│   ├── roles/                               # Role definitions
+│   └── standards/                           # Educational standards
+├── scripts/                                 # CLI scripts
+└── output/                                  # Generated output
+    ├── curricula/                           # Generated curricula
+    ├── profiles/                            # Educational profiles
+    ├── accreditation/                       # Evaluation reports
+    └── micro_credentials/                   # Micro-credential definitions
+
+
+## Standards Alignment
+
+| Standard | Implementation |
+|----------|----------------|
+| **EQF** | Levels 4–8 structuring; outcome-based design and transparency across national systems |
+| **ECTS** | Credit weighting, workload calculation, and validation of learning modules |
+| **ECVET** | Modular and transferable design for vocational and work-based learning |
+| **e-CF** | Structuring ICT competences aligned to EQF and supporting digital role profiles |
+| **ESCO** | Mapping of learning outcomes to labor market competences and job roles |
+| **GreenComp** | Embedding sustainability competencies into transversal learning outcomes |
+| **EU Micro-Credentials** | Quality, granularity, and stackability for short-form learning units |
+| **Tuning** | Alignment and calibration of learning outcomes from program to module level |
 
 
 
 
-## Example Commands
 
-### Generate one curriculum
-```bash
-# Central CLI script
-python scripts/generate_curriculum.py --role DSL --eqf 7 --output output/curricula/curriculum_DSL_7.html --modules-json input/modules/modules.json
+## Code Examples
+
+### 1. Curriculum Generation
+
+```python
+# Generate a single curriculum for Digital Sustainability Lead at EQF level 7
+python scripts/generate_curriculum.py --role DSL --eqf 7 \
+  --output output/curricula/curriculum_DSL_7.html \
+  --modules-json input/modules/modules.json
+```
+# Generate all curricula for all defined roles and EQF levels
+```
+python scripts/generate_all_curricula.py \
+  --output-dir output/curricula \
+  --modules-json input/modules/modules.json
 ```
 
-### Generate all curricula
-```bash
-python scripts/generate_all_curricula.py --output-dir output/curricula --modules-json input/modules/modules.json
+2. Micro-credential Management
+```
+python# Generate micro-credential definitions
+python scripts/microcredential_curriculum_builder.py --create-sample --data-dir data
 ```
 
-
-### Generate validation for all curricula
-```bash
-python scripts/improved_curriculum_summary.py --output-dir output/curricula --modules-json input/modules/modules.json
+# Build a role-based specific curriculum from micro-credentials
+```
+python scripts/microcredential_curriculum_builder.py --build-curriculum \
+  --role-id DSL --eqf-level 5 \
+  --data-dir data --output-dir output/specific_curricula
 ```
 
-### Create Micro-Credentials
-```bash
-#python scripts/generate_micro_credentials.py --output output/micro_credentials
-#python scripts/improve_micro_credentials.py --force
-python scripts/generate_enhanced_micro_credentials.py --generate-upskilling
+# Create a custom curriculum from selected micro-credentials
+```
+python scripts/microcredential_curriculum_builder.py --build-curriculum \
+  --micro-credentials MC001,MC003,MC007 \
+  --name "Green Computing Fundamentals" \
+  --description "A focused curriculum on green computing basics" \
+  --data-dir data --output-dir output/specific_curricula
 ```
 
-### Visualize Credential Stacking
-```bash
-pip install matplotlib networkx
+3. Evaluation & Analysis
+```
+python# Evaluate all curricula for standards compliance
+python scripts/curriculum_evaluation_framework.py \
+  --input-dir output --output-dir output/accreditation --include-specific
+```
+
+# Generate validation summary for curricula
+```
+python scripts/improved_curriculum_summary.py \
+  --output-dir output/curricula \
+  --modules-json input/modules/modules.json
+```
+
+# Fix compliance issues in existing curricula
+```
+python scripts/fix_curriculum_issues.py \
+  --input-dir output/curricula \
+  --output-dir output/curricula_fixed
+```
+
+4. Visualization & Export
+```
 python scripts/visualize_stacking_paths.py
 ```
 
-### Export Educational Profiles
-```bash
+# Export educational profiles for all roles
+```
 python scripts/export_profiles.py --output output/profiles --format both
 ```
 
-### Standards-Based Assessment
-```bash
-python scripts/assess_modules_against_standards.py --check-standards --standards-dir data/
+# Generate accreditation-ready reports
+```
+python scripts/curriculum_accreditation_check.py \
+  --input-dir output/curricula_fixed \
+  --output-dir output/accreditation
 ```
 
----
+## Workflow
 
-## Project Overview
-
-```text
-roles.json 
-  ↓
-Educational Profiles 
-  ↓
-Curriculum Generator 
-  ↓
-Curricula + Micro-Credentials + Visual Stack Pathways
-```
-
----
-
-## Directory Structure 
-
-```bash
-curriculum_generator/                         # Project root
-├── dscg/                                     # Main package
-│   ├── __init__.py
-│   ├── config.py                             # Centralized configuration
-│   ├── standards.py                          # Standards manager
-│   ├── package/                              # Core functionality
-│   │   ├── __init__.py
-│   │   ├── module.py                         # Module class
-│   │   ├── role.py                           # Role class
-│   │   ├── curriculum.py                     # Curriculum class
-│   │   ├── generator.py                      # CurriculumGenerator class
-│   │   └── ects_validator.py                 # ECTS validation
-│   └── utils/                                # Utility functions
-│       ├── __init__.py
-│       ├── file_utils.py                     # File handling utilities
-│       └── learning_outcomes.py              # Learning outcome generation
-├── input/                                    # Input data
-│   ├── modules/                              # Module definitions
-│       ├── modules.json
-│       └── modules_expanded.josn
-│   ├── roles/                                # Role definitions
-│       └── roles.josn
-│   └── standards/                            # Educational standards
-│       ├── standard_certification.json
-│       ├── standard_curriculum.json
-│       ├── standard_ecf_esco.json
-│       ├── standard_ects.json
-│       ├── standard_ecvet.json
-│       ├── standard_greencomp.json
-│       └── standard_microcredentials.json
-├── scripts/                                  # CLI scripts
-├── output/                                   # Generated output
-│   ├── curricula/                            # Generated curricula
-│   ├── profiles/                             # Educational profiles
-│   └── micro_credentials/                    # Micro-credential definitions
-└── setup.py                                  #  Package setup
-```
----
+Role Definition: Define digital sustainability roles in roles.json
+Educational Profiles: Generate educational profiles based on roles
+Curriculum Generation: Create full curricula for each role and EQF level
+Micro-credential Generation: Define modular, stackable learning units
+Evaluation & Compliance: Assess curricula against standards and requirements
+Visualization: Generate pathway visualizations and learning maps
 
 ## Types of Analysis
 
-- **Curriculum/Module Validation**: ECTS, ECVET, micro-credential criteria
-- **Competency Matching**: Job-role to outcome traceability via ESCO
-- **Pathway Structuring**: Stackability and credential logic
-- **Balance & Delivery**: Distribution across semesters and learning types (theory, practice, work-based)
+Standards Validation: EQF, ECTS, ECVET, micro-credential compliance
+Curriculum Evaluation: Accreditation readiness, T3.2 requirements
+Competency Mapping: Job-role to outcome traceability via ESCO
+Pathway Analysis: Stackability and credential progression logic
+Delivery Assessment: Distribution across semesters and learning types (theory, practice, work-based)
+
+## Supported Use Cases
+
+- Full Educational Programs: Complete degree programs across EQF levels
+- Targeted Upskilling: Specific modules to address skill gaps
+- Industry Reskilling: Focused pathways for career transitions
+- Dual Learning: Combined academic and work-based components
+- Stackable Credentials: Modular, cumulative achievement paths
+
 
 ---
 
