@@ -173,7 +173,7 @@ python scripts/visualize_stacking_paths.py
    - Visualize stacking paths
 
 ## Project Structure
-```curriculum_generator/                        # Project root
+curriculum_generator/                        # Project root
 ├── app.py                                   # Web application entry point
 ├── dscg/                                    # Main package
 │   ├── config.py                            # Centralized configuration
@@ -215,8 +215,6 @@ python scripts/visualize_stacking_paths.py
 ├── visualizations/                      # Visual representations
 ├── specific_curricula/                  # Micro-credential-based curricula
 └── micro_credentials/                   # Micro-credential definitions
-```
-
 
 ## Web Interface Components
 
@@ -378,7 +376,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Roadmap
 
-- Integrationn of Bib-tex reference so that the curricula include a reading list
+- Integration of Bib-tex reference so that the curricula include a reading list
 - Export to **xAPI/SCORM** for LMS integration
 
 ## License
