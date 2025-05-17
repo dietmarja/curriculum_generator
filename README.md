@@ -94,9 +94,9 @@ python scripts/microcredential_curriculum_builder.py --build-curriculum \
   --data-dir data --output-dir output/specific_curricula
 ```
 
-3. Evaluation & Analysis
+# Evaluation & Analysis
 ```
-python# Evaluate all curricula for standards compliance
+# Evaluate all curricula for standards compliance
 python scripts/curriculum_evaluation_framework.py \
   --input-dir output --output-dir output/accreditation --include-specific
 ```
