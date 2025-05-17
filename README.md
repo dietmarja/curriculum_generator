@@ -214,6 +214,9 @@ curriculum_generator/                        # Project root
 │   ├── roles/                               # Role definitions
 │   └── standards/                           # Educational standards
 ├── scripts/                                 # CLI scripts
+│   ├── batch_enhance_curricula.py           # Batch enhance curricula script
+│   ├── enhance_curriculum.py                # Enhance curriculum script
+│   └── enhanced_curriculum_summary.py       # Enhanced curriculum summary script
 ├── templates/                               # HTML templates for web interface
 │   ├── base.html                            # Base template with navigation and layout
 │   ├── index.html                           # Dashboard template
@@ -226,19 +229,25 @@ curriculum_generator/                        # Project root
 │   ├── view_matrix.html                     # Competence matrix viewer
 │   ├── view_assessment.html                 # Assessment report viewer
 │   ├── uploads.html                         # File management interface
-│   └── visualizations.html                  # Visualizations gallery
+│   ├── visualizations.html                  # Visualizations gallery
+│   ├── 404.html                             # Custom 404 error page
+│   ├── 500.html                             # Custom 500 error page
+│   └── partials/                            # Reusable template components
 ├── static/                                  # Static assets for web interface
 │   ├── css/                                 # Stylesheets
 │   ├── js/                                  # JavaScript files
-│   └── img/                                 # Images and icons
+│   ├── img/                                 # Images and icons
+│   ├── fonts/                               # Font files
+│   ├── lib/                                 # Third-party libraries
+│   └── favicon.ico                          # Favicon
 └── output/                                  # Generated output
-├── curricula/                           # Generated curricula
-├── curricula_fixed/                     # Fixed curricula
-├── assessment/                          # Evaluation reports
-├── matrix/                              # Competence matrices
-├── visualizations/                      # Visual representations
-├── specific_curricula/                  # Micro-credential-based curricula
-└── micro_credentials/                   # Micro-credential definitions
+    ├── curricula/                           # Generated curricula
+    ├── curricula_fixed/                     # Fixed curricula
+    ├── assessment/                          # Evaluation reports
+    ├── matrix/                              # Competence matrices
+    ├── visualizations/                      # Visual representations
+    ├── specific_curricula/                  # Micro-credential-based curricula
+    └── micro_credentials/                   # Micro-credential definitions
 ```
 
 
