@@ -14,6 +14,7 @@ A comprehensive toolkit for generating, analyzing, and evaluating modular, outco
 
 ## Project Structure
 
+```
 curriculum_generator/                        # Project root
 ├── dscg/                                    # Main package
 │   ├── config.py                            # Centralized configuration
@@ -35,7 +36,7 @@ curriculum_generator/                        # Project root
     ├── profiles/                            # Educational profiles
     ├── accreditation/                       # Evaluation reports
     └── micro_credentials/                   # Micro-credential definitions
-
+```
 
 ## Standards Alignment
 
