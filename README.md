@@ -196,7 +196,7 @@ python scripts/visualize_stacking_paths.py
    - Visualize stacking paths
 
 ## Project Structure
-```
+bash```
 curriculum_generator/                        # Project root
 ├── app.py                                   # Web application entry point
 ├── dscg/                                    # Main package
