@@ -34,15 +34,21 @@ Designed to accommodate multiple roles and EQF levels (4–8), it supports full 
 
 ## Example Commands
 
-### Generate One Curriculum
+### Generate one curriculum
 ```bash
 # Central CLI script
 python scripts/generate_curriculum.py --role DSL --eqf 7 --output output/curricula/curriculum_DSL_7.html --modules-json input/modules/modules.json
 ```
 
-### Generate All Curricula
+### Generate all curricula
 ```bash
 python scripts/generate_all_curricula.py --output-dir output/curricula --modules-json input/modules/modules.json
+```
+
+
+### Generate validation for all curricula
+```bash
+python scripts/improved_curriculum_summary.py --output-dir output/curricula --modules-json input/modules/modules.json
 ```
 
 ### Create Micro-Credentials
