@@ -10,6 +10,10 @@ A comprehensive toolkit for generating, analyzing, and evaluating modular, outco
 - **Stackable Credentials**: Create and visualize flexible, personalized learning pathways
 - **Rich Evaluation**: Comprehensive assessment against accreditation and educational criteria
 - **Work-based Learning**: Support for dual principle education with industry-aligned components
+- **Competency Mapping**: Visual mapping between job roles, competencies, and learning outcomes
+- **Recognition Mechanisms**: European and national recognition pathways with cross-border portability
+- **Accreditation Support**: Quality assurance, provider information, and diploma supplement previews
+- **User Group Targeting**: Clear sections for educators, accreditation specialists, students, and industry
 - **Web Interface**: User-friendly web application for curriculum management and visualization
 - **Command-line Tools**: Powerful scripts for batch processing and automation
 
@@ -35,7 +39,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
 4. Create necessary directories:
-./create_directories.sh
+mkdir -p input/modules input/roles input/standards dscg/static/css dscg/static/js output/curricula output/enhanced_curricula
 
 ### Web Interface Installation
 
@@ -50,147 +54,142 @@ Template files should be copied to the templates directory
 (base.html, index.html, batch_generate.html, etc.)
 
 4. Configure the web server (optional for production):
-For production with gunicorn (install with: pip install gunicorn)
-pip install gunicorn
-For production with Apache or Nginx, set up WSGI configuration
-pip install mod_wsgi  # For Apache
+For production with gunicorn (install with: `pip install gunicorn`)
+For production with Apache or Nginx, set up WSGI configuration (`pip install mod_wsgi` for Apache)
 
 ## Usage
+
+### Command Line Interface
+
+#### Curriculum Generation
+
+```
+#Generate a curriculum for a specific role and EQF level:
+python scripts/generate_curriculum.py --role DAN --eqf 6 --output-dir output/curricula
+```
+
+```
+#Generate all curricula for all defined roles and EQF levels:
+#python scripts/batch_generate_curricula.py --output-dir output/curricula
+python scripts/batch_enhance_curricula_v2.py --input-dir output/curricula --output-dir output/enhanced_curricula --modules-json input/modules.json --roles-json input/roles.json --static-dir dscg/static
+```
+
+
+
+#### Enhanced Curriculum Generation with Accreditation Support
+
+Enhance an existing curriculum with competency mapping, stacking pathways, and recognition mechanisms:
+python scripts/enhance_curriculum_v2.py --input output/curricula/curriculum_DAN_6.html --output output/enhanced_curricula/curriculum_DAN_6_enhanced.html --modules-json input/modules.json --roles-json input/roles.json --static-dir dscg/static
+
+Batch enhance multiple curricula:
+python scripts/batch_enhance_curricula_v2.py --input-dir output/curricula --output-dir output/enhanced_curricula --modules-json input/modules.json --roles-json input/roles.json --static-dir dscg/static
+
+#### Micro-credential Management
+
+Generate micro-credential sample data:
+python scripts/microcredential_curriculum_builder.py --create-sample --data-dir input
+
+Build a role-based specific curriculum from micro-credentials:
+python scripts/microcredential_curriculum_builder.py --build-curriculum --role-id DSL --eqf-level 5 --data-dir input --output-dir output/specific_curricula
+
+Create a custom curriculum from selected micro-credentials:
+python scripts/microcredential_curriculum_builder.py --build-curriculum --micro-credentials MC001,MC003,MC007 --name "Green Computing Fundamentals" --description "A focused curriculum on green computing basics" --data-dir input --output-dir output/specific_curricula
+
+#### Analysis & Quality Improvement
+
+Fix compliance issues in existing curricula:
+python scripts/fix_curriculum_issues.py --input-dir output/curricula --output-dir output/curricula_fixed --standards-dir input/standards
+
+Evaluate curricula against standards and requirements:
+python scripts/curriculum_evaluation_framework.py --input-dir output/curricula_fixed --output-dir output/assessment --include-specific
+
+Generate curriculum summary and validation report:
+python scripts/enhanced_curriculum_summary.py --output-dir output/curricula --modules-json input/modules/modules.json
+
+#### Visualization & Mapping
+
+Generate competence matrix:
+python scripts/generate_competence_matrix.py --modules-json input/modules/modules.json --roles-json input/roles/roles.json --output-dir output/matrix --include-heatmap
+
+Visualize stacking paths for micro-credentials:
+python scripts/visualize_stacking_paths.py --data-dir input --micro-credentials-file micro_credentials.json --roles-file roles/roles.json --output-dir output/visualizations
 
 ### Web Interface
 
 1. Start the web application:
 python app.py
 
-2. Open your browser and go to:
-http://localhost:5000
+2. Open your browser and go to: `http://localhost:5000`
 
 3. Web Interface Features:
-- **Dashboard**: Overview of available curricula, roles, modules, and micro-credentials
-- **Generate Curriculum**: Create a new curriculum for a specific role and EQF level
-- **Batch Generate**: Generate multiple curricula for different roles and EQF levels
-- **View Curricula**: Browse, download, and manage generated curricula
-- **Fix Curricula**: Automatically correct accreditation issues in existing curricula
-- **Micro-credentials**: Manage micro-credentials and build specific curricula
-- **Competence Matrix**: Generate and visualize role-module competence mappings
-- **Visualizations**: Create stacking path and competence visualizations
-- **Assessment**: Evaluate curricula against standards and accreditation criteria
-- **Uploads**: Manage data files (modules, roles, standards)
+   - **Dashboard**: Overview of available curricula, roles, modules, and micro-credentials
+   - **Generate Curriculum**: Create a new curriculum for a specific role and EQF level
+   - **Batch Generate**: Generate multiple curricula for different roles and EQF levels
+   - **View Curricula**: Browse, download, and manage generated curricula
+   - **Fix Curricula**: Automatically correct accreditation issues in existing curricula
+   - **Micro-credentials**: Manage micro-credentials and build specific curricula
+   - **Competence Matrix**: Generate and visualize role-module competence mappings
+   - **Visualizations**: Create stacking path and competence visualizations
+   - **Assessment**: Evaluate curricula against standards and accreditation criteria
+   - **Uploads**: Manage data files (modules, roles, standards)
 
-4. Example Web Interface Workflow:
-- Upload module and role data via the Uploads page
-- Generate a curriculum using the Generate Curriculum form
-- Fix accreditation issues with the Fix Curricula tool
-- Assess the fixed curriculum with the Assessment tool
-- Visualize competencies and stacking paths with the Visualizations tool
+## Enhanced Curriculum Features
 
+The enhanced curriculum generator (v2) adds several key features to support T3.2, T3.4, and accreditation requirements:
 
-### Command Line Interface
+### Competency Mapping
+- Visual representation of relationships between job roles, competencies, and learning outcomes
+- Color-coded skill tags showing skill matches between roles and modules
+- Direct connection between competencies and assessment criteria
 
-#### Curriculum Generation
+### Stacking Framework
+- Micro-credential definitions with clear module compositions
+- Visual stacking pathways showing progression from foundation to full qualification
+- Credit accumulation visualization with ECTS values
 
-# Generate a curriculum for a specific role and EQF level:
-```
-python scripts/batch_enhance_curricula.py --input-dir output/curricula --output-dir output/enhanced_curricula --pattern "curriculum_DEO_*.html"
-```
+### Recognition Mechanisms
+- European framework alignment (EQF, ECTS, ESG, ESCO)
+- National qualification framework mapping for multiple countries
+- Recognition procedures and cross-border portability examples
 
-```python
-# Generate all curricula for all defined roles and EQF levels:
-```
-python scripts/batch_enhance_curricula.py --input-dir output/curricula --output-dir output/enhanced_curricula --pattern "*.html"
-```
+### Accreditation Support
+- Provider information with accreditation status and period
+- Quality assurance system details and documentation
+- Curriculum governance structure and functions
+- Certification processes and technology infrastructure
 
-#### Micro-credential Management
-
-# Generate micro-credential sample data:
-```
-python scripts/microcredential_curriculum_builder.py --create-sample --data-dir input
-```
-
-# Build a role-based specific curriculum from micro-credentials:
-```
-python scripts/microcredential_curriculum_builder.py --build-curriculum 
---role-id DSL --eqf-level 5 
---data-dir input --output-dir output/specific_curricula
-```
-
-# Create a custom curriculum from selected micro-credentials:
-```
-python scripts/microcredential_curriculum_builder.py --build-curriculum 
---micro-credentials MC001,MC003,MC007 
---name "Green Computing Fundamentals" 
---description "A focused curriculum on green computing basics" 
---data-dir input --output-dir output/specific_curricula
-```
-
-#### Analysis & Quality Improvement
-
-# Fix compliance issues in existing curricula:
-```
-python scripts/fix_curriculum_issues.py 
---input-dir output/curricula 
---output-dir output/curricula_fixed 
---standards-dir input/standards
-```
-
-# Evaluate curricula against standards and requirements:
-```
-python scripts/curriculum_evaluation_framework.py 
---input-dir output/curricula_fixed 
---output-dir output/assessment 
---include-specific
-```
-
-# Generate curriculum summary and validation report:
-```
-python scripts/improved_curriculum_summary.py 
---output-dir output/curricula 
---modules-json input/modules/modules.json
-```
-
-#### Visualization & Mapping
-
-# Generate competence matrix:
-```
-python scripts/generate_competence_matrix.py 
---modules-json input/modules/modules.json 
---roles-json input/roles/roles.json 
---output-dir output/matrix 
---include-heatmap
-```
-
-# Visualize stacking paths for micro-credentials:
-```
-python scripts/visualize_stacking_paths.py 
---data-dir input 
---micro-credentials-file micro_credentials.json 
---roles-file roles/roles.json 
---output-dir output/visualizations
-```
----
+### User-Targeted Information
+- Clear table of contents with user group tags (educators, accreditation specialists, students, industry)
+- Section organization following accreditation requirements
+- Diploma supplement preview following Europass standard
 
 ## Example Data Flow
 
 1. **Prepare Input Data**:
-   - Define role profiles in 
-   - Define modules in 
-   - Set up standards in 
+   - Define role profiles in `input/roles.json`
+   - Define modules in `input/modules.json`
+   - Set up standards in `input/standards/`
 
 2. **Generate Curricula**:
    - Generate curricula for all roles and EQF levels
    - Create specific curricula using micro-credentials
 
-3. **Improve Quality**:
+3. **Enhance Curricula**:
+   - Add competency mapping and stacking frameworks
+   - Include recognition mechanisms and accreditation information
+
+4. **Improve Quality**:
    - Fix accreditation issues in generated curricula
    - Validate against educational standards
 
-4. **Analyze & Visualize**:
+5. **Analyze & Visualize**:
    - Generate competence matrix and visualizations
    - Create assessment reports
    - Visualize stacking paths
 
 ## Project Structure
-bash```
+bash
+```
 curriculum_generator/                        # Project root
 ├── app.py                                   # Web application entry point
 ├── dscg/                                    # Main package
@@ -208,73 +207,46 @@ curriculum_generator/                        # Project root
 │   ├── roles/                               # Role definitions
 │   └── standards/                           # Educational standards
 ├── scripts/                                 # CLI scripts
-│   ├── batch_enhance_curricula.py           # Batch enhance curricula script
-│   ├── enhance_curriculum.py                # Enhance curriculum script
-│   └── enhanced_curriculum_summary.py       # Enhanced curriculum summary script
+│   ├── generate_curriculum.py               # Curriculum generation script
+│   ├── batch_generate_curricula.py          # Batch curriculum generation script
+│   ├── enhance_curriculum_v2.py             # Enhanced curriculum script with recognition
+│   ├── batch_enhance_curricula_v2.py        # Batch enhance curricula script
+│   ├── fix_curriculum_issues.py             # Fix compliance issues script
+│   └── curriculum_evaluation_framework.py   # Curriculum assessment script
 ├── templates/                               # HTML templates for web interface
-│   ├── base.html                            # Base template with navigation and layout
-│   ├── index.html                           # Dashboard template
-│   ├── curriculums.html                     # Curriculum listing template
-│   ├── generate.html                        # Curriculum generation form
-│   ├── batch_generate.html                  # Batch generation interface
-│   ├── view_curriculum.html                 # Curriculum viewer template
-│   ├── fixed_curricula.html                 # Fixed curricula listing
-│   ├── micro_credentials.html               # Micro-credential management
-│   ├── view_matrix.html                     # Competence matrix viewer
-│   ├── view_assessment.html                 # Assessment report viewer
-│   ├── uploads.html                         # File management interface
-│   ├── visualizations.html                  # Visualizations gallery
-│   ├── 404.html                             # Custom 404 error page
-│   ├── 500.html                             # Custom 500 error page
-│   └── partials/                            # Reusable template components
 ├── static/                                  # Static assets for web interface
 │   ├── css/                                 # Stylesheets
 │   ├── js/                                  # JavaScript files
-│   ├── img/                                 # Images and icons
-│   ├── fonts/                               # Font files
-│   ├── lib/                                 # Third-party libraries
-│   └── favicon.ico                          # Favicon
+│   └── img/                                 # Images and icons
 └── output/                                  # Generated output
-    ├── curricula/                           # Generated curricula
-    ├── curricula_fixed/                     # Fixed curricula
-    ├── assessment/                          # Evaluation reports
-    ├── matrix/                              # Competence matrices
-    ├── visualizations/                      # Visual representations
-    ├── specific_curricula/                  # Micro-credential-based curricula
-    └── micro_credentials/                   # Micro-credential definitions
+├── curricula/                           # Generated curricula
+├── enhanced_curricula/                  # Enhanced curricula with recognition mechanisms
+├── assessment/                          # Evaluation reports
+├── matrix/                              # Competence matrices
+├── visualizations/                      # Visual representations
+└── specific_curricula/                  # Micro-credential-based curricula
 ```
 
 
-## Web Interface Components
 
-The web interface consists of several key components:
+## Micro-Credentials
+The current implementation of micro-credentials has the following characteristics:
 
-### Templates
+1. **Dynamic Generation**: Micro-credentials are currently generated dynamically by the system based on thematic areas in curricula, rather than being read from external files. This is why you see identifiers like "MC-CORE-492" in the enhanced curricula.
 
-The  directory contains HTML templates for the web interface:
+2. **ID Format**: The format "MC-[PREFIX]-[NUMBER]" is used where:
+   - "MC" stands for "Micro-Credential"
+   - "[PREFIX]" is derived from the first few characters of a thematic area 
+   - "[NUMBER]" is a random number to ensure uniqueness
 
-- **base.html**: The foundational template with navigation, common CSS, and layout
-- **index.html**: Dashboard showing statistics and quick actions
-- **generate.html**: Form for generating individual curricula
-- **batch_generate.html**: Interface for generating multiple curricula
-- **curriculums.html**: List view of all generated curricula
-- **view_curriculum.html**: Viewer for individual curriculum content
-- **fixed_curricula.html**: List view of fixed curricula
-- **micro_credentials.html**: Management interface for micro-credentials
-- **view_matrix.html**: Viewer for competence matrix visualizations
-- **view_assessment.html**: Viewer for assessment reports
-- **uploads.html**: Interface for managing input files
-- **visualizations.html**: Gallery of visualizations
+3. **Future Improvements**: A more robust implementation should:
+   - Define micro-credentials in external files (JSON/XML format)
+   - Implement proper micro-credential management capabilities
+   - Create relationships between micro-credentials and modules
+   - Define formal stacking rules based on prerequisites and outcomes
 
-### Web Application (app.py)
+However, we need a file-based file-based micro-credential system in line with input/standards/standard_microcredentials.json
 
-The main Flask application provides routes for:
-
-- Dashboard view
-- Curriculum generation and management
-- Micro-credential management
-- Assessment and visualization tools
-- File uploading and management
 
 ## Standards Alignment
 
@@ -289,119 +261,7 @@ The system aligns with the following European standards:
 - **EU Micro-Credentials**: Quality, granularity, and stackability for short-form learning units
 - **Tuning**: Alignment and calibration of learning outcomes from program to module level
 
-## Production Deployment of Web Interface
 
-For production deployment of the web interface:
-
-1. Set up a dedicated server or cloud instance.
-
-2. Install required dependencies:
-pip install -r requirements.txt
-pip install gunicorn  # or use another WSGI server
-
-3. Ensure all template files are correctly placed in the templates directory:
-ls -la templates/
-Should show all template files (base.html, index.html, etc.)
-
-4. Configure a reverse proxy (e.g., Nginx or Apache):
-
-**Nginx Example Config:**
-server {
-listen 80;
-server_name your-dscg-server.com;
-   location / {
-       proxy_pass http://127.0.0.1:8000;
-       proxy_set_header Host ;
-       proxy_set_header X-Real-IP ;
-   }
-}
-
-5. Set up a WSGI server:
-gunicorn -w 4 -b 127.0.0.1:8000 app:app
-
-6. Configure systemd for automatic startup (on Linux):
-Create /etc/systemd/system/dscg.service
-[Unit]
-Description=Digital Sustainability Curriculum Generator
-After=network.target
-[Service]
-User=dscg
-WorkingDirectory=/path/to/dscg
-ExecStart=/path/to/venv/bin/gunicorn -w 4 -b 127.0.0.1:8000 app:app
-Restart=always
-[Install]
-WantedBy=multi-user.target
-
-7. Enable and start the service:
-sudo systemctl enable dscg
-sudo systemctl start dscg
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch ()
-3. Commit your changes ([feature/amazing-feature 8dab8d3] Add some amazing feature
- 56 files changed, 5342 insertions(+)
- create mode 100644 digital-sustainability-curriculum-generator/.DS_Store
- create mode 100644 digital-sustainability-curriculum-generator/LICENSE
- create mode 100644 digital-sustainability-curriculum-generator/README.md
- create mode 100644 digital-sustainability-curriculum-generator/config.json
- create mode 100644 digital-sustainability-curriculum-generator/data/modules.json
- create mode 100644 digital-sustainability-curriculum-generator/data/roles copy.json
- create mode 100644 digital-sustainability-curriculum-generator/data/roles.json
- create mode 100644 digital-sustainability-curriculum-generator/data/skills.json
- create mode 100644 digital-sustainability-curriculum-generator/dscg/.DS_Store
- create mode 100644 digital-sustainability-curriculum-generator/dscg/__init__.py
- create mode 100644 digital-sustainability-curriculum-generator/dscg/__pycache__/__init__.cpython-39.pyc
- create mode 100644 digital-sustainability-curriculum-generator/dscg/exporters/__init__.py
- create mode 100644 digital-sustainability-curriculum-generator/dscg/exporters/html_exporter.py
- create mode 100644 digital-sustainability-curriculum-generator/dscg/exporters/json_exporter.py
- create mode 100644 digital-sustainability-curriculum-generator/dscg/exporters/pdf_exporter.py
- create mode 100644 digital-sustainability-curriculum-generator/dscg/exporters/scorm_exporter.py
- create mode 100644 digital-sustainability-curriculum-generator/dscg/exporters/xapi_exporter.py
- create mode 100644 digital-sustainability-curriculum-generator/dscg/generator.py
- create mode 100644 digital-sustainability-curriculum-generator/dscg/package/.DS_Store
- create mode 100644 digital-sustainability-curriculum-generator/dscg/package/__pycache__/models.cpython-39.pyc
- create mode 100644 digital-sustainability-curriculum-generator/dscg/package/models copy 2.py
- create mode 100644 digital-sustainability-curriculum-generator/dscg/package/models copy.py
- create mode 100644 digital-sustainability-curriculum-generator/dscg/package/models.py
- create mode 100644 digital-sustainability-curriculum-generator/dscg/utils/__init__.py
- create mode 100644 digital-sustainability-curriculum-generator/dscg/utils/config.py
- create mode 100644 digital-sustainability-curriculum-generator/dscg/utils/learning_outcomes.py
- create mode 100644 digital-sustainability-curriculum-generator/dscg/utils/validation.py
- create mode 100644 digital-sustainability-curriculum-generator/dscg/visualization/__init__.py
- create mode 100644 digital-sustainability-curriculum-generator/dscg/visualization/prerequisites.py
- create mode 100644 digital-sustainability-curriculum-generator/dscg/visualization/sankey.py
- create mode 100644 digital-sustainability-curriculum-generator/misc/file_structure+creation.txt
- create mode 100644 digital-sustainability-curriculum-generator/output/.DS_Store
- create mode 100644 digital-sustainability-curriculum-generator/output/curriculum.html
- create mode 100644 digital-sustainability-curriculum-generator/requirements.txt
- create mode 100644 digital-sustainability-curriculum-generator/scripts/generate_curriculum.py
- create mode 100644 digital-sustainability-curriculum-generator/scripts/generate_sankey.py
- create mode 100644 digital-sustainability-curriculum-generator/scripts/setup_data.py
- create mode 100644 digital-sustainability-curriculum-generator/setup.py
- create mode 100644 digital-sustainability-curriculum-generator/templates/.DS_Store
- create mode 100644 digital-sustainability-curriculum-generator/templates/html/curriculum.html
- create mode 100644 digital-sustainability-curriculum-generator/templates/html/module.html
- create mode 100644 digital-sustainability-curriculum-generator/templates/pdf/curriculum.html
- create mode 100644 digital-sustainability-curriculum-generator/tests/__init__.py
- create mode 100644 digital-sustainability-curriculum-generator/tests/test_exporters.py
- create mode 100644 digital-sustainability-curriculum-generator/tests/test_generator.py
- create mode 100644 digital-sustainability-curriculum-generator/tests/test_models.py
- create mode 100644 digital-sustainability-curriculum-generator/tree_structure.txt
- create mode 100644 digital-sustainability-curriculum-generator/web/.DS_Store
- create mode 100644 digital-sustainability-curriculum-generator/web/app.py
- create mode 100644 digital-sustainability-curriculum-generator/web/templates/base.html
- create mode 100644 digital-sustainability-curriculum-generator/web/templates/curriculum.html
- create mode 100644 digital-sustainability-curriculum-generator/web/templates/generator.html
- create mode 100644 digital-sustainability-curriculum-generator/web/templates/index.html
- create mode 100644 digital-sustainability-curriculum-generator/web/templates/modules.html
- create mode 100644 digital-sustainability-curriculum-generator/web/templates/roles.html
- create mode 100644 digital-sustainability-curriculum-generator/web/templates/visualization.html)
-4. Push to the branch ()
-5. Open a Pull Request
 
 ## Roadmap
 
@@ -418,3 +278,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - European Credit Transfer and Accumulation System (ECTS)
 - European Skills, Competences, Qualifications and Occupations (ESCO)
 - GreenComp: The European sustainability competence framework
+- European Credit System for Vocational Education and Training (ECVET)
+- European Standards and Guidelines for Quality Assurance (ESG)
+- European Approach to Micro-credentials
