@@ -262,6 +262,15 @@ The system aligns with the following European standards:
 - **Tuning**: Alignment and calibration of learning outcomes from program to module level
 
 
+## Current Work Focus
+
+| Area                    | Comment                                                                                     |
+|-------------------------|---------------------------------------------------------------------------------------------|
+| Module-level LOs        | Not all modules explicitly list learning outcomes, although many are detailed. Adding consistent per-module LOs would fully meet Tuning expectations. |
+| NQF Formal References   | National alignment is claimed, but module-level NQF referencing (e.g. national qualification codes) could further strengthen recognition. |
+| Skill-to-LO Mapping     | Framework alignment is strong, but a tabular “job skill → learning outcome → module” map (as per T3.4) could make the interrelation system more transparent. |
+
+
 
 ## Roadmap
 
