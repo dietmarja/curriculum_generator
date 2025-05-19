@@ -244,36 +244,48 @@ The system aligns with the following European standards:
 - **Tuning**: Alignment and calibration of learning outcomes from program to module level
 
 
-## Current Work Focus
+## Current Development Plan
 
-### Standards
+Create a curriculum_accreditation_check.py script that will:
 
-| Area                    | Comment                                                                                     |
-|-------------------------|---------------------------------------------------------------------------------------------|
-| Module-level LOs        | Not all modules explicitly list learning outcomes, although many are detailed. Adding consistent per-module LOs would fully meet Tuning expectations. |
-| NQF Formal References   | National alignment is claimed, but module-level NQF referencing (e.g. national qualification codes) could further strengthen recognition. |
-| Skill-to-LO Mapping     | Framework alignment is strong, but a tabular “job skill → learning outcome → module” map (as per T3.4) could make the interrelation system more transparent. |
-
-
-### Micro-Credentials
-The current implementation of micro-credentials has the following characteristics:
-
-1. **Dynamic Generation**: Micro-credentials are currently generated dynamically by the system based on thematic areas in curricula, rather than being read from external files. This is why you see identifiers like "MC-CORE-492" in the enhanced curricula.
-
-2. **ID Format**: The format "MC-[PREFIX]-[NUMBER]" is used where:
-   - "MC" stands for "Micro-Credential"
-   - "[PREFIX]" is derived from the first few characters of a thematic area 
-   - "[NUMBER]" is a random number to ensure uniqueness
-
-3. **Future Improvements**: A more robust implementation should:
-   - Define micro-credentials in external files (JSON/XML format)
-   - Implement proper micro-credential management capabilities
-   - Create relationships between micro-credentials and modules
-   - Define formal stacking rules based on prerequisites and outcomes
-
-However, we need a file-based file-based micro-credential system in line with input/standards/standard_microcredentials.json
+Analyze curriculum HTML files against accreditation standards
+Check for required components like competency frameworks, recognition mechanisms
+Validate ECTS credits against EQF level requirements
+Analyze learning outcomes for alignment with standards
+Generate detailed reports on compliance issues
+Provide specific recommendations for improvements
 
 
+Implement a file-based micro-credential system:
+
+Create a micro-credential data structure following standard_microcredentials.json format
+Develop schema validation for micro-credential data files
+Build import/export functionality for micro-credential definitions
+Implement stacking rules and relationship management
+Support granularity levels and proper credit values
+Create visualization tools for stacking pathways
+
+
+Integrate with existing system:
+
+Ensure compatibility with the batch processing scripts
+Use existing data structures and file formats
+Support both CLI and potential web interface usage
+Update enhance_curriculum_v2.py to use file-based micro-credentials
+
+
+Focus on standards compliance:
+
+Implement checks for all standards mentioned in the README (EQF, ECTS, ECVET, e-CF, ESCO, GreenComp)
+Pay special attention to micro-credentials and stackability validation
+Address the specific areas mentioned in "Current Work Focus"
+
+
+Generate actionable outputs:
+
+Provide detailed compliance reports
+Create visual representation of compliance status
+Generate recommendations for fixing issues
 
 
 
