@@ -229,7 +229,33 @@ curriculum_generator/                        # Project root
 
 
 
-## Micro-Credentials
+
+## Standards Alignment
+
+The system aligns with the following European standards:
+
+- **EQF**: Levels 4–8 structuring; outcome-based design and transparency across national systems
+- **ECTS**: Credit weighting, workload calculation, and validation of learning modules
+- **ECVET**: Modular and transferable design for vocational and work-based learning
+- **e-CF**: Structuring ICT competences aligned to EQF and supporting digital role profiles
+- **ESCO**: Mapping of learning outcomes to labor market competences and job roles
+- **GreenComp**: Embedding sustainability competencies into transversal learning outcomes
+- **EU Micro-Credentials**: Quality, granularity, and stackability for short-form learning units
+- **Tuning**: Alignment and calibration of learning outcomes from program to module level
+
+
+## Current Work Focus
+
+### Standards
+
+| Area                    | Comment                                                                                     |
+|-------------------------|---------------------------------------------------------------------------------------------|
+| Module-level LOs        | Not all modules explicitly list learning outcomes, although many are detailed. Adding consistent per-module LOs would fully meet Tuning expectations. |
+| NQF Formal References   | National alignment is claimed, but module-level NQF referencing (e.g. national qualification codes) could further strengthen recognition. |
+| Skill-to-LO Mapping     | Framework alignment is strong, but a tabular “job skill → learning outcome → module” map (as per T3.4) could make the interrelation system more transparent. |
+
+
+### Micro-Credentials
 The current implementation of micro-credentials has the following characteristics:
 
 1. **Dynamic Generation**: Micro-credentials are currently generated dynamically by the system based on thematic areas in curricula, rather than being read from external files. This is why you see identifiers like "MC-CORE-492" in the enhanced curricula.
@@ -248,27 +274,7 @@ The current implementation of micro-credentials has the following characteristic
 However, we need a file-based file-based micro-credential system in line with input/standards/standard_microcredentials.json
 
 
-## Standards Alignment
 
-The system aligns with the following European standards:
-
-- **EQF**: Levels 4–8 structuring; outcome-based design and transparency across national systems
-- **ECTS**: Credit weighting, workload calculation, and validation of learning modules
-- **ECVET**: Modular and transferable design for vocational and work-based learning
-- **e-CF**: Structuring ICT competences aligned to EQF and supporting digital role profiles
-- **ESCO**: Mapping of learning outcomes to labor market competences and job roles
-- **GreenComp**: Embedding sustainability competencies into transversal learning outcomes
-- **EU Micro-Credentials**: Quality, granularity, and stackability for short-form learning units
-- **Tuning**: Alignment and calibration of learning outcomes from program to module level
-
-
-## Current Work Focus
-
-| Area                    | Comment                                                                                     |
-|-------------------------|---------------------------------------------------------------------------------------------|
-| Module-level LOs        | Not all modules explicitly list learning outcomes, although many are detailed. Adding consistent per-module LOs would fully meet Tuning expectations. |
-| NQF Formal References   | National alignment is claimed, but module-level NQF referencing (e.g. national qualification codes) could further strengthen recognition. |
-| Skill-to-LO Mapping     | Framework alignment is strong, but a tabular “job skill → learning outcome → module” map (as per T3.4) could make the interrelation system more transparent. |
 
 
 
