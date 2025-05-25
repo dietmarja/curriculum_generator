@@ -1,10 +1,10 @@
 # Digital Sustainability Curriculum Generator (DSCG) - 3-Tier Framework
 
-A comprehensive toolkit for generating, analyzing, and evaluating modular, outcome-based curricula for digital sustainability education. The DSCG now supports a revolutionary **3-tier architecture** with Nano credentials, Microcredentials, and Modules, providing unprecedented granularity and flexibility in curriculum design across EQF levels 4-8.
+A comprehensive toolkit for generating, analyzing, and evaluating modular, outcome-based curricula for digital sustainability education. The DSCG now supports a new **3-tier architecture** with Nano credentials, Microcredentials, and Modules, providing unprecedented granularity and flexibility in curriculum design across EQF levels 4-8.
 
 ## Overview
 
-The enhanced 3-Tier Curriculum Framework provides the most sophisticated approach to curriculum design and management available, allowing for atomic-level control over educational content while maintaining coherence across different levels of learning complexity. This framework supports both full educational programs and specific micro-credential pathways with seamless integration across all three tiers.
+The enhanced 3-Tier Curriculum Framework provides a sophisticated approach to curriculum design and management available, allowing for atomic-level control over educational content while maintaining coherence across different levels of learning complexity. This framework supports both full educational programs and specific micro-credential pathways with seamless integration across all three tiers.
 
 ### Framework Architecture
 
@@ -44,7 +44,7 @@ The enhanced 3-Tier Curriculum Framework provides the most sophisticated approac
 
 ## Key Features
 
-### 🎯 **Revolutionary 3-Tier Architecture**
+### 🎯 **New 3-Tier Architecture**
 - **Nano credentials**: Atomic learning components (0.1-5 ECTS) - Individual learning outcomes, skills, and competencies
 - **Microcredentials**: Modular learning units (1-30 ECTS) - Module components and full modules  
 - **Modules**: Comprehensive programs (30+ ECTS) - Specializations and full qualifications
