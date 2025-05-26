@@ -4,9 +4,16 @@ A comprehensive toolkit for generating, analyzing, and evaluating modular, outco
 
 ## 🆕 Latest Updates
 
+### **Phase 3 Integration & Testing Complete**
+- **Enhanced Three-Tier CLI**: Full integration testing and validation framework
+- **Specification Compliance**: 100% compliance with nano-credentials standard
+- **Integration Test Suite**: Comprehensive automated testing across all tiers
+- **Curriculum Generation**: Live curriculum building with configurable parameters
+- **Mathematical Validation**: Real-time ECTS coherence checking and relationship integrity
+
 ### **Configurable Nano Credential ECTS**
-- **Adaptable ECTS Values**: Nano credentials learnng units now support configurable ECTS values (default: 0.1, range: 0.1-0.5)
-- **Mathematical Precision**: Exact ECTS calculations ensure  alignment across all tiers
+- **Adaptable ECTS Values**: Nano credentials learning units now support configurable ECTS values (default: 0.1, range: 0.1-0.5)
+- **Mathematical Precision**: Exact ECTS calculations ensure alignment across all tiers
 - **Parameter-Driven Generation**: Set values for nano ECTS per nano credentials learning units as a variable. The default is 0.1 ECTS
 - **Standards Compliance**: Full compliance with EU micro-credentials framework recommendations
 
@@ -106,12 +113,20 @@ With nano_ects = 0.2:
 - Quality assurance metrics and coherence scoring
 - **Mathematical Validation**: Automatic ECTS coherence checking
 
+### 🧪 **Phase 3 Integration Features**
+- **Enhanced Three-Tier CLI**: Comprehensive framework management and testing
+- **Integration Test Suite**: Automated validation of all framework components
+- **Live Curriculum Generation**: Real-time curriculum building with configurable parameters
+- **Specification Validation**: Full compliance checking against nano-credentials standard
+- **Mathematical Coherence Testing**: Automated verification of ECTS relationships
+
 ## Installation
 
 ### Requirements
 
 - Python 3.8 or higher
 - pip package manager
+- PyYAML for configuration management
 - Recommended: virtualenv or conda for environment management
 
 ### Quick Start Installation
@@ -133,50 +148,68 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-4. **Run the migration with configurable nano ECTS:**
+4. **Run the complete migration with configurable nano ECTS:**
 ```bash
 # Default 0.1 ECTS per nano credential
-./run_proper_migration.sh
+./run_complete_migration.sh
 
 # Or specify custom nano ECTS value (e.g., 0.15 ECTS)
-./run_proper_migration.sh 0.15
+./run_complete_migration.sh 0.15
 
 # Or use 0.2 ECTS per nano credential
-./run_proper_migration.sh 0.2
+./run_complete_migration.sh 0.2
 ```
 
 ## Usage
 
-### **3-Tier Framework CLI with Configurable ECTS**
+### **3-Tier Framework CLI with Phase 3 Integration**
 
-#### **Migration with Custom Nano ECTS**
+#### **Complete Migration with Testing**
 ```bash
-# Migrate with default 0.1 ECTS per nano credential
-./run_proper_migration.sh
+# Complete migration with Phase 3 validation
+./run_complete_migration.sh 0.1
 
-# Migrate with 0.15 ECTS per nano credential
-./run_proper_migration.sh 0.15
+# Enhanced CLI operations (Phase 3)
+python scripts/three_tier_cli_enhanced.py --statistics
+python scripts/three_tier_cli_enhanced.py --validate
+python scripts/three_tier_cli_enhanced.py --test-curriculum
+```
 
-# Migrate with 0.2 ECTS per nano credential
-./run_proper_migration.sh 0.2
+#### **Integration Testing (Phase 3)**
+```bash
+# Run comprehensive integration test suite
+python scripts/integration_test_suite.py
 
-# Migrate with maximum allowed 0.5 ECTS per nano credential
-./run_proper_migration.sh 0.5
+# Test nano credential compliance
+python scripts/nano_spec_validator.py
+
+# Validate mathematical relationships
+python scripts/three_tier_cli_enhanced.py --validate
+```
+
+#### **Advanced Curriculum Generation (Phase 3)**
+```bash
+# Generate test curricula with different parameters
+python scripts/three_tier_cli_enhanced.py --test-curriculum --target-ects 30 --target-level 6
+python scripts/three_tier_cli_enhanced.py --test-curriculum --target-ects 60 --target-level 7
+
+# Topic-specific curriculum generation (Coming Soon - see TODO)
+python scripts/generate_topic_curriculum.py --topic "Carbon Footprint Measurement" --eqf-level 6 --ects 15
 ```
 
 #### **Basic 3-Tier Operations**
 ```bash
 # List all credentials across all tiers
-python scripts/three_tier_cli_fixed.py --list
+python scripts/three_tier_cli_enhanced.py --list
 
 # List only nano credentials
-python scripts/three_tier_cli_fixed.py --list --tier nano
+python scripts/three_tier_cli_enhanced.py --list --tier nano
 
 # Show framework statistics with ECTS breakdown
-python scripts/three_tier_cli_fixed.py --statistics
+python scripts/three_tier_cli_enhanced.py --statistics
 
 # Show specific credential details
-python scripts/three_tier_cli_fixed.py --show M1_n_01
+python scripts/three_tier_cli_enhanced.py --show M1_n_01
 ```
 
 #### **Creating Credentials with Configurable ECTS**
@@ -184,16 +217,16 @@ python scripts/three_tier_cli_fixed.py --show M1_n_01
 **Create Nano Credentials:**
 ```bash
 # Create nano credentials during migration (automated)
-./run_proper_migration.sh 0.1  # 0.1 ECTS each
+./run_complete_migration.sh 0.1  # 0.1 ECTS each
 
 # View generated nano credentials
-python scripts/three_tier_cli_fixed.py --list --tier nano --limit 10
+python scripts/three_tier_cli_enhanced.py --list --tier nano --limit 10
 ```
 
 **Mathematical Verification:**
 ```bash
 # Check ECTS alignment across tiers
-python scripts/three_tier_cli_fixed.py --statistics
+python scripts/three_tier_cli_enhanced.py --statistics
 
 # Expected output shows perfect mathematical alignment:
 # Nano ECTS total ≈ Micro ECTS total
@@ -320,19 +353,34 @@ calculation_examples:
 ### **Migration Commands with ECTS Configuration**
 ```bash
 # Migrate with different nano ECTS values
-./run_proper_migration.sh 0.1    # Default: 100 nanos per 10 ECTS micro
-./run_proper_migration.sh 0.15   # 67 nanos per 10 ECTS micro
-./run_proper_migration.sh 0.2    # 50 nanos per 10 ECTS micro
-./run_proper_migration.sh 0.25   # 40 nanos per 10 ECTS micro
+./run_complete_migration.sh 0.1    # Default: 100 nanos per 10 ECTS micro
+./run_complete_migration.sh 0.15   # 67 nanos per 10 ECTS micro
+./run_complete_migration.sh 0.2    # 50 nanos per 10 ECTS micro
+./run_complete_migration.sh 0.25   # 40 nanos per 10 ECTS micro
 
 # Advanced migration with validation
 python scripts/proper_migration.py --nano-ects 0.1 --validate --verbose
 ```
 
+### **Phase 3 Enhanced Commands**
+```bash
+# Enhanced framework statistics
+python scripts/three_tier_cli_enhanced.py --statistics
+
+# Comprehensive validation
+python scripts/three_tier_cli_enhanced.py --validate
+
+# Test curriculum generation
+python scripts/three_tier_cli_enhanced.py --test-curriculum --target-ects 30 --target-level 6
+
+# Run integration test suite
+python scripts/integration_test_suite.py
+```
+
 ### **Analysis Commands**
 ```bash
 # View statistics with ECTS breakdown
-python scripts/three_tier_cli_fixed.py --statistics
+python scripts/three_tier_cli_enhanced.py --statistics
 
 # Verify mathematical relationships
 python scripts/verify_nano_mathematics.py --nano-ects 0.1
@@ -351,6 +399,9 @@ python scripts/analyze_nano_distribution.py
 
 # Generate compliance report
 python scripts/generate_compliance_report.py --include-ects-analysis
+
+# Validate specification compliance
+python scripts/nano_spec_validator.py
 ```
 
 ## API Usage
@@ -404,11 +455,11 @@ python tools/migration_tools/analyze_existing_data.py
 # Step 2: Configure nano ECTS value
 # Choose: 0.1 (precise), 0.15 (balanced), 0.2 (manageable)
 
-# Step 3: Execute migration with chosen ECTS value
-./run_proper_migration.sh 0.1
+# Step 3: Execute complete migration with chosen ECTS value
+./run_complete_migration.sh 0.1
 
 # Step 4: Verify mathematical coherence
-python scripts/three_tier_cli_fixed.py --statistics
+python scripts/three_tier_cli_enhanced.py --statistics
 ```
 
 ### **Migration Validation**
@@ -449,6 +500,21 @@ python tools/generate_migration_report.py --include-ects-analysis
 
 ## Testing Commands
 
+### **Phase 3 Integration Test Suite**
+```bash
+# Run comprehensive integration tests
+python scripts/integration_test_suite.py
+
+# Test specific framework components
+python scripts/three_tier_cli_enhanced.py --validate
+
+# Test curriculum generation capabilities
+python scripts/three_tier_cli_enhanced.py --test-curriculum
+
+# Validate specification compliance
+python scripts/nano_spec_validator.py
+```
+
 ### **Quick Test Suite**
 ```bash
 # Test nano generation with different ECTS values
@@ -456,14 +522,14 @@ python tools/generate_migration_report.py --include-ects-analysis
 ./test_nano_generation.sh 0.2
 
 # Test CLI functionality
-python scripts/three_tier_cli_fixed.py --statistics
-python scripts/three_tier_cli_fixed.py --list --tier nano --limit 5
+python scripts/three_tier_cli_enhanced.py --statistics
+python scripts/three_tier_cli_enhanced.py --list --tier nano --limit 5
 
 # Verify mathematical relationships
 python scripts/verify_ects_mathematics.py
 ```
 
-### **Integration Tests**
+### **Legacy Integration Tests**
 ```bash
 # Full framework test
 python -m pytest tests/test_three_tier_integration.py
@@ -475,6 +541,212 @@ python -m pytest tests/test_ects_validation.py
 python -m pytest tests/test_migration_ects.py
 ```
 
+## TODO List - Development Roadmap
+
+### 🚀 **High Priority Features**
+
+#### **Curriculum Generation by Topic & Specification**
+- [ ] **Topic-Specific Curriculum Generator**
+  ```bash
+  # Generate curriculum for specific sustainability topics
+  python scripts/generate_topic_curriculum.py \
+    --topic "Carbon Footprint Measurement" \
+    --eqf-level 6 \
+    --ects 15 \
+    --delivery-mode "blended" \
+    --assessment-type "practical"
+  
+  # Additional topic examples
+  python scripts/generate_topic_curriculum.py --topic "Green Software Development" --eqf-level 7 --ects 30
+  python scripts/generate_topic_curriculum.py --topic "Sustainable Data Centers" --eqf-level 5 --ects 10
+  python scripts/generate_topic_curriculum.py --topic "Digital Circular Economy" --eqf-level 6 --ects 20
+  ```
+
+- [ ] **Advanced Curriculum Parameters**
+  - Target industry sectors (e.g., ICT, Manufacturing, Finance)
+  - Learning delivery modes (synchronous, asynchronous, hybrid)
+  - Assessment methods (portfolio, examination, workplace-based)
+  - Prerequisites and progression pathways
+  - Regional/cultural adaptations
+
+#### **Content Developer Support Tools**
+- [ ] **Content Development Wizard**
+  ```bash
+  # Interactive content creation tool
+  python scripts/content_developer_wizard.py \
+    --role "instructional_designer" \
+    --topic "Renewable Energy in IT" \
+    --generate-templates
+  ```
+
+- [ ] **Learning Outcome Generator**
+  - Bloom's taxonomy-aligned outcome generation
+  - Action verb suggestions based on EQF level
+  - Competency mapping to industry standards
+  - Assessment alignment recommendations
+
+- [ ] **Nano Credential Builder**
+  - Template-based nano credential creation
+  - Automatic ECTS calculation and validation
+  - Workplace relevance scoring
+  - Action mapping assistance
+
+- [ ] **Quality Assurance Dashboard**
+  - Real-time compliance checking
+  - Content quality metrics
+  - Stakeholder review workflows
+  - Version control and change tracking
+
+### 📚 **Advanced Features**
+
+#### **Web Interface Development**
+- [ ] **React-based Web Dashboard**
+  - Visual curriculum design interface
+  - Drag-and-drop nano credential composition
+  - Real-time ECTS calculation display
+  - Interactive relationship mapping
+
+- [ ] **Stakeholder Portals**
+  - Educator content development interface
+  - Learner pathway visualization
+  - Employer competency mapping
+  - Administrator analytics dashboard
+
+#### **AI-Enhanced Features**
+- [ ] **Intelligent Content Suggestion**
+  - AI-powered learning outcome generation
+  - Competency gap analysis
+  - Personalized learning path recommendations
+  - Industry trend integration
+
+- [ ] **Automated Quality Assessment**
+  - Natural language processing for content quality
+  - Automated compliance checking
+  - Similarity detection and deduplication
+  - Performance prediction modeling
+
+#### **Industry Integration**
+- [ ] **Professional Standards Mapping**
+  - Integration with professional body standards
+  - Industry certification pathway alignment
+  - Skills framework interoperability
+  - Employer competency validation
+
+- [ ] **Learning Management System Integration**
+  - LMS API connectors (Moodle, Canvas, Blackboard)
+  - SCORM package generation
+  - xAPI statement tracking
+  - Grade passback functionality
+
+### 🔧 **Technical Enhancements**
+
+#### **API Development**
+- [ ] **RESTful API Service**
+  ```python
+  # Curriculum generation API endpoint
+  POST /api/v1/curriculum/generate
+  {
+    "topic": "Carbon Footprint Measurement",
+    "eqf_level": 6,
+    "ects": 15,
+    "focus_areas": ["measurement", "reporting", "verification"]
+  }
+  ```
+
+- [ ] **GraphQL Implementation**
+  - Flexible curriculum data querying
+  - Real-time subscription updates
+  - Relationship traversal optimization
+  - Type-safe schema definition
+
+#### **Data Management**
+- [ ] **Database Integration**
+  - PostgreSQL backend implementation
+  - Data migration utilities
+  - Backup and recovery procedures
+  - Performance optimization
+
+- [ ] **Content Versioning System**
+  - Git-based content versioning
+  - Branching and merging workflows
+  - Rollback capabilities
+  - Change impact analysis
+
+### 📊 **Analytics & Reporting**
+
+#### **Learning Analytics**
+- [ ] **Learner Progress Tracking**
+  - Nano credential completion analytics
+  - Learning pathway optimization
+  - Competency development tracking
+  - Performance prediction models
+
+- [ ] **Institutional Analytics**
+  - Curriculum effectiveness metrics
+  - Resource utilization analysis
+  - Quality assurance reporting
+  - Accreditation compliance tracking
+
+#### **Business Intelligence**
+- [ ] **Stakeholder Dashboards**
+  - Executive summary views
+  - Operational metrics monitoring
+  - Trend analysis and forecasting
+  - ROI calculation tools
+
+### 🌐 **Internationalization & Accessibility**
+
+#### **Multi-language Support**
+- [ ] **Internationalization Framework**
+  - Content translation management
+  - Locale-specific formatting
+  - Cultural adaptation guidelines
+  - Multi-script support
+
+#### **Accessibility Compliance**
+- [ ] **WCAG 2.1 AA Compliance**
+  - Screen reader optimization
+  - Keyboard navigation support
+  - Color contrast validation
+  - Alternative format generation
+
+### 🧪 **Testing & Quality Assurance**
+
+#### **Enhanced Testing Suite**
+- [ ] **Performance Testing**
+  - Load testing for large curricula
+  - Memory usage optimization
+  - Database query performance
+  - API response time monitoring
+
+- [ ] **Security Testing**
+  - Vulnerability assessment
+  - Data privacy compliance
+  - Authentication/authorization testing
+  - Audit trail validation
+
+### 📖 **Documentation & Training**
+
+#### **Comprehensive Documentation**
+- [ ] **Developer Documentation**
+  - API reference documentation
+  - Architecture decision records
+  - Contributing guidelines
+  - Code style standards
+
+- [ ] **User Guides**
+  - Educator onboarding materials
+  - Content developer tutorials
+  - Administrator handbooks
+  - Learner guidance resources
+
+#### **Training Materials**
+- [ ] **Interactive Tutorials**
+  - Video-based training modules
+  - Hands-on practice exercises
+  - Assessment and certification
+  - Community support forums
+
 ## Troubleshooting
 
 ### **Common ECTS Configuration Issues**
@@ -482,22 +754,29 @@ python -m pytest tests/test_migration_ects.py
 **Issue**: Nano ECTS value outside valid range
 ```bash
 # Solution: Use values between 0.1 and 0.5
-./run_proper_migration.sh 0.15  # ✅ Valid
-./run_proper_migration.sh 0.05  # ❌ Too small
-./run_proper_migration.sh 0.6   # ❌ Too large
+./run_complete_migration.sh 0.15  # ✅ Valid
+./run_complete_migration.sh 0.05  # ❌ Too small
+./run_complete_migration.sh 0.6   # ❌ Too large
 ```
 
 **Issue**: ECTS coherence validation fails
 ```bash
 # Solution: Regenerate with correct nano ECTS
 python scripts/working_nano_fix.py
-python scripts/three_tier_cli_fixed.py --statistics
+python scripts/three_tier_cli_enhanced.py --statistics
 ```
 
 **Issue**: Mathematical relationships incorrect
 ```bash
 # Solution: Verify and fix ECTS calculations
 python scripts/verify_ects_mathematics.py --fix
+```
+
+**Issue**: Integration tests failing
+```bash
+# Solution: Run diagnostic and fix issues
+python scripts/integration_test_suite.py
+python scripts/three_tier_cli_enhanced.py --validate
 ```
 
 ## Contributing
@@ -512,16 +791,30 @@ python scripts/verify_ects_mathematics.py --fix
 ```bash
 # Test with multiple ECTS configurations
 for ects in 0.1 0.15 0.2; do
-    ./run_proper_migration.sh $ects
+    ./run_complete_migration.sh $ects
     python scripts/verify_ects_mathematics.py --nano-ects $ects
 done
 ```
+
+### **Phase 3 Development Standards**
+- Comprehensive integration testing required
+- Specification compliance validation mandatory
+- Mathematical coherence testing automated
+- CLI enhancement follows established patterns
 
 ## License
 
 [Specify license information]
 
 ## Changelog
+
+### **Version 3.2.0 (Phase 3 Integration & Testing)**
+- ✅ **Enhanced Three-Tier CLI** with comprehensive testing capabilities
+- ✅ **Integration Test Suite** with automated validation
+- ✅ **Live Curriculum Generation** with configurable parameters
+- ✅ **Specification Validation** with 100% compliance checking
+- ✅ **Mathematical Coherence Testing** with real-time verification
+- ✅ **Framework Validation** with relationship integrity checking
 
 ### **Version 3.1.0 (Configurable ECTS)**
 - ✅ **Added configurable nano ECTS** (0.1-0.5 range)
@@ -547,3 +840,9 @@ done
 - Basic role definitions
 - Educational profile export
 - HTML and JSON output formats
+
+---
+
+**Current Status**: Phase 3 (Integration & Testing) ✅ Complete  
+**Next Phase**: Phase 4 (Validation & Cleanup) 🔄 Ready  
+**Framework Maturity**: Production Ready for Core Features 🎉
