@@ -2,9 +2,23 @@
 
 A comprehensive toolkit for generating, analyzing, and evaluating modular, outcome-based curricula for digital sustainability education. The DSCG now supports a new **3-tier architecture** with Nano credentials, Microcredentials, and Modules, providing unprecedented granularity and flexibility in curriculum design across EQF levels 4-8.
 
+## 🆕 Latest Updates
+
+### **Configurable Nano Credential ECTS**
+- **Adaptable ECTS Values**: Nano credentials learnng units now support configurable ECTS values (default: 0.1, range: 0.1-0.5)
+- **Mathematical Precision**: Exact ECTS calculations ensure  alignment across all tiers
+- **Parameter-Driven Generation**: Set values for nano ECTS per nano credentials learning units as a variable. The default is 0.1 ECTS
+- **Standards Compliance**: Full compliance with EU micro-credentials framework recommendations
+
+### **Enhanced Migration System**
+- **Proper Generation Logic**: ECTS values set correctly from the start, not as post-processing fixes
+- **Robust Error Handling**: Handles missing or insufficient learning outcomes gracefully
+- **Backward Compatibility**: Seamless migration from existing 2-tier systems
+- **Validation Framework**: Built-in validation ensures mathematical coherence
+
 ## Overview
 
-The enhanced 3-Tier Curriculum Framework provides a sophisticated approach to curriculum design and management available, allowing for atomic-level control over educational content while maintaining coherence across different levels of learning complexity. This framework supports both full educational programs and specific micro-credential pathways with seamless integration across all three tiers.
+The enhanced 3-Tier Curriculum Framework provides a sophisticated approach to curriculum design and management, allowing for atomic-level control over educational content while maintaining coherence across different levels of learning complexity. This framework supports both full educational programs and specific micro-credential pathways with seamless integration across all three tiers.
 
 ### Framework Architecture
 
@@ -30,24 +44,48 @@ The enhanced 3-Tier Curriculum Framework provides a sophisticated approach to cu
 │                              ▲                             │
 │                              │ builds from                 │
 ├─────────────────────────────────────────────────────────────┤
-│ Tier 1: NANO CREDENTIALS (0.1-5 ECTS)                      │
+│ Tier 1: NANO CREDENTIALS (Configurable ECTS)               │
 │ ┌─────────────────────────────────────────────────────────┐ │
-│ │ • Learning Outcomes (0.2 ECTS)                         │ │
-│ │ • Skill Elements (0.5 ECTS)                            │ │
-│ │ • Competency Units (1.0 ECTS)                          │ │
-│ │ • Knowledge Units (0.3 ECTS)                           │ │
-│ │ • Performance Elements (0.8 ECTS)                      │ │
-│ │ • Assessment Tasks (0.1 ECTS)                          │ │
+│ │ • Learning Outcomes (default: 0.1 ECTS)                │ │
+│ │ • Skill Elements (default: 0.1 ECTS)                   │ │
+│ │ • Competency Units (default: 0.1 ECTS)                 │ │
+│ │ • Knowledge Units (default: 0.1 ECTS)                  │ │
+│ │ • Performance Elements (default: 0.1 ECTS)             │ │
+│ │ • Assessment Tasks (default: 0.1 ECTS)                 │ │
+│ │                                                         │ │
+│ │ 📊 Configurable Range: 0.1-0.5 ECTS per nano           │ │
 │ └─────────────────────────────────────────────────────────┘ │
 └─────────────────────────────────────────────────────────────┘
+```
+
+### **Mathematical Relationships**
+
+The framework maintains precise mathematical relationships with configurable nano ECTS:
+
+```
+With nano_ects = 0.1:
+- Micro credential (5.0 ECTS) → 50 nano credentials
+- Micro credential (1.67 ECTS) → 17 nano credentials
+- Module (180 ECTS) → 1,800 nano credentials
+
+With nano_ects = 0.2:
+- Micro credential (5.0 ECTS) → 25 nano credentials
+- Micro credential (1.67 ECTS) → 8 nano credentials
+- Module (180 ECTS) → 900 nano credentials
 ```
 
 ## Key Features
 
 ### 🎯 **New 3-Tier Architecture**
-- **Nano credentials**: Atomic learning components (0.1-5 ECTS) - Individual learning outcomes, skills, and competencies
-- **Microcredentials**: Modular learning units (1-30 ECTS) - Module components and full modules  
-- **Modules**: Comprehensive programs (30+ ECTS) - Specializations and full qualifications
+- **Nano credentials**: Atomic learning components with **configurable ECTS** (0.1-0.5 range)
+- **Microcredentials**: Modular learning units (1-30 ECTS) built from nano credentials
+- **Modules**: Comprehensive programs (30+ ECTS) built from microcredentials
+
+### ⚙️ **Configurable ECTS System**
+- **Parameter-Driven**: Set nano ECTS value as a configuration parameter
+- **Mathematical Precision**: Exact calculations ensure perfect tier alignment
+- **Standards Compliant**: Adheres to EU micro-credentials framework (0.1-0.5 ECTS range)
+- **Migration Flexibility**: Easy adjustment during system migration
 
 ### 🔗 **Seamless Cross-Tier Integration**
 - Build microcredentials from collections of nano credentials
@@ -66,25 +104,7 @@ The enhanced 3-Tier Curriculum Framework provides a sophisticated approach to cu
 - Prerequisites and dependency validation
 - Stacking rules enforcement with cross-tier support
 - Quality assurance metrics and coherence scoring
-- **Rich Evaluation**: Comprehensive assessment against accreditation and educational criteria
-
-### 🚀 **Intelligent Curriculum Generation**
-- Complete pathway generation from nano to qualification level
-- Adaptive curriculum sizing (15 ECTS to 240+ ECTS)
-- Focus area filtering and specialization support
-- Implementation planning and resource estimation
-- **Work-based Learning**: Support for dual principle education with industry-aligned components
-
-### 📊 **Advanced Analysis & Visualization**
-- **Competency Mapping**: Visual mapping between job roles, competencies, and learning outcomes
-- **Recognition Mechanisms**: European and national recognition pathways with cross-border portability
-- **Accreditation Support**: Quality assurance, provider information, and diploma supplement previews
-- Coherence scoring across tiers and balance metrics for tier distribution
-
-### 🌐 **Multi-Interface Support**
-- **Web Interface**: User-friendly web application for curriculum management and visualization
-- **Command-line Tools**: Powerful scripts for batch processing and automation
-- **User Group Targeting**: Clear sections for educators, accreditation specialists, students, and industry
+- **Mathematical Validation**: Automatic ECTS coherence checking
 
 ## Installation
 
@@ -94,7 +114,7 @@ The enhanced 3-Tier Curriculum Framework provides a sophisticated approach to cu
 - pip package manager
 - Recommended: virtualenv or conda for environment management
 
-### Complete 3-Tier Framework Installation
+### Quick Start Installation
 
 1. **Clone the repository:**
 ```bash
@@ -113,649 +133,403 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-4. **Create necessary directories for 3-tier framework:**
+4. **Run the migration with configurable nano ECTS:**
 ```bash
-mkdir -p input/nano_credentials input/micro_credentials input/modules input/roles input/standards
-mkdir -p input/relationships input/curricula input/config
-mkdir -p dscg/static/css dscg/static/js 
-mkdir -p output/curricula output/enhanced_curricula output/three_tier_profiles
-mkdir -p output/validation_reports output/implementation_plans
-```
+# Default 0.1 ECTS per nano credential
+./run_proper_migration.sh
 
-### Web Interface Installation
+# Or specify custom nano ECTS value (e.g., 0.15 ECTS)
+./run_proper_migration.sh 0.15
 
-1. Follow steps 1-4 from Complete 3-Tier Framework Installation above.
-
-2. Install Flask and web dependencies if not already included in requirements.txt:
-```bash
-pip install flask werkzeug jinja2 pandas matplotlib seaborn
-```
-
-3. Ensure the templates folder exists with all required template files:
-```bash
-mkdir -p templates
-# Template files should be copied to the templates directory
-# (base.html, index.html, batch_generate.html, etc.)
-```
-
-4. Configure the web server (optional for production):
-```bash
-# For production with gunicorn
-pip install gunicorn
-
-# For production with Apache or Nginx, set up WSGI configuration
-pip install mod_wsgi  # for Apache
+# Or use 0.2 ECTS per nano credential
+./run_proper_migration.sh 0.2
 ```
 
 ## Usage
 
-### 3-Tier Framework CLI (New Primary Interface)
+### **3-Tier Framework CLI with Configurable ECTS**
 
-#### Basic 3-Tier Operations
+#### **Migration with Custom Nano ECTS**
 ```bash
-# List all credentials across all tiers
-python scripts/three_tier_cli.py --list
+# Migrate with default 0.1 ECTS per nano credential
+./run_proper_migration.sh
 
-# List only nano credentials
-python scripts/three_tier_cli.py --list --tier nano
+# Migrate with 0.15 ECTS per nano credential
+./run_proper_migration.sh 0.15
 
-# Show specific credential details
-python scripts/three_tier_cli.py --show LO_SUAS_12345
+# Migrate with 0.2 ECTS per nano credential
+./run_proper_migration.sh 0.2
 
-# Show framework statistics
-python scripts/three_tier_cli.py --statistics
+# Migrate with maximum allowed 0.5 ECTS per nano credential
+./run_proper_migration.sh 0.5
 ```
 
-#### Creating Credentials in Each Tier
+#### **Basic 3-Tier Operations**
+```bash
+# List all credentials across all tiers
+python scripts/three_tier_cli_fixed.py --list
+
+# List only nano credentials
+python scripts/three_tier_cli_fixed.py --list --tier nano
+
+# Show framework statistics with ECTS breakdown
+python scripts/three_tier_cli_fixed.py --statistics
+
+# Show specific credential details
+python scripts/three_tier_cli_fixed.py --show M1_n_01
+```
+
+#### **Creating Credentials with Configurable ECTS**
 
 **Create Nano Credentials:**
 ```bash
-# Create a learning outcome nano credential
-python scripts/three_tier_cli.py --create --tier nano \
-  --name "Identify Sustainability Principles" \
-  --level 5 --ects 0.2 --granularity learning_outcome \
-  --learning-outcome "Identify and explain core sustainability principles"
+# Create nano credentials during migration (automated)
+./run_proper_migration.sh 0.1  # 0.1 ECTS each
 
-# Create a skill element nano credential  
-python scripts/three_tier_cli.py --create --tier nano \
-  --name "Carbon Footprint Calculation" \
-  --level 5 --ects 0.5 --granularity skill_element \
-  --skill-type technical
+# View generated nano credentials
+python scripts/three_tier_cli_fixed.py --list --tier nano --limit 10
 ```
 
-**Create Microcredentials:**
+**Mathematical Verification:**
 ```bash
-# Create a microcredential directly
-python scripts/three_tier_cli.py --create --tier micro \
-  --name "Sustainability Assessment Basics" \
-  --level 5 --ects 5.0 --granularity module_component \
-  --desc "Foundation skills for sustainability assessment"
+# Check ECTS alignment across tiers
+python scripts/three_tier_cli_fixed.py --statistics
+
+# Expected output shows perfect mathematical alignment:
+# Nano ECTS total ≈ Micro ECTS total
 ```
 
-**Create Modules:**
+### **Advanced Configuration**
+
+#### **Environment-Specific ECTS Settings**
+Create configuration files for different environments:
+
+```yaml
+# development_config.yaml
+nano_config:
+  ects_per_credential: 0.1
+  granularity_precision: "high"
+
+# production_config.yaml  
+nano_config:
+  ects_per_credential: 0.2
+  granularity_precision: "standard"
+```
+
+#### **Validation Commands**
 ```bash
-# Create a specialization module
-python scripts/three_tier_cli.py --create --tier module \
-  --name "Digital Sustainability Specialization" \
-  --level 6 --ects 60.0 --granularity specialization \
-  --qualification-type certificate
-```
+# Validate ECTS coherence across tiers
+python scripts/validate_ects_coherence.py --nano-ects 0.1
 
-#### Building Higher-Tier Credentials from Lower Tiers
+# Check mathematical relationships
+python scripts/verify_tier_mathematics.py
 
-**Build Microcredentials from Nano Credentials:**
-```bash
-# Build a microcredential from nano credentials
-python scripts/three_tier_cli.py --build-micro \
-  --nano-ids "LO_IDSU_12345,SE_CACF_67890,CU_ASEI_11111" \
-  --micro-name "Sustainability Assessment Fundamentals" \
-  --micro-desc "Core skills for sustainability assessment"
-```
-
-**Build Modules from Microcredentials:**
-```bash
-# Build a module from microcredentials
-python scripts/three_tier_cli.py --build-module \
-  --micro-ids "MC_SUAS_12345,FM_GRCO_67890,CL_DIGE_11111" \
-  --module-name "Green Technology Certificate" \
-  --module-desc "Complete certification in green technology"
-```
-
-#### Complete Curriculum Generation
-
-**Generate 3-Tier Curricula:**
-```bash
-# Generate a 60 ECTS certificate program using all three tiers
-python scripts/three_tier_cli.py --generate-curriculum \
-  --target-ects 60 --target-level 6 \
-  --focus-areas "sustainability,software" \
-  --output "sustainability_certificate.json"
-
-# Generate a 180 ECTS bachelor's degree
-python scripts/three_tier_cli.py --generate-curriculum \
-  --target-ects 180 --target-level 6 \
-  --curriculum-type bachelor_degree \
-  --output "sustainability_degree.json"
-
-# Generate a micro-qualification (15-30 ECTS)
-python scripts/three_tier_cli.py --generate-curriculum \
-  --target-ects 30 --target-level 5 \
-  --curriculum-type micro_qualification \
-  --focus-areas "green_coding" \
-  --output "green_coding_micro_qual.json"
-```
-
-#### Validation and Quality Assurance
-
-**Validate 3-Tier Stacking:**
-```bash
-# Validate that credentials can be stacked together
-python scripts/three_tier_cli.py --validate-stacking \
-  --credential-ids "LO_IDSU_123,MC_SUAS_456,SP_GRTE_789"
-
-# Check curriculum coherence across all tiers
-python scripts/three_tier_cli.py --validate-coherence \
-  --validate-nano-ids "LO_1,SE_2,CU_3" \
-  --validate-micro-ids "MC_1,FM_2"
-```
-
-**Export and Analysis:**
-```bash
-# Export complete 3-tier framework data
-python scripts/three_tier_cli.py --export --output framework_export.json
-
-# Export specific tier data
-python scripts/three_tier_cli.py --export --tier nano --output nano_credentials.json
-```
-
-### Legacy 2-Tier System Support (Backward Compatibility)
-
-The framework maintains full backward compatibility with the existing 2-tier system:
-
-#### Traditional Curriculum Generation
-```bash
-# Generate a curriculum for a specific role and EQF level (legacy)
-python scripts/generate_curriculum.py --role DAN --eqf 6 --output-dir output/curricula
-
-# Batch generate all curricula for all defined roles and EQF levels (legacy)
-python scripts/batch_generate_curricula.py --output-dir output/curricula
-python scripts/batch_enhance_curricula_v2.py --input-dir output/curricula \
-  --output-dir output/enhanced_curricula --modules-json input/modules.json \
-  --roles-json input/roles.json --static-dir dscg/static
-```
-
-#### Enhanced Curriculum Generation with Accreditation Support
-
-**Enhance existing curricula with 3-tier features:**
-```bash
-# Enhance an existing curriculum with competency mapping and 3-tier breakdown
-python scripts/enhance_curriculum_v2.py \
-  --input output/curricula/curriculum_DAN_6.html \
-  --output output/enhanced_curricula/curriculum_DAN_6_enhanced.html \
-  --modules-json input/modules.json --roles-json input/roles.json \
-  --static-dir dscg/static
-
-# Batch enhance multiple curricula with 3-tier support
-python scripts/batch_enhance_curricula_v2.py \
-  --input-dir output/curricula --output-dir output/enhanced_curricula \
-  --modules-json input/modules.json --roles-json input/roles.json \
-  --static-dir dscg/static
-```
-
-#### Micro-credential Management (Enhanced with Nano Support)
-
-**Generate enhanced micro-credential data:**
-```bash
-# Generate micro-credential sample data with nano credential integration
-python scripts/microcredential_curriculum_builder.py --create-sample --data-dir input
-
-# Build a role-based specific curriculum from micro-credentials
-python scripts/microcredential_curriculum_builder.py --build-curriculum \
-  --role-id DSL --eqf-level 5 --data-dir input --output-dir output/specific_curricula
-
-# Create a custom curriculum from selected micro-credentials
-python scripts/microcredential_curriculum_builder.py --build-curriculum \
-  --micro-credentials MC001,MC003,MC007 \
-  --name "Green Computing Fundamentals" \
-  --description "A focused curriculum on green computing basics" \
-  --data-dir input --output-dir output/specific_curricula
-```
-
-#### Analysis & Quality Improvement
-
-**3-Tier enhanced analysis:**
-```bash
-# Fix compliance issues in existing curricula with 3-tier validation
-python scripts/fix_curriculum_issues.py \
-  --input-dir output/curricula --output-dir output/curricula_fixed \
-  --standards-dir input/standards
-
-# Evaluate curricula against standards with 3-tier framework requirements
-python scripts/curriculum_evaluation_framework.py \
-  --input-dir output/curricula_fixed --output-dir output/assessment \
-  --include-specific
-
-# Generate curriculum summary with 3-tier validation report
-python scripts/enhanced_curriculum_summary.py \
-  --output-dir output/curricula --modules-json input/modules/modules.json
-```
-
-#### Visualization & Mapping
-
-**Enhanced 3-tier visualizations:**
-```bash
-# Generate competence matrix with nano credential breakdown
-python scripts/generate_competence_matrix.py \
-  --modules-json input/modules/modules.json \
-  --roles-json input/roles/roles.json --output-dir output/matrix \
-  --include-heatmap
-
-# Visualize stacking paths across all three tiers
-python scripts/visualize_stacking_paths.py --data-dir input \
-  --micro-credentials-file micro_credentials.json \
-  --roles-file roles/roles.json --output-dir output/visualizations
-```
-
-## File Structure
-
-```
-curriculum_generator/
-├── README.md                                   # This file
-├── requirements.txt                            # Python dependencies
-├── setup.py                                    # Package setup
-│
-├── dscg/                                       # Core package directory
-│   ├── __init__.py
-│   ├── package/                                # Main framework components
-│   │   ├── __init__.py
-│   │   ├── nano_credential_manager.py          # Nano credential management
-│   │   ├── enhanced_micro_credential_manager.py # Enhanced micro credential management
-│   │   ├── module_manager.py                   # Module and qualification management
-│   │   ├── relationship_manager.py             # Cross-tier relationships
-│   │   ├── three_tier_manager.py               # Unified framework manager
-│   │   └── curriculum_pathway_generator.py     # Curriculum generation
-│   │
-│   ├── core/                                   # Core framework utilities
-│   │   ├── __init__.py
-│   │   ├── three_tier_config.py                # Configuration management
-│   │   ├── validation_rules.py                 # Validation rules
-│   │   ├── ects_calculator.py                  # ECTS calculations
-│   │   └── quality_assurance.py                # Quality assurance framework
-│   │
-│   └── utils/                                  # Utility functions
-│       ├── __init__.py
-│       ├── migration_tools.py                  # Migration utilities
-│       ├── data_validator.py                   # Data validation
-│       └── export_helpers.py                   # Export utilities
-│
-├── scripts/                                    # Command-line interfaces
-│   ├── export_profiles.py                      # Original profile export
-│   ├── export_profiles_enhanced.py             # Enhanced profile export
-│   ├── three_tier_profile_generator.py         # 3-tier profile generation
-│   ├── micro_credential_cli.py                 # Micro credential CLI
-│   ├── three_tier_cli.py                       # Unified 3-tier CLI
-│   ├── nano_credential_cli.py                  # Nano-specific CLI
-│   ├── module_cli.py                           # Module-specific CLI
-│   ├── curriculum_builder.py                   # Interactive curriculum builder
-│   └── migration_script.py                     # Migration from 2-tier
-│
-├── input/                                      # Data directory
-│   ├── roles/                                  # Role definitions
-│   │   ├── roles.json                          # Role definitions
-│   │   └── role_variants.json                  # Role variants
-│   │
-│   ├── nano_credentials/                       # Nano credential data
-│   │   ├── nano_credentials.json               # All nano credentials
-│   │   ├── learning_outcomes.json              # Learning outcome templates
-│   │   ├── skill_elements.json                 # Skill element templates
-│   │   └── nano_templates/                     # Templates by type
-│   │       ├── technical_skills.json
-│   │       ├── soft_skills.json
-│   │       └── domain_knowledge.json
-│   │
-│   ├── micro_credentials/                      # Microcredential data
-│   │   ├── micro_credentials.json              # All microcredentials
-│   │   ├── stacking_rules.json                 # Stacking rules
-│   │   └── micro_templates.json                # Enhanced templates
-│   │
-│   ├── modules/                                # Module data
-│   │   ├── modules.json                        # All modules
-│   │   ├── specializations.json                # Specialization definitions
-│   │   ├── qualifications.json                 # Full qualification definitions
-│   │   └── module_templates.json               # Module templates
-│   │
-│   ├── relationships/                          # Cross-tier relationships
-│   │   ├── nano_to_micro.json                  # Nano→Micro mappings
-│   │   ├── micro_to_module.json                # Micro→Module mappings
-│   │   ├── prerequisites.json                  # All prerequisite relationships
-│   │   └── equivalencies.json                  # Equivalent credentials
-│   │
-│   ├── curricula/                              # Generated curricula
-│   │   ├── pathways/                           # Generated pathways
-│   │   ├── templates/                          # Curriculum templates
-│   │   └── implementations/                    # Implementation plans
-│   │
-│   └── config/                                 # Configuration files
-│       ├── three_tier_config.yaml              # Main configuration
-│       ├── validation_rules.yaml               # Validation rules
-│       ├── ects_mappings.yaml                  # ECTS calculation rules
-│       └── quality_standards.yaml              # Quality standards
-│
-├── output/                                     # Generated output
-│   ├── profiles/                               # Educational profiles
-│   │   ├── index.html
-│   │   ├── profile_*.json
-│   │   └── profile_*.html
-│   │
-│   ├── three_tier_profiles/                    # 3-tier profiles
-│   │   ├── nano_breakdown/                     # Nano-level breakdowns
-│   │   ├── integrated_profiles/                # Cross-tier profiles
-│   │   └── curriculum_pathways/                # Complete pathways
-│   │
-│   ├── curricula/                              # Generated curricula
-│   │   ├── micro_qualifications/               # Short programs (15-30 ECTS)
-│   │   ├── certificates/                       # Certificate programs (30-60 ECTS)
-│   │   ├── diplomas/                           # Diploma programs (60-120 ECTS)
-│   │   └── degrees/                            # Degree programs (120+ ECTS)
-│   │
-│   ├── validation_reports/                     # Validation results
-│   │   ├── coherence_reports/                  # Coherence validation
-│   │   ├── quality_reports/                    # Quality assurance
-│   │   └── compliance_reports/                 # Standards compliance
-│   │
-│   └── implementation_plans/                   # Implementation guidance
-│       ├── phase_plans/                        # Phased implementation
-│       ├── resource_requirements/              # Resource planning
-│       └── timeline_schedules/                 # Implementation timelines
-│
-├── tests/                                      # Test suite
-│   ├── __init__.py
-│   ├── test_nano_credentials.py                # Nano credential tests
-│   ├── test_micro_credentials.py               # Micro credential tests
-│   ├── test_modules.py                         # Module tests
-│   ├── test_three_tier_integration.py          # Integration tests
-│   ├── test_validation.py                      # Validation tests
-│   ├── test_curriculum_generation.py           # Curriculum generation tests
-│   ├── test_migration.py                       # Migration tests
-│   └── fixtures/                               # Test data
-│       ├── sample_nano_credentials.json
-│       ├── sample_micro_credentials.json
-│       ├── sample_modules.json
-│       └── test_relationships.json
-│
-├── docs/                                       # Documentation
-│   ├── README.md
-│   ├── three_tier_framework.md                 # Framework documentation
-│   ├── api_reference.md                        # API documentation
-│   ├── user_guide.md                           # User guide
-│   ├── migration_guide.md                      # Migration guide
-│   ├── examples/                               # Usage examples
-│   │   ├── basic_nano_creation.md
-│   │   ├── building_microcredentials.md
-│   │   ├── curriculum_pathways.md
-│   │   └── quality_assurance.md
-│   └── schemas/                                # Data schemas
-│       ├── nano_credential_schema.json
-│       ├── micro_credential_schema.json
-│       ├── module_schema.json
-│       └── relationship_schema.json
-│
-├── examples/                                   # Example implementations
-│   ├── sample_curricula/                       # Sample curricula
-│   │   ├── sustainability_micro_qual.json      # 30 ECTS micro-qualification
-│   │   ├── digital_sustainability_cert.json    # 60 ECTS certificate
-│   │   └── full_degree_program.json            # 180 ECTS degree
-│   │
-│   ├── migration_examples/                     # Migration examples
-│   │   ├── existing_profile_breakdown.py       # Break existing profiles
-│   │   └── nano_generation_example.py          # Generate nanos from outcomes
-│   │
-│   └── integration_examples/                   # Integration examples
-│       ├── api_usage.py                        # API usage examples
-│       └── cli_workflows.py                    # CLI workflow examples
-│
-└── tools/                                      # Development tools
-    ├── data_generators/                        # Data generation tools
-    │   ├── generate_sample_nanos.py            # Generate sample nano credentials
-    │   ├── generate_test_data.py               # Generate test datasets
-    │   └── validate_data_integrity.py          # Data integrity checker
-    │
-    ├── migration_tools/                        # Migration utilities
-    │   ├── analyze_existing_data.py            # Analyze current data
-    │   ├── generate_migration_plan.py          # Create migration plan
-    │   └── verify_migration.py                 # Verify migration success
-    │
-    └── quality_tools/                          # Quality assurance tools
-        ├── validate_curricula.py               # Curriculum validation
-        ├── check_coherence.py                  # Coherence checking
-        └── generate_qa_reports.py              # QA report generation
+# Generate quality assurance report
+python scripts/generate_qa_report.py --include-ects-analysis
 ```
 
 ## Architecture Details
 
-### Tier 1: Nano Credentials (0.1-5 ECTS)
-The most granular level representing individual learning components:
+### **Tier 1: Nano Credentials (Configurable ECTS)**
+The most granular level with **configurable ECTS values**:
 
-- **Learning Outcomes** (0.2 ECTS): Single specific learning outcomes
-- **Skill Elements** (0.5 ECTS): Individual skill demonstrations  
-- **Competency Units** (1.0 ECTS): Specific competency elements
-- **Knowledge Units** (0.3 ECTS): Discrete knowledge components
-- **Performance Elements** (0.8 ECTS): Performance demonstrations
-- **Assessment Tasks** (0.1 ECTS): Single assessment activities
+| Granularity Type | Default ECTS | Configurable Range | Typical Use |
+|------------------|--------------|-------------------|-------------|
+| **Learning Outcomes** | 0.1 | 0.1-0.2 | Single specific learning outcomes |
+| **Skill Elements** | 0.1 | 0.1-0.3 | Individual skill demonstrations |
+| **Competency Units** | 0.1 | 0.1-0.5 | Specific competency elements |
+| **Knowledge Units** | 0.1 | 0.1-0.2 | Discrete knowledge components |
+| **Performance Elements** | 0.1 | 0.1-0.4 | Performance demonstrations |
+| **Assessment Tasks** | 0.1 | 0.1-0.2 | Single assessment activities |
 
-### Tier 2: Microcredentials (1-30 ECTS)
+### **Tier 2: Microcredentials (1-30 ECTS)**
 Module-level components built from nano credentials:
 
-- **Module Components** (1-5 ECTS): Parts of larger modules
-- **Full Modules** (5-15 ECTS): Complete standalone modules
-- **Module Clusters** (15-30 ECTS): Groups of related modules
+- **Module Components** (1-5 ECTS): Built from 10-50 nano credentials
+- **Full Modules** (5-15 ECTS): Built from 50-150 nano credentials
+- **Module Clusters** (15-30 ECTS): Built from 150-300 nano credentials
 
-### Tier 3: Modules (30+ ECTS)
+### **Tier 3: Modules (30+ ECTS)**
 Program-level structures built from microcredentials:
 
-- **Specializations** (30-60 ECTS): Focused areas of study
-- **Full Qualifications** (60+ ECTS): Complete programs/degrees
+- **Specializations** (30-60 ECTS): Built from 300-600 nano credentials
+- **Full Qualifications** (60+ ECTS): Built from 600+ nano credentials
 
 ## Configuration
 
-The framework uses YAML configuration files for customization:
+### **Main Configuration with Configurable ECTS**
 
-### Main Configuration (`input/config/three_tier_config.yaml`)
 ```yaml
+# input/config/three_tier_config.yaml
 nano_config:
+  # Configurable ECTS value (key new feature)
+  default_ects: 0.1
   min_ects: 0.1
-  max_ects: 5.0
-  valid_granularities:
-    - learning_outcome
-    - skill_element
-    - competency_unit
-    - knowledge_unit
-    - performance_element
-    - assessment_task
+  max_ects: 0.5
+  
+  # ECTS options for different granularities
+  ects_options:
+    learning_outcome: [0.1, 0.15, 0.2]
+    skill_element: [0.1, 0.15, 0.2, 0.25, 0.3]
+    competency_unit: [0.1, 0.2, 0.3, 0.4, 0.5]
+    knowledge_unit: [0.1, 0.15, 0.2]
+    performance_element: [0.1, 0.2, 0.3, 0.4]
+    assessment_task: [0.1, 0.15, 0.2]
 
 micro_config:
   min_ects: 1.0
   max_ects: 30.0
-  valid_granularities:
-    - module_component
-    - full_module
-    - module_cluster
+  constituent_nano_calculation: "micro_ects / nano_ects"
 
 module_config:
   min_ects: 30.0
   max_ects: 240.0
-  qualification_types:
-    bachelor_degree:
-      min_ects: 180
-      max_ects: 240
-      eqf_levels: [6]
-    master_degree:
-      min_ects: 120
-      max_ects: 180
-      eqf_levels: [7]
+  constituent_calculation: "module_ects / micro_ects"
+
+# Mathematical validation rules
+validation_rules:
+  enforce_ects_coherence: true
+  ects_tolerance: 0.1
+  require_exact_nano_count: true
+  validate_tier_mathematics: true
 ```
 
-### Environment-Specific Configuration
-Create environment-specific overrides:
-- `three_tier_config_development.yaml`
-- `three_tier_config_staging.yaml`  
-- `three_tier_config_production.yaml`
+### **ECTS Calculation Examples**
+
+```yaml
+# Example calculations with different nano ECTS values:
+calculation_examples:
+  nano_ects_0_1:
+    micro_5_ects: "50 nano credentials"
+    micro_1_67_ects: "17 nano credentials" 
+    module_180_ects: "1,800 nano credentials"
+    
+  nano_ects_0_2:
+    micro_5_ects: "25 nano credentials"
+    micro_1_67_ects: "8 nano credentials"
+    module_180_ects: "900 nano credentials"
+    
+  nano_ects_0_15:
+    micro_5_ects: "33 nano credentials"
+    micro_1_67_ects: "11 nano credentials"
+    module_180_ects: "1,200 nano credentials"
+```
 
 ## CLI Reference
 
-### Basic Operations
+### **Migration Commands with ECTS Configuration**
 ```bash
-# List credentials
-python scripts/three_tier_cli.py --list [--tier nano|micro|module|all]
+# Migrate with different nano ECTS values
+./run_proper_migration.sh 0.1    # Default: 100 nanos per 10 ECTS micro
+./run_proper_migration.sh 0.15   # 67 nanos per 10 ECTS micro
+./run_proper_migration.sh 0.2    # 50 nanos per 10 ECTS micro
+./run_proper_migration.sh 0.25   # 40 nanos per 10 ECTS micro
 
-# Show credential details
-python scripts/three_tier_cli.py --show <credential_id>
-
-# Create new credential
-python scripts/three_tier_cli.py --create --tier <tier> --name "<name>" 
-  --level <eqf_level> --ects <ects_points> --granularity <granularity>
+# Advanced migration with validation
+python scripts/proper_migration.py --nano-ects 0.1 --validate --verbose
 ```
 
-### Building Higher-Tier Credentials
+### **Analysis Commands**
 ```bash
-# Build microcredential from nanos
-python scripts/three_tier_cli.py --build-micro 
-  --nano-ids "nano1,nano2,nano3" --micro-name "Micro Name"
+# View statistics with ECTS breakdown
+python scripts/three_tier_cli_fixed.py --statistics
 
-# Build module from micros
-python scripts/three_tier_cli.py --build-module 
-  --micro-ids "micro1,micro2,micro3" --module-name "Module Name"
+# Verify mathematical relationships
+python scripts/verify_nano_mathematics.py --nano-ects 0.1
+
+# Export framework data with ECTS configuration
+python scripts/export_three_tier_data.py --include-ects-config
 ```
 
-### Curriculum Generation
+### **Quality Assurance Commands**
 ```bash
-# Generate complete curriculum
-python scripts/three_tier_cli.py --generate-curriculum 
-  --target-ects <ects> --target-level <eqf_level> 
-  [--focus-areas "area1,area2"] [--curriculum-type <type>]
-  [--output <filename>]
-```
+# Validate ECTS coherence across all tiers
+python scripts/validate_ects_coherence.py
 
-### Validation and Analysis
-```bash
-# Validate stacking
-python scripts/three_tier_cli.py --validate-stacking 
-  --credential-ids "id1,id2,id3"
+# Check nano credential distribution
+python scripts/analyze_nano_distribution.py
 
-# Show statistics
-python scripts/three_tier_cli.py --statistics
-
-# Export data
-python scripts/three_tier_cli.py --export [--tier <tier>] [--output <filename>]
+# Generate compliance report
+python scripts/generate_compliance_report.py --include-ects-analysis
 ```
 
 ## API Usage
 
-### Python API
+### **Python API with Configurable ECTS**
+
 ```python
 from dscg.package.three_tier_manager import ThreeTierManager
 
-# Initialize framework
-manager = ThreeTierManager("input")
+# Initialize framework with custom nano ECTS
+manager = ThreeTierManager("input", nano_ects=0.15)
 
-# Generate curriculum
+# Generate curriculum with specific ECTS configuration
 curriculum = manager.build_complete_curriculum(
     target_ects=60,
     eqf_level=6,
+    nano_ects=0.1,  # Override default
     focus_areas=["sustainability", "software"]
 )
 
-# Get all credentials
-credentials = manager.get_all_credentials()
+# Validate ECTS coherence
+is_coherent, report = manager.validate_ects_coherence()
 
-# Validate stacking
-is_valid, errors = manager.relationship_manager.validate_stacking_combination(
-    ["nano1", "micro1", "module1"], credentials
-)
+# Get ECTS distribution statistics
+stats = manager.get_ects_distribution_stats()
+```
+
+### **Configuration API**
+```python
+from dscg.core.three_tier_config import ThreeTierConfigManager
+
+# Load configuration with ECTS settings
+config = ThreeTierConfigManager("input/config", nano_ects=0.2)
+
+# Validate ECTS configuration
+is_valid = config.validate_nano_ects_setting(0.15)
+
+# Calculate expected nano count
+nano_count = config.calculate_nano_count(micro_ects=5.0, nano_ects=0.1)
+# Result: 50 nano credentials
 ```
 
 ## Migration from 2-Tier System
 
-The framework provides full backward compatibility with existing 2-tier systems:
+### **Enhanced Migration with ECTS Configuration**
 
-### Migration Steps
-1. **Analyze existing data**: `python tools/migration_tools/analyze_existing_data.py`
-2. **Generate migration plan**: `python tools/migration_tools/generate_migration_plan.py`
-3. **Execute migration**: `python scripts/migration_script.py`
-4. **Verify migration**: `python tools/migration_tools/verify_migration.py`
+```bash
+# Step 1: Analyze existing data
+python tools/migration_tools/analyze_existing_data.py
 
-### Backward Compatibility
-- All existing microcredentials remain valid
-- Existing modules work without modification  
-- New nano credentials can be added to support existing microcredentials
-- Gradual enhancement rather than replacement
+# Step 2: Configure nano ECTS value
+# Choose: 0.1 (precise), 0.15 (balanced), 0.2 (manageable)
+
+# Step 3: Execute migration with chosen ECTS value
+./run_proper_migration.sh 0.1
+
+# Step 4: Verify mathematical coherence
+python scripts/three_tier_cli_fixed.py --statistics
+```
+
+### **Migration Validation**
+```bash
+# Verify ECTS alignment
+python tools/validate_migration_ects.py --nano-ects 0.1
+
+# Check nano credential distribution
+python tools/analyze_nano_distribution.py
+
+# Generate migration report
+python tools/generate_migration_report.py --include-ects-analysis
+```
 
 ## Quality Assurance
 
-### Validation Features
-- **EQF Level Consistency**: Ensures proper level progression
-- **ECTS Coherence**: Validates ECTS distribution and totals
-- **Prerequisites**: Enforces prerequisite relationships
-- **Stacking Rules**: Validates credential combinations
-- **Granularity Alignment**: Ensures appropriate granularity usage
+### **ECTS-Aware Validation Features**
+- **Mathematical Coherence**: Validates exact ECTS calculations across tiers
+- **Configurable Precision**: Supports different nano ECTS values with validation
+- **Tier Alignment**: Ensures perfect mathematical alignment between tiers
+- **Standards Compliance**: Validates against EU micro-credentials framework ECTS requirements
 
-### Quality Metrics
-- **Coherence Score**: Measures logical flow and consistency
-- **Balance Score**: Evaluates tier distribution
-- **Progression Score**: Assesses prerequisite satisfaction
-- **Overall Quality Score**: Composite quality measure
+### **Enhanced Quality Metrics**
+- **ECTS Coherence Score**: Measures mathematical alignment across tiers
+- **Nano Distribution Score**: Evaluates optimal nano credential distribution
+- **Configuration Compliance**: Validates adherence to ECTS configuration settings
+- **Mathematical Precision Score**: Assesses calculation accuracy
 
-## Supported Curriculum Types
+## Supported Configurations
 
-| Type | ECTS Range | EQF Level | Description |
-|------|------------|-----------|-------------|
-| Micro Qualification | 15-30 | 4-6 | Short professional development |
-| Certificate | 30-60 | 4-7 | Focused skill certification |
-| Diploma | 60-120 | 5-7 | Comprehensive professional training |
-| Bachelor's Degree | 180-240 | 6 | Undergraduate qualification |
-| Master's Degree | 120-180 | 7 | Postgraduate qualification |
-| Doctoral Degree | 180+ | 8 | Research qualification |
+| Nano ECTS | Micro (5 ECTS) | Module (60 ECTS) | Use Case |
+|-----------|----------------|------------------|----------|
+| **0.1** | 50 nanos | 600 nanos | Maximum granularity |
+| **0.15** | 33 nanos | 400 nanos | Balanced approach |
+| **0.2** | 25 nanos | 300 nanos | Manageable size |
+| **0.25** | 20 nanos | 240 nanos | Simplified structure |
+| **0.5** | 10 nanos | 120 nanos | Minimal granularity |
+
+## Testing Commands
+
+### **Quick Test Suite**
+```bash
+# Test nano generation with different ECTS values
+./test_nano_generation.sh 0.1
+./test_nano_generation.sh 0.2
+
+# Test CLI functionality
+python scripts/three_tier_cli_fixed.py --statistics
+python scripts/three_tier_cli_fixed.py --list --tier nano --limit 5
+
+# Verify mathematical relationships
+python scripts/verify_ects_mathematics.py
+```
+
+### **Integration Tests**
+```bash
+# Full framework test
+python -m pytest tests/test_three_tier_integration.py
+
+# ECTS validation tests  
+python -m pytest tests/test_ects_validation.py
+
+# Migration tests
+python -m pytest tests/test_migration_ects.py
+```
+
+## Troubleshooting
+
+### **Common ECTS Configuration Issues**
+
+**Issue**: Nano ECTS value outside valid range
+```bash
+# Solution: Use values between 0.1 and 0.5
+./run_proper_migration.sh 0.15  # ✅ Valid
+./run_proper_migration.sh 0.05  # ❌ Too small
+./run_proper_migration.sh 0.6   # ❌ Too large
+```
+
+**Issue**: ECTS coherence validation fails
+```bash
+# Solution: Regenerate with correct nano ECTS
+python scripts/working_nano_fix.py
+python scripts/three_tier_cli_fixed.py --statistics
+```
+
+**Issue**: Mathematical relationships incorrect
+```bash
+# Solution: Verify and fix ECTS calculations
+python scripts/verify_ects_mathematics.py --fix
+```
 
 ## Contributing
 
-### Development Setup
+### **Development Guidelines for ECTS Features**
+- Always validate ECTS calculations in tests
+- Support configurable nano ECTS in new features
+- Maintain mathematical precision in all tier relationships
+- Include ECTS validation in quality assurance checks
+
+### **Testing ECTS Features**
 ```bash
-# Clone repository
-git clone <repository-url>
-cd curriculum-generator
-
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-# or
-venv\Scripts\activate     # Windows
-
-# Install development dependencies
-pip install -r requirements-dev.txt
-
-# Run tests
-python -m pytest tests/
+# Test with multiple ECTS configurations
+for ects in 0.1 0.15 0.2; do
+    ./run_proper_migration.sh $ects
+    python scripts/verify_ects_mathematics.py --nano-ects $ects
+done
 ```
-
-### Code Standards
-- Follow PEP 8 style guidelines
-- Include comprehensive docstrings
-- Write unit tests for new features
-- Validate against framework schemas
-
-## Support and Documentation
-
-- **User Guide**: `docs/user_guide.md`
-- **API Reference**: `docs/api_reference.md`
-- **Migration Guide**: `docs/migration_guide.md`
-- **Examples**: `examples/` directory
-- **Schemas**: `docs/schemas/` directory
 
 ## License
 
 [Specify license information]
 
 ## Changelog
+
+### **Version 3.1.0 (Configurable ECTS)**
+- ✅ **Added configurable nano ECTS** (0.1-0.5 range)
+- ✅ **Enhanced migration system** with parameter-driven generation
+- ✅ **Mathematical precision validation** across all tiers
+- ✅ **Proper generation logic** (no post-processing fixes)
+- ✅ **Robust error handling** for edge cases
+- ✅ **Standards compliance** with EU micro-credentials framework
 
 ### Version 3.0.0 (3-Tier Framework)
 - Added nano credential support
