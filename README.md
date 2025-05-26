@@ -174,6 +174,10 @@ curriculum_generator/
 
 The framework maintains precise mathematical relationships with configurable nano ECTS:
 
+
+The value for ECTS credits allcated to nano-credentials learning units can be set by the user. 
+By setting this value the total workload is also set. For instance a nano-credential with an ECTS value of 0.1 corresponds to a a workload of 2.5 hours.  
+
 ```
 With nano_ects = 0.1:
 - Micro credential (5.0 ECTS) → 50 nano credentials
