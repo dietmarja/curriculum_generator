@@ -44,6 +44,26 @@ A comprehensive toolkit for generating, analyzing, and evaluating modular, outco
 
 The enhanced 3-Tier Curriculum Framework provides a sophisticated approach to curriculum design and management, allowing for atomic-level control over educational content while maintaining coherence across different levels of learning complexity. This framework supports both full educational programs and specific micro-credential pathways with seamless integration across all three tiers.
 
+
+## Educational Profiles as Intermediate Data Structure
+
+In the DSCG architecture, educational profiles serve as a critical intermediate data structure:
+
+**Source Data → Educational Profiles**: The system parses the roles defined in `roles.json` to generate comprehensive educational profiles  
+**Educational Profiles → Curricula**: These profiles then drive the curriculum generation process, determining module selection and organization  
+
+This two-step approach allows for:
+
+- Separation of role definitions from curriculum specifics  
+- More flexible adaptation of curricula to different educational contexts  
+- Clear traceability between professional requirements and educational implementation  
+
+**Visualizing the Process Flow:**  
+`roles.json → Educational Profiles → Curriculum Generation → Generated Curricula`
+
+
+
+
 ### Framework Architecture
 
 ```
