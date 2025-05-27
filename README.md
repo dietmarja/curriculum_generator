@@ -102,7 +102,6 @@ This two-step approach allows for:
 │ └─────────────────────────────────────────────────────────┘ │
 └─────────────────────────────────────────────────────────────┘
 ```
-### Chunk 2 - Updated File Structure
 
 ```markdown
 ### File Structure & Output Organization
@@ -618,7 +617,8 @@ python scripts/generate_topic_curriculum.py --help
 ---
 ## Role-Integrated Curriculum Generator
 
-A comprehensive Python tool for generating role-integrated, demand-driven curricula from module databases with optional educational profile integration and progression pathway planning.
+A comprehensive Python tool for generating curricula tailored for target groups. The tool is demand-driven, 
+it operates on the basis of moduels and facilitates educational profile integration (optione) and offers progression pathway planning.
 
 ### Overview
 
