@@ -606,6 +606,55 @@ python scripts/generate_topic_curriculum.py --help
 ```
 
 ---
+## Role-Integrated Curriculum Generator
+
+A comprehensive Python tool for generating role-integrated, demand-driven curricula from module databases with optional educational profile integration and progression pathway planning.
+
+### Overview
+
+The Role-Integrated Curriculum Generator creates personalized learning pathways by combining:
+- **Topic-based module selection** from comprehensive databases
+- **Optional role profile integration** for career-focused learning
+- **Educational profile generation** on-demand when roles are specified
+- **Comprehensive progression pathways** for continued learning
+- **EU EQF compliance** with role-specific adaptations
+
+### Key Features
+
+#### 🎯 **Educational Profile Integration**
+- Optional argument for role-guided curriculum generation
+- On-demand educational profile creation from role data
+- Career-focused learning outcomes and assessments
+- Role variants support (specialization, organization size, sector, etc.)
+
+#### 📚 **Flexible Curriculum Generation**
+- Works with or without role profiles
+- Generates micro-credentials (1-5 ECTS) and nano-credentials (0.01-1 ECTS)
+- Supports multiple delivery modes and assessment types
+- EU EQF levels 4-8 compliance
+
+#### 🚀 **Comprehensive Progression Pathways**
+Always provides next-step learning opportunities:
+- **Vertical progressions** (higher EQF levels)
+- **Horizontal expansions** (related topics)
+- **Specialization paths** (deeper expertise)
+- **Career-focused routes** (role advancement)
+
+### Installation & Usage
+
+#### Basic Topic-Only Generation
+```bash
+# Generate curriculum without role integration
+python scripts/role_integrated_generator.py \
+ --modules-file input/modules/modules_v3.json \
+ --topic "Green Software Development" \
+ --eqf-level 6 \
+ --ects 15 \
+ --delivery-mode blended \
+ --assessment-type practical
+```
+
+---
 
 # PART II - EU REVIEWERS TEST SUITES
 
