@@ -652,6 +652,26 @@ python scripts/role_integrated_generator.py \
  --ects 15 \
  --delivery-mode blended \
  --assessment-type practical
+ 
+# Role-guided generation
+python scripts/role_integrated_generator.py \
+--modules-file input/modules/modules_v3.json \
+--roles-file input/roles/roles.json \
+--topic "Carbon Footprint Measurement" \
+--eqf-level 6 --ects 20 \
+--role DSC \
+--delivery-mode blended
+
+# Role with specialization variant
+python scripts/role_integrated_generator.py \
+--modules-file input/modules_v3.json \
+--roles-file input/roles.json \
+--topic "Sustainable AI" \
+--eqf-level 7 --ects 30 \
+--role DSI \
+--specialization data_analytics \
+--organization-size enterprise \
+--sector manufacturing
 ```
 
 ---
