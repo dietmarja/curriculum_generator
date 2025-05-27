@@ -684,6 +684,16 @@ python scripts/role_integrated_generator.py \
 --specialization data_analytics \
 --organization-size enterprise \
 --sector manufacturing
+
+ # Topic-only generation
+  python scripts/role_integrated_generator.py --modules-file input/modules/modules_v3.json --topic "Green Software Development" --eqf-level 6 --ects 15
+
+  # Role-only generation  
+  python scripts/role_integrated_generator.py --modules-file input/modules/modules_v3.json --roles-file input/roles/roles.json --role DSC --eqf-level 6 --ects 180
+
+  # Both topic and role
+  python scripts/role
+
 ```
 
 ---
