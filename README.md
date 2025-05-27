@@ -102,8 +102,10 @@ This two-step approach allows for:
 │ └─────────────────────────────────────────────────────────┘ │
 └─────────────────────────────────────────────────────────────┘
 ```
+### Chunk 2 - Updated File Structure
 
-### File Structure
+```markdown
+### File Structure & Output Organization
 
 ```bash
 curriculum_generator/
@@ -123,7 +125,8 @@ curriculum_generator/
 │   │   ├── nano_to_micro.json                # Nano-to-micro relationships
 │   │   └── micro_to_module.json              # Micro-to-module relationships
 │   ├── modules/                               # Module definitions
-│   │   └── modules.json                      # Module data
+│   │   ├── modules.json                      # Module data
+│   │   └── modules_v3.json                   # Enhanced module data
 │   ├── config/                                # Configuration files
 │   │   ├── three_tier_config.yaml            # Main framework configuration
 │   │   ├── validation_rules.yaml             # Validation rules
@@ -133,6 +136,14 @@ curriculum_generator/
 │       └── roles.json                         # Job roles data
 │
 ├── output/                                     # Output directory
+│   ├── curricula/                            # **Role-integrated curricula output**
+│   │   ├── *.json                           # Generated curriculum JSON files
+│   │   ├── *.html                           # Interactive HTML curriculum views
+│   │   └── *_summary.json                   # Curriculum generation summaries
+│   ├── css/                                  # **Curriculum styling files**
+│   │   └── curriculum.css                   # Enhanced CSS with color coding & animations
+│   ├── js/                                   # **Curriculum JavaScript files**
+│   │   └── curriculum.js                    # Interactive features & tab navigation
 │   ├── three_tier_profiles/                  # Three-tier profile outputs
 │   │   ├── final/                            # Final profiles
 │   │   ├── nano_breakdown/                   # Nano credential breakdowns
@@ -151,24 +162,25 @@ curriculum_generator/
 │   └── consolidation_manifest.json          # Output consolidation manifest
 │
 ├── scripts/                                   # Main scripts directory
-│   ├── generate_topic_curriculum.py             # Topic-specific curriculum generator
-│   ├── nano_spec_compliant_generator_fixed.py    # Fixed nano generator
-│   ├── nano_spec_validator.py                    # Nano specification validator
-│   ├── three_tier_cli_enhanced.py               # Enhanced three-tier CLI
-│   ├── integration_test_suite.py                # Integration test suite
-│   ├── generate_nano_micro_relationships.py     # Relationship generator
-│   ├── generate_micro_module_relationships.py   # Module relationship generator
-│   ├── create_three_tier_config.py              # Configuration generator
-│   ├── comprehensive_validation_suite.py        # Comprehensive validation
-│   ├── cleanup_optimization_suite.py            # Cleanup and optimization
-│   ├── phase4_complete_runner.py                # Phase 4 complete runner
-│   ├── phase4_emergency_fix.py                  # Emergency fix script
-│   ├── minimal_phase4_runner.py                 # Minimal Phase 4 runner
+│   ├── role_integrated_generator.py           # **Enhanced role-integrated curriculum generator**
+│   ├── generate_topic_curriculum.py           # Topic-specific curriculum generator
+│   ├── nano_spec_compliant_generator_fixed.py # Fixed nano generator
+│   ├── nano_spec_validator.py                 # Nano specification validator
+│   ├── three_tier_cli_enhanced.py            # Enhanced three-tier CLI
+│   ├── integration_test_suite.py             # Integration test suite
+│   ├── generate_nano_micro_relationships.py  # Relationship generator
+│   ├── generate_micro_module_relationships.py # Module relationship generator
+│   ├── create_three_tier_config.py           # Configuration generator
+│   ├── comprehensive_validation_suite.py     # Comprehensive validation
+│   ├── cleanup_optimization_suite.py         # Cleanup and optimization
+│   ├── phase4_complete_runner.py             # Phase 4 complete runner
+│   ├── phase4_emergency_fix.py               # Emergency fix script
+│   ├── minimal_phase4_runner.py              # Minimal Phase 4 runner
 │   │
-│   └── validation/                               # EU Reviewer validation scripts
-│       ├── T3_2_reviewer_check_suite.py         # T3.2 deliverable validation
-│       ├── T3_4_reviewer_check_suite.py         # T3.4 deliverable validation
-│       └── run_reviewer_validation.py           # Complete reviewer validation
+│   └── validation/                            # EU Reviewer validation scripts
+│       ├── T3_2_reviewer_check_suite.py      # T3.2 deliverable validation
+│       ├── T3_4_reviewer_check_suite.py      # T3.4 deliverable validation
+│       └── run_reviewer_validation.py        # Complete reviewer validation
 │
 ├── tests/                                     # Test directory
 │   ├── test_three_tier_integration.py        # Integration tests
@@ -193,8 +205,6 @@ curriculum_generator/
 ├── migration_backup_YYYYMMDD_HHMMSS/        # Migration backups
 ├── requirements.txt                           # Python dependencies
 └── .gitignore                                # Git ignore rules
-```
-
 ### **Mathematical Relationships of ECTS Credits**
 
 The framework maintains precise mathematical relationships with configurable nano ECTS, now supporting micro-ECTS down to 0.01:
@@ -658,7 +668,8 @@ python scripts/role_integrated_generator.py \
 --modules-file input/modules/modules_v3.json \
 --roles-file input/roles/roles.json \
 --topic "Carbon Footprint Measurement" \
---eqf-level 6 --ects 20 \
+--eqf-level 6 \
+--ects 20 \
 --role DSC \
 --delivery-mode blended
 
@@ -667,7 +678,8 @@ python scripts/role_integrated_generator.py \
 --modules-file input/modules_v3.json \
 --roles-file input/roles.json \
 --topic "Sustainable AI" \
---eqf-level 7 --ects 30 \
+--eqf-level 7 \
+--ects 30 \
 --role DSI \
 --specialization data_analytics \
 --organization-size enterprise \
