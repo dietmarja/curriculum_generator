@@ -15,35 +15,24 @@ The DSCG v3.1 implements the complete T3.2/T3.4 workflow: Professional Roles →
 
 **Basic Usage**
 
-bash
-
+```bash
 _\# Interactive mode - full T3.2/T3.4 experience_
-
 ./run_refactored_generator.sh
 
 _\# Direct command with role from roles.json_
-
 python3 -m scripts.curriculum_generator.main \\
-
 \--modules-file "input/modules/modules_v5.json" \\
-
 \--role SSD \\
-
 \--topic "Sustainable AI" \\
-
 \--eqf-level 7 \\
-
 \--ects 180
 
 _\# List all available roles_
-
 python3 -m scripts.curriculum_generator.main --list-roles
-
 _\# Generate complete T3.2 & T3.4 deliverables_
-
 python3 scripts/generate_all_deliverables.py
-
 **System Capabilities**
+```
 
 **T3.2 Compliance Features**
 
