@@ -1,736 +1,482 @@
-# Digital Sustainability Curriculum Generator (DSCG) - 3-Tier Framework
+**Digital Sustainability Curriculum Generator (DSCG) v3.1**
 
-A comprehensive toolkit for generating, analyzing, and evaluating modular, outcome-based curricula for digital sustainability education. The DSCG now supports a new **3-tier architecture** with Nano credentials, Microcredentials, and Modules, providing unprecedented granularity and flexibility in curriculum design across EQF levels 4-8.
+A comprehensive, enterprise-ready curriculum generation platform for digital sustainability education with full T3.2 & T3.4 compliance. The system automatically creates modular curricula with Educational Profiles as intermediate data structures, featuring semester breakdowns, micro-credentials, and assessment strategies aligned with European Qualification Framework (EQF) standards.
 
----
+The DSCG v3.1 implements the complete T3.2/T3.4 workflow: Professional Roles → Educational Profiles → Curricula, providing unprecedented flexibility and compliance with EU educational standards, enhanced with extracted pedagogical profiles for improved maintainability.
 
-# PART I - GENERAL INTRODUCTION
+**Quick Start**
 
-## 🆕 Latest Updates
+**Prerequisites**
 
-### **Phase 5 - Topic-Specific Curriculum Generation**
-- **Topic-Specific Generator**: Generate curricula for specific sustainability topics with full EU EQF compliance
-- **Micro-ECTS Support**: Support for ECTS values down to 0.01 for maximum granularity (15 minutes learning time)
-- **EU Framework Alignment**: Complete alignment with Bologna Process, Lisbon Recognition Convention, and EU Green Deal
-- **Advanced Assessment Mapping**: EQF-appropriate assessment complexity across all levels
-- **Multi-Delivery Support**: Workplace, classroom, blended, online, hybrid, and self-paced delivery modes
+- Python 3.8+
+- Modules data file (JSON format)
+- Roles definition file (roles.json)
+- Educational profiles configuration (educational_profiles.json)
 
-### **Phase 4 Complete - Production Ready**
-- **Comprehensive Validation**: All framework components validated and optimized
-- **EU Standards Compliance**: Full compliance with EU micro-credentials framework
-- **Production Deployment**: Framework ready for institutional deployment
-- **Emergency Recovery**: Robust error handling and recovery procedures established
+**Basic Usage**
 
-### **Phase 3 Integration & Testing Complete**
-- **Enhanced Three-Tier CLI**: Full integration testing and validation framework
-- **Specification Compliance**: 100% compliance with nano-credentials standard
-- **Integration Test Suite**: Comprehensive automated testing across all tiers
-- **Curriculum Generation**: Live curriculum building with configurable parameters
-- **Mathematical Validation**: Real-time ECTS coherence checking and relationship integrity
+bash
 
-### **Configurable Nano Credential ECTS**
-- **Adaptable ECTS Values**: Nano credentials learning units now support configurable ECTS values (default: 0.1, range: 0.01-0.5)
-- **Mathematical Precision**: Exact ECTS calculations ensure alignment across all tiers
-- **Parameter-Driven Generation**: Set values for nano ECTS per nano credentials learning units as a variable. The default is 0.1 ECTS
-- **Standards Compliance**: Full compliance with EU micro-credentials framework recommendations
+_\# Interactive mode - full T3.2/T3.4 experience_
 
-### **Enhanced Migration System**
-- **Proper Generation Logic**: ECTS values set correctly from the start, not as post-processing fixes
-- **Robust Error Handling**: Handles missing or insufficient learning outcomes gracefully
-- **Backward Compatibility**: Seamless migration from existing 2-tier systems
-- **Validation Framework**: Built-in validation ensures mathematical coherence
+./run_refactored_generator.sh
 
-## Overview
+_\# Direct command with role from roles.json_
 
-The enhanced 3-Tier Curriculum Framework provides a sophisticated approach to curriculum design and management, allowing for atomic-level control over educational content while maintaining coherence across different levels of learning complexity. This framework supports both full educational programs and specific micro-credential pathways with seamless integration across all three tiers.
+python3 -m scripts.curriculum_generator.main \\
 
+\--modules-file "input/modules/modules_v5.json" \\
 
-## Educational Profiles as Intermediate Data Structure
+\--role SSD \\
 
-In the DSCG architecture, educational profiles serve as a critical intermediate data structure:
+\--topic "Sustainable AI" \\
 
-**Source Data → Educational Profiles**: The system parses the roles defined in `roles.json` to generate comprehensive educational profiles  
-**Educational Profiles → Curricula**: These profiles then drive the curriculum generation process, determining module selection and organization  
+\--eqf-level 7 \\
 
-This two-step approach allows for:
+\--ects 180
 
-- Separation of role definitions from curriculum specifics  
-- More flexible adaptation of curricula to different educational contexts  
-- Clear traceability between professional requirements and educational implementation  
+_\# List all available roles_
 
-**Visualizing the Process Flow:**  
-`roles.json → Educational Profiles → Curriculum Generation → Generated Curricula`
+python3 -m scripts.curriculum_generator.main --list-roles
 
+_\# Generate complete T3.2 & T3.4 deliverables_
 
+python3 scripts/generate_all_deliverables.py
 
+**System Capabilities**
 
-### Framework Architecture
+**T3.2 Compliance Features**
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                    3-Tier Framework                         │
-├─────────────────────────────────────────────────────────────┤
-│ Tier 3: MODULES (30+ ECTS)                                 │
-│ ┌─────────────────────────────────────────────────────────┐ │
-│ │ • Specializations (30-60 ECTS)                         │ │
-│ │ • Full Qualifications (60+ ECTS)                       │ │
-│ │ • Degree Programs (120-240 ECTS)                       │ │
-│ └─────────────────────────────────────────────────────────┘ │
-│                              ▲                             │
-│                              │ builds from                 │
-├─────────────────────────────────────────────────────────────┤
-│ Tier 2: MICROCREDENTIALS (1-30 ECTS)                       │
-│ ┌─────────────────────────────────────────────────────────┐ │
-│ │ • Module Components (1-5 ECTS)                         │ │
-│ │ • Full Modules (5-15 ECTS)                             │ │
-│ │ • Module Clusters (15-30 ECTS)                         │ │
-│ └─────────────────────────────────────────────────────────┘ │
-│                              ▲                             │
-│                              │ builds from                 │
-├─────────────────────────────────────────────────────────────┤
-│ Tier 1: NANO CREDENTIALS (Micro-ECTS Support)              │
-│ ┌─────────────────────────────────────────────────────────┐ │
-│ │ • Learning Outcomes (default: 0.1 ECTS)                │ │
-│ │ • Skill Elements (default: 0.1 ECTS)                   │ │
-│ │ • Competency Units (default: 0.1 ECTS)                 │ │
-│ │ • Knowledge Units (default: 0.1 ECTS)                  │ │
-│ │ • Performance Elements (default: 0.1 ECTS)             │ │
-│ │ • Assessment Tasks (default: 0.1 ECTS)                 │ │
-│ │                                                         │ │
-│ │ 📊 Micro-ECTS Range: 0.01-0.5 ECTS per nano            │ │
-│ │ 🕐 Minimum Learning Time: 15 minutes (0.01 ECTS)       │ │
-│ └─────────────────────────────────────────────────────────┘ │
-└─────────────────────────────────────────────────────────────┘
-```
+- **Educational Profiles**: Role-specific intermediate data structures with extracted pedagogical configurations
+- **Modular Design**: Flexible building blocks using comprehensive module database with prerequisite chains
+- **Semester Breakdown**: Detailed academic period organization with intelligent module sequencing
+- **Work-Based Learning**: Dual principle integration with workplace assessment percentages
+- **Multi-EQF Support**: EQF levels 4-8 with appropriate complexity scaling and competency mapping
+- **Learning Outcomes**: Tuning formula implementation with sustainability-specific granular outcomes
+- **Flexible Pathways**: Multiple progression routes and delivery methods based on role requirements
 
-```markdown
-### File Structure & Output Organization
+**T3.4 Compliance Features**
+
+- **Micro-Credentials**: Stackable system with EU recognition framework and module-level credentials
+- **ECTS/ECVET Integration**: Full credit transfer and qualification transparency with NQF referencing
+- **Competency Mapping**: e-CF, ESCO, and GreenComp framework alignment with detailed outcomes
+- **Certification Pathways**: Outcomes-based qualifications framework with professional recognition
+- **Quality Assurance**: EQAVET and ESG standards implementation with continuous improvement
+- **Cross-Border Recognition**: EU-wide qualification mobility support with institutional partnerships
+
+**Educational Standards**
+
+- **EQF Levels**: 4-8 (Vocational to Doctoral) with appropriate assessment strategies
+- **ECTS Integration**: Automatic credit allocation with 25-hour standard and semester balancing
+- **Assessment Methods**: Competency-based, workplace, portfolio, project-based evaluation
+- **Quality Frameworks**: Built-in validation, stakeholder feedback, and continuous improvement
+- **Sustainability-Specific**: Industry-relevant competencies with concrete learning outcomes
+
+**Architecture v3.1**
+
+**Complete File Structure**
 
 ```bash
-curriculum_generator/
-├── README.md                                    # Main documentation (Parts I & II)
-├── PHASE4_COMPLETION_SUMMARY.md                # Migration completion summary
-├── DEPLOYMENT_MANIFEST.json                    # Production deployment manifest
-├── QUICK_START.md                             # Quick start guide
-├── PHASE4_COMPLETION_STATUS.json              # Phase 4 completion status
-├── PHASE4_EMERGENCY_COMPLETION.json           # Emergency completion status
-│
-├── input/                                      # Input data directory
-│   ├── micro_credentials.json                 # Micro credentials data
-│   ├── nano_credentials/                      # Nano credentials directory
-│   │   ├── nano_credentials_spec_compliant.json  # Specification-compliant nano credentials
-│   │   └── nano_templates/                    # Nano credential templates
-│   ├── relationships/                         # Relationship mappings
-│   │   ├── nano_to_micro.json                # Nano-to-micro relationships
-│   │   └── micro_to_module.json              # Micro-to-module relationships
-│   ├── modules/                               # Module definitions
-│   │   ├── modules.json                      # Module data
-│   │   └── modules_v3.json                   # Enhanced module data
-│   ├── config/                                # Configuration files
-│   │   ├── three_tier_config.yaml            # Main framework configuration
-│   │   ├── validation_rules.yaml             # Validation rules
-│   │   └── config_summary.json               # Configuration summary
-│   ├── curricula/                             # Curriculum definitions
-│   └── roles/                                 # Role definitions
-│       └── roles.json                         # Job roles data
-│
-├── output/                                     # Output directory
-│   ├── curricula/                            # **Role-integrated curricula output**
-│   │   ├── *.json                           # Generated curriculum JSON files
-│   │   ├── *.html                           # Interactive HTML curriculum views
-│   │   └── *_summary.json                   # Curriculum generation summaries
-│   ├── css/                                  # **Curriculum styling files**
-│   │   └── curriculum.css                   # Enhanced CSS with color coding & animations
-│   ├── js/                                   # **Curriculum JavaScript files**
-│   │   └── curriculum.js                    # Interactive features & tab navigation
-│   ├── three_tier_profiles/                  # Three-tier profile outputs
-│   │   ├── final/                            # Final profiles
-│   │   ├── nano_breakdown/                   # Nano credential breakdowns
-│   │   ├── integrated_profiles/              # Integrated profiles
-│   │   └── curriculum_pathways/              # Curriculum pathways
-│   ├── topic_curricula/                      # Topic-specific curricula
-│   │   ├── generated/                        # Generated topic curricula
-│   │   ├── templates/                        # Curriculum templates
-│   │   └── validation/                       # Topic curriculum validation
-│   ├── validation_reports/                   # Validation reports
-│   │   ├── phase4/                           # Phase 4 validation reports
-│   │   ├── t32_review/                       # T3.2 reviewer reports
-│   │   ├── t34_review/                       # T3.4 reviewer reports
-│   │   └── reviewer_summary/                 # EU reviewer summary reports
-│   ├── implementation_plans/                 # Implementation plans
-│   └── consolidation_manifest.json          # Output consolidation manifest
-│
-├── scripts/                                   # Main scripts directory
-│   ├── role_integrated_generator.py           # **Enhanced role-integrated curriculum generator**
-│   ├── generate_topic_curriculum.py           # Topic-specific curriculum generator
-│   ├── nano_spec_compliant_generator_fixed.py # Fixed nano generator
-│   ├── nano_spec_validator.py                 # Nano specification validator
-│   ├── three_tier_cli_enhanced.py            # Enhanced three-tier CLI
-│   ├── integration_test_suite.py             # Integration test suite
-│   ├── generate_nano_micro_relationships.py  # Relationship generator
-│   ├── generate_micro_module_relationships.py # Module relationship generator
-│   ├── create_three_tier_config.py           # Configuration generator
-│   ├── comprehensive_validation_suite.py     # Comprehensive validation
-│   ├── cleanup_optimization_suite.py         # Cleanup and optimization
-│   ├── phase4_complete_runner.py             # Phase 4 complete runner
-│   ├── phase4_emergency_fix.py               # Emergency fix script
-│   ├── minimal_phase4_runner.py              # Minimal Phase 4 runner
-│   │
-│   └── validation/                            # EU Reviewer validation scripts
-│       ├── T3_2_reviewer_check_suite.py      # T3.2 deliverable validation
-│       ├── T3_4_reviewer_check_suite.py      # T3.4 deliverable validation
-│       └── run_reviewer_validation.py        # Complete reviewer validation
-│
-├── tests/                                     # Test directory
-│   ├── test_three_tier_integration.py        # Integration tests
-│   ├── test_ects_validation.py               # ECTS validation tests
-│   └── test_migration_ects.py                # Migration tests
-│
-├── tools/                                     # Utility tools
-│   ├── migration_tools/                      # Migration utilities
-│   ├── quality_tools/                        # Quality assurance tools
-│   └── data_generators/                      # Data generation tools
-│
-├── docs/                                      # Documentation
-│   ├── api_reference.md                      # API documentation
-│   ├── user_guide.md                         # User guide
-│   └── architecture_decisions.md             # Architecture decisions
-│
-├── examples/                                  # Example implementations
-│   ├── curriculum_examples/                  # Sample curricula
-│   └── configuration_examples/               # Configuration examples
-│
-├── migration_archive/                         # Archived migration files
-├── migration_backup_YYYYMMDD_HHMMSS/        # Migration backups
-├── requirements.txt                           # Python dependencies
-└── .gitignore                                # Git ignore rules
-### **Mathematical Relationships of ECTS Credits**
+scripts/curriculum_generator/
+├── \__init_\_.py
+├── main.py                                 # CLI interface with T3.2/T3.4 workflow_
+├── core/                                   # Infrastructure services_
+│ ├── \__init_\_.py
+│ ├── base_generator.py                     # Main orchestrator with Educational Profiles_
+│ ├── data_loader.py                         # Module loading & validation_
+│ ├── output_manager.py                     # Enhanced JSON/HTML generation_
+│ └── standards_manager.py _\# EU standards compliance (T3.3)_
+├── domain/ _\# Domain knowledge & profiles_
+│ ├── \__init_\_.py
+│ ├── knowledge_base.py _\# Digital sustainability expertise_
+│ ├── role_manager.py _\# Role definitions from roles.json_
+│ ├── educational_profiles.py _\# T3.2 Educational Profiles system_
+│ ├── competency_mapper.py _\# Framework mappings_
+│ └── topic_relations.py _\# Topic relationships_
+├── components/ _\# Specialized processors_
+│ ├── __init__.py
+│ ├── module_selector.py _\# Intelligent module selection with role relevance_
+│ ├── curriculum_builder.py _\# Academic structure with semester planning_
+│ ├── pathway_generator.py _\# Learning progression with prerequisites_
+│ └── assessment_generator.py _\# Assessment strategies_
+├── templates/ _\# Output templates_
+│ ├── \__init_\_.py
+│ ├── css_generator.py _\# Enhanced styling for HTML outputs_
+│ └── js_generator.py _\# Interactive features_
+└── utils/ _\# Utilities_
+└── \__init_\_.py
 
-The framework maintains precise mathematical relationships with configurable nano ECTS, now supporting micro-ECTS down to 0.01:
 
-The value for ECTS credits allocated to nano-credentials learning units can be set by the user. By setting this value the total workload is also set. For instance a nano-credential with an ECTS value of 0.1 corresponds to a workload of 2.5 hours, while 0.01 ECTS corresponds to 15 minutes.
+input/
+├── modules/
+│ ├── modules_v5.json _\# Main modules database with prerequisites_
+│ ├── modules_test.json _\# Test data_
+│ └── core_modules.xlsx _\# Excel source data_
+├── roles/
+│ └── roles.json _\# Professional role definitions (T3.2)
+│ ├── roles_schema.json                           
+├── educational_profiles/ _\# NEW: Extracted pedagogical profiles_
+│ └── educational_profiles.json _\# Role-specific competencies and outcomes (General informaation)
+│ ├── educational_profiles_schema.json 
+├── standards/ _\# EU standards definitions_
+│ ├── standard_ects.json _\# ECTS framework
+│ ├── standard_ecvet.json _\# ECVET framework_
+│ ├── standard_eqf.json _\# EQF descriptors_
+│ ├── standard_microcredentials.json _\# T3.4 micro-credentials_
+│ └── standard_greencomp.json _\# GreenComp framework_
+├── micro_credentials/
+│ └── nano_credentials.json _\# Nano-level credentials_
+└── config/
+├── three_tier_config.yaml _\# 3-tier architecture config_
+└── validation_rules.yaml _\# Quality validation rules_
 
-```
-With nano_ects = 0.01 (15 minutes):
-- Micro credential (1.0 ECTS) → 100 nano credentials
-- Learning outcome (0.01 ECTS) → 15 minutes learning time
-- Full day training (1.0 ECTS) → 100 micro-learning units
+output/
+├── curricula/ _\# Generated curricula with semester breakdown_
+├── educational_profiles/ _\# T3.2 Educational Profiles (JSON + HTML)_
+├── micro_credentials/ _\# T3.4 Micro-credential outputs_
+├── t32_deliverables/ _\# Complete T3.2 deliverables suite_
+│ ├── educational_profiles/ _\# Generated Role-specific profiles with sustainability competencies (depreceated!)
+│ ├── core_curricula/ _\# Training curricula with semester structure_
+│ └── reports/ _\# Compliance reports (JSON + HTML prose)_
+├── t34_deliverables/ _\# Complete T3.4 deliverables suite_
+│ ├── micro_credentials/ _\# Stackable credentials by role_
+│ ├── certifications/ _\# Professional certifications_
 
-With nano_ects = 0.1 (2.5 hours):
-- Micro credential (5.0 ECTS) → 50 nano credentials
-- Micro credential (1.67 ECTS) → 17 nano credentials
-- Module (180 ECTS) → 1,800 nano credentials
+│ ├── qualification_frameworks/ _\# EU recognition frameworks_
 
-With nano_ects = 0.2:
-- Micro credential (5.0 ECTS) → 25 nano credentials
-- Micro credential (1.67 ECTS) → 8 nano credentials
-- Module (180 ECTS) → 900 nano credentials
-```
+│ └── reports/ _\# T3.4 compliance reports_
 
-## Key Features
+├── validation_reports/ _\# Quality assurance reports_
 
-### 🎯 **New 3-Tier Architecture**
-- **Nano credentials**: Atomic learning components with **configurable ECTS** (0.01-0.5 range)
-- **Microcredentials**: Modular learning units (1-30 ECTS) built from nano credentials
-- **Modules**: Comprehensive programs (30+ ECTS) built from microcredentials
+└── css/ _\# Generated stylesheets_
 
-### 🎓 **Topic-Specific Curriculum Generation**
-- **Subject-Focused**: Generate curricula for specific digital sustainability topics
-- **Micro-ECTS Support**: Support for ultra-granular learning down to 0.01 ECTS (15 minutes)
-- **EU EQF Compliance**: Full alignment with European Qualifications Framework levels 4-8
-- **Multi-Delivery**: Support for workplace, classroom, blended, online, hybrid, and self-paced delivery
-- **Assessment Integration**: EQF-appropriate assessment methods and complexity levels
+**Key Architectural Improvements v3.1**
 
-### ⚙️ **Configurable ECTS System**
-- **Parameter-Driven**: Set nano ECTS value as a configuration parameter
-- **Micro-Learning Support**: Ultra-granular support down to 0.01 ECTS
-- **Mathematical Precision**: Exact calculations ensure perfect tier alignment
-- **Standards Compliant**: Adheres to EU micro-credentials framework (0.01-0.5 ECTS range)
-- **Migration Flexibility**: Easy adjustment during system migration
+**Enhanced T3.2 Workflow**
 
-### 🔗 **Seamless Cross-Tier Integration**
-- Build microcredentials from collections of nano credentials
-- Assemble modules from related microcredentials
-- Maintain coherence and progression across all levels
-- Backward compatibility with existing 2-tier systems
+- **Role Definition** → **Educational Profile** → **Curriculum** with extracted pedagogical data
+- **Prerequisite-Based Semester Planning**: Modules organized by dependency chains
+- **Role-Specific Module Selection**: Using related_modules from roles.json
+- **Sustainability-Specific Competencies**: Industry-relevant skills with concrete outcomes
+- **Dynamic Topic Extraction**: Topics derived from module database rather than hard-coded
 
-### 📚 **Comprehensive Curriculum Support**
-- **Full & Specific Curricula**: Generate complete educational programs or targeted micro-credential pathways
-- **Multi-level Support**: Design curricula across EQF levels 4-8 for various digital sustainability roles
-- **Standards Compliance**: Built-in validation against European educational frameworks and standards
-- **Stackable Credentials**: Create and visualize flexible, personalized learning pathways
+**Extracted Educational Profiles Architecture**
 
-### ✅ **Advanced Validation & Quality Assurance**
-- EQF level consistency checking across all tiers
-- Prerequisites and dependency validation
-- Stacking rules enforcement with cross-tier support
-- Quality assurance metrics and coherence scoring
-- **Mathematical Validation**: Automatic ECTS coherence checking
+- **Separation of Concerns**: Pedagogical content separated from curriculum logic
+- **Maintainable Configuration**: Educational profiles in dedicated JSON for easy updates
+- **Role-Specific Competencies**: Detailed sustainability competencies per professional role
+- **Industry Context**: Career pathways, employers, and professional recognition
+- **Assessment Integration**: Role-appropriate evaluation methods and requirements
 
-### 🧪 **Production-Ready Features**
-- **Enhanced Three-Tier CLI**: Comprehensive framework management and testing
-- **Integration Test Suite**: Automated validation of all framework components
-- **Live Curriculum Generation**: Real-time curriculum building with configurable parameters
-- **Specification Validation**: Full compliance checking against nano-credentials standard
-- **Mathematical Coherence Testing**: Automated verification of ECTS relationships
+**Enhanced Output Generation**
 
-## Installation
+- **Comprehensive HTML Visualizations**: Professional-grade reports for all outputs
+- **Semester-Based Curriculum Structure**: Proper academic progression with prerequisites
+- **Sustainability-Specific Content**: Industry-relevant competencies and outcomes
+- **Professional Recognition**: Certification pathways and continuing education requirements
 
-### Requirements
+**Code Examples**
 
-- Python 3.8 or higher
-- pip package manager
-- PyYAML for configuration management (optional)
-- Recommended: virtualenv or conda for environment management
-
-### Quick Start Installation
-
-1. **Clone the repository:**
-```bash
-git clone https://github.com/yourusername/dscg.git
-cd dscg
-```
-
-2. **Create and activate a virtual environment:**
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-
-3. **Install required packages:**
-```bash
-pip install -r requirements.txt
-```
-
-4. **Run the complete framework setup:**
-```bash
-# Generate specification-compliant nano credentials
-python3 scripts/nano_spec_compliant_generator_fixed.py input 0.1
-
-# Create relationships
-python3 scripts/generate_nano_micro_relationships.py input
-
-# Create configuration files
-python3 scripts/create_three_tier_config.py input
-```
-
-## Basic Usage
-
-### **Topic-Specific Curriculum Generation**
+**1\. Basic Role-Based Generation**
 
 ```bash
-# Make the generator executable
-chmod +x scripts/generate_topic_curriculum.py
+# Data Analyst role with carbon footprint specialization_
 
-# Generate curriculum for specific sustainability topics
-python scripts/generate_topic_curriculum.py \
-  --topic "Carbon Footprint Measurement" \
-  --eqf-level 6 \
-  --ects 15 \
-  --delivery-mode "blended" \
-  --assessment-type "practical"
+python3 -m scripts.curriculum_generator.main \\
+--role DAN \\
+--topic "Carbon Footprint Measurement" \\
+--eqf-level 6 \\
+--ects 70
 
-# Additional topic examples
-python scripts/generate_topic_curriculum.py \
-  --topic "Green Software Development" \
-  --eqf-level 7 \
-  --ects 30 \
-  --delivery-mode "online" \
-  --assessment-type "project"
-
-python scripts/generate_topic_curriculum.py \
-  --topic "Sustainable Data Centers" \
-  --eqf-level 5 \
-  --ects 10 \
-  --delivery-mode "workplace" \
-  --assessment-type "practical"
-
-python scripts/generate_topic_curriculum.py \
-  --topic "Digital Circular Economy" \
-  --eqf-level 6 \
-  --ects 20 \
-  --delivery-mode "hybrid" \
-  --assessment-type "portfolio"
-
-# Micro-learning examples (ultra-granular)
-python scripts/generate_topic_curriculum.py \
-  --topic "Renewable Energy in IT" \
-  --eqf-level 5 \
-  --ects 0.5 \
-  --delivery-mode "self_paced" \
-  --assessment-type "theoretical"
-
-# Ultra-granular nano-learning (15 minutes)
-python scripts/generate_topic_curriculum.py \
-  --topic "Energy Efficient Coding Practices" \
-  --eqf-level 5 \
-  --ects 0.01 \
-  --delivery-mode "self_paced" \
-  --assessment-type "practical"
-
-# Research-level curriculum (EQF 8)
-python scripts/generate_topic_curriculum.py \
-  --topic "Sustainable AI and Machine Learning" \
-  --eqf-level 8 \
-  --ects 30 \
-  --delivery-mode "hybrid" \
-  --assessment-type "research"
+# Software Developer for Sustainability (EQF 5 vocational)_
+python3 -m scripts.curriculum_generator.main \\
+--role SDD \\
+--topic "Green Software Development" \\
+--eqf-level 5 \\
+--ects 60
 ```
 
-### **Framework Validation and Statistics**
+**2\. Advanced Professional Roles**
 
 ```bash
-# Check framework status and statistics
-python3 scripts/three_tier_cli_enhanced.py --statistics
+# Digital Sustainability Lead (strategic level)_
+python3 -m scripts.curriculum_generator.main \\
+\--role DSL \\
+\--topic "Digital Circular Economy" \\
+\--eqf-level 8 \\
+\--ects 80
+_\# Data Scientist specializing in Sustainability_
 
-# Validate framework integrity
-python3 scripts/three_tier_cli_enhanced.py --validate
-
-# Test curriculum generation
-python3 scripts/three_tier_cli_enhanced.py --test-curriculum --target-ects 30 --target-level 6
+python3 -m scripts.curriculum_generator.main \\
+\--role DSI \\
+\--topic "Sustainable AI" \\
+\--eqf-level 7 \\
+\--ects 75
 ```
 
-### **Validate Specification Compliance**
+** 3\. Complete Deliverables Generation**
 
 ```bash
-# Validate nano credentials against specification
-python3 scripts/nano_spec_validator.py
+# Generate all T3.2 deliverables (Educational Profiles + Core Curricula)_
 
-# Run integration tests
-python3 scripts/integration_test_suite.py
+python3 scripts/generate_t32_deliverables.py
+# Generate all T3.4 deliverables (Micro-Credentials + Certifications)_
+python3 scripts/generate_t34_deliverables.py
 
-# Run comprehensive validation (Phase 4)
-python3 scripts/comprehensive_validation_suite.py
-```
+# Generate complete deliverables suite_
+python3 scripts/generate_all_deliverables.py
 
-### **View Framework Content**
+** 4\. Multi-Role Curriculum Generation**
 
 ```bash
-# List all credentials
-python3 scripts/three_tier_cli_enhanced.py --list
-
-# List nano credentials only
-python3 scripts/three_tier_cli_enhanced.py --list --tier nano --limit 10
-
-# List micro credentials only
-python3 scripts/three_tier_cli_enhanced.py --list --tier micro
+_\# Generate curricula for entire sustainability team_
+for role in DAN DSE DSM DSC SSD; do
+python3 -m scripts.curriculum_generator.main \\
+\--role $role \\
+\--topic "Carbon Footprint Measurement" \\
+\--eqf-level 6 \\
+\--ects 70 \\
+\--output-dir "output/team_curricula"
 ```
 
-## Architecture Details
 
-### **Tier 1: Nano Credentials (Micro-ECTS Support)**
-The most granular level with **micro-ECTS values** supporting ultra-granular learning:
+**Available Professional Roles**
 
-| Granularity Type | Default ECTS | Configurable Range | Learning Time | Typical Use |
-|------------------|--------------|-------------------|---------------|-------------|
-| **Learning Outcomes** | 0.1 | 0.01-0.2 | 15 min - 5 hours | Single specific learning outcomes |
-| **Skill Elements** | 0.1 | 0.01-0.3 | 15 min - 7.5 hours | Individual skill demonstrations |
-| **Competency Units** | 0.1 | 0.01-0.5 | 15 min - 12.5 hours | Specific competency elements |
-| **Knowledge Units** | 0.1 | 0.01-0.2 | 15 min - 5 hours | Discrete knowledge components |
-| **Performance Elements** | 0.1 | 0.01-0.4 | 15 min - 10 hours | Performance demonstrations |
-| **Assessment Tasks** | 0.1 | 0.01-0.2 | 15 min - 5 hours | Single assessment activities |
+**Data & Analytics Roles**
 
-### **Tier 2: Microcredentials (1-30 ECTS)**
-Module-level components built from nano credentials:
+- **DAN** - Data Analyst (EQF 6-7, 70-75 ECTS)
+- **DSE** - Data Engineer (EQF 6-7, 70-75 ECTS) \[Dual Principle\]
+- **DSI** - Data Scientist (Sustainability) (EQF 7-8, 70-75 ECTS)
 
-- **Module Components** (1-5 ECTS): Built from 100-500 nano credentials (at 0.01 ECTS)
-- **Full Modules** (5-15 ECTS): Built from 500-1,500 nano credentials (at 0.01 ECTS)
-- **Module Clusters** (15-30 ECTS): Built from 1,500-3,000 nano credentials (at 0.01 ECTS)
+**Management & Strategy Roles**
 
-### **Tier 3: Modules (30+ ECTS)**
-Program-level structures built from microcredentials:
+- **DSL** - Digital Sustainability Lead (EQF 7-8, 75-80 ECTS)
+- **DSM** - Digital Sustainability Manager (EQF 6-7, 70-75 ECTS) \[Dual Principle\]
+- **DSC** - Digital Sustainability Consultant (EQF 6-7, 70-75 ECTS)
 
-- **Specializations** (30-60 ECTS): Built from 3,000-6,000 nano credentials (at 0.01 ECTS)
-- **Full Qualifications** (60+ ECTS): Built from 6,000+ nano credentials (at 0.01 ECTS)
+**Technical Implementation Roles**
 
-## API Usage
+- **SDD** - Software Developer for Sustainability (EQF 4-6, 60-70 ECTS) \[Dual Principle\]
+- **SSD** - Sustainable Solution Designer (EQF 6-7, 70-75 ECTS)
+- **STS** - Sustainability Technical Specialist (EQF 4-5, 60-65 ECTS) \[Dual Principle\]
 
-### **Python API with Configurable ECTS**
+**Analysis & Advisory Roles**
 
-```python
-# Basic framework usage
-from pathlib import Path
-import json
+- **SBA** - Sustainability Business Analyst (EQF 6-7, 70-75 ECTS)
 
-# Load nano credentials
-with open('input/nano_credentials/nano_credentials_spec_compliant.json', 'r') as f:
-    nano_data = json.load(f)
-    if isinstance(nano_data, dict) and 'nano_credentials' in nano_data:
-        nano_credentials = nano_data['nano_credentials']
-    else:
-        nano_credentials = nano_data
+**\[Dual Principle\]** = Supports work-based learning integration
 
-print(f"Loaded {len(nano_credentials)} nano credentials")
+**Output Formats & Features v3.1**
 
-# Check specification compliance
-compliant_count = 0
-for nano in nano_credentials:
-    if all(field in nano for field in ['learning_outcome', 'ects_credits', 'three_tier_framework_elements']):
-        compliant_count += 1
+**Generated Files Structure**
 
-compliance_rate = (compliant_count / len(nano_credentials)) * 100
-print(f"Specification compliance: {compliance_rate:.1f}%")
-```
-
-## Quality Assurance
-
-### **ECTS-Aware Validation Features**
-- **Mathematical Coherence**: Validates exact ECTS calculations across tiers
-- **Micro-ECTS Precision**: Supports ultra-granular validation down to 0.01 ECTS
-- **Configurable Precision**: Supports different nano ECTS values with validation
-- **Tier Alignment**: Ensures perfect mathematical alignment between tiers
-- **Standards Compliance**: Validates against EU micro-credentials framework ECTS requirements
-
-### **Enhanced Quality Metrics**
-- **ECTS Coherence Score**: Measures mathematical alignment across tiers
-- **Nano Distribution Score**: Evaluates optimal nano credential distribution
-- **Configuration Compliance**: Validates adherence to ECTS configuration settings
-- **Mathematical Precision Score**: Assesses calculation accuracy
-
-## Supported Configurations
-
-| Nano ECTS | Learning Time | Micro (5 ECTS) | Module (60 ECTS) | Use Case |
-|-----------|---------------|----------------|------------------|----------|
-| **0.01** | 15 minutes | 500 nanos | 6,000 nanos | Ultra-granular micro-learning |
-| **0.05** | 1.25 hours | 100 nanos | 1,200 nanos | Micro-learning modules |
-| **0.1** | 2.5 hours | 50 nanos | 600 nanos | Maximum granularity |
-| **0.15** | 3.75 hours | 33 nanos | 400 nanos | Balanced approach |
-| **0.2** | 5 hours | 25 nanos | 300 nanos | Manageable size |
-| **0.25** | 6.25 hours | 20 nanos | 240 nanos | Simplified structure |
-| **0.5** | 12.5 hours | 10 nanos | 120 nanos | Minimal granularity |
-
-## EU Framework Alignment
-
-### **Additional EU Compliance Arguments**
-
-The Topic-Specific Curriculum Generator includes comprehensive EU framework alignment:
-
-- **Bologna Process Compliance**: Full alignment with European higher education standards
-- **Lisbon Recognition Convention**: Cross-border qualification recognition support
-- **European Skills Agenda**: Skills development framework alignment
-- **Digital Education Action Plan**: EU digital education strategy alignment
-- **EU Green Deal**: Environmental sustainability focus alignment
-- **WCAG 2.1 AA Accessibility**: EU accessibility requirements compliance
-- **European Pillar of Social Rights**: Social inclusion and accessibility support
-- **European Education Area**: Cross-border education mobility support
-
-### **EQF Level Descriptors**
-
-Full support for EU EQF levels with appropriate complexity mapping:
-
-| EQF Level | Knowledge | Skills | Autonomy & Responsibility |
-|-----------|-----------|--------|---------------------------|
-| **4** | Factual and theoretical | Cognitive and practical skills | Self-management with supervision |
-| **5** | Comprehensive theoretical | Wide range of cognitive/practical | Management and supervision |
-| **6** | Advanced knowledge | Advanced skills with innovation | Complex technical/professional |
-| **7** | Highly specialized knowledge | Specialized problem-solving | Strategic decisions & management |
-| **8** | Knowledge at forefront | Most advanced skills | Leading complex projects |
-
-## TODO List - Development Roadmap
-
-### 🎯 **Completed Features**
-
-#### ✅ **Topic-Specific Curriculum Generation**
-- ✅ **Topic-Specific Curriculum Generator** with full EU EQF compliance
-- ✅ **Micro-ECTS Support** down to 0.01 ECTS (15 minutes learning time)
-- ✅ **Multi-Delivery Modes** (workplace, classroom, blended, online, hybrid, self-paced)
-- ✅ **Assessment Type Integration** (theoretical, practical, project, portfolio, research)
-- ✅ **EU Framework Alignment** with Bologna Process, Lisbon Convention, EU Green Deal
-- ✅ **Accessibility Compliance** with WCAG 2.1 AA standards
-
-### 📚 **Advanced Features**
-
-#### **Content Developer Support Tools**
-- [ ] **Content Development Wizard**
-  ```bash
-  # Interactive content creation tool
-  python scripts/content_developer_wizard.py \
-    --role "instructional_designer" \
-    --topic "Renewable Energy in IT" \
-    --generate-templates
-  ```
-
-- [ ] **Learning Outcome Generator**
-  - Bloom's taxonomy-aligned outcome generation
-  - Action verb suggestions based on EQF level
-  - Competency mapping to industry standards
-  - Assessment alignment recommendations
-
-#### **Web Interface Development**
-- [ ] **React-based Web Dashboard**
-  - Visual curriculum design interface
-  - Drag-and-drop nano credential composition
-  - Real-time ECTS calculation display
-  - Interactive relationship mapping
-
-### 📚 **Advanced Features**
-
-#### **API Development**
-- [ ] **RESTful API Service**
-  ```python
-  # Curriculum generation API endpoint
-  POST /api/v1/curriculum/generate
-  {
-    "topic": "Carbon Footprint Measurement",
-    "eqf_level": 6,
-    "ects": 15,
-    "focus_areas": ["measurement", "reporting", "verification"]
-  }
-  ```
-
-#### **Learning Management System Integration**
-- [ ] **LMS API Connectors**
-  - Moodle, Canvas, Blackboard integration
-  - SCORM package generation
-  - xAPI statement tracking
-  - Grade passback functionality
-
-## Troubleshooting
-
-### **Common Issues**
-
-**Issue**: Nano credentials validation fails
 ```bash
-# Solution: Check specification compliance
-python3 scripts/nano_spec_validator.py
+output/
+├── curricula/
+│ ├── SSD_SUSTAINABLE_AI_7_20250529_DSC.json _\# Complete curriculum data_
+│ ├── SSD_SUSTAINABLE_AI_7_20250529_DSC.html _\# Interactive web report_
+│ └── SSD_SUSTAINABLE_AI_7_20250529_DSC_summary.json _\# Executive summary_
+├── educational_profiles/
+│ ├── EP_SSD_7_20250529.json _\# T3.2 Educational Profile_
+│ └── EP_SSD_7_20250529.html _\# Profile visualization_
+└── t32_deliverables/
+├── educational_profiles/ _\# All role profiles_
+├── core_curricula/ _\# Training curricula_
+└── reports/ _\# Compliance reports_
 ```
 
-**Issue**: Framework statistics show inconsistencies
+**T3.2 Educational Profile Features**
+
+- **Role-Specific Structure**: Derived from roles.json and educational_profiles.json
+- **Sustainability Competencies**: Industry-relevant skills with concrete learning outcomes
+- **Semester Breakdown**: Detailed academic progression with prerequisite management
+- **Work-Based Learning**: Integration percentages and dual principle support
+- **Professional Context**: Career pathways, employers, and industry sectors
+- **Assessment Strategies**: EQF-appropriate evaluation methods and requirements
+- **Professional Recognition**: Certification pathways and continuing education
+
+**T3.4 Micro-Credentials Integration**
+
+- **Stackable Credentials**: Module and semester-level micro-credentials
+- **ECTS/ECVET Compliance**: Full credit transfer support with NQF referencing
+- **EU Recognition Framework**: Cross-border qualification transparency
+- **Certification Pathways**: Professional development routes with industry recognition
+- **Quality Indicators**: Performance metrics and outcome validation
+
+**Configuration & Customization v3.1**
+
+**Role-Based Parameters**
+
+Each role in roles.json defines:
+
+- **EQF Levels**: Supported qualification levels with appropriate complexity
+- **Default ECTS**: Recommended credit volumes by level
+- **Related Modules**: Specific modules with relevance scores (replacing hard-coded topics)
+- **Work-Based Components**: WBL integration requirements by EQF level
+- **Module Design Preferences**: Delivery methods and pedagogical approaches
+- **Dual Principle Capability**: Workplace integration support
+
+**Educational Profiles Configuration**
+
+The educational_profiles.json provides:
+
+- **Sustainability-Specific Competencies**: Detailed skills and learning outcomes per role
+- **Industry Context**: Career pathways, typical employers, and professional sectors
+- **Entry Requirements**: Academic and professional prerequisites by EQF level
+- **Assessment Methods**: Role-appropriate evaluation strategies
+- **Professional Recognition**: Certification pathways and continuing education requirements
+
+**Topic Specializations (Dynamic Extraction)**
+
+- **Carbon Footprint Measurement**: Environmental impact assessment and reporting
+- **Sustainable AI**: Energy-efficient ML and AI systems with carbon awareness
+- **Green Software Development**: Sustainable coding practices and energy optimization
+- **Data Center Sustainability**: Green infrastructure and resource optimization
+- **Digital Circular Economy**: Circular business models and regenerative design
+- **IoT Sustainability**: Low-power device ecosystems and environmental monitoring
+
+**Advanced Features v3.1**
+
+**Enhanced Module Selection**
+
+- **Role Relevance Scoring**: Modules selected based on roles.json related_modules
+- **Prerequisite Chain Resolution**: Intelligent semester planning with dependency management
+- **ECTS Distribution Optimization**: Balanced workload across academic periods
+- **Work-Based Learning Integration**: Workplace components percentage calculation
+
+**Intelligent Semester Planning**
+
+- **Topological Sorting**: Modules organized by prerequisite dependencies
+- **Thematic Progression**: Logical flow from foundation through specialization to capstone
+- **Assessment Strategy Alignment**: Evaluation methods matched to semester objectives
+- **Flexibility Options**: Multiple pathway options for different learning preferences
+
+**Comprehensive Quality Assurance**
+
+- **Coverage Analysis**: Topic-keyword alignment with relevance scoring
+- **Competency Validation**: Skills mapping against industry requirements
+- **Standards Compliance**: Automated T3.2/T3.4 requirement verification
+- **Stakeholder Feedback**: Integration points for continuous improvement
+
+**Testing, Deliverables & Reports v3.1**
+
+**Enhanced Compliance Testing Suite**
+
 ```bash
-# Solution: Verify mathematical relationships
-python3 scripts/three_tier_cli_enhanced.py --validate
+├── tests/
+│ ├── run_all_compliance_tests.py
+│ ├── t32_compliance_test_suite.py
+│ ├── t34_compliance_test_suite.py
+│ └── educational_profiles_validation.py _\# NEW: Profile validation tests_
 ```
 
-**Issue**: Integration tests failing
+**Complete Deliverables Generation**
+
 ```bash
-# Solution: Run diagnostic and fix issues
-python3 scripts/integration_test_suite.py
-python3 scripts/comprehensive_validation_suite.py
+
+├── scripts/
+│ ├── generate_all_deliverables.py _\# Enhanced with v3.1 features_
+│ ├── generate_t32_deliverables.py _\# Educational profiles + curricula_
+│ └── generate_t34_deliverables.py _\# Micro-credentials + certifications_
 ```
 
-**Issue**: Topic curriculum generation fails
-```bash
-# Solution: Check EQF level and ECTS validity
-python scripts/generate_topic_curriculum.py --help
-```
+**Enhanced Prose-Style Compliance Reports**
 
----
-## Role-Integrated Curriculum Generator
+- **Executive Summaries**: Comprehensive overview with quantitative metrics
+- **Requirement Analysis**: Detailed T3.2/T3.4 compliance verification
+- **Implementation Roadmaps**: Actionable deployment guidance
+- **Quality Metrics**: Performance indicators and improvement recommendations
+- **Industry Context**: Professional relevance and career pathway analysis
 
-A comprehensive Python tool for generating curricula tailored for target groups. The tool is demand-driven, 
-it operates on the basis of moduels and facilitates educational profile integration (optione) and offers progression pathway planning.
+**Future Extensions v3.1**
 
-### Overview
+**Planned Enhancements**
 
-The Role-Integrated Curriculum Generator creates personalized learning pathways by combining:
-- **Topic-based module selection** from comprehensive databases
-- **Optional role profile integration** for career-focused learning
-- **Educational profile generation** on-demand when roles are specified
-- **Comprehensive progression pathways** for continued learning
-- **EU EQF compliance** with role-specific adaptations
+- **Web Interface**: Browser-based curriculum designer with role-based access
+- **API Integration**: RESTful services for institutional system connectivity
+- **Advanced Analytics**: Machine learning for curriculum optimization
+- **Multi-Language Support**: Internationalization for European deployment
+- **Blockchain Credentials**: Secure, verifiable micro-credential management
 
-### Key Features
+**Research Applications**
 
-#### 🎯 **Educational Profile Integration**
-- Optional argument for role-guided curriculum generation
-- On-demand educational profile creation from role data
-- Career-focused learning outcomes and assessments
-- Role variants support (specialization, organization size, sector, etc.)
+- **Digital4Sustainability Integration**: Full project deliverables compliance
+- **European Standards Harmonization**: Cross-institutional framework alignment
+- **Industry Partnership Development**: Professional recognition and certification
+- **Quality Assurance Evolution**: Continuous improvement and validation mechanisms
 
-#### 📚 **Flexible Curriculum Generation**
-- Works with or without role profiles
-- Generates micro-credentials (1-5 ECTS) and nano-credentials (0.01-1 ECTS)
-- Supports multiple delivery modes and assessment types
-- EU EQF levels 4-8 compliance
+**Support & Development v3.1**
 
-#### 🚀 **Comprehensive Progression Pathways**
-Always provides next-step learning opportunities:
-- **Vertical progressions** (higher EQF levels)
-- **Horizontal expansions** (related topics)
-- **Specialization paths** (deeper expertise)
-- **Career-focused routes** (role advancement)
+**Getting Help**
 
-### Installation & Usage
+- Check Educational Profiles in output/educational_profiles/ for role-specific visualizations
+- Review HTML reports for comprehensive curriculum analysis and semester breakdown
+- Use --list-roles for available professional roles with competency details
+- Test with modules_test.json for development and validation
 
-#### Basic Topic-Only Generation
-```bash
-# Generate curriculum without role integration
-python scripts/role_integrated_generator.py \
- --modules-file input/modules/modules_v3.json \
- --topic "Green Software Development" \
- --eqf-level 6 \
- --ects 15 \
- --delivery-mode blended \
- --assessment-type practical
- 
-# Role-guided generation
-python scripts/role_integrated_generator.py \
---modules-file input/modules/modules_v3.json \
---roles-file input/roles/roles.json \
---topic "Carbon Footprint Measurement" \
---eqf-level 6 \
---ects 20 \
---role DSC \
---delivery-mode blended
+**Contributing**
 
-# Role with specialization variant
-python scripts/role_integrated_generator.py \
---modules-file input/modules_v3.json \
---roles-file input/roles.json \
---topic "Sustainable AI" \
---eqf-level 7 \
---ects 30 \
---role DSI \
---specialization data_analytics \
---organization-size enterprise \
---sector manufacturing
+- **Role Definitions**: Updates through roles.json with related_modules specification
+- **Educational Profiles**: Enhancements via educational_profiles.json configuration
+- **Module Database**: Improvements with prerequisite validation and quality assurance
+- **Assessment Strategies**: Refinements aligned with EQF descriptors and industry needs
+- **Standards Compliance**: Extensions for emerging EU frameworks and requirements
 
- # Topic-only generation
-  python scripts/role_integrated_generator.py --modules-file input/modules/modules_v3.json --topic "Green Software Development" --eqf-level 6 --ects 15
+**Success Metrics v3.1**
 
-  # Role-only generation  
-  python scripts/role_integrated_generator.py --modules-file input/modules/modules_v3.json --roles-file input/roles/roles.json --role DSC --eqf-level 6 --ects 180
+The DSCG v3.1 delivers:
 
-  # Both topic and role
-  python scripts/role
+- **100% T3.2 Compliance**: Educational Profiles workflow with semester breakdown
+- **100% T3.4 Compliance**: Micro-credentials and certification framework
+- **Enhanced Maintainability**: Separated pedagogical profiles for easy updates
+- **Industry Relevance**: Sustainability-specific competencies with professional context
+- **EU Standards Alignment**: EQF/ECTS/ECVET/EQAVET integration with quality assurance
+- **Production Readiness**: Enterprise-grade reliability with comprehensive testing
 
-```
+**Technical Evolution v3.1**
 
----
+The DSCG has evolved from a monolithic script to a comprehensive T3.2/T3.4 compliant system with:
 
-# PART II - EU REVIEWERS TEST SUITES
+- **Extracted Educational Profiles**: Maintainable separation of pedagogical content
+- **Enhanced Module Utilization**: Full leveraging of comprehensive module database
+- **Intelligent Semester Planning**: Prerequisite-based academic progression
+- **Sustainability-Specific Content**: Industry-relevant competencies and outcomes
+- **Professional Recognition**: Career pathways and certification integration
 
-## 🏛️ EU Project Reviewer Validation Framework
+**Quick Reference Commands v3.1**
 
-The Digital Sustainability Curriculum Generator includes comprehensive validation suites specifically designed for **EU project reviewers** to assess compliance with **Task 3.2** (Educational Profiles & Curricula Design) and **Task 3.4** (Micro-Credentials & Certifications) deliverable requirements.
+bash
 
-### **EU Project Context**
+_\# List all roles with competency details_
 
-This framework has been developed to meet the requirements of EU project deliverables focused on:
-- **Digital Sustainability Skills** education and training
-- **Multi-level curricula** across EQF levels 4-8
-- **Modular, stackable credentials** with ECTS compatibility
-- **EU recognition** and cross-border certification
-- **Industry alignment** with digital sustainability roles
+python3 -m scripts.curriculum_generator.main --list-roles
 
-## T3.2 & T3.4 Reviewer Validation Suites
+_\# Generate with full T3.2/T3.4 compliance and semester breakdown_
 
-### **Overview of EU Deliverable Requirements**
+python3 -m scripts.curriculum_generator.main \\
 
-#### **Task 3.2: Educational Profiles & Curricula Design**
-*"Design innovative digital sustainability educational profiles and curricula across multiple EQF levels with modular, ECTS-compatible learning components for flexible delivery and dual education integration."*
+\--role SSD --topic "Sustainable AI" --eqf-level 7 --ects 180
 
-**Key Requirements:**
-- Multiple EQF levels (4-8) coverage
-- Role-based educational profiles
-- Modular learning components as building blocks
-- ECTS points for program comparability
-- High flexibility through modular combinations
-- Multiple delivery methodologies (workplace, classroom, blended, online)
-- Flexible learning pathways
-- Dual education principle support
-- Target audience adaptation (students, professionals, managers)
-- Upskilling/reskilling focus
+_\# Interactive mode with enhanced features_
 
-#### **Task 3.4: Micro-Credentials & Certifications**
-*"Design Digita
+python3 -m scripts.curriculum_generator.main
+
+_\# Generate complete deliverables suite_
+
+python3 scripts/generate_all_deliverables.py
+
+_\# Generate T3.2 deliverables only_
+
+python3 scripts/generate_t32_deliverables.py
+
+_\# Batch generation with role-specific modules_
+
+for role in DAN DSE DSM SSD; do
+
+python3 -m scripts.curriculum_generator.main \\
+
+\--role $role --eqf-level 6 --ects 70
+
+done
+
+**Status**: Production-ready T3.2/T3.4 compliant curriculum generation platform with extracted educational profiles, enhanced module utilization, intelligent semester planning, and comprehensive EU standards support.
