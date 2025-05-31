@@ -434,7 +434,7 @@ The DSCG has evolved from a monolithic script to a comprehensive T3.2/T3.4 compl
 
 **Quick Reference Commands v3.1**
 
-bash
+```bash
 
 _\# List all roles with competency details_
 
@@ -467,5 +467,21 @@ python3 -m scripts.curriculum_generator.main \\
 \--role $role --eqf-level 6 --ects 70
 
 done
+
+#NEW and to be interated into generate_t32_deliverables.py and generate all deliverables
+
+# List all available roles and their EQF levels
+python3 scripts/generate_all_educational_profiles.py --list-roles
+
+# Test with single role
+python3 scripts/generate_all_educational_profiles.py --role STS
+
+# Generate ALL educational profiles for ALL roles and ALL EQF levels
+python3 scripts/generate_all_educational_profiles.py
+
+
+
+```
+
 
 **Status**: Production-ready T3.2/T3.4 compliant curriculum generation platform with extracted educational profiles, enhanced module utilization, intelligent semester planning, and comprehensive EU standards support.
