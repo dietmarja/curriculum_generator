@@ -2,6 +2,70 @@
 
 A comprehensive, enterprise-ready curriculum generation platform for digital sustainability education with full T3.2 & T3.4 compliance. The system automatically creates modular curricula with Educational Profiles as intermediate data structures, featuring semester breakdowns, micro-credentials, and assessment strategies aligned with European Qualification Framework (EQF) standards.
 
+
+
+
+## File Structure
+
+### Top Level File Structure
+
+```bash
+digital-sustainability-curriculum-generator/
+├── input/
+├── output/
+├── scripts/
+├── tests/
+├── web/
+├── docs/
+├── logs/
+├── README.md
+├── requirements.txt
+├── requirements-dev.txt
+├── run_refactored_generator.sh
+├── .gitignore
+├── LICENSE
+└── Dockerfile
+```
+
+
+### File Structure for scripts
+
+```bash
+scripts/
+├── curriculum_generator/
+│   ├── __init__.py
+│   ├── main.py                                 # CLI interface with T3.2/T3.4 workflow
+│   ├── core/                                   # Infrastructure services
+│   │   ├── __init__.py
+│   │   ├── base_generator.py                   # Main orchestrator with Educational Profiles
+│   │   ├── data_loader.py                      # Module loading & validation
+│   │   ├── output_manager.py                   # Enhanced JSON/HTML generation
+│   │   └── standards_manager.py                # EU standards compliance (T3.3)
+│   ├── domain/                                 # Domain knowledge & profiles
+│   │   ├── __init__.py
+│   │   ├── knowledge_base.py                   # Digital sustainability expertise
+│   │   ├── role_manager.py                     # Role definitions from roles.json
+│   │   ├── educational_profiles.py             # T3.2 Educational Profiles system
+│   │   ├── competency_mapper.py                # Framework mappings
+│   │   └── topic_relations.py                  # Topic relationships
+│   ├── components/                             # Specialized processors
+│   │   ├── __init__.py
+│   │   ├── module_selector.py                  # Intelligent module selection with role relevance
+│   │   ├── curriculum_builder.py               # Academic structure with semester planning
+│   │   ├── pathway_generator.py                # Learning progression with prerequisites
+│   │   └── assessment_generator.py             # Assessment strategies
+│   ├── templates/                              # Output templates
+│   │   ├── __init__.py
+│   │   ├── css_generator.py                    # Enhanced styling for HTML outputs
+│   │   └── js_generator.py                     # Interactive features
+│   └── utils/                                  # Utilities
+│       └── __init__.py
+├── generate_all_deliverables.py               # Complete T3.2 & T3.4 deliverables generator
+├── generate_t32_deliverables.py               # T3.2 Educational Profiles + Core Curricula
+├── generate_t34_deliverables.py               # T3.4 Micro-Credentials + Certifications
+└── generate_all_educational_profiles.py       # Bulk educational profiles generation
+```
+
 ## 🌟 Key Features
 
 ### T3.2 Compliance Features
