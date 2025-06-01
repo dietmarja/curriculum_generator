@@ -518,12 +518,16 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 # Install development dependencies
 pip install -r requirements-dev.txt
 
-# Run development server (when web interface is ready)
+# Install development server (when web interface is ready)
 export FLASK_ENV=development
 export FLASK_DEBUG=1
 python3 web/app.py
 Testing Procedures
-bash# Unit tests
+```
+
+
+```bash
+# Unit tests
 python3 -m pytest tests/unit/
 
 # Integration tests
@@ -601,7 +605,24 @@ server {
 ```
 ## 🌐 Web-Interface
 
+
+
 ### Local Host
+
+``` bash
+
+StarT Flask development server...
+http://127.0.0.1:5000
+# Ctrl+C to stop the server
+#Check the health endpoint: http://127.0.0.1:5000/api/health
+```
+
+# R
+./run_web_server.sh
+
+
+```
+
 
 
 ```bash
