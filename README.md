@@ -66,6 +66,28 @@ scripts/
 └── generate_all_educational_profiles.py       # Bulk educational profiles generation
 ```
 
+
+### File Structure for Web
+
+```bash
+├── BACKEND_FLOW.md
+├── app.py
+├── config.py
+├── static
+│   ├── css
+│   │   └── style.css
+│   ├── images
+│   └── js
+│       ├── app.js
+│       └── generator.js
+└── templates
+    ├── base.html
+    ├── deliverables.html
+    ├── generator.html
+    ├── index.html
+    └── status.html
+```
+
 ## 🌟 Key Features
 
 ### T3.2 Compliance Features
