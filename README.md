@@ -610,21 +610,20 @@ server {
 ### Local Host
 
 ``` bash
-
-StarT Flask development server...
+# Run the Flask development server
+./run_web_server.sh
 http://127.0.0.1:5000
 # Ctrl+C to stop the server
-#Check the health endpoint: http://127.0.0.1:5000/api/health
-```
-
-# R
-./run_web_server.sh
-
+#Check the health endpoint: 
+http://127.0.0.1:5000/api/health
+# Debugger PIN: 
+121-557-877
 # Shutting the server down
 lsof -i :5000
 kill -9 67662
 
 
+Flask
 ```
 
 
