@@ -599,7 +599,7 @@ server {
 }
 
 ```
-## Web-Interface
+## 🌐 Web-Interface
 
 ### Local Host
 
