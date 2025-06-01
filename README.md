@@ -597,6 +597,20 @@ server {
         proxy_set_header X-Real-IP $remote_addr;
     }
 }
+
+```
+## Web-Interface
+
+### Local Host
+
+
+```bash
+# Start the server
+./run_web_server.sh
+```
+
+
+
 🤝 Contributing
 Development Workflow
 bash# Fork and clone repository
