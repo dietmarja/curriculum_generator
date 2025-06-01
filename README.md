@@ -620,6 +620,10 @@ http://127.0.0.1:5000
 # R
 ./run_web_server.sh
 
+# Shutting the server down
+lsof -i :5000
+kill -9 67662
+
 
 ```
 
