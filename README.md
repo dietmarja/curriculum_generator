@@ -109,8 +109,7 @@ scripts/
 ## 🚀 Quick Start
 
 ### Prerequisites
-```bash
-# System Requirements
+#### System Requirements
 - Python 3.8+
 - Git (for version control)
 - 4GB+ RAM recommended
@@ -120,33 +119,27 @@ scripts/
 - input/modules/modules_v5.json (Module database)
 - input/roles/roles.json (Role definitions)
 - input/educational_profiles/educational_profiles.json (Enhanced profiles)
-Installation
-bash# Clone the repository
+
+### Installation
+#### Clone the repository
 git clone <repository-url>
 cd digital-sustainability-curriculum-generator
 
-# Verify file structure
+#### Verify file structure
+```bash
 ls -la input/modules/
 ls -la input/roles/
 ls -la input/educational_profiles/
+```
 
-# Test basic functionality
+### Test basic functionality
+```bash
 python3 -m scripts.curriculum_generator.main --list-roles
+```
+
 📋 Basic Usage Examples
-1. Interactive Mode (Recommended for First-Time Users)
-bash# Launch interactive curriculum generator
-./run_refactored_generator.sh
-
-# OR using Python directly
-python3 -m scripts.curriculum_generator.main
-
-# Follow the prompts:
-# 1. Select role (e.g., SSD - Sustainable Solution Designer)
-# 2. Choose topic (e.g., "Sustainable AI")
-# 3. Set EQF level (e.g., 7)
-# 4. Define ECTS (e.g., 180)
-2. Direct Command Examples
-bash# Data Analyst role with carbon footprint specialization
+```bash
+# Data Analyst role with carbon footprint specialization
 python3 -m scripts.curriculum_generator.main \
   --modules-file "input/modules/modules_v5.json" \
   --role DAN \
@@ -169,8 +162,11 @@ python3 -m scripts.curriculum_generator.main \
   --topic "Digital Circular Economy" \
   --eqf-level 8 \
   --ects 80
+```
+
 3. List Available Options
-bash# List all available roles with details
+```bash
+# List all available roles with details
 python3 -m scripts.curriculum_generator.main --list-roles
 
 # Expected output:
